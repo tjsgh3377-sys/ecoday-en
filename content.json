@@ -1,37 +1,1456 @@
 {
   "history": {
     "items": [
-      { "year": "2015", "desc": "Ecoday Co., Ltd. founded" },
-      { "year": "2018", "desc": "Expanded road-stud registration on the Public Procurement Service (KONEPS)" },
-      { "year": "2020", "desc": "Registered construction · electrical works · outdoor advertising businesses / factory registration" },
-      { "year": "2022", "desc": "Expanded LED landscape lighting · design fence · bollard lineups" },
-      { "year": "2023", "desc": "Secured numerous patents including the low-power smart battery power system" },
-      { "year": "2024", "desc": "Venture business certification / in-house R&D department recognition" }
+      {
+        "year": "2015",
+        "desc": "Ecoday Co., Ltd. founded"
+      },
+      {
+        "year": "2018",
+        "desc": "Expanded road-stud registration on the Public Procurement Service (KONEPS)"
+      },
+      {
+        "year": "2020",
+        "desc": "Registered construction · electrical works · outdoor advertising businesses / factory registration"
+      },
+      {
+        "year": "2022",
+        "desc": "Expanded LED landscape lighting · design fence · bollard lineups"
+      },
+      {
+        "year": "2023",
+        "desc": "Secured numerous patents including the low-power smart battery power system"
+      },
+      {
+        "year": "2024",
+        "desc": "Venture business certification / in-house R&D department recognition"
+      }
     ]
   },
   "business": {
     "items": [
-      { "en": "Road Stud", "title": "Road Stud", "desc": "High-brightness LED road studs in hybrid, battery, solar and mains (AC) types.", "img": "assets/photos/IMG_6088.jpg", "href": "roadstud.html" },
-      { "en": "Landscape Lighting", "title": "LED Landscape Lighting", "desc": "Line, floor, fence-post and bollard lights, wall lights, gobo projectors and more.", "img": "assets/photos/IMG_7987.JPG", "href": "lighting.html" },
-      { "en": "Bollard", "title": "Bollard", "desc": "Solar, hybrid, non-illuminated and stainless bollards secure pedestrian safety.", "img": "assets/photos/IMG_6458.JPG", "href": "bollard.html" },
-      { "en": "Design Fence", "title": "Design Fence", "desc": "Vehicle guard rails, pedestrian protection fences and LED curb-stone lighting.", "img": "assets/photos/IMG_6460.JPG", "href": "fence.html" },
-      { "en": "Traffic / Chevron Sign", "title": "Traffic & Chevron Signs", "desc": "Solar and mains LED internally-lit signs boost nighttime visibility.", "img": "assets/photos/IMG_4377.jpg", "href": "sign.html" },
-      { "en": "In-Ground Traffic Light", "title": "In-Ground Traffic Light", "desc": "In-ground signals synced with pedestrian lights protect smartphone-focused walkers.", "img": "assets/photos/IMG_3269.JPG", "href": "signal.html" }
+      {
+        "en": "Road Stud",
+        "title": "Road Stud",
+        "desc": "High-brightness LED road studs in hybrid, battery, solar and mains (AC) types.",
+        "img": "assets/photos/IMG_6088.jpg",
+        "href": "roadstud.html"
+      },
+      {
+        "en": "Landscape Lighting",
+        "title": "LED Landscape Lighting",
+        "desc": "Line, floor, fence-post and bollard lights, wall lights, gobo projectors and more.",
+        "img": "assets/photos/IMG_7987.JPG",
+        "href": "lighting.html"
+      },
+      {
+        "en": "Bollard",
+        "title": "Bollard",
+        "desc": "Solar, hybrid, non-illuminated and stainless bollards secure pedestrian safety.",
+        "img": "assets/photos/IMG_6458.JPG",
+        "href": "bollard.html"
+      },
+      {
+        "en": "Design Fence",
+        "title": "Design Fence",
+        "desc": "Vehicle guard rails, pedestrian protection fences and LED curb-stone lighting.",
+        "img": "assets/photos/IMG_6460.JPG",
+        "href": "fence.html"
+      },
+      {
+        "en": "Traffic / Chevron Sign",
+        "title": "Traffic & Chevron Signs",
+        "desc": "Solar and mains LED internally-lit signs boost nighttime visibility.",
+        "img": "assets/photos/IMG_4377.jpg",
+        "href": "sign.html"
+      },
+      {
+        "en": "In-Ground Traffic Light",
+        "title": "In-Ground Traffic Light",
+        "desc": "In-ground signals synced with pedestrian lights protect smartphone-focused walkers.",
+        "img": "assets/photos/IMG_3269.JPG",
+        "href": "signal.html"
+      }
     ]
   },
   "products": {
     "items": [
-      { "title": "Road Stud", "en": "Road Stud", "img": "assets/photos/prod_roadstud.jpg", "href": "roadstud.html", "chips": ["Hybrid", "Battery", "Solar", "Mains (AC)"] },
-      { "title": "Landscape Lighting", "en": "Landscape Lighting Fixtures", "img": "assets/photos/prod_lighting.jpg", "href": "lighting.html", "chips": ["Line Light", "Floor Light", "Logo Projector"] },
-      { "title": "Bollard", "en": "Bollard", "img": "assets/photos/prod_bollard.jpg", "href": "bollard.html", "chips": ["LED Bollard", "Self-generating", "Stainless"] },
-      { "title": "Design Fence", "en": "Design Fence", "img": "assets/photos/prod_fence.jpg", "href": "fence.html", "chips": ["Vehicle Guard", "Pedestrian Fence", "LED Curb"] },
-      { "title": "In-Ground Traffic Light", "en": "In-Ground Traffic Light", "img": "assets/photos/prod_signal.jpg", "href": "signal.html", "chips": ["EDBL-200", "Pedestrian Safety"] },
-      { "title": "Traffic & Chevron Signs", "en": "Traffic Safety Signs & Chevron Sign", "img": "assets/photos/prod_sign.jpg", "href": "sign.html", "chips": ["Solar LED", "LED Internal Light"] }
+      {
+        "title": "Road Stud",
+        "en": "Road Stud",
+        "img": "assets/photos/prod_roadstud.jpg",
+        "href": "roadstud.html",
+        "chips": [
+          "Hybrid",
+          "Battery",
+          "Solar",
+          "Mains (AC)"
+        ]
+      },
+      {
+        "title": "Landscape Lighting",
+        "en": "Landscape Lighting Fixtures",
+        "img": "assets/photos/prod_lighting.jpg",
+        "href": "lighting.html",
+        "chips": [
+          "Line Light",
+          "Floor Light",
+          "Logo Projector"
+        ]
+      },
+      {
+        "title": "Bollard",
+        "en": "Bollard",
+        "img": "assets/photos/prod_bollard.jpg",
+        "href": "bollard.html",
+        "chips": [
+          "LED Bollard",
+          "Self-generating",
+          "Stainless"
+        ]
+      },
+      {
+        "title": "Design Fence",
+        "en": "Design Fence",
+        "img": "assets/photos/prod_fence.jpg",
+        "href": "fence.html",
+        "chips": [
+          "Vehicle Guard",
+          "Pedestrian Fence",
+          "LED Curb"
+        ]
+      },
+      {
+        "title": "In-Ground Traffic Light",
+        "en": "In-Ground Traffic Light",
+        "img": "assets/photos/prod_signal.jpg",
+        "href": "signal.html",
+        "chips": [
+          "EDBL-200",
+          "Pedestrian Safety"
+        ]
+      },
+      {
+        "title": "Traffic & Chevron Signs",
+        "en": "Traffic Safety Signs & Chevron Sign",
+        "img": "assets/photos/prod_sign.jpg",
+        "href": "sign.html",
+        "chips": [
+          "Solar LED",
+          "LED Internal Light"
+        ]
+      }
     ]
   },
   "downloads": {
     "items": [
-      { "title": "Ecoday Integrated Product Catalog", "desc": "Road studs · bollards · LED landscape lighting · fences · signs · in-ground signals · PDF", "subject": "Integrated Product Catalog" }
+      {
+        "title": "Ecoday Integrated Product Catalog",
+        "desc": "Road studs · bollards · LED landscape lighting · fences · signs · in-ground signals · PDF",
+        "subject": "Integrated Product Catalog"
+      }
     ]
+  },
+  "productPages": {
+    "roadstud": {
+      "hero": {
+        "eyebrow": "Road Stud",
+        "title": "Road Stud",
+        "lead": "High-brightness LED road studs that maximize nighttime visibility with low-power smart battery technology. Choose the optimal product by power type.",
+        "crumb": "Road Stud"
+      },
+      "lineup": {
+        "eyebrow": "Line-up",
+        "title": "Product Range by Power Type",
+        "desc": "Hybrid · battery · solar · mains (AC) — four types to suit diverse road environments."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "hybrid",
+          "label": "Hybrid",
+          "cards": [
+            {
+              "img": "assets/photos/cat/rs_138h.jpg",
+              "alt": "Ø138 road stud hybrid type ECO26-138H",
+              "pc": true,
+              "tagLine": "Hybrid Type · Solar + Battery",
+              "title": "Ø138 Road Stud (Hybrid Type)",
+              "model": "ECO26-138HW / ECO26-138HY",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 6pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "Lithium Battery 3.6V·19Ahr ×1 / Li-FePO4 (solar) 3.2V·1.5Ahr ×1"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY die-cast aluminum · LENS polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø138mm × 68mm"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "26158537 (white) · 26158538 (yellow)"
+                }
+              ],
+              "features": [
+                "Installable even where solar charging is difficult — roads, alleys, walkways, bike lanes",
+                "Low-power operation for up to 3-year long life / energy-saving",
+                "Impact-, water- and dust-resistant (IP68); replaceable internal module cuts maintenance cost",
+                "Wireless installation for easy construction"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/rs_113.jpg",
+              "alt": "ECO-25RS113-H product image",
+              "pc": true,
+              "tagLine": "Module Replacement",
+              "title": "Ø113 Stud, Module-Replaceable (Hybrid)",
+              "model": "ECO-25RS113-HW / ECO-25RS113-HY",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 6pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "Li-FePO4 (solar) 3.2V·1.5Ahr ×1 / Lithium Battery 3.6V·19Ahr ×1"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø113mm × 67mm"
+                }
+              ],
+              "features": [
+                "Replace only the internal module, keeping the body — no road re-construction needed",
+                "Compatible with existing Ø113 embedded housings"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "battery",
+          "label": "Battery",
+          "cards": [
+            {
+              "img": "assets/photos/cat/rs_138b.jpg",
+              "alt": "ECO26-138B product image",
+              "pc": true,
+              "tagLine": "Battery Type",
+              "title": "Ø138 Road Stud (Battery Type)",
+              "model": "ECO26-138BW / ECO26-138BY",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 6pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "Lithium Battery 3.6V·19Ahr × 2EA"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY die-cast aluminum · LENS polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø138mm × 68mm · lights below 100lx"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "26158540 (white) · 26158539 (yellow)"
+                }
+              ],
+              "features": [
+                "Ideal for tunnels and shaded sections where solar charging is impossible",
+                "Low-power operation for up to 3-year long life / IP68 water- and dust-proof",
+                "Replaceable internal module — no housing replacement required"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solar",
+          "label": "Solar",
+          "cards": [
+            {
+              "img": "assets/photos/cat/rs_138s.jpg",
+              "alt": "ECO26-138S product image",
+              "pc": true,
+              "tagLine": "Solar-powered Type",
+              "title": "Ø138 Road Stud (Solar Type)",
+              "model": "ECO26-138SW / ECO26-138SY",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 6pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "Li-FePO4 (solar) 3.2V·1.5Ahr × 1EA"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY die-cast aluminum · LENS polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø138mm × 68mm · lights below 100lx"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "26151915 (white) · 26151916 (yellow)"
+                }
+              ],
+              "features": [
+                "Solar self-generation — no electricity bills or wiring",
+                "Eco-friendly low-power design / IP68 water- and dust-proof",
+                "Wide application — roads, alleys, walkways, bike lanes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mains",
+          "label": "Mains (AC)",
+          "cards": [
+            {
+              "img": "assets/photos/cat/rs_125.jpg",
+              "alt": "ECO25-RS125-C product image",
+              "pc": true,
+              "tagLine": "Mains-powered Type",
+              "title": "Ø125 Road Stud (Mains Type)",
+              "model": "ECO25-RS125-CW / ECO25-RS125-CY",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 27pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "DC 12–24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "TOP stainless · BODY die-cast aluminum · LENS polycarbonate"
+                },
+                {
+                  "k": "Size / Power",
+                  "v": "Ø125mm × 80mm · max 7W (adjustable)"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25737635 (white) · 25737636 (yellow)"
+                }
+              ],
+              "features": [
+                "High brightness of 3,000mcd or more — brightness manually adjusted at the control box",
+                "Always-on by default; flashing selectable at the on-site control box",
+                "Suitable for crosswalks and school zones"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/rs_196.jpg",
+              "alt": "ECO-RS196-R product image",
+              "pc": true,
+              "tagLine": "Mains-powered Type",
+              "title": "196 Road Stud (Mains Type)",
+              "model": "ECO-RS196-RW / ECO-RS196-RY",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 6pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "DC 12V / 6W"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY die-cast aluminum · LENS polycarbonate"
+                },
+                {
+                  "k": "Size / Power",
+                  "v": "196 × 101 × 29mm · max 6W (adjustable)"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25543620 (white) · 25543621 (yellow)"
+                }
+              ],
+              "features": [
+                "High brightness of 3,000mcd or more · pattern settings / controller-driven",
+                "Suitable for roundabouts and traffic islands; also usable as landscape lighting"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "Installation",
+        "title": "Installation Cases",
+        "desc": "Installed at diverse sites — crosswalks, center/side lanes, safe-return paths, parks, walkways and bike lanes.",
+        "layout": "cases",
+        "cta": "Request a Product Quote →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_6088.jpg",
+            "alt": "Crosswalk installation case",
+            "title": "Crosswalk · Center Lane"
+          },
+          {
+            "img": "assets/photos/IMG_6806.JPG",
+            "alt": "Safe-return path installation case",
+            "title": "Safe-Return Path · Alley"
+          },
+          {
+            "img": "assets/photos/IMG_7987.JPG",
+            "alt": "Bike-lane installation case",
+            "title": "Park · Walkway · Bike Lane"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "bollard": {
+      "hero": {
+        "eyebrow": "Bollard",
+        "title": "Bollard",
+        "lead": "Bollards that protect pedestrians in high-traffic areas such as school zones, crosswalks and walkways. Choose embedded, surface or detachable types to match the installation environment.",
+        "crumb": "Bollard"
+      },
+      "lineup": {
+        "eyebrow": "Line-up",
+        "title": "Product Range by Lighting Type",
+        "desc": "High-brightness LED bollards and reflective-sheet non-illuminated / stainless bollards."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "led",
+          "label": "LED Bollard",
+          "cards": [
+            {
+              "img": "assets/photos/cat/bd_150h.jpg",
+              "alt": "ECO-BRD150-H/B product image",
+              "pc": true,
+              "tagLine": "Hybrid / Battery Type",
+              "title": "LED Bollard Ø150 (Hybrid / Battery Type)",
+              "model": "ECO-BRD150-HD/HA/HM · BRD150-BD/BA/BM (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 9pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "Lithium Battery 3.6V·19Ahr × 4EA"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY SGT275 · COVER polyurethane · light unit die-cast aluminum / polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø150mm × H790–800mm · lights below 100lx"
+                }
+              ],
+              "features": [
+                "Safety facility for school zones, crosswalks, walkways and bike lanes",
+                "Low-power long life / lights 5+ days without sun · IP68 water- and dust-proof"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/bd_110.jpg",
+              "alt": "ECO-BRD110-S/H product image",
+              "pc": true,
+              "tagLine": "Solar / Hybrid Type",
+              "title": "LED Bollard Ø110 (Solar / Hybrid Type)",
+              "model": "ECO-BRD110-SD/SA/SM · BRD110-HD/HA/HM (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 18pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "Li-FePO4 (solar) 3.2V·1.5Ahr ×2 / Lithium Battery 3.6V·19Ahr ×1"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY SGT275 · COVER polyurethane · light unit polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø110mm × H960–980mm · lights below 100lx"
+                }
+              ],
+              "features": [
+                "Solar self-generation — no wiring · eco-friendly low-power",
+                "Low-power long life / lights 5+ days without sun · IP68"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "none",
+          "label": "Non-illuminated Bollard",
+          "cards": [
+            {
+              "img": "assets/photos/cat/bd_110x.jpg",
+              "alt": "ECO-BRD110-X product image",
+              "pc": true,
+              "tagLine": "Non-illuminated Type",
+              "title": "Non-illuminated Bollard Ø110",
+              "model": "ECO-BRD110-XD / XA / XM (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "Materials",
+                  "v": "BODY SGT275 · buffer polyurethane · ultra-high-brightness reflective sheet"
+                },
+                {
+                  "k": "Size",
+                  "v": "embedded/detachable Ø110 × H860mm · surface Ø110 × H870mm"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25658332 (embedded) · 25658331 (surface) · 25658330 (detachable)"
+                }
+              ],
+              "features": [
+                "Safety facility for high-traffic school zones, crosswalks, walkways and bike lanes"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/bd_150x.jpg",
+              "alt": "ECO-BRD150-X product image",
+              "pc": true,
+              "tagLine": "Non-illuminated Type",
+              "title": "Non-illuminated Bollard Ø150",
+              "model": "ECO-BRD150-XD / XA / XM (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "Materials",
+                  "v": "BODY SGT275 · buffer polyurethane · ultra-high-brightness reflective sheet"
+                },
+                {
+                  "k": "Size",
+                  "v": "embedded/detachable Ø150 × H760mm · surface Ø150 × H770mm"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25658329 (embedded) · 25658328 (surface) · 25658327 (detachable)"
+                }
+              ],
+              "features": [
+                "Impact-absorbing polyurethane cover ensures safety on vehicle or pedestrian contact"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/bd_stainless.jpg",
+              "alt": "ECO-BRD101S product image",
+              "pc": true,
+              "tagLine": "Stainless",
+              "title": "Stainless Bollard",
+              "model": "ECO-BRD101S-ID / IA / IM",
+              "specs": [
+                {
+                  "k": "Materials",
+                  "v": "BODY STS304 · ultra-high-brightness reflective sheet (red/yellow)"
+                },
+                {
+                  "k": "Type",
+                  "v": "Non-illuminated (embedded · surface · detachable)"
+                }
+              ],
+              "features": [
+                "Corrosion-resistant stainless material for excellent durability and appearance"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "Installation",
+        "title": "Installation Cases",
+        "desc": "",
+        "layout": "cases",
+        "cta": "Request a Product Quote →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_6458.JPG",
+            "alt": "Bollard installation case",
+            "title": "Crosswalk · School Zone"
+          },
+          {
+            "img": "assets/photos/IMG_6460.JPG",
+            "alt": "Bollard installation case",
+            "title": "Walkway · Footpath"
+          },
+          {
+            "img": "assets/photos/IMG_E0202.JPG",
+            "alt": "Bollard installation case",
+            "title": "Park · Bike Lane"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "lighting": {
+      "hero": {
+        "eyebrow": "Landscape Lighting",
+        "title": "LED Landscape Lighting",
+        "lead": "A wide range of LED landscape lighting that enhances both the urban landscape and pedestrian safety. Eco-friendly, low-power design free of hazardous substances creates a beautiful, sustainable night environment.",
+        "crumb": "LED Landscape Lighting"
+      },
+      "lineup": {
+        "eyebrow": "Line-up",
+        "title": "Landscape Lighting by Purpose",
+        "desc": "Seven series of landscape lighting according to installation location and effect."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "line",
+          "label": "Line Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_line.jpg",
+              "alt": "ECO-LLBA / FLEX product image",
+              "pc": true,
+              "tagLine": "Line / Flexible",
+              "title": "LED Line Light · Flexible Light",
+              "model": "ECO-LLBA1200 / ECO-LLBA1000 / ECO-LLFLEX1000",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "SMD LED · DC 24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY aluminum · COVER polycarbonate · UV-coated urethane"
+                },
+                {
+                  "k": "Size",
+                  "v": "1000×31×27 / 1000×18×9 / 1000×15×4mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "15W / 13W / 7W"
+                }
+              ],
+              "features": [
+                "Bar-type line LED light with narrow-angle lenses",
+                "Slim design allows embedded installation even in tight spaces · eco-friendly, hazard-free"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_accent.jpg",
+              "alt": "ECO-LL130 / 138 product image",
+              "pc": true,
+              "tagLine": "Accent · Mini/Square Stud",
+              "title": "LED Point Light (Mini · Square Stud)",
+              "model": "ECO-LL130-BU (battery) / ECO-LL138-SU (solar)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED × 4–6pcs"
+                },
+                {
+                  "k": "Power",
+                  "v": "Lithium Battery ×2 / Li-FePO4 solar ×1"
+                },
+                {
+                  "k": "Size",
+                  "v": "W130×D130×H95 / W150×D138×H25.5mm"
+                }
+              ],
+              "features": [
+                "Low-power long life · lights 5+ days without sun · IP68"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "floor",
+          "label": "Floor Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_curb_rainbow.jpg",
+              "alt": "ECO-LL19/23-AU product image",
+              "pc": false,
+              "tagLine": "LED Curb-Stone Light",
+              "title": "LED Curb-Stone Light (Rainbow)",
+              "model": "ECO-LL19-AU (surface) / ECO-LL23-AU (embedded)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "RGBW LED × 27EA · DC 12V / 6W"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY die-cast aluminum · LENS polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "surface 195×100×30 / embedded 230×135×80mm"
+                }
+              ],
+              "features": [
+                "28 patterns via controller · 1 control box per 30EA",
+                "IP68 water- and dust-proof · ideal for road/sidewalk boundary effects"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_curb155.jpg",
+              "alt": "ECO-LL155 product image",
+              "pc": true,
+              "tagLine": "Hybrid / Battery",
+              "title": "New Curb-Mounted Stud",
+              "model": "ECO-LL155-HU (hybrid) / ECO-LL155-BU (battery)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED × 6pcs"
+                },
+                {
+                  "k": "Size",
+                  "v": "W155 × D150 × H55mm · lights below 100lx"
+                }
+              ],
+              "features": [
+                "Alleys, walkways, bike lanes · lights 5+ days without sun · IP68"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "post",
+          "label": "Fence-Post Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_post_sq.jpg",
+              "alt": "ECO-LL157 product image",
+              "pc": false,
+              "tagLine": "Solar / Hybrid / Battery",
+              "title": "Square Fence-Post Light",
+              "model": "ECO-LL157-SU / HU / BU",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED × 28pcs"
+                },
+                {
+                  "k": "Size",
+                  "v": "157 × 157 × H101mm · lights below 100lx"
+                }
+              ],
+              "features": [
+                "Installed on fences along roads, alleys, walkways and bike lanes · IP68"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_post_rd.jpg",
+              "alt": "ECO-LL110 product image",
+              "pc": false,
+              "tagLine": "Solar / Hybrid / Mains",
+              "title": "Round Fence-Post Light",
+              "model": "ECO-LL110-SU / HU / CU",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED × 28pcs"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø110 × H234.5mm · lights below 100lx"
+                }
+              ],
+              "features": [
+                "Accents fence and railing posts · lights 5+ days without sun · IP68"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bollard",
+          "label": "Bollard Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_bollardlight.jpg",
+              "alt": "ECO-LLBRD product image",
+              "pc": false,
+              "tagLine": "Mains-powered",
+              "title": "LED Bollard Light",
+              "model": "ECO-LLBRD800 / 300 / 110 / 150",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "COB LED · DC 38.5V / 22V / 12V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY die-cast aluminum · PC · SGT275 · LENS polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "150×150×800 / 72×115×300 / Ø110×1268 / Ø150×1065mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "9W / 5.5W / 3W"
+                }
+              ],
+              "features": [
+                "Safety lighting for high-traffic areas such as school zones, crosswalks and walkways",
+                "High-brightness LED · IP65 water- and dust-proof"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wall",
+          "label": "Wall Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_wall.jpg",
+              "alt": "ECO-LL180-S / W109 product image",
+              "pc": true,
+              "tagLine": "Solar / Mains",
+              "title": "LED Wall Light",
+              "model": "ECO-LL180-S (solar) / ECO-LLW109 (mains)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "SMD LED · DC 3.2V / DC 24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY·LENS polycarbonate / aluminum·tempered glass"
+                },
+                {
+                  "k": "Size",
+                  "v": "180×230×87.5 / 109×167×203mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "2W / 15W"
+                }
+              ],
+              "features": [
+                "Eco-friendly, hazard-free solar product · high-brightness LED / lights below 100lx"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gobo",
+          "label": "Gobo Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_gobo.jpg",
+              "alt": "ECO-LL##W-CU product image",
+              "pc": false,
+              "tagLine": "Logo Projector · Gobo",
+              "title": "LED Gobo (Logo Projector) Light",
+              "model": "ECO-LL50W-CU / 80W-CU / 100W-CU / 200W-CU",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module × 1pcs · DC 12V, SMPS"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY aluminum · LENS tempered glass"
+                },
+                {
+                  "k": "Size",
+                  "v": "W327×D111×H170 – W403×D167×H270mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "Max 50W / 80W / 100W / 200W"
+                }
+              ],
+              "features": [
+                "Projects the desired text, graphic or image onto the ground",
+                "High-brightness LED · IP65 water- and dust-proof"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "security",
+          "label": "Security · Design Streetlight",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_park.jpg",
+              "alt": "ECO-LL60W product image",
+              "pc": true,
+              "tagLine": "Mains-powered · Park Light",
+              "title": "LED Park Light (Design Streetlight)",
+              "model": "ECO-LL60W-Butterfly / ECO-LL60W-Seagull",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED × 784–910pcs · DC 12V"
+                },
+                {
+                  "k": "Size",
+                  "v": "483×456×H132 / 947×520×H421mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "80W"
+                }
+              ],
+              "features": [
+                "Color customization to suit installation conditions · IP65"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_security.jpg",
+              "alt": "ECO-LL##S product image",
+              "pc": true,
+              "tagLine": "Solar-powered · Security Light",
+              "title": "LED Park Security Light",
+              "model": "ECO-LL50S / ECO-LL30S-3M / ECO-LL25S",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super Luminosity LED module"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY aluminum · POST STS304"
+                },
+                {
+                  "k": "Size",
+                  "v": "1123×373×H3900 / 3000 · 599×300×H3000mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "50W / 30W / 25W"
+                }
+              ],
+              "features": [
+                "Low-power long life · lights 5+ days without sun · no wiring"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "Installation",
+        "title": "Installation Cases",
+        "desc": "",
+        "layout": "cases",
+        "cta": "Request a Product Quote →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_7987.JPG",
+            "alt": "Landscape lighting installation case",
+            "title": "Park · Walkway Lighting"
+          },
+          {
+            "img": "assets/photos/KakaoTalk_20231206_083144551_01.jpg",
+            "alt": "Landscape lighting installation case",
+            "title": "Road/Sidewalk Boundary · Line Light"
+          },
+          {
+            "img": "assets/photos/KakaoTalk_20231206_083144551_02.jpg",
+            "alt": "Landscape lighting installation case",
+            "title": "Fence · Bollard Lighting"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "fence": {
+      "hero": {
+        "eyebrow": "Design Fence",
+        "title": "Design Fence",
+        "lead": "Design protection fences that safely separate pedestrians and vehicles while enhancing the urban landscape. Various designs and specifications to suit urban sections.",
+        "crumb": "Design Fence"
+      },
+      "lineup": {
+        "eyebrow": "Line-up",
+        "title": "Fences by Purpose",
+        "desc": "From vehicle guard rails to pedestrian protection fences and LED road/sidewalk boundary lighting."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "guard",
+          "label": "Vehicle Guard",
+          "cards": [
+            {
+              "img": "assets/photos/cat/fn_guard.jpg",
+              "alt": "ECO-JHGD1 product image",
+              "pc": true,
+              "tagLine": "Vehicle Guard · Low Barrier SB1",
+              "title": "Vehicle Guard Rail (SB1 Grade)",
+              "model": "ECO-JHGD1 / -01 / -02 / -03",
+              "specs": [
+                {
+                  "k": "Spec",
+                  "v": "W2,000 × H1,100"
+                },
+                {
+                  "k": "POST",
+                  "v": "100×100×4T · KS D 3568 (SRT 275) anodized / powder-coated"
+                },
+                {
+                  "k": "TOP RAIL",
+                  "v": "144×100×3T · KS D 6759 (6N01-T5)"
+                },
+                {
+                  "k": "RAIL",
+                  "v": "100×90×3T · KS D 6759 (6N01-T5)"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "26002008 etc. (per-meter price · incl. on-site installation)"
+                }
+              ],
+              "features": [
+                "SB1-grade vehicle protection · urban road boundary protection"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ped",
+          "label": "Pedestrian Fence · Urban",
+          "cards": [
+            {
+              "img": "assets/photos/cat/fn_ped1.jpg",
+              "alt": "ECO-R190J77 product image",
+              "pc": true,
+              "tagLine": "Pedestrian Protection · Urban",
+              "title": "Pedestrian Protection Fence (Urban)",
+              "model": "ECO-R190J77 / R196J52 / R195J50 / R193J46",
+              "specs": [
+                {
+                  "k": "Spec",
+                  "v": "W2,000 × H1,100 / H990 / H1,000"
+                },
+                {
+                  "k": "Materials",
+                  "v": "SGT275 · SS275 · AC7A · SRT275 · A6063-T5"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25987812 etc. (per-meter price · incl. on-site installation)"
+                }
+              ],
+              "features": [
+                "Urban-style design protection fence separating pedestrians from the roadway"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/fn_ped2.jpg",
+              "alt": "ECO-R193J45 product image",
+              "pc": true,
+              "tagLine": "Pedestrian Protection · Urban",
+              "title": "Pedestrian Protection Fence (Urban II)",
+              "model": "ECO-R193J45 / R157J23 / R155J17",
+              "specs": [
+                {
+                  "k": "Spec",
+                  "v": "W2,000 × H1,100 / H1,090"
+                },
+                {
+                  "k": "Materials",
+                  "v": "SGT275 · SRT275 · SS275 · STS304TKC · A6063-T5"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25987808 etc. (per-meter price · incl. on-site installation)"
+                }
+              ],
+              "features": [
+                "Various patterns and materials harmonize with the urban landscape"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "curb",
+          "label": "Road/Sidewalk Boundary · LED",
+          "cards": [
+            {
+              "img": "assets/photos/cat/fn_sep.jpg",
+              "alt": "ECO-R156~R235 product image",
+              "pc": true,
+              "tagLine": "Road/Sidewalk Divider",
+              "title": "Road/Sidewalk Boundary Fence",
+              "model": "ECO-R156-01 / R157 / R161 / R164 / R165 / R235-A",
+              "specs": [
+                {
+                  "k": "Spec",
+                  "v": "W2,000 × H1,000 – H1,200 (span type W4,000)"
+                },
+                {
+                  "k": "Materials",
+                  "v": "SECC · SGT275 · SRT275 · SS275 · A6063-T5"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25987806 etc. (per-meter price · incl. on-site installation)"
+                }
+              ],
+              "features": [
+                "Divider separating sidewalk and roadway · supports various specifications"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/fn_led.jpg",
+              "alt": "ECO-R01~R218 product image",
+              "pc": true,
+              "tagLine": "Road/Sidewalk Boundary LED Curb Lighting",
+              "title": "LED Curb-Stone Lighting Fence",
+              "model": "ECO-R01 / R02-01 / R216 / R218",
+              "specs": [
+                {
+                  "k": "Spec",
+                  "v": "W2,000 × H500 – H950"
+                },
+                {
+                  "k": "Materials",
+                  "v": "STS304 · SGT275"
+                }
+              ],
+              "features": [
+                "Built-in LED improves nighttime visibility · defines the road/sidewalk boundary"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "Installation",
+        "title": "Installation Cases",
+        "desc": "",
+        "layout": "cases",
+        "cta": "Request a Product Quote →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_6460.JPG",
+            "alt": "Fence installation case",
+            "title": "Urban Pedestrian Protection"
+          },
+          {
+            "img": "assets/photos/KakaoTalk_20231206_083144551_03.jpg",
+            "alt": "Fence installation case",
+            "title": "Road/Sidewalk Boundary"
+          },
+          {
+            "img": "assets/photos/IMG_E0205.JPG",
+            "alt": "Fence installation case",
+            "title": "LED Curb Lighting"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "sign": {
+      "hero": {
+        "eyebrow": "Traffic Safety Signs & Chevron Sign",
+        "title": "Traffic & Chevron Signs",
+        "lead": "Traffic safety signs and chevron signs with LED internal lighting for clear recognition even at night and in bad weather. Available in solar and mains types by power method.",
+        "crumb": "Traffic & Chevron Signs"
+      },
+      "lineup": {
+        "eyebrow": "Line-up",
+        "title": "Signs by Lighting Type",
+        "desc": "Two methods available: solar LED internal lighting and mains LED internal lighting."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "solar",
+          "label": "Solar LED Internal Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/sg_traffic.jpg",
+              "alt": "ECO-TS·SW product image",
+              "pc": true,
+              "tagLine": "Solar LED Internal Light",
+              "title": "Traffic Safety Sign (Solar Type)",
+              "model": "ECO-TS600-SWS / TS700-SW / TS900-SWR / TS3000-SWL, etc.",
+              "specs": [
+                {
+                  "k": "Sign Types",
+                  "v": "One-way · crosswalk · speed limit · roundabout · right-curve · school zone"
+                },
+                {
+                  "k": "Lighting",
+                  "v": "Solar LED internal lighting"
+                },
+                {
+                  "k": "Spec",
+                  "v": "600×600×48 – 3000×2000×48mm"
+                }
+              ],
+              "features": [
+                "Solar self-generation — no wiring or electricity bills · improved nighttime visibility"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/sg_chevron.jpg",
+              "alt": "ECO-GS450-SW product image",
+              "pc": false,
+              "tagLine": "Solar LED Internal Light",
+              "title": "Chevron Sign (Solar Type)",
+              "model": "ECO-GS450-SW (single-sided) / ECO-GS450-SW2 (double-sided)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Solar LED internal lighting"
+                },
+                {
+                  "k": "Spec",
+                  "v": "450 × 600 × 50mm"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25234399 (single-sided) etc."
+                }
+              ],
+              "features": [
+                "Guides direction on curves and sharp bends · single/double-sided option"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mains",
+          "label": "Mains LED Internal Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/sg_traffic.jpg",
+              "alt": "ECO-TS·CW product image",
+              "pc": true,
+              "tagLine": "Mains LED Internal Light",
+              "title": "Traffic Safety Sign (Mains Type)",
+              "model": "ECO-TS600-CWS / TS700-CW / TS900-CWR / TS3000-CWL, etc.",
+              "specs": [
+                {
+                  "k": "Sign Types",
+                  "v": "One-way · crosswalk · speed limit · roundabout · right-curve · school zone"
+                },
+                {
+                  "k": "Lighting",
+                  "v": "Mains LED internal lighting"
+                },
+                {
+                  "k": "Spec",
+                  "v": "600×600×48 – 3000×2000×48mm"
+                }
+              ],
+              "features": [
+                "Stable power supply for constant high-brightness lighting · supports large sizes"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/sg_chevron.jpg",
+              "alt": "ECO-GS450-CW product image",
+              "pc": false,
+              "tagLine": "Mains LED Internal Light",
+              "title": "Chevron Sign (Mains Type)",
+              "model": "ECO-GS450-CW (single-sided) / ECO-GS450-CW2 (double-sided)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Mains LED internal lighting"
+                },
+                {
+                  "k": "Spec",
+                  "v": "450 × 600 × 50mm"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25234398 (single-sided) · 25234396 (double-sided)"
+                }
+              ],
+              "features": [
+                "Guides direction on sharp bends and intersections · single/double-sided option"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "Installation",
+        "title": "Installation Cases",
+        "desc": "",
+        "layout": "cases",
+        "cta": "Request a Product Quote →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_4377.jpg",
+            "alt": "Sign installation case",
+            "title": "Chevron Sign · Sharp Bend"
+          },
+          {
+            "img": "assets/photos/IMG_1029.JPG",
+            "alt": "Sign installation case",
+            "title": "School Zone Sign"
+          },
+          {
+            "img": "assets/photos/IMG_3064.jpg",
+            "alt": "Sign installation case",
+            "title": "Crosswalk · Roundabout"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "signal": {
+      "hero": {
+        "eyebrow": "In-Ground Traffic Light",
+        "title": "In-Ground Traffic Light",
+        "lead": "The EDBL-200 system links with existing pedestrian signals to display the signal on the ground. It prevents accidents for pedestrians walking while looking at their smartphones.",
+        "crumb": "In-Ground Traffic Light"
+      },
+      "lineup": {
+        "eyebrow": "System",
+        "title": "Smart pedestrian safety in three components",
+        "desc": "The display, control unit and option board link with a standard traffic-signal controller to sync with the pedestrian signal."
+      },
+      "hasTabs": false,
+      "tabs": [
+        {
+          "id": "all",
+          "label": "",
+          "cards": [
+            {
+              "img": "assets/photos/cat/sn_display.jpg",
+              "alt": "EDBL-200 product image",
+              "pc": false,
+              "tagLine": "Display",
+              "title": "In-Ground Signal Display",
+              "model": "EDBL-200",
+              "specs": [
+                {
+                  "k": "Input Voltage",
+                  "v": "DC 24V"
+                },
+                {
+                  "k": "Power",
+                  "v": "3.8W at 25℃ (dimming) · 0–100 100-step dimming control"
+                },
+                {
+                  "k": "Size",
+                  "v": "300 × 100 × 60mm"
+                },
+                {
+                  "k": "Installation",
+                  "v": "Embedded in the ground (sidewalk) at the crosswalk start, between the curb and braille block"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "26109111 (incl. on-site installation)"
+                }
+              ],
+              "features": [
+                "Lights in sync with the green walk signal · off on red · excellent visibility"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/sn_control.jpg",
+              "alt": "EDCB-200 product image",
+              "pc": false,
+              "tagLine": "Control Unit",
+              "title": "Signal Control Unit",
+              "model": "EDCB-200",
+              "specs": [
+                {
+                  "k": "Communication",
+                  "v": "Receives pedestrian-signal data from the option board via RS485"
+                },
+                {
+                  "k": "Size",
+                  "v": "250 × 350 × 100mm"
+                },
+                {
+                  "k": "Material",
+                  "v": "STS304"
+                }
+              ],
+              "features": [
+                "Receives signals from the option board installed in the traffic-signal controller to drive the display"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/sn_option.jpg",
+              "alt": "EDOB-200 product image",
+              "pc": true,
+              "tagLine": "Option Board",
+              "title": "Signal-Linking Option Board",
+              "model": "EDOB-200",
+              "specs": [
+                {
+                  "k": "Function",
+                  "v": "Installed in a standard traffic-signal controller to relay the pedestrian signal to the control unit"
+                }
+              ],
+              "features": [
+                "Links without changing the existing signal system · syncs with green/red pedestrian signals"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "How it works",
+        "title": "How the System Links",
+        "desc": "",
+        "layout": "feats",
+        "cta": "Request a Product Quote →",
+        "ctaHref": "contact.html",
+        "cases": [],
+        "feats": [
+          {
+            "no": "01",
+            "title": "Standard Controller",
+            "desc": "Install the option board in the existing traffic-signal controller."
+          },
+          {
+            "no": "02",
+            "title": "Option Board Relay",
+            "desc": "Sends pedestrian-signal data to the control unit via RS485."
+          },
+          {
+            "no": "03",
+            "title": "Control Unit",
+            "desc": "Uses the received signal to control the ground display."
+          },
+          {
+            "no": "04",
+            "title": "Ground Display",
+            "desc": "Lights in sync with green and turns off on red to guide pedestrians."
+          }
+        ]
+      },
+      "hasInstall": true
+    }
   }
 }

@@ -57,6 +57,113 @@
             '</span></div><div class="go">Request →</div></a>';
         }).join(""));
       }
+
+      // Products > detail pages (roadstud/bollard/lighting/fence/sign/signal)
+      var phost = document.getElementById("cms-product");
+      if (phost && data.productPages) {
+        var key = document.body.getAttribute("data-page");
+        var pg = data.productPages[key];
+        if (pg) { renderProduct(phost, pg); }
+      }
     })
     .catch(function () { /* keep static fallback markup */ });
+
+  function card(c) {
+    var rows = (c.specs || []).map(function (s) {
+      return '<tr><th>' + esc(s.k) + '</th><td>' + esc(s.v) + '</td></tr>';
+    }).join("");
+    var feats = (c.features || []).map(function (f) {
+      return '<li>' + esc(f) + '</li>';
+    }).join("");
+    return '<div class="prow reveal in">' +
+      '<div class="pimg' + (c.pc ? ' pc' : '') + '"><img src="' + esc(c.img) + '" alt="' + esc(c.alt || c.title) + '"></div>' +
+      '<div>' +
+        (c.tagLine ? '<span class="tag-line">' + esc(c.tagLine) + '</span>' : '') +
+        '<h3>' + esc(c.title) + '</h3>' +
+        (c.model ? '<div class="model">' + esc(c.model) + '</div>' : '') +
+        (rows ? '<table class="spec">' + rows + '</table>' : '') +
+        (feats ? '<ul class="plist">' + feats + '</ul>' : '') +
+      '</div></div>';
+  }
+
+  function head(h, cls) {
+    return '<div class="section-head ' + cls + '">' +
+      (h.eyebrow ? '<span class="eyebrow">' + esc(h.eyebrow) + '</span>' : '') +
+      '<h2>' + esc(h.title) + '</h2>' +
+      (h.desc ? '<p>' + esc(h.desc) + '</p>' : '') + '</div>';
+  }
+
+  function renderProduct(host, pg) {
+    var h = pg.hero || {};
+    var out = '<section class="pagehero"><div class="container">' +
+      '<div class="crumb"><a href="index.html">HOME</a><span>/</span> Products <span>/</span> ' + esc(h.crumb || h.title) + '</div>' +
+      (h.eyebrow ? '<span class="eyebrow">' + esc(h.eyebrow) + '</span>' : '') +
+      '<h1>' + esc(h.title) + '</h1>' +
+      (h.lead ? '<p class="lead">' + esc(h.lead) + '</p>' : '') +
+      '</div></section>';
+
+    // line-up
+    var tabs = pg.tabs || [];
+    if (pg.hasTabs) {
+      var btns = tabs.map(function (t) {
+        return '<button class="ptab" data-tab="' + esc(t.id) + '">' + esc(t.label) + '</button>';
+      }).join("");
+      var panels = tabs.map(function (t) {
+        return '<div class="ppanel" data-panel="' + esc(t.id) + '">' +
+          (t.cards || []).map(card).join("") + '</div>';
+      }).join("");
+      out += '<section class="section"><div class="container" data-tabs>' +
+        head(pg.lineup || {}, "reveal in") +
+        '<div class="ptabs reveal in">' + btns + '</div>' + panels +
+        '</div></section>';
+    } else {
+      var allCards = (tabs[0] && tabs[0].cards ? tabs[0].cards : []).map(card).join("");
+      out += '<section class="section"><div class="container">' +
+        head(pg.lineup || {}, "reveal in") + allCards +
+        '</div></section>';
+    }
+
+    // soft section (install cases OR feat-grid)
+    if (pg.hasInstall && pg.install) {
+      var ins = pg.install, body = "";
+      if (ins.layout === "feats") {
+        body = '<div class="feat-grid">' + (ins.feats || []).map(function (f) {
+          return '<div class="feat reveal in"><span class="no">' + esc(f.no) + '</span>' +
+            '<h4>' + esc(f.title) + '</h4><p>' + esc(f.desc) + '</p></div>';
+        }).join("") + '</div>';
+      } else {
+        body = '<div class="grid cols-3">' + (ins.cases || []).map(function (cs) {
+          return '<div class="card reveal in"><div class="thumb"><img src="' + esc(cs.img) +
+            '" alt="' + esc(cs.alt || cs.title) + '"></div>' +
+            '<div class="body"><h3 style="font-size:16px">' + esc(cs.title) + '</h3></div></div>';
+        }).join("") + '</div>';
+      }
+      var ctaBand = ins.cta ? '<div style="text-align:center;margin-top:40px" class="reveal in">' +
+        '<a class="btn btn-green" href="' + esc(ins.ctaHref || "contact.html") + '">' + esc(ins.cta) + '</a></div>' : "";
+      out += '<section class="section soft"><div class="container">' +
+        head(ins, "reveal in") + body + ctaBand + '</div></section>';
+    }
+
+    host.innerHTML = out;
+
+    // wire product tabs (include.js already ran before this async render)
+    host.querySelectorAll("[data-tabs]").forEach(function (wrap) {
+      var ts = wrap.querySelectorAll(".ptab");
+      var ps = wrap.querySelectorAll(".ppanel");
+      function activate(id) {
+        ts.forEach(function (t) { t.classList.toggle("active", t.dataset.tab === id); });
+        ps.forEach(function (p) { p.classList.toggle("active", p.dataset.panel === id); });
+      }
+      ts.forEach(function (t) {
+        t.addEventListener("click", function () {
+          activate(t.dataset.tab);
+          history.replaceState(null, "", "#" + t.dataset.tab);
+        });
+      });
+      var hash = location.hash.replace("#", "");
+      if (ts.length) {
+        activate(hash && wrap.querySelector('.ptab[data-tab="' + hash + '"]') ? hash : ts[0].dataset.tab);
+      }
+    });
+  }
 })();
