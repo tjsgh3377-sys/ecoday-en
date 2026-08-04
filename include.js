@@ -32,7 +32,6 @@
       label: "Contact Us",
       items: [
         { label: "Downloads", href: "resources.html" },
-        { label: "Promotion Video", href: "videos.html" },
         { label: "Online Inquiry", href: "contact.html" },
         { label: "Location", href: "location.html" }
       ]
