@@ -1,0 +1,37 @@
+{
+  "history": {
+    "items": [
+      { "year": "2015", "desc": "Ecoday Co., Ltd. founded" },
+      { "year": "2018", "desc": "Expanded road-stud registration on the Public Procurement Service (KONEPS)" },
+      { "year": "2020", "desc": "Registered construction · electrical works · outdoor advertising businesses / factory registration" },
+      { "year": "2022", "desc": "Expanded LED landscape lighting · design fence · bollard lineups" },
+      { "year": "2023", "desc": "Secured numerous patents including the low-power smart battery power system" },
+      { "year": "2024", "desc": "Venture business certification / in-house R&D department recognition" }
+    ]
+  },
+  "business": {
+    "items": [
+      { "en": "Road Stud", "title": "Road Stud", "desc": "High-brightness LED road studs in hybrid, battery, solar and mains (AC) types.", "img": "assets/photos/IMG_6088.jpg", "href": "roadstud.html" },
+      { "en": "Landscape Lighting", "title": "LED Landscape Lighting", "desc": "Line, floor, fence-post and bollard lights, wall lights, gobo projectors and more.", "img": "assets/photos/IMG_7987.JPG", "href": "lighting.html" },
+      { "en": "Bollard", "title": "Bollard", "desc": "Solar, hybrid, non-illuminated and stainless bollards secure pedestrian safety.", "img": "assets/photos/IMG_6458.JPG", "href": "bollard.html" },
+      { "en": "Design Fence", "title": "Design Fence", "desc": "Vehicle guard rails, pedestrian protection fences and LED curb-stone lighting.", "img": "assets/photos/IMG_6460.JPG", "href": "fence.html" },
+      { "en": "Traffic / Chevron Sign", "title": "Traffic & Chevron Signs", "desc": "Solar and mains LED internally-lit signs boost nighttime visibility.", "img": "assets/photos/IMG_4377.jpg", "href": "sign.html" },
+      { "en": "In-Ground Traffic Light", "title": "In-Ground Traffic Light", "desc": "In-ground signals synced with pedestrian lights protect smartphone-focused walkers.", "img": "assets/photos/IMG_3269.JPG", "href": "signal.html" }
+    ]
+  },
+  "products": {
+    "items": [
+      { "title": "Road Stud", "en": "Road Stud", "img": "assets/photos/prod_roadstud.jpg", "href": "roadstud.html", "chips": ["Hybrid", "Battery", "Solar", "Mains (AC)"] },
+      { "title": "Landscape Lighting", "en": "Landscape Lighting Fixtures", "img": "assets/photos/prod_lighting.jpg", "href": "lighting.html", "chips": ["Line Light", "Floor Light", "Logo Projector"] },
+      { "title": "Bollard", "en": "Bollard", "img": "assets/photos/prod_bollard.jpg", "href": "bollard.html", "chips": ["LED Bollard", "Self-generating", "Stainless"] },
+      { "title": "Design Fence", "en": "Design Fence", "img": "assets/photos/prod_fence.jpg", "href": "fence.html", "chips": ["Vehicle Guard", "Pedestrian Fence", "LED Curb"] },
+      { "title": "In-Ground Traffic Light", "en": "In-Ground Traffic Light", "img": "assets/photos/prod_signal.jpg", "href": "signal.html", "chips": ["EDBL-200", "Pedestrian Safety"] },
+      { "title": "Traffic & Chevron Signs", "en": "Traffic Safety Signs & Chevron Sign", "img": "assets/photos/prod_sign.jpg", "href": "sign.html", "chips": ["Solar LED", "LED Internal Light"] }
+    ]
+  },
+  "downloads": {
+    "items": [
+      { "title": "Ecoday Integrated Product Catalog", "desc": "Road studs · bollards · LED landscape lighting · fences · signs · in-ground signals · PDF", "subject": "Integrated Product Catalog" }
+    ]
+  }
+}

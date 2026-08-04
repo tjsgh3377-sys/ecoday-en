@@ -1,0 +1,9 @@
+# Local-only admin tooling — must NOT be published to GitHub Pages
+admin.html
+admin.config.json
+serve.ps1
+
+# OS / editor cruft
+Thumbs.db
+Desktop.ini
+.DS_Store
