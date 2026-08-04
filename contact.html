@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Online Inquiry | Ecoday Co., Ltd.</title>
+  <meta name="description" content="Ecoday product quote and technical inquiries — get a fast consultation through the online inquiry form." />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-group="contact" data-page="contact">
+
+  <section class="pagehero">
+    <div class="container">
+      <div class="crumb"><a href="index.html">HOME</a><span>/</span> Contact Us <span>/</span> Online Inquiry</div>
+      <span class="eyebrow">Online Inquiry</span>
+      <h1>Online Inquiry</h1>
+      <p class="lead">Leave your questions about products, specifications, procurement numbers or on-site installation, and our staff will respond promptly.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="form-card reveal">
+          <form id="inq">
+            <div class="row2">
+              <div class="field"><label for="name">Name / Contact *</label><input id="name" name="name" required placeholder="John Doe" /></div>
+              <div class="field"><label for="company">Organization / Company</label><input id="company" name="company" placeholder="City Hall · Construction Co." /></div>
+            </div>
+            <div class="row2">
+              <div class="field"><label for="phone">Phone *</label><input id="phone" name="phone" required placeholder="010-0000-0000" /></div>
+              <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="name@example.com" /></div>
+            </div>
+            <div class="field">
+              <label for="topic">Inquiry Type</label>
+              <select id="topic" name="topic">
+                <option>Road Stud</option>
+                <option>Bollard</option>
+                <option>LED Landscape Lighting</option>
+                <option>Design Fence</option>
+                <option>Traffic &amp; Chevron Signs</option>
+                <option>In-Ground Traffic Light</option>
+                <option>Other / Quote Inquiry</option>
+              </select>
+            </div>
+            <div class="field"><label for="msg">Message *</label><textarea id="msg" name="msg" required placeholder="Include product name, quantity, installation area and desired delivery date for a more accurate consultation."></textarea></div>
+            <button type="submit" class="btn btn-green" style="width:100%">Send Inquiry →</button>
+            <p style="font-size:12.5px;color:var(--muted);margin-top:14px">* Your default email program opens on send. You may also call our main line at 032-574-1770.</p>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <div class="info-card">
+            <h3>Direct Contact</h3>
+            <div class="info-row"><div class="ic">☎</div><div><b>Phone</b><span>032-574-1770</span></div></div>
+            <div class="info-row"><div class="ic">✉</div><div><b>Email</b><span>ecoday-road@daum.net</span></div></div>
+            <div class="info-row"><div class="ic">🖶</div><div><b>Fax</b><span>032-574-1772</span></div></div>
+            <div class="info-row" style="border-bottom:0"><div class="ic">◷</div><div><b>Hours</b><span>Weekdays 09:00 – 18:00 (closed weekends &amp; holidays)</span></div></div>
+          </div>
+          <div style="text-align:center;margin-top:22px" class="reveal">
+            <a class="btn btn-outline" href="location.html">View Location →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="include.js"></script>
+  <script>
+    document.getElementById("inq").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var body =
+        "■ Name/Contact: " + f.name.value + "\n" +
+        "■ Organization/Company: " + f.company.value + "\n" +
+        "■ Phone: " + f.phone.value + "\n" +
+        "■ Email: " + f.email.value + "\n" +
+        "■ Inquiry Type: " + f.topic.value + "\n\n" +
+        f.msg.value;
+      window.location.href = "mailto:ecoday-road@daum.net" +
+        "?subject=" + encodeURIComponent("[Online Inquiry] " + f.topic.value + " - " + f.name.value) +
+        "&body=" + encodeURIComponent(body);
+    });
+  </script>
+</body>
+</html>
