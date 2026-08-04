@@ -76,7 +76,7 @@
         "<p class='ftag'>An eco-friendly specialist that puts customer safety first</p>" +
         "<p class='faddr'><b>HQ</b> B-510, 17 Geobuk-ro, Seo-gu, Incheon, Korea</p>" +
         "<p class='faddr'><b>Gyeonggi Branch</b> 1F, 29 Yeongbuk-ro 203beon-gil, Yeongbuk-myeon, Pocheon-si, Gyeonggi-do &nbsp;&nbsp;|&nbsp;&nbsp; <b>Chungcheong Branch</b> 92 Eumbong-ro, Eumbong-myeon, Asan-si, Chungcheongnam-do</p>" +
-        "<p class='faddr'>T. 032-574-1770 &nbsp;&nbsp; F. 032-574-1772 &nbsp;&nbsp; M. ecoday-road@daum.net</p>" +
+        "<p class='faddr'>T. +82 32-574-1770 &nbsp;&nbsp; F. +82 32-574-1772 &nbsp;&nbsp; M. ecoday-road@daum.net</p>" +
       "</div>" +
       "<div class='footer-bot'>" +
         "<span>© 2026 Ecoday Co., Ltd. All rights reserved.</span>" +
