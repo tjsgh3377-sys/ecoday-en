@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ecoday — Admin</title>
+<style>
+  :root{
+    --navy:#0f2540; --green:#1f9d55; --line:#e5e9f0; --muted:#6b7684;
+    --bg:#f4f6f9; --card:#fff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:#1a2233}
+  header{background:var(--navy);color:#fff;padding:14px 22px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}
+  header h1{font-size:18px;margin:0;font-weight:700;letter-spacing:.3px}
+  header .rt{display:flex;gap:10px;align-items:center}
+  .btn{border:0;border-radius:8px;padding:9px 16px;font-size:14px;font-weight:600;cursor:pointer;transition:.15s}
+  .btn:disabled{opacity:.5;cursor:not-allowed}
+  .btn-green{background:var(--green);color:#fff}
+  .btn-green:hover{background:#178047}
+  .btn-ghost{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.4)}
+  .btn-ghost:hover{background:rgba(255,255,255,.12)}
+  .btn-sm{padding:5px 10px;font-size:13px;border-radius:6px}
+  .btn-line{background:#fff;color:var(--navy);border:1px solid var(--line)}
+  .btn-line:hover{background:#f0f3f8}
+  .btn-red{background:#fde8e8;color:#c0392b}
+  .btn-red:hover{background:#f9d5d5}
+  .wrap{max-width:1000px;margin:0 auto;padding:22px}
+  /* login */
+  .login{max-width:360px;margin:12vh auto;background:#fff;border:1px solid var(--line);border-radius:14px;padding:32px 28px;box-shadow:0 8px 30px rgba(15,37,64,.08)}
+  .login h2{margin:0 0 6px;font-size:20px}
+  .login p{margin:0 0 20px;color:var(--muted);font-size:13px}
+  .login input{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:9px;font-size:15px;margin-bottom:12px}
+  .login .btn{width:100%}
+  .err{color:#c0392b;font-size:13px;margin-top:8px;min-height:18px}
+  /* tabs */
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+  .tab{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 18px;font-size:14px;font-weight:600;cursor:pointer;color:var(--muted)}
+  .tab.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+  /* section */
+  .sec-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
+  .sec-head h2{margin:0;font-size:19px}
+  .sec-head .cnt{color:var(--muted);font-size:13px;font-weight:500}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px;margin-bottom:12px}
+  .item-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+  .item-top .tag{font-size:12px;font-weight:700;color:var(--green);letter-spacing:.5px}
+  .item-actions{display:flex;gap:6px}
+  .fld{margin-bottom:11px}
+  .fld:last-child{margin-bottom:0}
+  .fld label{display:block;font-size:12px;font-weight:600;color:var(--muted);margin-bottom:4px;text-transform:uppercase;letter-spacing:.4px}
+  .fld input,.fld textarea{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit}
+  .fld textarea{resize:vertical;min-height:60px}
+  .imgrow{display:flex;gap:12px;align-items:flex-start}
+  .imgrow .thumb{width:96px;height:72px;flex:0 0 96px;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#eef1f6;display:flex;align-items:center;justify-content:center}
+  .imgrow .thumb img{width:100%;height:100%;object-fit:cover}
+  .imgrow .thumb span{font-size:11px;color:var(--muted)}
+  .imgrow .imgctl{flex:1;min-width:0}
+  .imgrow .imgctl .upl{margin-top:6px}
+  .add-row{margin:6px 0 30px}
+  .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--navy);color:#fff;padding:12px 22px;border-radius:10px;font-size:14px;box-shadow:0 8px 30px rgba(0,0,0,.2);opacity:0;pointer-events:none;transition:.25s;z-index:50}
+  .toast.show{opacity:1;bottom:34px}
+  .toast.err{background:#c0392b}
+  .hidden{display:none!important}
+  .savebar{position:sticky;bottom:0;background:rgba(244,246,249,.92);backdrop-filter:blur(6px);border-top:1px solid var(--line);padding:14px 22px;display:flex;justify-content:flex-end;gap:10px;margin:0 -22px -22px}
+  .muted{color:var(--muted);font-size:13px}
+  .dirty-dot{width:8px;height:8px;border-radius:50%;background:#f1c40f;display:inline-block;margin-right:6px}
+</style>
+</head>
+<body>
+
+<!-- ===== LOGIN ===== -->
+<div id="loginView">
+  <div class="login">
+    <h2>Ecoday Admin</h2>
+    <p>Paste your GitHub access token to edit &amp; publish the site. The token is stored only in this browser and never leaves it except to talk to GitHub.</p>
+    <input type="password" id="pw" placeholder="GitHub token (ghp_… or github_pat_…)" autocomplete="off" />
+    <label style="display:flex;align-items:center;gap:7px;font-size:13px;color:var(--muted);margin:-4px 0 12px;cursor:pointer">
+      <input type="checkbox" id="remember" style="width:auto" checked /> Remember this token on this device
+    </label>
+    <button class="btn btn-green" id="loginBtn">Sign in</button>
+    <div class="err" id="loginErr"></div>
+    <p style="font-size:12px;color:var(--muted);margin:14px 0 0;line-height:1.5">
+      Need a token? Create one at <b>github.com → Settings → Developer settings → Personal access tokens</b>
+      with repository <b>Contents: Read and write</b> access to <b>tjsgh3377-sys/ecoday-en</b>.
+    </p>
+  </div>
+</div>
+
+<!-- ===== APP ===== -->
+<div id="appView" class="hidden">
+  <header>
+    <h1>Ecoday Content Manager</h1>
+    <div class="rt">
+      <span class="muted" id="dirtyLabel" style="color:#cdd7e5"></span>
+      <button class="btn btn-ghost btn-sm" id="reloadBtn">Reload</button>
+      <button class="btn btn-ghost btn-sm" id="logoutBtn">Sign out</button>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="tabs" id="tabs"></div>
+    <div id="sections"></div>
+
+    <div class="savebar">
+      <span class="muted" id="saveHint" style="align-self:center"></span>
+      <button class="btn btn-line" id="revertBtn">Discard changes</button>
+      <button class="btn btn-green" id="saveBtn">Save &amp; publish</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---- schema definitions ----
+  var SECTIONS = [
+    { key:"history",  label:"History",       tag:"MILESTONE", fields:[
+        {name:"year", label:"Year", type:"text"},
+        {name:"desc", label:"Description", type:"textarea"}
+      ], summary:function(it){return (it.year||"")+" — "+(it.desc||"");}
+    },
+    { key:"business", label:"Business Area", tag:"BUSINESS", fields:[
+        {name:"en",    label:"Label (EN)", type:"text"},
+        {name:"title", label:"Title", type:"text"},
+        {name:"desc",  label:"Description", type:"textarea"},
+        {name:"img",   label:"Image", type:"image"},
+        {name:"href",  label:"Link (page)", type:"text"}
+      ], summary:function(it){return it.title||it.en||"";}
+    },
+    { key:"products", label:"Products", tag:"PRODUCT", fields:[
+        {name:"title", label:"Title", type:"text"},
+        {name:"en",    label:"Subtitle (EN)", type:"text"},
+        {name:"img",   label:"Image", type:"image"},
+        {name:"href",  label:"Link (page)", type:"text"},
+        {name:"chips", label:"Tags (comma-separated)", type:"chips"}
+      ], summary:function(it){return it.title||"";}
+    },
+    { key:"downloads", label:"Downloads", tag:"DOWNLOAD", fields:[
+        {name:"title",   label:"Title", type:"text"},
+        {name:"desc",    label:"Description", type:"textarea"},
+        {name:"subject", label:"Email subject", type:"text"}
+      ], summary:function(it){return it.title||"";}
+    }
+  ];
+
+  // Products dropdown detail pages (nested editor)
+  var PP_KEY = "__pp__";
+  var PRODUCT_PAGES = [
+    { key:"roadstud", label:"Road Stud" },
+    { key:"bollard",  label:"Bollard" },
+    { key:"lighting", label:"LED Landscape Lighting" },
+    { key:"fence",    label:"Design Fence" },
+    { key:"sign",     label:"Traffic & Chevron Sign" },
+    { key:"signal",   label:"In-Ground Traffic Light" }
+  ];
+  var activeProductKey = PRODUCT_PAGES[0].key;
+
+  // ---- GitHub target (static-hosting publish target) ----
+  var GH = { owner:"tjsgh3377-sys", repo:"ecoday-en", branch:"main", path:"content.json" };
+  var GH_API = "https://api.github.com/repos/" + GH.owner + "/" + GH.repo + "/contents/";
+  var TOKEN_LS_KEY = "ecoday_gh_token";
+
+  var TOKEN = null;       // GitHub personal access token
+  var DATA = null;        // working copy of content.json
+  var ORIGINAL = null;    // pristine JSON string for dirty-check / revert
+  var contentSha = null;  // sha of content.json on GitHub (needed to update it)
+  var activeTab = SECTIONS[0].key;
+
+  var $ = function(id){return document.getElementById(id);};
+
+  // ---------- base64 (UTF-8 safe) ----------
+  function b64EncodeUtf8(str){ return btoa(unescape(encodeURIComponent(str))); }
+  function b64DecodeUtf8(b64){ return decodeURIComponent(escape(atob(String(b64).replace(/\n/g,"")))); }
+
+  // ---------- GitHub REST ----------
+  function ghFetch(path, opts){
+    opts = opts || {};
+    opts.headers = opts.headers || {};
+    opts.headers["Authorization"] = "Bearer " + TOKEN;
+    opts.headers["Accept"] = "application/vnd.github+json";
+    opts.headers["X-GitHub-Api-Version"] = "2022-11-28";
+    return fetch(GH_API + path, opts);
+  }
+  // GET a file's { content(base64), sha }. Resolves {sha:null} if 404 (not created yet).
+  function ghGet(path){
+    return ghFetch(encodeURI(path) + "?ref=" + encodeURIComponent(GH.branch) + "&_=" + Date.now(), { cache:"no-store" })
+      .then(function(r){
+        if(r.status===404) return { sha:null, content:null };
+        if(!r.ok) return r.json().then(function(j){ throw new Error((j&&j.message)||("GitHub GET "+r.status)); });
+        return r.json();
+      });
+  }
+  // PUT (create/update) a file with base64 content + optional sha.
+  function ghPut(path, base64Content, message, sha){
+    var payload = { message:message, content:base64Content, branch:GH.branch };
+    if(sha) payload.sha = sha;
+    return ghFetch(encodeURI(path), {
+      method:"PUT",
+      headers:{ "Content-Type":"application/json" },
+      body:JSON.stringify(payload)
+    }).then(function(r){
+      return r.json().then(function(j){
+        if(!r.ok) throw new Error((j&&j.message)||("GitHub PUT "+r.status));
+        return j;
+      });
+    });
+  }
+
+  // ---------- toast ----------
+  var toastTimer;
+  function toast(msg, isErr){
+    var t=$("toast"); t.textContent=msg; t.className="toast show"+(isErr?" err":"");
+    clearTimeout(toastTimer); toastTimer=setTimeout(function(){t.className="toast";},2600);
+  }
+
+  // ---------- login (validate GitHub token by reading repo) ----------
+  function doLogin(){
+    var pw=$("pw").value.trim();
+    if(!pw){ $("loginErr").textContent="Please paste your GitHub token."; return; }
+    $("loginBtn").disabled=true; $("loginErr").textContent="Verifying token…";
+    TOKEN=pw;
+    // A successful read of content.json confirms the token has repo access.
+    ghGet(GH.path)
+      .then(function(){
+        if($("remember").checked){ try{ localStorage.setItem(TOKEN_LS_KEY, pw); }catch(e){} }
+        else { try{ localStorage.removeItem(TOKEN_LS_KEY); }catch(e){} }
+        $("loginErr").textContent="";
+        enterApp();
+      })
+      .catch(function(err){
+        TOKEN=null;
+        var m=String(err&&err.message||"");
+        if(/401|Bad credentials/i.test(m)) $("loginErr").textContent="Invalid or expired token.";
+        else if(/403|404/.test(m)) $("loginErr").textContent="Token lacks access to "+GH.owner+"/"+GH.repo+".";
+        else $("loginErr").textContent="Could not reach GitHub: "+m;
+      })
+      .then(function(){ $("loginBtn").disabled=false; });
+  }
+
+  function enterApp(){
+    $("loginView").classList.add("hidden");
+    $("appView").classList.remove("hidden");
+    loadContent();
+  }
+
+  function loadContent(){
+    ghGet(GH.path).then(function(file){
+      contentSha = file.sha || null;
+      var d;
+      try{ d = file.content ? JSON.parse(b64DecodeUtf8(file.content)) : {}; }catch(e){ d={}; }
+      // ensure shape
+      SECTIONS.forEach(function(s){
+        if(!d[s.key]) d[s.key]={items:[]};
+        if(!Array.isArray(d[s.key].items)) d[s.key].items=[];
+      });
+      if(!d.productPages) d.productPages={};
+      PRODUCT_PAGES.forEach(function(p){
+        var pg=d.productPages[p.key]||(d.productPages[p.key]={});
+        if(!pg.hero) pg.hero={eyebrow:"",title:p.label,crumb:p.label,lead:""};
+        if(!pg.lineup) pg.lineup={eyebrow:"",title:"",desc:""};
+        if(typeof pg.hasTabs!=="boolean") pg.hasTabs=true;
+        if(!Array.isArray(pg.tabs)) pg.tabs=[];
+        if(typeof pg.hasInstall!=="boolean") pg.hasInstall=true;
+        if(!pg.install) pg.install={eyebrow:"",title:"",desc:"",layout:"cases",cta:"",ctaHref:"contact.html",cases:[],feats:[]};
+        if(!Array.isArray(pg.install.cases)) pg.install.cases=[];
+        if(!Array.isArray(pg.install.feats)) pg.install.feats=[];
+        if(!pg.install.layout) pg.install.layout="cases";
+      });
+      DATA=d;
+      ORIGINAL=JSON.stringify(d);
+      renderTabs(); renderSection(); updateDirty();
+    }).catch(function(){ toast("Failed to load content.json",true); });
+  }
+
+  // ---------- dirty tracking ----------
+  function isDirty(){ return JSON.stringify(DATA)!==ORIGINAL; }
+  function updateDirty(){
+    var d=isDirty();
+    $("dirtyLabel").innerHTML = d ? '<span class="dirty-dot"></span>Unsaved changes' : 'All changes saved';
+    $("saveBtn").disabled=!d; $("revertBtn").disabled=!d;
+  }
+
+  // ---------- tabs ----------
+  function renderTabs(){
+    var host=$("tabs"); host.innerHTML="";
+    SECTIONS.forEach(function(s){
+      var b=document.createElement("button");
+      b.className="tab"+(s.key===activeTab?" on":"");
+      b.textContent=s.label+" ("+DATA[s.key].items.length+")";
+      b.onclick=function(){ activeTab=s.key; renderTabs(); renderSection(); };
+      host.appendChild(b);
+    });
+    var pb=document.createElement("button");
+    pb.className="tab"+(activeTab===PP_KEY?" on":"");
+    pb.textContent="Product Pages ("+PRODUCT_PAGES.length+")";
+    pb.onclick=function(){ activeTab=PP_KEY; renderTabs(); renderSection(); };
+    host.appendChild(pb);
+  }
+
+  function secDef(key){ for(var i=0;i<SECTIONS.length;i++) if(SECTIONS[i].key===key) return SECTIONS[i]; }
+
+  // ---------- section render ----------
+  function renderSection(){
+    if(activeTab===PP_KEY){ renderProductEditor($("sections")); return; }
+    var s=secDef(activeTab);
+    var items=DATA[activeTab].items;
+    var host=$("sections"); host.innerHTML="";
+
+    var head=document.createElement("div");
+    head.className="sec-head";
+    head.innerHTML='<h2>'+s.label+'</h2><span class="cnt">'+items.length+' item'+(items.length!==1?'s':'')+'</span>';
+    host.appendChild(head);
+
+    items.forEach(function(it, idx){
+      host.appendChild(buildItem(s, it, idx, items.length));
+    });
+
+    var addWrap=document.createElement("div");
+    addWrap.className="add-row";
+    var add=document.createElement("button");
+    add.className="btn btn-green btn-sm";
+    add.textContent="+ Add "+s.label.replace(/s$/,'').toLowerCase()+" item";
+    add.onclick=function(){
+      var blank={}; s.fields.forEach(function(f){ blank[f.name]=(f.type==="chips")?[]:""; });
+      items.push(blank); renderTabs(); renderSection(); updateDirty();
+      window.scrollTo(0,document.body.scrollHeight);
+    };
+    addWrap.appendChild(add);
+    host.appendChild(addWrap);
+  }
+
+  function buildItem(s, it, idx, total){
+    var card=document.createElement("div"); card.className="item";
+
+    var top=document.createElement("div"); top.className="item-top";
+    top.innerHTML='<span class="tag">'+s.tag+' #'+(idx+1)+'</span>';
+    var acts=document.createElement("div"); acts.className="item-actions";
+    acts.appendChild(mkBtn("↑","btn-line btn-sm",idx===0,function(){ move(s.key,idx,-1); }));
+    acts.appendChild(mkBtn("↓","btn-line btn-sm",idx===total-1,function(){ move(s.key,idx,1); }));
+    acts.appendChild(mkBtn("Delete","btn-red btn-sm",false,function(){
+      if(confirm("Delete this item?")){ DATA[s.key].items.splice(idx,1); renderTabs(); renderSection(); updateDirty(); }
+    }));
+    top.appendChild(acts);
+    card.appendChild(top);
+
+    s.fields.forEach(function(f){
+      card.appendChild(buildField(f, it));
+    });
+    return card;
+  }
+
+  function mkBtn(txt,cls,disabled,fn){
+    var b=document.createElement("button"); b.className="btn "+cls; b.textContent=txt;
+    b.disabled=!!disabled; b.onclick=fn; return b;
+  }
+
+  function move(key, idx, dir){
+    var arr=DATA[key].items, ni=idx+dir;
+    if(ni<0||ni>=arr.length) return;
+    var tmp=arr[idx]; arr[idx]=arr[ni]; arr[ni]=tmp;
+    renderSection(); updateDirty();
+  }
+
+  function buildField(f, it){
+    var wrap=document.createElement("div"); wrap.className="fld";
+    var lab=document.createElement("label"); lab.textContent=f.label; wrap.appendChild(lab);
+
+    if(f.type==="textarea"){
+      var ta=document.createElement("textarea");
+      ta.value=it[f.name]||"";
+      ta.oninput=function(){ it[f.name]=ta.value; updateDirty(); };
+      wrap.appendChild(ta);
+    } else if(f.type==="chips"){
+      var inp=document.createElement("input"); inp.type="text";
+      inp.value=Array.isArray(it[f.name])?it[f.name].join(", "):(it[f.name]||"");
+      inp.placeholder="e.g. Hybrid, Battery, Solar";
+      inp.oninput=function(){
+        it[f.name]=inp.value.split(",").map(function(x){return x.trim();}).filter(function(x){return x;});
+        updateDirty();
+      };
+      wrap.appendChild(inp);
+    } else if(f.type==="image"){
+      wrap.appendChild(buildImageField(f, it));
+    } else {
+      var t=document.createElement("input"); t.type="text";
+      t.value=it[f.name]||"";
+      t.oninput=function(){ it[f.name]=t.value; updateDirty(); };
+      wrap.appendChild(t);
+    }
+    return wrap;
+  }
+
+  function buildImageField(f, it){
+    var row=document.createElement("div"); row.className="imgrow";
+    var thumb=document.createElement("div"); thumb.className="thumb";
+    function paintThumb(){
+      thumb.innerHTML="";
+      if(it[f.name]){ var im=document.createElement("img"); im.src=it[f.name]+"?_t="+Date.now(); im.onerror=function(){thumb.innerHTML='<span>no image</span>';}; thumb.appendChild(im); }
+      else { thumb.innerHTML='<span>no image</span>'; }
+    }
+    paintThumb();
+
+    var ctl=document.createElement("div"); ctl.className="imgctl";
+    var path=document.createElement("input"); path.type="text"; path.value=it[f.name]||""; path.placeholder="assets/photos/xxx.jpg";
+    path.oninput=function(){ it[f.name]=path.value; paintThumb(); updateDirty(); };
+    ctl.appendChild(path);
+
+    var upl=document.createElement("div"); upl.className="upl";
+    var file=document.createElement("input"); file.type="file"; file.accept="image/*"; file.style.fontSize="13px";
+    file.onchange=function(){
+      if(!file.files||!file.files[0]) return;
+      var fobj=file.files[0];
+      var base=fobj.name.replace(/\.[^.]+$/,"").replace(/[^A-Za-z0-9._-]/g,"_");
+      var ext=(fobj.name.match(/\.[^.]+$/)||[""])[0].toLowerCase();
+      // unique-ish name to avoid clobbering existing photos
+      var safe=base+"-"+Date.now()+ext;
+      var repoPath="assets/photos/"+safe;
+      upl.querySelector(".upmsg") && upl.querySelector(".upmsg").remove();
+      var msg=document.createElement("span"); msg.className="upmsg muted"; msg.textContent=" Uploading…"; upl.appendChild(msg);
+      var reader=new FileReader();
+      reader.onload=function(){
+        var b64=String(reader.result).split(",")[1]||"";   // strip data:...;base64,
+        ghPut(repoPath, b64, "Upload image "+safe+" via admin", null)
+          .then(function(){ it[f.name]=repoPath; path.value=repoPath; paintThumb(); updateDirty(); msg.textContent=" Uploaded ✓"; toast("Image uploaded to GitHub"); })
+          .catch(function(err){ msg.textContent=" Upload failed"; toast("Upload failed: "+(err&&err.message||""),true); })
+          .then(function(){ setTimeout(function(){ msg&&msg.remove(); },2500); file.value=""; });
+      };
+      reader.onerror=function(){ msg.textContent=" Read failed"; toast("Could not read file",true); file.value=""; };
+      reader.readAsDataURL(fobj);
+    };
+    upl.appendChild(file);
+    ctl.appendChild(upl);
+
+    row.appendChild(thumb); row.appendChild(ctl);
+    return row;
+  }
+
+  // ---------- generic field/list helpers (used by product editor) ----------
+  function el(tag,cls){ var e=document.createElement(tag); if(cls) e.className=cls; return e; }
+  function fldWrap(labelText){ var w=el("div","fld"); var l=el("label"); l.textContent=labelText; w.appendChild(l); return w; }
+  function fText(labelText,obj,key,ph){
+    var w=fldWrap(labelText); var i=el("input"); i.type="text"; i.value=obj[key]||""; if(ph)i.placeholder=ph;
+    i.oninput=function(){ obj[key]=i.value; updateDirty(); }; w.appendChild(i); return w;
+  }
+  function fArea(labelText,obj,key){
+    var w=fldWrap(labelText); var t=el("textarea"); t.value=obj[key]||"";
+    t.oninput=function(){ obj[key]=t.value; updateDirty(); }; w.appendChild(t); return w;
+  }
+  function fImage(labelText,obj,key){
+    var w=fldWrap(labelText); w.appendChild(buildImageField({name:key},obj)); return w;
+  }
+  function fCheck(labelText,obj,key){
+    var w=el("div","fld"); var lab=el("label"); lab.style.display="flex"; lab.style.alignItems="center"; lab.style.gap="8px"; lab.style.textTransform="none";
+    var c=el("input"); c.type="checkbox"; c.checked=!!obj[key]; c.style.width="auto";
+    c.onchange=function(){ obj[key]=c.checked; updateDirty(); };
+    lab.appendChild(c); lab.appendChild(document.createTextNode(labelText)); w.appendChild(lab); return w;
+  }
+  function fSelect(labelText,obj,key,options,onChange){
+    var w=fldWrap(labelText); var s=el("select");
+    s.style.cssText="width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;font-size:14px";
+    options.forEach(function(o){ var op=el("option"); op.value=o.value; op.textContent=o.label; if(obj[key]===o.value)op.selected=true; s.appendChild(op); });
+    s.onchange=function(){ obj[key]=s.value; updateDirty(); if(onChange)onChange(); };
+    w.appendChild(s); return w;
+  }
+  function groupCard(title, nodes){
+    var c=el("div","item");
+    var top=el("div","item-top"); top.innerHTML='<span class="tag">'+title+'</span>'; c.appendChild(top);
+    nodes.forEach(function(n){ if(n) c.appendChild(n); });
+    return c;
+  }
+  function arrMove(arr,idx,dir,rerender){ var ni=idx+dir; if(ni<0||ni>=arr.length)return; var t=arr[idx]; arr[idx]=arr[ni]; arr[ni]=t; rerender(); updateDirty(); }
+  function arrDel(arr,idx,rerender,msg){ if(confirm(msg||"Delete this item?")){ arr.splice(idx,1); rerender(); updateDirty(); } }
+  function rowActions(arr,idx,rerender,delMsg){
+    var a=el("div","item-actions");
+    a.appendChild(mkBtn("↑","btn-line btn-sm",idx===0,function(){ arrMove(arr,idx,-1,rerender); }));
+    a.appendChild(mkBtn("↓","btn-line btn-sm",idx===arr.length-1,function(){ arrMove(arr,idx,1,rerender); }));
+    a.appendChild(mkBtn("Delete","btn-red btn-sm",false,function(){ arrDel(arr,idx,rerender,delMsg); }));
+    return a;
+  }
+  function addBtn(text,fn){ var b=el("button","btn btn-green btn-sm"); b.textContent=text; b.onclick=fn; var w=el("div"); w.style.margin="4px 0 8px"; w.appendChild(b); return w; }
+
+  // ---------- product-page editor ----------
+  function renderProductEditor(host){
+    host.innerHTML="";
+    var pg=DATA.productPages[activeProductKey];
+
+    // page picker
+    var headBar=el("div","sec-head");
+    var h2=el("h2"); h2.textContent="Product Pages"; headBar.appendChild(h2);
+    var picker=el("select");
+    picker.style.cssText="padding:8px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-weight:600";
+    PRODUCT_PAGES.forEach(function(p){ var o=el("option"); o.value=p.key; o.textContent=p.label; if(p.key===activeProductKey)o.selected=true; picker.appendChild(o); });
+    picker.onchange=function(){ activeProductKey=picker.value; renderProductEditor(host); };
+    headBar.appendChild(picker);
+    host.appendChild(headBar);
+
+    // hero
+    host.appendChild(groupCard("HERO (top banner)",[
+      fText("Eyebrow (small label)",pg.hero,"eyebrow"),
+      fText("Title (H1)",pg.hero,"title"),
+      fText("Breadcrumb label",pg.hero,"crumb"),
+      fArea("Lead paragraph",pg.hero,"lead")
+    ]));
+
+    // line-up heading
+    host.appendChild(groupCard("LINE-UP heading",[
+      fText("Eyebrow",pg.lineup,"eyebrow"),
+      fText("Title (H2)",pg.lineup,"title"),
+      fArea("Description",pg.lineup,"desc")
+    ]));
+
+    // tabs + cards
+    if(pg.hasTabs){
+      host.appendChild(tabsEditor(pg,host));
+    } else {
+      if(!pg.tabs[0]) pg.tabs[0]={id:"all",label:"",cards:[]};
+      host.appendChild(cardsEditor(pg.tabs[0],"PRODUCT CARDS",host));
+    }
+
+    // soft section
+    host.appendChild(softEditor(pg,host));
+  }
+
+  function tabsEditor(pg,host){
+    var wrap=el("div");
+    var lab=el("div","sec-head"); lab.innerHTML='<h2 style="font-size:16px">Tabs &amp; product cards</h2><span class="cnt">'+pg.tabs.length+' tab(s)</span>'; wrap.appendChild(lab);
+    function rr(){ renderProductEditor(host); }
+    pg.tabs.forEach(function(tab,ti){
+      var c=el("div","item");
+      var top=el("div","item-top");
+      top.innerHTML='<span class="tag">TAB #'+(ti+1)+'</span>';
+      top.appendChild(rowActions(pg.tabs,ti,rr,"Delete this whole tab and its cards?"));
+      c.appendChild(top);
+      c.appendChild(fText("Tab label",tab,"label"));
+      c.appendChild(fText("Tab id (anchor, letters/numbers)",tab,"id","e.g. hybrid"));
+      c.appendChild(cardsEditor(tab,"Cards",host));
+      wrap.appendChild(c);
+    });
+    wrap.appendChild(addBtn("+ Add tab",function(){ pg.tabs.push({id:"tab"+(pg.tabs.length+1),label:"New Tab",cards:[]}); rr(); }));
+    return wrap;
+  }
+
+  function cardsEditor(tab,titleLabel,host){
+    var wrap=el("div"); wrap.style.cssText="border-left:3px solid var(--line);padding-left:12px;margin:10px 0";
+    if(!Array.isArray(tab.cards)) tab.cards=[];
+    function rr(){ renderProductEditor(host); }
+    var lab=el("div"); lab.style.cssText="font-size:12px;font-weight:700;color:var(--muted);margin:4px 0 8px";
+    lab.textContent=titleLabel+" ("+tab.cards.length+")"; wrap.appendChild(lab);
+    tab.cards.forEach(function(card,ci){
+      var c=el("div","item"); c.style.background="#fbfcfe";
+      var top=el("div","item-top"); top.innerHTML='<span class="tag">CARD #'+(ci+1)+'</span>';
+      top.appendChild(rowActions(tab.cards,ci,rr,"Delete this card?")); c.appendChild(top);
+      c.appendChild(fImage("Image",card,"img"));
+      c.appendChild(fCheck("Contain image on white background (for product shots)",card,"pc"));
+      c.appendChild(fText("Tag line (small badge)",card,"tagLine"));
+      c.appendChild(fText("Title",card,"title"));
+      c.appendChild(fText("Model",card,"model"));
+      c.appendChild(specsEditor(card,rr));
+      c.appendChild(featuresEditor(card,rr));
+      wrap.appendChild(c);
+    });
+    wrap.appendChild(addBtn("+ Add card",function(){ tab.cards.push({img:"",alt:"",pc:false,tagLine:"",title:"New product",model:"",specs:[],features:[]}); rr(); }));
+    return wrap;
+  }
+
+  function specsEditor(card,rr){
+    if(!Array.isArray(card.specs)) card.specs=[];
+    var w=fldWrap("Spec table (key / value rows)");
+    card.specs.forEach(function(sp,si){
+      var row=el("div"); row.style.cssText="display:flex;gap:6px;margin-bottom:6px;align-items:center";
+      var k=el("input"); k.type="text"; k.value=sp.k||""; k.placeholder="Label"; k.style.cssText="flex:0 0 150px;padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px";
+      k.oninput=function(){ sp.k=k.value; updateDirty(); };
+      var v=el("input"); v.type="text"; v.value=sp.v||""; v.placeholder="Value"; v.style.cssText="flex:1;padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px";
+      v.oninput=function(){ sp.v=v.value; updateDirty(); };
+      var d=mkBtn("✕","btn-red btn-sm",false,function(){ card.specs.splice(si,1); rr(); updateDirty(); });
+      row.appendChild(k); row.appendChild(v); row.appendChild(d); w.appendChild(row);
+    });
+    var b=el("button","btn btn-line btn-sm"); b.textContent="+ Add spec row"; b.onclick=function(){ card.specs.push({k:"",v:""}); rr(); }; w.appendChild(b);
+    return w;
+  }
+
+  function featuresEditor(card,rr){
+    if(!Array.isArray(card.features)) card.features=[];
+    var w=fldWrap("Feature bullet list");
+    card.features.forEach(function(ft,fi){
+      var row=el("div"); row.style.cssText="display:flex;gap:6px;margin-bottom:6px;align-items:center";
+      var i=el("input"); i.type="text"; i.value=ft||""; i.style.cssText="flex:1;padding:7px 9px;border:1px solid var(--line);border-radius:7px;font-size:13px";
+      i.oninput=function(){ card.features[fi]=i.value; updateDirty(); };
+      var d=mkBtn("✕","btn-red btn-sm",false,function(){ card.features.splice(fi,1); rr(); updateDirty(); });
+      row.appendChild(i); row.appendChild(d); w.appendChild(row);
+    });
+    var b=el("button","btn btn-line btn-sm"); b.textContent="+ Add bullet"; b.onclick=function(){ card.features.push(""); rr(); }; w.appendChild(b);
+    return w;
+  }
+
+  function softEditor(pg,host){
+    var ins=pg.install; function rr(){ renderProductEditor(host); }
+    var nodes=[
+      fCheck("Show this bottom section",{get v(){return pg.hasInstall;},set v(x){pg.hasInstall=x;}},"v"),
+      fSelect("Layout",ins,"layout",[{value:"cases",label:"Installation cases (image cards)"},{value:"feats",label:"Numbered feature grid"}],rr),
+      fText("Eyebrow",ins,"eyebrow"),
+      fText("Title (H2)",ins,"title"),
+      fArea("Description",ins,"desc")
+    ];
+    var card=groupCard("BOTTOM SECTION",nodes);
+
+    if(ins.layout==="feats"){
+      if(!Array.isArray(ins.feats)) ins.feats=[];
+      var fl=fldWrap("Feature items");
+      ins.feats.forEach(function(ft,i){
+        var it=el("div","item"); it.style.background="#fbfcfe";
+        var top=el("div","item-top"); top.innerHTML='<span class="tag">FEAT #'+(i+1)+'</span>';
+        top.appendChild(rowActions(ins.feats,i,rr,"Delete this feature?")); it.appendChild(top);
+        it.appendChild(fText("Number (e.g. 01)",ft,"no"));
+        it.appendChild(fText("Title",ft,"title"));
+        it.appendChild(fArea("Description",ft,"desc"));
+        fl.appendChild(it);
+      });
+      var ab=el("button","btn btn-green btn-sm"); ab.textContent="+ Add feature"; ab.onclick=function(){ ins.feats.push({no:"",title:"",desc:""}); rr(); }; fl.appendChild(ab);
+      card.appendChild(fl);
+    } else {
+      if(!Array.isArray(ins.cases)) ins.cases=[];
+      var cl=fldWrap("Installation case cards");
+      ins.cases.forEach(function(cs,i){
+        var it=el("div","item"); it.style.background="#fbfcfe";
+        var top=el("div","item-top"); top.innerHTML='<span class="tag">CASE #'+(i+1)+'</span>';
+        top.appendChild(rowActions(ins.cases,i,rr,"Delete this case?")); it.appendChild(top);
+        it.appendChild(fImage("Image",cs,"img"));
+        it.appendChild(fText("Caption",cs,"title"));
+        cl.appendChild(it);
+      });
+      var ab2=el("button","btn btn-green btn-sm"); ab2.textContent="+ Add case"; ab2.onclick=function(){ ins.cases.push({img:"",alt:"",title:""}); rr(); }; cl.appendChild(ab2);
+      card.appendChild(cl);
+    }
+
+    card.appendChild(fText("Button text (leave empty to hide)",ins,"cta"));
+    card.appendChild(fText("Button link",ins,"ctaHref","contact.html"));
+    return card;
+  }
+
+  // ---------- save / revert ----------
+  function doSave(){
+    if(!isDirty()) return;
+    $("saveBtn").disabled=true;
+    var snapshot=JSON.stringify(DATA);           // dirty-baseline after this save
+    var body=JSON.stringify(DATA,null,2)+"\n";
+    var b64=b64EncodeUtf8(body);
+    var msg="Update content.json via admin ("+new Date().toISOString()+")";
+    toast("Publishing to GitHub…");
+    ghPut(GH.path, b64, msg, contentSha)
+      .then(function(j){
+        if(j&&j.content&&j.content.sha) contentSha=j.content.sha;
+        ORIGINAL=snapshot; updateDirty();
+        toast("Published. Live site updates in ~1–2 min.");
+      })
+      .catch(function(err){
+        var m=String(err&&err.message||"");
+        if(/409|does not match|sha/i.test(m)){
+          toast("Someone else changed the file — reloading latest, then re-save.",true);
+          loadContent();
+        } else {
+          toast("Publish failed: "+m,true);
+        }
+        $("saveBtn").disabled=false;
+      });
+  }
+
+  function doRevert(){
+    if(!isDirty()) return;
+    if(!confirm("Discard all unsaved changes?")) return;
+    DATA=JSON.parse(ORIGINAL); renderTabs(); renderSection(); updateDirty(); toast("Changes discarded");
+  }
+
+  // ---------- wire up ----------
+  $("loginBtn").onclick=doLogin;
+  $("pw").addEventListener("keydown",function(e){ if(e.key==="Enter") doLogin(); });
+  $("saveBtn").onclick=doSave;
+  $("revertBtn").onclick=doRevert;
+  $("reloadBtn").onclick=function(){ if(isDirty()&&!confirm("Reload will discard unsaved changes. Continue?")) return; loadContent(); };
+  $("logoutBtn").onclick=function(){
+    if(isDirty()&&!confirm("Sign out and discard unsaved changes?")) return;
+    TOKEN=null; contentSha=null;
+    try{ localStorage.removeItem(TOKEN_LS_KEY); }catch(e){}
+    $("appView").classList.add("hidden"); $("loginView").classList.remove("hidden"); $("pw").value="";
+  };
+  window.addEventListener("beforeunload",function(e){ if(isDirty()){ e.preventDefault(); e.returnValue=""; } });
+
+  $("saveHint").textContent="Save commits content.json to GitHub — the live site rebuilds in ~1–2 min.";
+
+  // ---------- auto sign-in with a remembered token ----------
+  var stored=null; try{ stored=localStorage.getItem(TOKEN_LS_KEY); }catch(e){}
+  if(stored){ $("pw").value=stored; TOKEN=stored;
+    ghGet(GH.path).then(function(){ $("loginErr").textContent=""; enterApp(); })
+      .catch(function(){ TOKEN=null; /* stay on login; token may be expired */ });
+  }
+})();
+</script>
+</body>
+</html>

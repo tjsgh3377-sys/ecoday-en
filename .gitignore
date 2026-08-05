@@ -1,5 +1,7 @@
-# Local-only admin tooling — must NOT be published to GitHub Pages
-admin.html
+# admin.html IS published — it edits the site via the GitHub API using a
+# token you paste at runtime (nothing secret is committed).
+
+# Local-only server tooling — must NOT be published to GitHub Pages
 admin.config.json
 serve.ps1
 
