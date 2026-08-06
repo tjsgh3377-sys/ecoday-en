@@ -25,7 +25,12 @@
   .btn-line:hover{background:#f0f3f8}
   .btn-red{background:#fde8e8;color:#c0392b}
   .btn-red:hover{background:#f9d5d5}
-  .wrap{max-width:1000px;margin:0 auto;padding:22px}
+  .wrap{max-width:1180px;margin:0 auto;padding:22px;display:flex;gap:26px;align-items:flex-start}
+  .content{flex:1;min-width:0}
+  /* left sidebar */
+  .sidebar{flex:0 0 216px;position:sticky;top:78px;display:flex;flex-direction:column;gap:3px}
+  .side-group{font-size:11px;font-weight:700;color:var(--muted);letter-spacing:.5px;text-transform:uppercase;margin:14px 6px 4px}
+  .side-group:first-child{margin-top:0}
   /* login */
   .login{max-width:360px;margin:12vh auto;background:#fff;border:1px solid var(--line);border-radius:14px;padding:32px 28px;box-shadow:0 8px 30px rgba(15,37,64,.08)}
   .login h2{margin:0 0 6px;font-size:20px}
@@ -33,9 +38,9 @@
   .login input{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:9px;font-size:15px;margin-bottom:12px}
   .login .btn{width:100%}
   .err{color:#c0392b;font-size:13px;margin-top:8px;min-height:18px}
-  /* tabs */
-  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
-  .tab{background:#fff;border:1px solid var(--line);border-radius:999px;padding:8px 18px;font-size:14px;font-weight:600;cursor:pointer;color:var(--muted)}
+  /* sidebar nav buttons */
+  .tab{display:block;width:100%;text-align:left;background:#fff;border:1px solid var(--line);border-radius:9px;padding:11px 15px;font-size:14px;font-weight:600;cursor:pointer;color:#3a4658}
+  .tab:hover{background:#f0f3f8}
   .tab.on{background:var(--navy);color:#fff;border-color:var(--navy)}
   /* section */
   .sec-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px}
@@ -61,9 +66,15 @@
   .toast.show{opacity:1;bottom:34px}
   .toast.err{background:#c0392b}
   .hidden{display:none!important}
-  .savebar{position:sticky;bottom:0;background:rgba(244,246,249,.92);backdrop-filter:blur(6px);border-top:1px solid var(--line);padding:14px 22px;display:flex;justify-content:flex-end;gap:10px;margin:0 -22px -22px}
+  .savebar{position:sticky;bottom:0;background:rgba(244,246,249,.92);backdrop-filter:blur(6px);border-top:1px solid var(--line);padding:14px 0;display:flex;justify-content:flex-end;gap:10px;margin-top:24px}
   .muted{color:var(--muted);font-size:13px}
   .dirty-dot{width:8px;height:8px;border-radius:50%;background:#f1c40f;display:inline-block;margin-right:6px}
+  @media(max-width:760px){
+    .wrap{flex-direction:column}
+    .sidebar{flex:none;width:100%;position:static;flex-direction:row;flex-wrap:wrap;gap:6px;margin-bottom:6px}
+    .tab{width:auto}
+    .side-group{width:100%;margin:8px 4px 2px}
+  }
 </style>
 </head>
 <body>
@@ -98,13 +109,15 @@
   </header>
 
   <div class="wrap">
-    <div class="tabs" id="tabs"></div>
-    <div id="sections"></div>
+    <aside class="sidebar" id="tabs"></aside>
+    <div class="content">
+      <div id="sections"></div>
 
-    <div class="savebar">
-      <span class="muted" id="saveHint" style="align-self:center"></span>
-      <button class="btn btn-line" id="revertBtn">변경 취소</button>
-      <button class="btn btn-green" id="saveBtn">저장 &amp; 게시</button>
+      <div class="savebar">
+        <span class="muted" id="saveHint" style="align-self:center"></span>
+        <button class="btn btn-line" id="revertBtn">변경 취소</button>
+        <button class="btn btn-green" id="saveBtn">저장 &amp; 게시</button>
+      </div>
     </div>
   </div>
 </div>
@@ -157,6 +170,22 @@
     { key:"signal",   label:"바닥형 보행신호등" }
   ];
   var activeProductKey = PRODUCT_PAGES[0].key;
+
+  // Site-wide header/footer settings (singleton object, not a list)
+  var SITE_KEY = "__site__";
+  var SITE_DEFAULT = {
+    headerLogo:"assets/logo_ecoday_mark.png",
+    footerLogo:"assets/logo_ecoday.png",
+    tagline:"An eco-friendly specialist that puts customer safety first",
+    addrHQ:"B-510, 17 Geobuk-ro, Seo-gu, Incheon, Korea",
+    addrGyeonggi:"1F, 29 Yeongbuk-ro 203beon-gil, Yeongbuk-myeon, Pocheon-si, Gyeonggi-do",
+    addrChungcheong:"92 Eumbong-ro, Eumbong-myeon, Asan-si, Chungcheongnam-do",
+    tel:"+82 32-574-1770",
+    fax:"+82 32-574-1772",
+    email:"ecoday-road@daum.net",
+    copyright:"© 2026 Ecoday Co., Ltd. All rights reserved.",
+    registered:"Registered: Construction · Electrical · Outdoor Advertising"
+  };
 
   // ---- GitHub target (static-hosting publish target) ----
   var GH = { owner:"tjsgh3377-sys", repo:"ecoday-en", branch:"main", path:"content.json" };
@@ -269,6 +298,8 @@
         if(!Array.isArray(pg.install.feats)) pg.install.feats=[];
         if(!pg.install.layout) pg.install.layout="cases";
       });
+      if(!d.site||typeof d.site!=="object") d.site={};
+      for(var sk in SITE_DEFAULT){ if(typeof d.site[sk]!=="string") d.site[sk]=SITE_DEFAULT[sk]; }
       DATA=d;
       ORIGINAL=JSON.stringify(d);
       renderTabs(); renderSection(); updateDirty();
@@ -286,24 +317,29 @@
   // ---------- tabs ----------
   function renderTabs(){
     var host=$("tabs"); host.innerHTML="";
-    SECTIONS.forEach(function(s){
+    function grp(txt){ var g=document.createElement("div"); g.className="side-group"; g.textContent=txt; host.appendChild(g); }
+    function tab(label,key,onclick){
       var b=document.createElement("button");
-      b.className="tab"+(s.key===activeTab?" on":"");
-      b.textContent=s.label+" ("+DATA[s.key].items.length+")";
-      b.onclick=function(){ activeTab=s.key; renderTabs(); renderSection(); };
+      b.className="tab"+(key===activeTab?" on":"");
+      b.textContent=label;
+      b.onclick=onclick;
       host.appendChild(b);
+    }
+    grp("콘텐츠");
+    SECTIONS.forEach(function(s){
+      tab(s.label+" ("+DATA[s.key].items.length+")", s.key, function(){ activeTab=s.key; renderTabs(); renderSection(); });
     });
-    var pb=document.createElement("button");
-    pb.className="tab"+(activeTab===PP_KEY?" on":"");
-    pb.textContent="제품 상세페이지 ("+PRODUCT_PAGES.length+")";
-    pb.onclick=function(){ activeTab=PP_KEY; renderTabs(); renderSection(); };
-    host.appendChild(pb);
+    grp("제품 상세");
+    tab("제품 상세페이지 ("+PRODUCT_PAGES.length+")", PP_KEY, function(){ activeTab=PP_KEY; renderTabs(); renderSection(); });
+    grp("사이트");
+    tab("헤더 · 푸터 설정", SITE_KEY, function(){ activeTab=SITE_KEY; renderTabs(); renderSection(); });
   }
 
   function secDef(key){ for(var i=0;i<SECTIONS.length;i++) if(SECTIONS[i].key===key) return SECTIONS[i]; }
 
   // ---------- section render ----------
   function renderSection(){
+    if(activeTab===SITE_KEY){ renderSiteEditor($("sections")); return; }
     if(activeTab===PP_KEY){ renderProductEditor($("sections")); return; }
     var s=secDef(activeTab);
     var items=DATA[activeTab].items;
@@ -639,6 +675,41 @@
     card.appendChild(fText("버튼 문구 (비우면 숨김)",ins,"cta"));
     card.appendChild(fText("버튼 링크",ins,"ctaHref","contact.html"));
     return card;
+  }
+
+  // ---------- site (header/footer) editor ----------
+  function renderSiteEditor(host){
+    host.innerHTML="";
+    var s=DATA.site;
+    var head=el("div","sec-head");
+    head.innerHTML='<h2>헤더 · 푸터 설정</h2><span class="cnt">사이트 전체에 적용</span>';
+    host.appendChild(head);
+
+    var note=el("div"); note.style.cssText="background:#eef6ff;border:1px solid #cfe4fb;color:#245a8d;font-size:13px;border-radius:10px;padding:11px 14px;margin-bottom:14px;line-height:1.5";
+    note.textContent="여기서 바꾼 로고와 회사정보는 모든 페이지의 상단 헤더 / 하단 푸터에 함께 반영됩니다.";
+    host.appendChild(note);
+
+    host.appendChild(groupCard("헤더 (상단)",[
+      fImage("헤더 로고 이미지",s,"headerLogo")
+    ]));
+    host.appendChild(groupCard("푸터 - 로고 & 슬로건",[
+      fImage("푸터 로고 이미지",s,"footerLogo"),
+      fText("슬로건 (로고 아래 한 줄)",s,"tagline")
+    ]));
+    host.appendChild(groupCard("푸터 - 주소",[
+      fText("본사 주소",s,"addrHQ"),
+      fText("경기지사 주소",s,"addrGyeonggi"),
+      fText("충청지사 주소",s,"addrChungcheong")
+    ]));
+    host.appendChild(groupCard("푸터 - 연락처",[
+      fText("전화 (T.)",s,"tel"),
+      fText("팩스 (F.)",s,"fax"),
+      fText("이메일 (M.)",s,"email")
+    ]));
+    host.appendChild(groupCard("푸터 - 하단 문구",[
+      fText("저작권 문구",s,"copyright"),
+      fText("등록 업종 문구",s,"registered")
+    ]));
   }
 
   // ---------- save / revert ----------

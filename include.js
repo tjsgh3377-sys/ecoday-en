@@ -41,6 +41,27 @@
   var current = document.body.getAttribute("data-group");
   var currentPage = document.body.getAttribute("data-page");
 
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
+    });
+  }
+
+  // Default header/footer values — overridden by content.json > site (editable in admin).
+  var SITE_DEFAULT = {
+    headerLogo: "assets/logo_ecoday_mark.png",
+    footerLogo: "assets/logo_ecoday.png",
+    tagline: "An eco-friendly specialist that puts customer safety first",
+    addrHQ: "B-510, 17 Geobuk-ro, Seo-gu, Incheon, Korea",
+    addrGyeonggi: "1F, 29 Yeongbuk-ro 203beon-gil, Yeongbuk-myeon, Pocheon-si, Gyeonggi-do",
+    addrChungcheong: "92 Eumbong-ro, Eumbong-myeon, Asan-si, Chungcheongnam-do",
+    tel: "+82 32-574-1770",
+    fax: "+82 32-574-1772",
+    email: "ecoday-road@daum.net",
+    copyright: "© 2026 Ecoday Co., Ltd. All rights reserved.",
+    registered: "Registered: Construction · Electrical · Outdoor Advertising"
+  };
+
   function menuHtml() {
     var out = "";
     order.forEach(function (key) {
@@ -60,9 +81,10 @@
     return out;
   }
 
+  var D = SITE_DEFAULT;
   var header =
     "<header class='site-header'><div class='container nav'>" +
-      "<a class='brand' href='index.html'><img class='brand-logo' src='assets/logo_ecoday_mark.png' alt='ECODAY'></a>" +
+      "<a class='brand' href='index.html'><img class='brand-logo' src='" + esc(D.headerLogo) + "' alt='ECODAY'></a>" +
       "<ul class='menu'>" + menuHtml() +
         "<li><a class='nav-cta' href='contact.html'>Contact</a></li>" +
       "</ul>" +
@@ -72,15 +94,15 @@
   var footer =
     "<footer class='site-footer'><div class='container'>" +
       "<div class='footer-info'>" +
-        "<img class='footer-logo' src='assets/logo_ecoday.png' alt='ECODAY CO., LTD.'>" +
-        "<p class='ftag'>An eco-friendly specialist that puts customer safety first</p>" +
-        "<p class='faddr'><b>HQ</b> B-510, 17 Geobuk-ro, Seo-gu, Incheon, Korea</p>" +
-        "<p class='faddr'><b>Gyeonggi Branch</b> 1F, 29 Yeongbuk-ro 203beon-gil, Yeongbuk-myeon, Pocheon-si, Gyeonggi-do &nbsp;&nbsp;|&nbsp;&nbsp; <b>Chungcheong Branch</b> 92 Eumbong-ro, Eumbong-myeon, Asan-si, Chungcheongnam-do</p>" +
-        "<p class='faddr'>T. +82 32-574-1770 &nbsp;&nbsp; F. +82 32-574-1772 &nbsp;&nbsp; M. ecoday-road@daum.net</p>" +
+        "<img class='footer-logo' src='" + esc(D.footerLogo) + "' alt='ECODAY CO., LTD.'>" +
+        "<p class='ftag'>" + esc(D.tagline) + "</p>" +
+        "<p class='faddr faddr-hq'><b>HQ</b> " + esc(D.addrHQ) + "</p>" +
+        "<p class='faddr faddr-branch'><b>Gyeonggi Branch</b> " + esc(D.addrGyeonggi) + " &nbsp;&nbsp;|&nbsp;&nbsp; <b>Chungcheong Branch</b> " + esc(D.addrChungcheong) + "</p>" +
+        "<p class='faddr faddr-contact'>T. " + esc(D.tel) + " &nbsp;&nbsp; F. " + esc(D.fax) + " &nbsp;&nbsp; M. " + esc(D.email) + "</p>" +
       "</div>" +
       "<div class='footer-bot'>" +
-        "<span>© 2026 Ecoday Co., Ltd. All rights reserved.</span>" +
-        "<span>Registered: Construction · Electrical · Outdoor Advertising</span>" +
+        "<span class='fcopy'>" + esc(D.copyright) + "</span>" +
+        "<span class='freg'>" + esc(D.registered) + "</span>" +
       "</div>" +
     "</div></footer>";
 
@@ -89,6 +111,29 @@
   document.body.insertBefore(h.firstChild, document.body.firstChild);
   var f = document.createElement("div"); f.innerHTML = footer;
   document.body.appendChild(f.firstChild);
+
+  // Apply editable header/footer overrides from content.json > site (admin-managed).
+  function applySite(s) {
+    var q = function (sel) { return document.querySelector(sel); };
+    var hl = q(".brand-logo"); if (hl && s.headerLogo) hl.src = s.headerLogo;
+    var fl = q(".footer-logo"); if (fl && s.footerLogo) fl.src = s.footerLogo;
+    var tag = q(".ftag"); if (tag && s.tagline != null) tag.textContent = s.tagline;
+    var hq = q(".faddr-hq"); if (hq) hq.innerHTML = "<b>HQ</b> " + esc(s.addrHQ);
+    var br = q(".faddr-branch"); if (br) br.innerHTML = "<b>Gyeonggi Branch</b> " + esc(s.addrGyeonggi) + " &nbsp;&nbsp;|&nbsp;&nbsp; <b>Chungcheong Branch</b> " + esc(s.addrChungcheong);
+    var ct = q(".faddr-contact"); if (ct) ct.innerHTML = "T. " + esc(s.tel) + " &nbsp;&nbsp; F. " + esc(s.fax) + " &nbsp;&nbsp; M. " + esc(s.email);
+    var cp = q(".fcopy"); if (cp && s.copyright != null) cp.textContent = s.copyright;
+    var rg = q(".freg"); if (rg && s.registered != null) rg.textContent = s.registered;
+  }
+  fetch("content.json", { cache: "no-store" })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      if (data && data.site) {
+        var s = {}; for (var k in SITE_DEFAULT) s[k] = SITE_DEFAULT[k];
+        for (var j in data.site) if (data.site[j] != null && data.site[j] !== "") s[j] = data.site[j];
+        applySite(s);
+      }
+    })
+    .catch(function () { /* keep default header/footer */ });
 
   // mark current sub-page inside dropdown
   if (currentPage) {

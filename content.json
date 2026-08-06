@@ -1452,5 +1452,18 @@
       },
       "hasInstall": true
     }
+  },
+  "site": {
+    "headerLogo": "assets/logo_ecoday_mark.png",
+    "footerLogo": "assets/logo_ecoday.png",
+    "tagline": "An eco-friendly specialist that puts customer safety first",
+    "addrHQ": "B-510, 17 Geobuk-ro, Seo-gu, Incheon, Korea",
+    "addrGyeonggi": "1F, 29 Yeongbuk-ro 203beon-gil, Yeongbuk-myeon, Pocheon-si, Gyeonggi-do",
+    "addrChungcheong": "92 Eumbong-ro, Eumbong-myeon, Asan-si, Chungcheongnam-do",
+    "tel": "+82 32-574-1770",
+    "fax": "+82 32-574-1772",
+    "email": "ecoday-road@daum.net",
+    "copyright": "© 2026 Ecoday Co., Ltd. All rights reserved.",
+    "registered": "Registered: Construction · Electrical · Outdoor Advertising"
   }
 }
