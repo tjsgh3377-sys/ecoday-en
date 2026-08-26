@@ -67,6 +67,26 @@
 
   <script src="include.js"></script>
   <script>
+    // Force English browser validation messages (override OS/browser language)
+    (function () {
+      var form = document.getElementById("inq");
+      var fields = form.querySelectorAll("input, textarea, select");
+      Array.prototype.forEach.call(fields, function (el) {
+        el.addEventListener("invalid", function () {
+          if (el.validity.valueMissing) {
+            el.setCustomValidity("Please fill out this field.");
+          } else if (el.validity.typeMismatch && el.type === "email") {
+            el.setCustomValidity("Please enter a valid email address.");
+          } else {
+            el.setCustomValidity("");
+          }
+        });
+        el.addEventListener("input", function () {
+          el.setCustomValidity("");
+        });
+      });
+    })();
+
     document.getElementById("inq").addEventListener("submit", function (e) {
       e.preventDefault();
       var f = e.target;
