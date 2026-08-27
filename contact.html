@@ -90,32 +90,23 @@
     // Cloudflare Worker that stores the inquiry so staff can view it in the admin page.
     var INQUIRY_WORKER = "https://ecoday-admin.tjsgh3377.workers.dev";
 
-    function mailtoFallback(f) {
-      var body =
-        "■ Name/Contact: " + f.name.value + "\n" +
-        "■ Organization/Company: " + f.company.value + "\n" +
-        "■ Phone: " + f.phone.value + "\n" +
-        "■ Email: " + f.email.value + "\n" +
-        "■ Inquiry Type: " + f.topic.value + "\n\n" +
-        f.msg.value;
-      window.location.href = "mailto:ecoday-road@daum.net" +
-        "?subject=" + encodeURIComponent("[Online Inquiry] " + f.topic.value + " - " + f.name.value) +
-        "&body=" + encodeURIComponent(body);
-    }
-
-    function showSent() {
+    function showNotice(msg, isErr) {
       var form = document.getElementById("inq");
-      var ok = document.getElementById("inqSent");
-      if (!ok) {
-        ok = document.createElement("div");
-        ok.id = "inqSent";
-        ok.style.cssText = "background:#e8f7ee;border:1px solid #bfe6cd;color:#1e6b3f;" +
-          "border-radius:12px;padding:14px 16px;margin-bottom:18px;font-size:14.5px;font-weight:600";
-        form.parentNode.insertBefore(ok, form);
+      var box = document.getElementById("inqNotice");
+      if (!box) {
+        box = document.createElement("div");
+        box.id = "inqNotice";
+        box.style.cssText = "border-radius:12px;padding:14px 16px;margin-bottom:18px;font-size:14.5px;font-weight:600";
+        form.parentNode.insertBefore(box, form);
       }
-      ok.textContent = "✔ Your inquiry has been received. Our staff will get back to you as soon as possible.";
-      ok.style.display = "block";
-      ok.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (isErr) {
+        box.style.background = "#fdecec"; box.style.border = "1px solid #f3c2c2"; box.style.color = "#a12a2a";
+      } else {
+        box.style.background = "#e8f7ee"; box.style.border = "1px solid #bfe6cd"; box.style.color = "#1e6b3f";
+      }
+      box.textContent = msg;
+      box.style.display = "block";
+      box.scrollIntoView({ behavior: "smooth", block: "center" });
     }
 
     document.getElementById("inq").addEventListener("submit", function (e) {
@@ -141,15 +132,15 @@
       .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
       .then(function (res) {
         if (res.ok && res.j && res.j.ok) {
-          showSent();
+          showNotice("✔ Your inquiry has been received. Our staff will get back to you as soon as possible.", false);
           f.reset();
         } else {
           throw new Error((res.j && res.j.error) || "submit failed");
         }
       })
       .catch(function () {
-        // If the server is unreachable, fall back to the visitor's email client.
-        mailtoFallback(f);
+        // No email fallback — ask the visitor to retry or call the main line.
+        showNotice("⚠ Sorry, your inquiry could not be sent right now. Please try again in a moment, or call us at +82 32-574-1770.", true);
       })
       .then(function () {
         if (btn) { btn.disabled = false; btn.textContent = origText; }
