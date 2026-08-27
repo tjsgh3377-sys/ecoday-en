@@ -150,7 +150,8 @@
     { key:"downloads", label:"자료실", tag:"자료", fields:[
         {name:"title",   label:"제목", type:"text"},
         {name:"desc",    label:"내용", type:"textarea"},
-        {name:"subject", label:"이메일 제목", type:"text"}
+        {name:"url",     label:"링크 URL (입력 시 이 주소로 이동, 비우면 이메일 요청)", type:"text"},
+        {name:"subject", label:"이메일 제목 (URL 비었을 때만 사용)", type:"text"}
       ], summary:function(it){return it.title||"";}
     }
   ];

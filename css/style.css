@@ -258,8 +258,8 @@ p{margin:0}
 .dl:hover{border-color:var(--green);box-shadow:var(--shadow)}
 .dl .ic{width:48px;height:48px;border-radius:10px;background:var(--bg-soft);color:var(--green-d);
   display:flex;align-items:center;justify-content:center;font-size:22px;flex:none}
-.dl b{color:var(--ink);font-size:16px}
-.dl span{color:var(--muted);font-size:13px}
+.dl b{color:var(--ink);font-size:16px;display:block;margin-bottom:4px}
+.dl span{color:var(--muted);font-size:13px;display:block}
 .dl .go{margin-left:auto;color:var(--green-d);font-weight:800}
 
 /* ---- Video grid ---- */
