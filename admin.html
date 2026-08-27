@@ -269,6 +269,7 @@
     $("loginView").classList.add("hidden");
     $("appView").classList.remove("hidden");
     loadContent();
+    loadInquiries();   // 사이드바 배지에 새 문의 수 표시
   }
 
   function loadContent(){
@@ -312,6 +313,7 @@
 
   // ---------- tabs ----------
   function renderTabs(){
+    if(!DATA) return;   // content.json 로드 전이면 사이드바를 그리지 않음
     var host=$("tabs"); host.innerHTML="";
     function grp(txt){ var g=document.createElement("div"); g.className="side-group"; g.textContent=txt; host.appendChild(g); }
     function tab(label,key,onclick){
@@ -329,12 +331,21 @@
     tab("제품 상세페이지 ("+PRODUCT_PAGES.length+")", PP_KEY, function(){ activeTab=PP_KEY; renderTabs(); renderSection(); });
     grp("사이트");
     tab("헤더 · 푸터 설정", SITE_KEY, function(){ activeTab=SITE_KEY; renderTabs(); renderSection(); });
+    grp("문의");
+    var unread=INQ.loaded?inqUnread():0;
+    tab("문의 내역"+(INQ.loaded?(" ("+INQ.list.length+")"):"")+(unread?(" · "+unread+" NEW"):""), INQ_KEY, function(){
+      activeTab=INQ_KEY; renderTabs(); renderSection();
+      if(!INQ.loaded) loadInquiries(function(ok){ if(activeTab===INQ_KEY) renderInquiries($("sections")); });
+    });
   }
 
   function secDef(key){ for(var i=0;i<SECTIONS.length;i++) if(SECTIONS[i].key===key) return SECTIONS[i]; }
 
   // ---------- section render ----------
   function renderSection(){
+    var savebar=document.querySelector(".savebar");
+    if(savebar) savebar.style.display=(activeTab===INQ_KEY)?"none":"";
+    if(activeTab===INQ_KEY){ renderInquiries($("sections")); return; }
     if(activeTab===SITE_KEY){ renderSiteEditor($("sections")); return; }
     if(activeTab===PP_KEY){ renderProductEditor($("sections")); return; }
     var s=secDef(activeTab);
@@ -706,6 +717,109 @@
       fText("저작권 문구",s,"copyright"),
       fText("등록 업종 문구",s,"registered")
     ]));
+  }
+
+  // ---------- 문의 내역 (inquiries.json) ----------
+  var INQ_KEY = "__inq__";
+  var INQ = { list:[], sha:null, loaded:false };
+
+  function inqUnread(){ var n=0; INQ.list.forEach(function(x){ if(!x.read) n++; }); return n; }
+
+  function loadInquiries(cb){
+    ghGet("inquiries.json").then(function(file){
+      INQ.sha = file.sha || null;
+      try{ INQ.list = file.content ? JSON.parse(b64DecodeUtf8(file.content)) : []; }
+      catch(e){ INQ.list = []; }
+      if(!Array.isArray(INQ.list)) INQ.list=[];
+      INQ.loaded = true;
+      renderTabs();
+      if(cb) cb(true);
+    }).catch(function(){ if(cb) cb(false); });
+  }
+
+  function saveInquiries(message){
+    var body=JSON.stringify(INQ.list,null,2)+"\n";
+    return ghPut("inquiries.json", b64EncodeUtf8(body), message||"Update inquiries via admin", INQ.sha)
+      .then(function(j){ if(j&&j.content&&j.content.sha) INQ.sha=j.content.sha; });
+  }
+
+  function fmtTs(ts){
+    var d=new Date(ts); if(isNaN(d.getTime())) return String(ts||"");
+    function p(n){ return (n<10?"0":"")+n; }
+    return d.getFullYear()+"-"+p(d.getMonth()+1)+"-"+p(d.getDate())+" "+p(d.getHours())+":"+p(d.getMinutes());
+  }
+
+  function renderInquiries(host){
+    host.innerHTML="";
+    var unread=inqUnread();
+    var head=el("div","sec-head");
+    head.innerHTML='<h2>문의 내역</h2><span class="cnt">'+
+      (INQ.loaded ? (INQ.list.length+"건"+(unread?(" · 새 문의 "+unread):"")) : "불러오는 중…")+'</span>';
+    host.appendChild(head);
+
+    var bar=el("div"); bar.style.cssText="margin-bottom:14px";
+    var rb=el("button","btn btn-line btn-sm"); rb.textContent="새로고침";
+    rb.onclick=function(){
+      INQ.loaded=false; renderInquiries(host);
+      loadInquiries(function(ok){ if(ok) renderInquiries(host); else toast("문의 내역을 불러오지 못했습니다",true); });
+    };
+    bar.appendChild(rb);
+    host.appendChild(bar);
+
+    if(!INQ.loaded){ var l=el("div","muted"); l.textContent="불러오는 중…"; host.appendChild(l); return; }
+    if(!INQ.list.length){ var e0=el("div","item"); e0.style.textAlign="center"; e0.style.color="var(--muted,#889)"; e0.textContent="아직 접수된 문의가 없습니다."; host.appendChild(e0); return; }
+
+    // 최신순 (배열 뒤가 최신)
+    for(var i=INQ.list.length-1; i>=0; i--){
+      host.appendChild(buildInquiryCard(INQ.list[i], i, host));
+    }
+  }
+
+  function buildInquiryCard(it, idx, host){
+    var card=el("div","item");
+    if(!it.read) card.style.borderColor="#2f9e6f";
+    var top=el("div","item-top");
+    var tag=el("span","tag"); tag.textContent=(it.topic||"문의")+(it.read?"":" · NEW"); top.appendChild(tag);
+    var acts=el("div","item-actions");
+    acts.appendChild(mkBtn(it.read?"안읽음":"읽음","btn-line btn-sm",false,function(){
+      var prev=it.read; it.read=!it.read;
+      saveInquiries(it.read?"Mark inquiry read":"Mark inquiry unread")
+        .then(function(){ renderTabs(); renderInquiries(host); })
+        .catch(function(){ it.read=prev; toast("저장 실패",true); });
+    }));
+    acts.appendChild(mkBtn("삭제","btn-red btn-sm",false,function(){
+      if(!confirm("이 문의를 삭제할까요?")) return;
+      var removed=INQ.list.splice(idx,1)[0];
+      saveInquiries("Delete inquiry via admin")
+        .then(function(){ renderTabs(); renderInquiries(host); toast("삭제했습니다"); })
+        .catch(function(){ INQ.list.splice(idx,0,removed); toast("삭제 실패",true); });
+    }));
+    top.appendChild(acts);
+    card.appendChild(top);
+
+    var meta=el("div"); meta.style.cssText="font-size:12.5px;color:var(--muted,#889);margin:2px 0 10px";
+    meta.textContent=fmtTs(it.ts);
+    card.appendChild(meta);
+
+    card.appendChild(inqRow("이름/연락처", it.name));
+    card.appendChild(inqRow("회사/기관", it.company));
+    card.appendChild(inqRow("전화", it.phone));
+    card.appendChild(inqRow("이메일", it.email));
+    card.appendChild(inqMsg("내용", it.msg));
+    return card;
+  }
+
+  function inqRow(label,val){
+    var w=el("div"); w.style.cssText="display:flex;gap:10px;margin:3px 0;font-size:14px";
+    var l=el("div"); l.style.cssText="min-width:92px;color:var(--muted,#889);font-weight:600"; l.textContent=label;
+    var v=el("div"); v.style.flex="1"; v.style.wordBreak="break-word"; v.textContent=val||"—";
+    w.appendChild(l); w.appendChild(v); return w;
+  }
+  function inqMsg(label,val){
+    var w=el("div"); w.style.marginTop="8px";
+    var l=el("div"); l.style.cssText="color:var(--muted,#889);font-weight:600;font-size:14px;margin-bottom:4px"; l.textContent=label;
+    var v=el("div"); v.style.cssText="white-space:pre-wrap;background:#fbfcfe;border:1px solid var(--line,#e5e9f0);border-radius:8px;padding:10px 12px;font-size:14px;line-height:1.55"; v.textContent=val||"—";
+    w.appendChild(l); w.appendChild(v); return w;
   }
 
   // ---------- save / revert ----------

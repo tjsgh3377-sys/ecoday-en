@@ -87,9 +87,10 @@
       });
     })();
 
-    document.getElementById("inq").addEventListener("submit", function (e) {
-      e.preventDefault();
-      var f = e.target;
+    // Cloudflare Worker that stores the inquiry so staff can view it in the admin page.
+    var INQUIRY_WORKER = "https://ecoday-admin.tjsgh3377.workers.dev";
+
+    function mailtoFallback(f) {
       var body =
         "■ Name/Contact: " + f.name.value + "\n" +
         "■ Organization/Company: " + f.company.value + "\n" +
@@ -100,6 +101,59 @@
       window.location.href = "mailto:ecoday-road@daum.net" +
         "?subject=" + encodeURIComponent("[Online Inquiry] " + f.topic.value + " - " + f.name.value) +
         "&body=" + encodeURIComponent(body);
+    }
+
+    function showSent() {
+      var form = document.getElementById("inq");
+      var ok = document.getElementById("inqSent");
+      if (!ok) {
+        ok = document.createElement("div");
+        ok.id = "inqSent";
+        ok.style.cssText = "background:#e8f7ee;border:1px solid #bfe6cd;color:#1e6b3f;" +
+          "border-radius:12px;padding:14px 16px;margin-bottom:18px;font-size:14.5px;font-weight:600";
+        form.parentNode.insertBefore(ok, form);
+      }
+      ok.textContent = "✔ Your inquiry has been received. Our staff will get back to you as soon as possible.";
+      ok.style.display = "block";
+      ok.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    document.getElementById("inq").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var btn = f.querySelector('button[type="submit"]');
+      var origText = btn ? btn.textContent : "";
+      if (btn) { btn.disabled = true; btn.textContent = "Sending…"; }
+
+      fetch(INQUIRY_WORKER, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          action: "submitInquiry",
+          name: f.name.value,
+          company: f.company.value,
+          phone: f.phone.value,
+          email: f.email.value,
+          topic: f.topic.value,
+          msg: f.msg.value
+        })
+      })
+      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (res) {
+        if (res.ok && res.j && res.j.ok) {
+          showSent();
+          f.reset();
+        } else {
+          throw new Error((res.j && res.j.error) || "submit failed");
+        }
+      })
+      .catch(function () {
+        // If the server is unreachable, fall back to the visitor's email client.
+        mailtoFallback(f);
+      })
+      .then(function () {
+        if (btn) { btn.disabled = false; btn.textContent = origText; }
+      });
     });
   </script>
 </body>
