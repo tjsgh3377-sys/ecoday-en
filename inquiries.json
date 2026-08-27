@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "id": "mtb5pbmkkseo",
+    "ts": "2026-08-27T06:43:25.340Z",
+    "name": "__TEST__ delete me",
+    "company": "connection test",
+    "phone": "010-0000-0000",
+    "email": "t@t.com",
+    "topic": "Other / Quote Inquiry",
+    "msg": "connection test - please delete via admin",
+    "read": false
+  }
+]
