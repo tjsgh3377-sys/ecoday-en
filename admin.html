@@ -150,6 +150,7 @@
     { key:"downloads", label:"자료실", tag:"자료", fields:[
         {name:"title",   label:"제목", type:"text"},
         {name:"desc",    label:"내용", type:"textarea"},
+        {name:"soon",    label:"준비중 (Coming soon) — 체크 시 링크 비활성화", type:"checkbox"},
         {name:"url",     label:"링크 URL (입력 시 이 주소로 이동, 비우면 이메일 요청)", type:"text"},
         {name:"subject", label:"이메일 제목 (URL 비었을 때만 사용)", type:"text"}
       ], summary:function(it){return it.title||"";}
@@ -428,6 +429,14 @@
       wrap.appendChild(inp);
     } else if(f.type==="image"){
       wrap.appendChild(buildImageField(f, it));
+    } else if(f.type==="checkbox"){
+      wrap.removeChild(lab);
+      var cl=document.createElement("label");
+      cl.style.cssText="display:flex;align-items:center;gap:8px;text-transform:none;font-weight:600;cursor:pointer";
+      var c=document.createElement("input"); c.type="checkbox"; c.checked=!!it[f.name]; c.style.width="auto";
+      c.onchange=function(){ it[f.name]=c.checked; updateDirty(); };
+      cl.appendChild(c); cl.appendChild(document.createTextNode(f.label));
+      wrap.appendChild(cl);
     } else {
       var t=document.createElement("input"); t.type="text";
       t.value=it[f.name]||"";

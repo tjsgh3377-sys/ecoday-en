@@ -51,15 +51,20 @@
       // Contact Us > Downloads (resources.html)
       if (data.downloads && data.downloads.items) {
         set("cms-downloads", data.downloads.items.map(function (it) {
+          var inner = '<div class="ic">▤</div><div><b>' + esc(it.title) + '</b><span>' + esc(it.desc) + '</span></div>';
+          if (it.soon) {
+            // Not yet available — non-clickable "Coming soon" state.
+            return '<div class="dl reveal in" style="cursor:default">' + inner +
+              '<div class="go" style="color:var(--muted)">Coming soon</div></div>';
+          }
           var hasUrl = it.url && String(it.url).trim();
           var href = hasUrl
             ? esc(String(it.url).trim())
             : ("mailto:ecoday-road@daum.net?subject=" + esc("[Material Request] " + (it.subject || it.title || "")));
           var extra = hasUrl ? ' target="_blank" rel="noopener"' : '';
           var label = hasUrl ? 'View →' : 'Request →';
-          return '<a class="dl reveal in" href="' + href + '"' + extra + '>' +
-            '<div class="ic">▤</div><div><b>' + esc(it.title) + '</b><span>' + esc(it.desc) +
-            '</span></div><div class="go">' + label + '</div></a>';
+          return '<a class="dl reveal in" href="' + href + '"' + extra + '>' + inner +
+            '<div class="go">' + label + '</div></a>';
         }).join(""));
       }
 
