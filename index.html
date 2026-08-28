@@ -141,7 +141,7 @@
         <p>Feel free to reach out for product materials, quotations, installation consulting and more.</p>
       </div>
       <div class="contact-wrap">
-        <form class="form-card reveal" action="mailto:ecoday-road@daum.net" method="post" enctype="text/plain">
+        <form id="homeInq" class="form-card reveal" action="mailto:ecoday-road@daum.net" method="post" enctype="text/plain">
           <h3>Online Inquiry</h3>
           <div class="row2">
             <div class="field"><label>Name / Company</label><input type="text" name="name_company" placeholder="Name or company" required /></div>
@@ -172,6 +172,27 @@
     </div>
   </section>
 
+  <script>
+    // Force English browser validation messages on the Get in Touch form
+    // (override OS/browser language, e.g. Korean "이 입력란을 작성하세요.")
+    (function () {
+      var form = document.getElementById("homeInq");
+      if (!form) return;
+      var fields = form.querySelectorAll("input, textarea, select");
+      Array.prototype.forEach.call(fields, function (el) {
+        el.addEventListener("invalid", function () {
+          if (el.validity.valueMissing) {
+            el.setCustomValidity("Please fill out this field.");
+          } else if (el.validity.typeMismatch && el.type === "email") {
+            el.setCustomValidity("Please enter a valid email address.");
+          } else {
+            el.setCustomValidity("");
+          }
+        });
+        el.addEventListener("input", function () { el.setCustomValidity(""); });
+      });
+    })();
+  </script>
   <script src="content.js"></script>
   <script src="include.js"></script>
 </body>
