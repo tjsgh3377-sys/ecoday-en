@@ -1,0 +1,1694 @@
+{
+  "history": {
+    "items": [
+      {
+        "year": "2015",
+        "desc": "주식회사 에코데이 설립"
+      },
+      {
+        "year": "2018",
+        "desc": "도로표지병 조달청(나라장터) 등록 확대"
+      },
+      {
+        "year": "2020",
+        "desc": "건설업 · 전기공사업 · 옥외광고업 등록 / 공장등록"
+      },
+      {
+        "year": "2022",
+        "desc": "LED 경관조명 · 디자인형 울타리 · 볼라드 라인업 확대"
+      },
+      {
+        "year": "2023",
+        "desc": "저전력 스마트배터리 전원시스템 등 다수 특허 확보"
+      },
+      {
+        "year": "2024",
+        "desc": "벤처기업 확인 / 기업부설 연구개발전담부서 인정"
+      }
+    ]
+  },
+  "business": {
+    "items": [
+      {
+        "en": "Road Stud",
+        "title": "도로표지병",
+        "desc": "하이브리드 · 배터리 · 태양광 · 전기(AC)형의 고휘도 LED 도로표지병.",
+        "img": "assets/photos/IMG_6088.jpg",
+        "href": "roadstud.html"
+      },
+      {
+        "en": "Landscape Lighting",
+        "title": "LED 경관조명",
+        "desc": "라인·바닥·펜스기둥·볼라드 조명, 벽부등, 고보 로고젝터 등 다양한 경관조명.",
+        "img": "assets/photos/IMG_7987.JPG",
+        "href": "lighting.html"
+      },
+      {
+        "en": "Bollard",
+        "title": "볼라드",
+        "desc": "태양광·하이브리드·비조명·스테인리스 볼라드로 보행자 안전을 확보.",
+        "img": "assets/photos/IMG_6458.JPG",
+        "href": "bollard.html"
+      },
+      {
+        "en": "Design Fence",
+        "title": "디자인형 울타리",
+        "desc": "차량방호책, 보행자 방호울타리, LED 경계석 조명형 울타리.",
+        "img": "assets/photos/IMG_6460.JPG",
+        "href": "fence.html"
+      },
+      {
+        "en": "Traffic / Chevron Sign",
+        "title": "교통안전·갈매기 표지",
+        "desc": "태양광·전기형 LED 내부조명으로 야간 시인성을 높인 표지.",
+        "img": "assets/photos/IMG_4377.jpg",
+        "href": "sign.html"
+      },
+      {
+        "en": "In-Ground Traffic Light",
+        "title": "바닥형 보행신호등",
+        "desc": "보행신호와 연동되는 바닥형 신호등으로 스마트폰 보행자를 보호.",
+        "img": "assets/photos/IMG_3269.JPG",
+        "href": "signal.html"
+      }
+    ]
+  },
+  "products": {
+    "items": [
+      {
+        "title": "도로표지병",
+        "en": "Road Stud",
+        "img": "assets/photos/prod_roadstud.jpg",
+        "href": "roadstud.html",
+        "chips": [
+          "하이브리드",
+          "배터리",
+          "태양광",
+          "전기(AC)"
+        ]
+      },
+      {
+        "title": "LED 경관조명",
+        "en": "Landscape Lighting",
+        "img": "assets/photos/prod_lighting.jpg",
+        "href": "lighting.html",
+        "chips": [
+          "라인조명",
+          "바닥조명",
+          "투광등",
+          "지중등"
+        ]
+      },
+      {
+        "title": "볼라드",
+        "en": "Bollard",
+        "img": "assets/photos/prod_bollard.jpg",
+        "href": "bollard.html",
+        "chips": [
+          "LED 볼라드",
+          "자가발전",
+          "스테인리스"
+        ]
+      },
+      {
+        "title": "디자인형 울타리",
+        "en": "Design Fence",
+        "img": "assets/photos/prod_fence.jpg",
+        "href": "fence.html",
+        "chips": [
+          "차량방호책",
+          "보행자 울타리",
+          "LED 경계석"
+        ]
+      },
+      {
+        "title": "바닥형 보행신호등",
+        "en": "In-Ground Traffic Light",
+        "img": "assets/photos/prod_signal.jpg",
+        "href": "signal.html",
+        "chips": [
+          "EDBL-200",
+          "보행자 안전"
+        ]
+      },
+      {
+        "title": "교통안전·갈매기 표지",
+        "en": "Traffic & Chevron Signs",
+        "img": "assets/photos/prod_sign.jpg",
+        "href": "sign.html",
+        "chips": [
+          "태양광 LED",
+          "LED 내부조명"
+        ]
+      }
+    ]
+  },
+  "downloads": {
+    "items": [
+      {
+        "title": "에코데이 통합 제품 카탈로그",
+        "desc": "도로표지병 · 볼라드 · LED 경관조명 · 울타리 · 표지 · 바닥형 신호등 · PDF",
+        "subject": "통합 제품 카탈로그",
+        "url": "https://portfolio.haodesign.co.kr/?cate_id=114",
+        "soon": true
+      }
+    ]
+  },
+  "productPages": {
+    "roadstud": {
+      "hero": {
+        "eyebrow": "도로표지병",
+        "title": "도로표지병",
+        "lead": "저전력 스마트배터리 기술로 야간 시인성을 극대화한 고휘도 LED 도로표지병. 전원 방식별로 최적의 제품을 선택하세요.",
+        "crumb": "도로표지병"
+      },
+      "lineup": {
+        "eyebrow": "라인업",
+        "title": "전원 방식별 제품 라인업",
+        "desc": "하이브리드 · 배터리 · 태양광 · 전기(AC) 등 다양한 도로 환경에 맞는 4가지 타입."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "hybrid",
+          "label": "하이브리드",
+          "cards": [
+            {
+              "img": "assets/photos/cat/rs_138h.jpg",
+              "alt": "Ø138 road stud hybrid type ECO26-138H",
+              "pc": true,
+              "tagLine": "하이브리드형 · 태양광 + 배터리",
+              "title": "Ø138 도로표지병 (하이브리드형)",
+              "model": "ECO26-138HW / ECO26-138HY",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 6개"
+                },
+                {
+                  "k": "전원",
+                  "v": "리튬배터리 3.6V·19Ahr ×1 / Li-FePO4(태양광) 3.2V·1.5Ahr ×1"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø138mm × 68mm"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "26158537(백색) · 26158538(황색)"
+                }
+              ],
+              "features": [
+                "태양광 충전이 어려운 곳에도 설치 가능 — 차도, 이면도로, 산책로, 자전거도로",
+                "저전력 구동으로 최대 3년 장수명 / 전원소모 저감기능",
+                "내충격·방수·방진 구조(IP68), 모듈(인솔) 교체형으로 유지비용 절감",
+                "전선이 필요 없어 간편하게 시공 가능"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/rs_113.jpg",
+              "alt": "ECO-25RS113-H product image",
+              "pc": true,
+              "tagLine": "모듈 교체형",
+              "title": "Ø113 모듈교체형 표지병 (하이브리드)",
+              "model": "ECO-25RS113-HW / ECO-25RS113-HY",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 6개"
+                },
+                {
+                  "k": "전원",
+                  "v": "Li-FePO4(태양광) 3.2V·1.5Ahr ×1 / 리튬배터리 3.6V·19Ahr ×1"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø113mm × 67mm"
+                }
+              ],
+              "features": [
+                "본체는 그대로 두고 내장 모듈만 교체 — 도로 재시공 불필요",
+                "기존 Ø113 매립 기구물과 호환"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "battery",
+          "label": "배터리",
+          "cards": [
+            {
+              "img": "assets/photos/cat/rs_138b.jpg",
+              "alt": "ECO26-138B product image",
+              "pc": true,
+              "tagLine": "배터리형",
+              "title": "Ø138 도로표지병 (배터리형)",
+              "model": "ECO26-138BW / ECO26-138BY",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 6개"
+                },
+                {
+                  "k": "전원",
+                  "v": "리튬배터리 3.6V·19Ahr × 2EA"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø138mm × 68mm · 100lx 이하에서 점등"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "26158540(백색) · 26158539(황색)"
+                }
+              ],
+              "features": [
+                "태양광 충전이 불가능한 터널·음영 구간에 적합",
+                "저전력 구동으로 최대 3년 장수명 / IP68 방수·방진",
+                "모듈(인솔) 교체형 — 기구물 교체 불필요"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "solar",
+          "label": "태양광",
+          "cards": [
+            {
+              "img": "assets/photos/cat/rs_138s.jpg",
+              "alt": "ECO26-138S product image",
+              "pc": true,
+              "tagLine": "태양광형",
+              "title": "Ø138 도로표지병 (태양광형)",
+              "model": "ECO26-138SW / ECO26-138SY",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 6개"
+                },
+                {
+                  "k": "전원",
+                  "v": "Li-FePO4(태양광) 3.2V·1.5Ahr × 1EA"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø138mm × 68mm · 100lx 이하에서 점등"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "26151915(백색) · 26151916(황색)"
+                }
+              ],
+              "features": [
+                "태양광 자가발전 — 전기요금·배선 불필요",
+                "친환경 저전력 설계 / IP68 방수·방진",
+                "차도, 이면도로, 산책로, 자전거도로 등 폭넓게 적용"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mains",
+          "label": "전기(AC)",
+          "cards": [
+            {
+              "img": "assets/photos/cat/rs_125.jpg",
+              "alt": "ECO25-RS125-C product image",
+              "pc": true,
+              "tagLine": "전기형",
+              "title": "Ø125 도로표지병 (전기형)",
+              "model": "ECO25-RS125-CW / ECO25-RS125-CY",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 27개"
+                },
+                {
+                  "k": "전원",
+                  "v": "DC 12~24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "TOP 스테인리스 · BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기 / 전력",
+                  "v": "Ø125mm × 80mm · 최대 7W(조정가능)"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25737635(백색) · 25737636(황색)"
+                }
+              ],
+              "features": [
+                "최대 3,000mcd 이상 — 제어함에서 수동으로 조도 제어 가능",
+                "상시점등 기본, 현장 제어함에서 점멸기능 선택 가능",
+                "횡단보도·스쿨존 설치에 적합"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/rs_196.jpg",
+              "alt": "ECO-RS196-R product image",
+              "pc": true,
+              "tagLine": "전기형",
+              "title": "196 도로표지병 (전기형)",
+              "model": "ECO-RS196-RW / ECO-RS196-RY",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 6개"
+                },
+                {
+                  "k": "전원",
+                  "v": "DC 12V / 6W"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기 / 전력",
+                  "v": "196 × 101 × 29mm · 최대 6W(조정가능)"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25543620(백색) · 25543621(황색)"
+                }
+              ],
+              "features": [
+                "최대 3,000mcd 이상 · 패턴설정 / 컨트롤러 구동방식",
+                "회전교차로·도로섬 설치, 경관조명으로도 사용 가능"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "설치사례",
+        "title": "설치사례",
+        "desc": "횡단보도, 중앙·좌우차선, 안심귀갓길, 공원, 산책로, 자전거도로 등 다양한 현장에 설치되었습니다.",
+        "layout": "cases",
+        "cta": "제품 견적 문의 →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_6088.jpg",
+            "alt": "Crosswalk installation case",
+            "title": "횡단보도 · 중앙차선"
+          },
+          {
+            "img": "assets/photos/IMG_6806.JPG",
+            "alt": "Safe-return path installation case",
+            "title": "안심귀갓길 · 골목길"
+          },
+          {
+            "img": "assets/photos/IMG_7987.JPG",
+            "alt": "Bike-lane installation case",
+            "title": "공원 · 산책로 · 자전거도로"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "bollard": {
+      "hero": {
+        "eyebrow": "볼라드",
+        "title": "볼라드",
+        "lead": "어린이보호구역, 횡단보도, 산책로 등 인구 이동이 많은 지역에서 보행자를 보호하는 볼라드. 설치 환경에 맞춰 매립식·앵커식·이동식을 선택하세요.",
+        "crumb": "볼라드"
+      },
+      "lineup": {
+        "eyebrow": "라인업",
+        "title": "조명 방식별 제품 라인업",
+        "desc": "고휘도 LED 볼라드와 반사지형 비조명 · 스테인리스 볼라드."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "led",
+          "label": "LED 볼라드",
+          "cards": [
+            {
+              "img": "assets/photos/cat/bd_150h.jpg",
+              "alt": "ECO-BRD150-H/B product image",
+              "pc": true,
+              "tagLine": "하이브리드 / 배터리형",
+              "title": "LED 볼라드 Ø150 (하이브리드 / 배터리형)",
+              "model": "ECO-BRD150-HD/HA/HM · BRD150-BD/BA/BM (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 9개"
+                },
+                {
+                  "k": "전원",
+                  "v": "리튬배터리 3.6V·19Ahr × 4EA"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY SGT275 · COVER 폴리우레탄 · 조명부 알루미늄 다이캐스팅 / 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø150mm × 높이 790~800mm · 100lx 이하에서 점등"
+                }
+              ],
+              "features": [
+                "어린이보호구역, 횡단보도, 산책로, 자전거도로를 위한 안전시설물",
+                "저전력 장수명 / 부조일수 5일 이상 · IP68 방수·방진"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/bd_110.jpg",
+              "alt": "ECO-BRD110-S/H product image",
+              "pc": true,
+              "tagLine": "태양광 / 하이브리드형",
+              "title": "LED 볼라드 Ø110 (태양광 / 하이브리드형)",
+              "model": "ECO-BRD110-SD/SA/SM · BRD110-HD/HA/HM (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 18개"
+                },
+                {
+                  "k": "전원",
+                  "v": "Li-FePO4(태양광) 3.2V·1.5Ahr ×2 / 리튬배터리 3.6V·19Ahr ×1"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY SGT275 · COVER 폴리우레탄 · 조명부 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø110mm × 높이 960~980mm · 100lx 이하에서 점등"
+                }
+              ],
+              "features": [
+                "태양광 자가발전 — 무배선 · 친환경 저전력",
+                "저전력 장수명 / 부조일수 5일 이상 · IP68"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "none",
+          "label": "비조명형 볼라드",
+          "cards": [
+            {
+              "img": "assets/photos/cat/bd_110x.jpg",
+              "alt": "ECO-BRD110-X product image",
+              "pc": true,
+              "tagLine": "비조명형",
+              "title": "비조명형 볼라드 Ø110",
+              "model": "ECO-BRD110-XD / XA / XM (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "재질",
+                  "v": "BODY SGT275 · 충격흡수부 폴리우레탄 · 초고휘도 반사지"
+                },
+                {
+                  "k": "크기",
+                  "v": "매립·이동식 Ø110 × 높이 860mm · 앵커식 Ø110 × 높이 870mm"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25658332(매립식) · 25658331(앵커식) · 25658330(이동식)"
+                }
+              ],
+              "features": [
+                "인구 이동이 많은 어린이보호구역, 횡단보도, 산책로, 자전거도로용 안전시설물"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/bd_150x.jpg",
+              "alt": "ECO-BRD150-X product image",
+              "pc": true,
+              "tagLine": "비조명형",
+              "title": "비조명형 볼라드 Ø150",
+              "model": "ECO-BRD150-XD / XA / XM (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "재질",
+                  "v": "BODY SGT275 · 충격흡수부 폴리우레탄 · 초고휘도 반사지"
+                },
+                {
+                  "k": "크기",
+                  "v": "매립·이동식 Ø150 × 높이 760mm · 앵커식 Ø150 × 높이 770mm"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25658329(매립식) · 25658328(앵커식) · 25658327(이동식)"
+                }
+              ],
+              "features": [
+                "충격을 흡수하는 폴리우레탄 커버로 차량·보행자 접촉 시 안전 확보"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/bd_stainless.jpg",
+              "alt": "ECO-BRD101S product image",
+              "pc": true,
+              "tagLine": "스테인리스",
+              "title": "스테인리스 볼라드",
+              "model": "ECO-BRD101S-I · ECO-BRD1200S-U (embedded · surface · detachable)",
+              "specs": [
+                {
+                  "k": "재질",
+                  "v": "BODY STS304 · 초고휘도 반사지(적색/황색)"
+                },
+                {
+                  "k": "타입",
+                  "v": "비조명형 (매립식 · 앵커식 · 이동식)"
+                }
+              ],
+              "features": [
+                "내부식성 스테인리스 재질로 우수한 내구성과 미관"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "설치사례",
+        "title": "설치사례",
+        "desc": "",
+        "layout": "cases",
+        "cta": "제품 견적 문의 →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_6458.JPG",
+            "alt": "Bollard installation case",
+            "title": "횡단보도 · 어린이보호구역"
+          },
+          {
+            "img": "assets/photos/IMG_6460.JPG",
+            "alt": "Bollard installation case",
+            "title": "산책로 · 보행로"
+          },
+          {
+            "img": "assets/photos/IMG_E0202.JPG",
+            "alt": "Bollard installation case",
+            "title": "공원 · 자전거도로"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "lighting": {
+      "hero": {
+        "eyebrow": "경관조명",
+        "title": "LED 경관조명",
+        "lead": "도시 경관과 보행자 안전을 함께 높이는 다양한 LED 경관조명. 유해물질이 없는 친환경 저전력 설계로 아름답고 지속가능한 야간 환경을 만듭니다.",
+        "crumb": "LED 경관조명"
+      },
+      "lineup": {
+        "eyebrow": "라인업",
+        "title": "용도별 경관조명",
+        "desc": "설치 장소와 연출 효과에 따른 9가지 경관조명 시리즈."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "line",
+          "label": "라인조명",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_line.jpg",
+              "alt": "ECO-LLBA / FLEX product image",
+              "pc": true,
+              "tagLine": "라인 / 플렉시블",
+              "title": "LED 라인조명 · 플렉시블 조명",
+              "model": "ECO-LLBA1200 / ECO-LLBA1000 / ECO-LLFLEX1000",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "SMD LED · DC 24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 · COVER 폴리카보네이트 · UV코팅 우레탄"
+                },
+                {
+                  "k": "크기",
+                  "v": "1000×31×27 / 1000×18×9 / 1000×15×4mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "15W / 13W / 7W"
+                }
+              ],
+              "features": [
+                "선형 렌즈 적용으로 협각 조사가 가능한 Bar 형태의 LED 조명",
+                "슬림한 규격으로 좁은 공간에도 밀착 설치 · 유해물질 없는 친환경 제품"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_accent.jpg",
+              "alt": "ECO-LL130 / 138 product image",
+              "pc": true,
+              "tagLine": "포인트 · 미니/사각 표지병",
+              "title": "LED 포인트 조명 (미니 · 사각 표지병)",
+              "model": "ECO-LL130-BU (battery) / ECO-LL138-SU (solar)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED × 4~6개"
+                },
+                {
+                  "k": "전원",
+                  "v": "리튬배터리 ×2 / Li-FePO4 태양광 ×1"
+                },
+                {
+                  "k": "크기",
+                  "v": "W130×D130×H95 / W150×D138×H25.5mm"
+                }
+              ],
+              "features": [
+                "저전력 장수명 · 부조일수 5일 이상 · IP68"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_handrail.jpg",
+              "alt": "ECO26-LLBA1000 handrail bar light",
+              "pc": true,
+              "tagLine": "핸드레일",
+              "title": "LED 핸드레일 · 바 조명",
+              "model": "ECO26-LLBA1000-L15 / H15 / L15B",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "SMD LED · DC 24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "1000×25×21 / 1000×55(Ø72)×17 / 1000×26×25mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "15W"
+                }
+              ],
+              "features": [
+                "핸드레일·난간 설치용 · 각도 조절 가능",
+                "유백·투명 커버 선택 · 길이별 제작 · 색상 연출 가능"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "floor",
+          "label": "바닥조명",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_curb_rainbow.jpg",
+              "alt": "ECO-LL19/23-AU product image",
+              "pc": false,
+              "tagLine": "LED 경계석 조명",
+              "title": "LED 경계석 조명 (레인보우)",
+              "model": "ECO-LL19-AU (surface) / ECO-LL23-AU (embedded)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "RGBW LED × 27EA · DC 12V / 6W"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "부착형 195×100×30 / 매립형 230×135×80mm"
+                }
+              ],
+              "features": [
+                "컨트롤러로 28가지 패턴 선택 · 30EA당 컨트롤박스 1대",
+                "IP68 방수·방진 · 보차도 경계 연출에 적합"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_curb155.jpg",
+              "alt": "ECO-LL155 product image",
+              "pc": true,
+              "tagLine": "하이브리드 / 배터리",
+              "title": "뉴 경계석 표지병",
+              "model": "ECO-LL155-HU (hybrid) / ECO-LL155-BU (battery)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED × 6개"
+                },
+                {
+                  "k": "크기",
+                  "v": "W155 × D150 × H55mm · 100lx 이하에서 점등"
+                }
+              ],
+              "features": [
+                "이면도로, 산책로, 자전거도로 · 부조일수 5일 이상 · IP68"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_floor_recessed.jpg",
+              "alt": "ECO-LL solar recessed floor light",
+              "pc": false,
+              "tagLine": "바닥 · 태양광",
+              "title": "LED 바닥매립등 (태양광)",
+              "model": "ECO-LL222-60S / LL118-60S / LL120-60S / LL96-47S / LL67-30S",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED · 슈퍼커패시터"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄·스테인리스 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø67~Ø222mm(원형) / 118~222mm(사각)"
+                },
+                {
+                  "k": "전원",
+                  "v": "4mW ~ 27mW"
+                }
+              ],
+              "features": [
+                "태양광 자가발전 바닥매립등, 부조일수 5일 이상(IP68)",
+                "무배선 시공 · 백색/황색/녹색/적색/청색 선택"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "post",
+          "label": "펜스기둥 조명",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_post_sq.jpg",
+              "alt": "ECO-LL157 product image",
+              "pc": false,
+              "tagLine": "태양광 / 하이브리드 / 배터리",
+              "title": "사각 펜스기둥 조명",
+              "model": "ECO-LL157-SU / HU / BU",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED × 28개"
+                },
+                {
+                  "k": "크기",
+                  "v": "157 × 157 × 높이 101mm · 100lx 이하에서 점등"
+                }
+              ],
+              "features": [
+                "차도·이면도로·산책로·자전거도로의 휀스에 설치 · IP68"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_post_rd.jpg",
+              "alt": "ECO-LL110 product image",
+              "pc": false,
+              "tagLine": "태양광 / 하이브리드 / 전기",
+              "title": "원형 펜스기둥 조명",
+              "model": "ECO-LL110-SU / HU / CU",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED × 28개"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø110 × 높이 234.5mm · 100lx 이하에서 점등"
+                }
+              ],
+              "features": [
+                "휀스·난간 기둥을 연출 · 부조일수 5일 이상 · IP68"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bollard",
+          "label": "볼라드 조명",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_bollardlight.jpg",
+              "alt": "ECO-LLBRD product image",
+              "pc": false,
+              "tagLine": "전기형",
+              "title": "LED 볼라드 조명",
+              "model": "ECO-LLBRD800 / 300 / 110 / 150",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "COB LED · DC 38.5V / 22V / 12V"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 다이캐스팅 · PC · SGT275 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "150×150×800 / 72×115×300 / Ø110×1268 / Ø150×1065mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "9W / 5.5W / 3W"
+                }
+              ],
+              "features": [
+                "어린이보호구역, 횡단보도, 산책로 등 인구 이동이 있는 지역의 안전 조명",
+                "고휘도 LED · IP65 방수·방진"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "flood",
+          "label": "투광조명",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_flood_bar.jpg",
+              "alt": "ECO26-LLBA1000-F bar floodlight",
+              "pc": true,
+              "tagLine": "투광조명",
+              "title": "LED 바 투광등",
+              "model": "ECO26-LLBA1000-F18 / F24 / F36 / F54",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트"
+                },
+                {
+                  "k": "크기",
+                  "v": "1000×36×30mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "18W / 24W / 36W / 54W"
+                }
+              ],
+              "features": [
+                "500mm 단위 제작이 가능한 선형 바 투광등",
+                "SMD 타입 LED · 서브 컨트롤러 내장 가능 · 3가지 브라켓 적용"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_flood_circle.jpg",
+              "alt": "ECO26-LLC circle floodlight",
+              "pc": false,
+              "tagLine": "투광조명",
+              "title": "LED 원형 투광등",
+              "model": "ECO26-LLC125-F12–F24 / LLC160-F36–F42 / LLC217-F54–F108",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 · LENS 강화유리"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø125 / Ø165 / Ø217mm 기구"
+                },
+                {
+                  "k": "전원",
+                  "v": "12W ~ 108W"
+                }
+              ],
+              "features": [
+                "최대 5가지 기구/브라켓 선택이 가능한 원형 투광등",
+                "전면 강화유리 샌딩처리 가능 · 빛가림판(후드) 장착 가능"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "inground",
+          "label": "지중등",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_inground_circle.jpg",
+              "alt": "ECO-LL in-ground circle light",
+              "pc": false,
+              "tagLine": "지중",
+              "title": "LED 원형 지중등",
+              "model": "ECO-LL100-C12 / LL140-C18 / LL180-C36 / LL220-C54 / LL220-C72",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 · LENS 강화유리"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø100 / Ø140 / Ø180 / Ø220mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "12W / 18W / 36W / 54W / 72W"
+                }
+              ],
+              "features": [
+                "산책로·광장에 매립하는 상향 조명",
+                "눈부심 저감을 위한 SMD LED 교체 가능"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_inground_bar.jpg",
+              "alt": "ECO-LL1010 linear in-ground light",
+              "pc": true,
+              "tagLine": "지중",
+              "title": "LED 라인 지중등",
+              "model": "ECO-LL1010-C15 / C36 / C72",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 압출 · LENS 강화유리"
+                },
+                {
+                  "k": "크기",
+                  "v": "1010×65×70 / 1010×90×100 / 1010×95×105mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "15W / 36W / 72W"
+                }
+              ],
+              "features": [
+                "벽면 그레이징·보행로용 선형 매립 지중등",
+                "에너지 절전·유해물질 無 · 협의 후 디자인 변경 가능"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_column.jpg",
+              "alt": "ECO-LL2000-120 column light",
+              "pc": false,
+              "tagLine": "열주",
+              "title": "LED 열주등",
+              "model": "ECO-LL2000-120",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "스테인리스강"
+                },
+                {
+                  "k": "크기",
+                  "v": "Ø216×2000mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "120W"
+                }
+              ],
+              "features": [
+                "내부 타공 파이프를 적용한 스테인리스 열주등",
+                "속 파이프 표면의 타공 모양 변경 가능"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "wall",
+          "label": "벽부등",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_wall.jpg",
+              "alt": "ECO-LL180-S / W109 product image",
+              "pc": true,
+              "tagLine": "태양광 / 전기",
+              "title": "LED 벽부등",
+              "model": "ECO-LL180-S (solar) / ECO-LLW109 (mains)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "SMD LED · DC 3.2V / DC 24V"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY·LENS 폴리카보네이트 / 알루미늄·강화유리"
+                },
+                {
+                  "k": "크기",
+                  "v": "180×230×87.5 / 109×167×203mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "2W / 15W"
+                }
+              ],
+              "features": [
+                "유해물질 없는 친환경 태양광 제품 · 고휘도 LED / 100lx 이하에서 점등"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "gobo",
+          "label": "고보 조명",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_gobo.jpg",
+              "alt": "ECO-LL##W-CU product image",
+              "pc": false,
+              "tagLine": "로고젝터 · 고보",
+              "title": "LED 고보(로고젝터) 조명",
+              "model": "ECO-LL50W-CU / 80W-CU / 100W-CU / 200W-CU",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈 × 1개 · DC 12V, SMPS 별도"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 · LENS 강화유리"
+                },
+                {
+                  "k": "크기",
+                  "v": "W327×D111×H170 ~ W403×D167×H270mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "최대 50W / 80W / 100W / 200W"
+                }
+              ],
+              "features": [
+                "원하는 문구·그림·이미지를 바닥에 조사하는 방식",
+                "고휘도 LED · IP65 방수·방진"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "security",
+          "label": "보안·디자인 가로등",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_park.jpg",
+              "alt": "ECO-LL60W product image",
+              "pc": true,
+              "tagLine": "전기형 · 공원등",
+              "title": "LED 공원등 (디자인 가로등)",
+              "model": "ECO-LL60W-Butterfly / ECO-LL60W-Seagull",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED × 784~910개 · DC 12V"
+                },
+                {
+                  "k": "크기",
+                  "v": "483×456×높이 132 / 947×520×높이 421mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "80W"
+                }
+              ],
+              "features": [
+                "설치 환경에 따라 색상 변경 가능 · IP65"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_security.jpg",
+              "alt": "ECO-LL##S product image",
+              "pc": true,
+              "tagLine": "태양광 · 보안등",
+              "title": "LED 공원보안등",
+              "model": "ECO-LL50S / ECO-LL30S-3M / ECO-LL25S",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "초고휘도 LED 모듈"
+                },
+                {
+                  "k": "재질",
+                  "v": "BODY 알루미늄 · POST STS304"
+                },
+                {
+                  "k": "크기",
+                  "v": "1123×373×높이 3900 / 3000 · 599×300×높이 3000mm"
+                },
+                {
+                  "k": "전원",
+                  "v": "50W / 30W / 25W"
+                }
+              ],
+              "features": [
+                "저전력 장수명 · 부조일수 5일 이상 · 무배선"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "설치사례",
+        "title": "설치사례",
+        "desc": "",
+        "layout": "cases",
+        "cta": "제품 견적 문의 →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_7987.JPG",
+            "alt": "Landscape lighting installation case",
+            "title": "공원 · 산책로 조명"
+          },
+          {
+            "img": "assets/photos/KakaoTalk_20231206_083144551_01.jpg",
+            "alt": "Landscape lighting installation case",
+            "title": "보차도 경계 · 라인조명"
+          },
+          {
+            "img": "assets/photos/KakaoTalk_20231206_083144551_02.jpg",
+            "alt": "Landscape lighting installation case",
+            "title": "울타리 · 볼라드 조명"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "fence": {
+      "hero": {
+        "eyebrow": "디자인형 울타리",
+        "title": "디자인형 울타리",
+        "lead": "보행자와 차량을 안전하게 분리하면서 도시 경관을 높이는 디자인형 방호울타리. 도심 구간에 맞는 다양한 디자인과 규격을 제공합니다.",
+        "crumb": "디자인형 울타리"
+      },
+      "lineup": {
+        "eyebrow": "라인업",
+        "title": "용도별 울타리",
+        "desc": "차량방호책부터 보행자 방호울타리, LED 보차도 경계조명까지."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "guard",
+          "label": "차량방호책",
+          "cards": [
+            {
+              "img": "assets/photos/cat/fn_guard.jpg",
+              "alt": "ECO-JHGD1 product image",
+              "pc": true,
+              "tagLine": "차량방호책 · 하차량방호책 SB1",
+              "title": "차량방호책 (SB1 등급)",
+              "model": "ECO-JHGD1 / -01 / -02 / -03",
+              "specs": [
+                {
+                  "k": "규격",
+                  "v": "W2,000 × H1,100"
+                },
+                {
+                  "k": "POST",
+                  "v": "100×100×4T · KS D 3568(SRT 275) 아노다이징 / 분체도장"
+                },
+                {
+                  "k": "TOP RAIL",
+                  "v": "144×100×3T · KS D 6759(6N01-T5)"
+                },
+                {
+                  "k": "RAIL",
+                  "v": "100×90×3T · KS D 6759(6N01-T5)"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "26002008 외 (m당 단가 · 현장설치도 기준)"
+                }
+              ],
+              "features": [
+                "SB1 등급 차량 방호 · 도심 도로 경계 방호"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ped",
+          "label": "보행자 울타리 · 도심",
+          "cards": [
+            {
+              "img": "assets/photos/cat/fn_ped1.jpg",
+              "alt": "ECO-R190J77 product image",
+              "pc": true,
+              "tagLine": "보행자 방호 · 도심",
+              "title": "보행자용 방호울타리 (도심구간)",
+              "model": "ECO-R190J77 / R196J52 / R195J50 / R193J46",
+              "specs": [
+                {
+                  "k": "규격",
+                  "v": "W2,000 × H1,100 / H990 / H1,000"
+                },
+                {
+                  "k": "재질",
+                  "v": "SGT275 · SS275 · AC7A · SRT275 · A6063-T5"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25987812 외 (m당 단가 · 현장설치도 기준)"
+                }
+              ],
+              "features": [
+                "보행자와 차도를 분리하는 도심형 디자인 방호울타리"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/fn_ped2.jpg",
+              "alt": "ECO-R193J45 product image",
+              "pc": true,
+              "tagLine": "보행자 방호 · 도심",
+              "title": "보행자용 방호울타리 (도심구간 II)",
+              "model": "ECO-R193J45 / R157J23 / R155J17",
+              "specs": [
+                {
+                  "k": "규격",
+                  "v": "W2,000 × H1,100 / H1,090"
+                },
+                {
+                  "k": "재질",
+                  "v": "SGT275 · SRT275 · SS275 · STS304TKC · A6063-T5"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25987808 외 (m당 단가 · 현장설치도 기준)"
+                }
+              ],
+              "features": [
+                "다양한 패턴과 재질이 도시 경관과 조화"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "curb",
+          "label": "보차도 경계 · LED",
+          "cards": [
+            {
+              "img": "assets/photos/cat/fn_sep.jpg",
+              "alt": "ECO-R156~R235 product image",
+              "pc": true,
+              "tagLine": "보차도 분리대",
+              "title": "보차도 경계용 울타리",
+              "model": "ECO-R156-01 / R157 / R161 / R164 / R165 / R235-A",
+              "specs": [
+                {
+                  "k": "규격",
+                  "v": "W2,000 × H1,000~H1,200 (경간형 W4,000)"
+                },
+                {
+                  "k": "재질",
+                  "v": "SECC · SGT275 · SRT275 · SS275 · A6063-T5"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25987806 외 (m당 단가 · 현장설치도 기준)"
+                }
+              ],
+              "features": [
+                "보도와 차도를 분리하는 경계용 울타리 · 다양한 규격 지원"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/fn_led.jpg",
+              "alt": "ECO-R01~R218 product image",
+              "pc": true,
+              "tagLine": "보차도 경계 LED 경계석 조명",
+              "title": "LED 경계석 조명형 울타리",
+              "model": "ECO-R01 / R02-01 / R216 / R218",
+              "specs": [
+                {
+                  "k": "규격",
+                  "v": "W2,000 × H500~H950"
+                },
+                {
+                  "k": "재질",
+                  "v": "STS304 · SGT275"
+                }
+              ],
+              "features": [
+                "내장 LED로 야간 시인성 향상 · 보차도 경계를 명확히 구분"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "설치사례",
+        "title": "설치사례",
+        "desc": "",
+        "layout": "cases",
+        "cta": "제품 견적 문의 →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_6460.JPG",
+            "alt": "Fence installation case",
+            "title": "도심 보행자 방호"
+          },
+          {
+            "img": "assets/photos/KakaoTalk_20231206_083144551_03.jpg",
+            "alt": "Fence installation case",
+            "title": "보차도 경계"
+          },
+          {
+            "img": "assets/photos/IMG_E0205.JPG",
+            "alt": "Fence installation case",
+            "title": "LED 경계석 조명"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "sign": {
+      "hero": {
+        "eyebrow": "교통안전표지 & 갈매기표지",
+        "title": "교통안전·갈매기 표지",
+        "lead": "야간이나 악천후에도 명확히 인지되도록 LED 내부조명을 적용한 교통안전표지와 갈매기표지. 전원 방식에 따라 태양광·전기형을 제공합니다.",
+        "crumb": "교통안전·갈매기 표지"
+      },
+      "lineup": {
+        "eyebrow": "라인업",
+        "title": "조명 방식별 표지",
+        "desc": "태양광 LED 내부조명과 전기형 LED 내부조명 2가지 방식."
+      },
+      "hasTabs": true,
+      "tabs": [
+        {
+          "id": "solar",
+          "label": "태양광 LED 내부조명",
+          "cards": [
+            {
+              "img": "assets/photos/cat/sg_traffic.jpg",
+              "alt": "ECO-TS·SW product image",
+              "pc": true,
+              "tagLine": "태양광 LED 내부조명",
+              "title": "교통안전표지 (태양광형)",
+              "model": "ECO-TS600-SWS / TS700-SW / TS900-SWR / TS3000-SWL, etc.",
+              "specs": [
+                {
+                  "k": "표지 종류",
+                  "v": "일방통행 · 횡단보도 · 속도제한 · 회전교차로 · 우로굽은도로 · 어린이보호구역"
+                },
+                {
+                  "k": "조명",
+                  "v": "태양광 LED 내부조명"
+                },
+                {
+                  "k": "규격",
+                  "v": "600×600×48 ~ 3000×2000×48mm"
+                }
+              ],
+              "features": [
+                "태양광 자가발전 — 배선·전기요금 불필요 · 야간 시인성 향상"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/sg_chevron.jpg",
+              "alt": "ECO-GS450-SW product image",
+              "pc": false,
+              "tagLine": "태양광 LED 내부조명",
+              "title": "갈매기표지 (태양광형)",
+              "model": "ECO-GS450-SW (single-sided) / ECO-GS450-SW2 (double-sided)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "태양광 LED 내부조명"
+                },
+                {
+                  "k": "규격",
+                  "v": "450 × 600 × 50mm"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25234399(단면) 외"
+                }
+              ],
+              "features": [
+                "커브·급커브 구간의 방향 유도 · 단면/양면 선택"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mains",
+          "label": "전기형 LED 내부조명",
+          "cards": [
+            {
+              "img": "assets/photos/cat/sg_traffic.jpg",
+              "alt": "ECO-TS·CW product image",
+              "pc": true,
+              "tagLine": "전기형 LED 내부조명",
+              "title": "교통안전표지 (전기형)",
+              "model": "ECO-TS600-CWS / TS700-CW / TS900-CWR / TS3000-CWL, etc.",
+              "specs": [
+                {
+                  "k": "표지 종류",
+                  "v": "일방통행 · 횡단보도 · 속도제한 · 회전교차로 · 우로굽은도로 · 어린이보호구역"
+                },
+                {
+                  "k": "조명",
+                  "v": "전기형 LED 내부조명"
+                },
+                {
+                  "k": "규격",
+                  "v": "600×600×48 ~ 3000×2000×48mm"
+                }
+              ],
+              "features": [
+                "안정적 전원 공급으로 상시 고휘도 점등 · 대형 규격 지원"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/sg_chevron.jpg",
+              "alt": "ECO-GS450-CW product image",
+              "pc": false,
+              "tagLine": "전기형 LED 내부조명",
+              "title": "갈매기표지 (전기형)",
+              "model": "ECO-GS450-CW (single-sided) / ECO-GS450-CW2 (double-sided)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "전기형 LED 내부조명"
+                },
+                {
+                  "k": "규격",
+                  "v": "450 × 600 × 50mm"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25234398(단면) · 25234396(양면)"
+                }
+              ],
+              "features": [
+                "급커브·교차로 구간의 방향 유도 · 단면/양면 선택"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "설치사례",
+        "title": "설치사례",
+        "desc": "",
+        "layout": "cases",
+        "cta": "제품 견적 문의 →",
+        "ctaHref": "contact.html",
+        "cases": [
+          {
+            "img": "assets/photos/IMG_4377.jpg",
+            "alt": "Sign installation case",
+            "title": "갈매기표지 · 급커브"
+          },
+          {
+            "img": "assets/photos/IMG_1029.JPG",
+            "alt": "Sign installation case",
+            "title": "어린이보호구역 표지"
+          },
+          {
+            "img": "assets/photos/IMG_3064.jpg",
+            "alt": "Sign installation case",
+            "title": "횡단보도 · 회전교차로"
+          }
+        ],
+        "feats": []
+      },
+      "hasInstall": true
+    },
+    "signal": {
+      "hero": {
+        "eyebrow": "바닥형 보행신호등",
+        "title": "바닥형 보행신호등",
+        "lead": "EDBL-200 시스템은 기존 보행신호와 연동하여 바닥에 신호를 표출합니다. 스마트폰을 보며 걷는 보행자의 사고를 예방합니다.",
+        "crumb": "바닥형 보행신호등"
+      },
+      "lineup": {
+        "eyebrow": "시스템",
+        "title": "3가지 구성으로 완성하는 스마트 보행 안전",
+        "desc": "표출부·제어부·옵션보드가 표준 교통신호제어기와 연동하여 보행신호에 동기화됩니다."
+      },
+      "hasTabs": false,
+      "tabs": [
+        {
+          "id": "all",
+          "label": "",
+          "cards": [
+            {
+              "img": "assets/photos/cat/sn_display.jpg",
+              "alt": "EDBL-200 product image",
+              "pc": false,
+              "tagLine": "표출부",
+              "title": "바닥형 신호 표출부",
+              "model": "EDBL-200",
+              "specs": [
+                {
+                  "k": "입력전압",
+                  "v": "DC 24V"
+                },
+                {
+                  "k": "전원",
+                  "v": "상온 25℃ 기준 3.8W(디밍) · 0~100 조광 100단계 제어"
+                },
+                {
+                  "k": "크기",
+                  "v": "300 × 100 × 60mm"
+                },
+                {
+                  "k": "설치사례",
+                  "v": "횡단보도 시작점인 경계석(연석)과 점자블록 사이 바닥(보도)에 설치"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "26109111 (현장설치도 기준)"
+                }
+              ],
+              "features": [
+                "보행 녹색신호에 동기 점등 · 적색에 소등 · 우수한 시인성"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/sn_control.jpg",
+              "alt": "EDCB-200 product image",
+              "pc": false,
+              "tagLine": "제어부",
+              "title": "신호 제어부",
+              "model": "EDCB-200",
+              "specs": [
+                {
+                  "k": "통신",
+                  "v": "RS485 통신으로 옵션보드로부터 보행신호 데이터를 수신"
+                },
+                {
+                  "k": "크기",
+                  "v": "250 × 350 × 100mm"
+                },
+                {
+                  "k": "재질",
+                  "v": "STS304"
+                }
+              ],
+              "features": [
+                "교통신호제어기에 장착된 옵션보드의 신호를 받아 표출부를 구동"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/sn_option.jpg",
+              "alt": "EDOB-200 product image",
+              "pc": true,
+              "tagLine": "옵션보드",
+              "title": "신호연동 옵션보드",
+              "model": "EDOB-200",
+              "specs": [
+                {
+                  "k": "기능",
+                  "v": "표준 교통신호제어기에 장착하여 보행신호를 제어부로 전달"
+                }
+              ],
+              "features": [
+                "기존 신호체계 변경 없이 연동 · 녹색/적색 보행신호와 동기화"
+              ]
+            }
+          ]
+        }
+      ],
+      "install": {
+        "eyebrow": "연동 방식",
+        "title": "시스템 연동 방법",
+        "desc": "",
+        "layout": "feats",
+        "cta": "제품 견적 문의 →",
+        "ctaHref": "contact.html",
+        "cases": [],
+        "feats": [
+          {
+            "no": "01",
+            "title": "표준 신호제어기",
+            "desc": "기존 교통신호제어기에 옵션보드를 장착합니다."
+          },
+          {
+            "no": "02",
+            "title": "옵션보드 전송",
+            "desc": "RS485 통신으로 보행신호 데이터를 제어부에 전송합니다."
+          },
+          {
+            "no": "03",
+            "title": "제어부",
+            "desc": "수신한 신호로 바닥 표출부를 제어합니다."
+          },
+          {
+            "no": "04",
+            "title": "바닥 표출부",
+            "desc": "녹색신호에 동기 점등, 적색신호에 소등하여 보행자를 유도합니다."
+          }
+        ]
+      },
+      "hasInstall": true
+    }
+  },
+  "site": {
+    "headerLogo": "assets/logo_ecoday_mark.png",
+    "footerLogo": "assets/logo_ecoday.png",
+    "tagline": "고객의 안전을 최우선으로 하는 친환경 전문기업",
+    "addrHQ": "인천광역시 서구 거북로 17, 나동 510호 (인천테크피아)",
+    "addrGyeonggi": "경기도 포천시 영북면 영북로203번길 29, 1층",
+    "addrChungcheong": "충청남도 아산시 음봉면 음봉면로 92, 3층",
+    "tel": "+82 32-574-1770",
+    "fax": "+82 32-574-1772",
+    "email": "ecoday-road@daum.net",
+    "copyright": "© 2026 주식회사 에코데이. All rights reserved.",
+    "registered": "등록: 건설업 · 전기공사업 · 옥외광고업"
+  }
+}

@@ -3,6 +3,8 @@
    fallback; if content.json loads, the matching container is re-rendered from data.
    Editable via admin.html (local serve.ps1). */
 (function () {
+  // Korean pages live under /ko/, so image paths from content.json resolve with "../".
+  var BASE = (document.documentElement.getAttribute("lang") || "en").slice(0, 2).toLowerCase() === "ko" ? "../" : "";
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
@@ -28,7 +30,7 @@
       if (data.business && data.business.items) {
         set("cms-business", data.business.items.map(function (it) {
           return '<a class="card reveal in" href="' + esc(it.href) + '">' +
-            '<div class="thumb"><img src="' + esc(it.img) + '" alt="' + esc(it.title) + '"></div>' +
+            '<div class="thumb"><img src="' + esc(BASE + it.img) + '" alt="' + esc(it.title) + '"></div>' +
             '<div class="body"><div class="en">' + esc(it.en) + '</div><h3>' + esc(it.title) +
             '</h3><p>' + esc(it.desc) + '</p></div></a>';
         }).join(""));
@@ -41,7 +43,7 @@
             return '<span class="chip">' + esc(c) + "</span>";
           }).join("");
           return '<a class="card reveal in" href="' + esc(it.href) + '">' +
-            '<div class="thumb"><img loading="lazy" decoding="async" src="' + esc(it.img) +
+            '<div class="thumb"><img loading="lazy" decoding="async" src="' + esc(BASE + it.img) +
             '" alt="' + esc(it.title) + '"></div>' +
             '<div class="body"><h3>' + esc(it.title) + '</h3><div class="en">' + esc(it.en) +
             '</div><div class="chips">' + chips + '</div></div></a>';
@@ -86,7 +88,7 @@
       return '<li>' + esc(f) + '</li>';
     }).join("");
     return '<div class="prow reveal in">' +
-      '<div class="pimg' + (c.pc ? ' pc' : '') + '"><img src="' + esc(c.img) + '" alt="' + esc(c.alt || c.title) + '"></div>' +
+      '<div class="pimg' + (c.pc ? ' pc' : '') + '"><img src="' + esc(BASE + c.img) + '" alt="' + esc(c.alt || c.title) + '"></div>' +
       '<div>' +
         (c.tagLine ? '<span class="tag-line">' + esc(c.tagLine) + '</span>' : '') +
         '<h3>' + esc(c.title) + '</h3>' +
@@ -106,7 +108,7 @@
   function renderProduct(host, pg) {
     var h = pg.hero || {};
     var out = '<section class="pagehero"><div class="container">' +
-      '<div class="crumb"><a href="index.html">HOME</a><span>/</span> Products <span>/</span> ' + esc(h.crumb || h.title) + '</div>' +
+      '<div class="crumb"><a href="index.html">' + (BASE ? "홈" : "HOME") + '</a><span>/</span> ' + (BASE ? "제품소개" : "Products") + ' <span>/</span> ' + esc(h.crumb || h.title) + '</div>' +
       (h.eyebrow ? '<span class="eyebrow">' + esc(h.eyebrow) + '</span>' : '') +
       '<h1>' + esc(h.title) + '</h1>' +
       (h.lead ? '<p class="lead">' + esc(h.lead) + '</p>' : '') +
@@ -143,7 +145,7 @@
         }).join("") + '</div>';
       } else {
         body = '<div class="grid cols-3">' + (ins.cases || []).map(function (cs) {
-          return '<div class="card reveal in"><div class="thumb"><img src="' + esc(cs.img) +
+          return '<div class="card reveal in"><div class="thumb"><img src="' + esc(BASE + cs.img) +
             '" alt="' + esc(cs.alt || cs.title) + '"></div>' +
             '<div class="body"><h3 style="font-size:16px">' + esc(cs.title) + '</h3></div></div>';
         }).join("") + '</div>';

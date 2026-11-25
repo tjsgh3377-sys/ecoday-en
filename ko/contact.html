@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>온라인 문의 | 주식회사 에코데이</title>
+  <meta name="description" content="에코데이 제품 견적 및 기술 문의 — 온라인 문의 폼으로 빠른 상담을 받아보세요." />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body data-group="contact" data-page="contact">
+
+  <section class="pagehero">
+    <div class="container">
+      <div class="crumb"><a href="index.html">홈</a><span>/</span> 고객지원 <span>/</span> 온라인 문의</div>
+      <span class="eyebrow">온라인 문의</span>
+      <h1>온라인 문의</h1>
+      <p class="lead">제품, 사양, 조달 등록번호, 현장 설치 등에 대한 문의를 남겨 주시면 담당자가 신속하게 답변드립니다.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="contact-wrap">
+        <div class="form-card reveal">
+          <form id="inq">
+            <div class="row2">
+              <div class="field"><label for="name">이름 / 담당자 *</label><input id="name" name="name" required placeholder="홍길동" /></div>
+              <div class="field"><label for="company">기관 / 회사명</label><input id="company" name="company" placeholder="○○시청 · ○○건설" /></div>
+            </div>
+            <div class="row2">
+              <div class="field"><label for="phone">연락처 *</label><input id="phone" name="phone" required placeholder="010-0000-0000" /></div>
+              <div class="field"><label for="email">이메일</label><input id="email" name="email" type="email" placeholder="name@example.com" /></div>
+            </div>
+            <div class="field">
+              <label for="topic">문의 유형</label>
+              <select id="topic" name="topic">
+                <option>도로표지병</option>
+                <option>볼라드</option>
+                <option>LED 경관조명</option>
+                <option>디자인형 울타리</option>
+                <option>교통안전·갈매기 표지</option>
+                <option>바닥형 보행신호등</option>
+                <option>기타 / 견적 문의</option>
+              </select>
+            </div>
+            <div class="field"><label for="msg">문의내용 *</label><textarea id="msg" name="msg" required placeholder="제품명, 수량, 설치 지역, 희망 납기 등을 함께 적어주시면 보다 정확한 상담이 가능합니다."></textarea></div>
+            <button type="submit" class="btn btn-green" style="width:100%">문의 보내기 →</button>
+            <p style="font-size:12.5px;color:var(--muted);margin-top:14px">* 전화 문의는 대표번호 +82 32-574-1770 으로도 가능합니다.</p>
+          </form>
+        </div>
+
+        <div class="reveal">
+          <div class="info-card">
+            <h3>직접 연락</h3>
+            <div class="info-row"><div class="ic">☎</div><div><b>전화</b><span>+82 32-574-1770</span></div></div>
+            <div class="info-row"><div class="ic">✉</div><div><b>이메일</b><span>ecoday-road@daum.net</span></div></div>
+            <div class="info-row"><div class="ic">🖶</div><div><b>팩스</b><span>+82 32-574-1772</span></div></div>
+            <div class="info-row" style="border-bottom:0"><div class="ic">◷</div><div><b>운영시간</b><span>평일 09:00 – 18:00 (주말·공휴일 휴무)</span></div></div>
+          </div>
+          <div style="text-align:center;margin-top:22px" class="reveal">
+            <a class="btn btn-outline" href="location.html">오시는 길 보기 →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../include.js"></script>
+  <script>
+    // 문의 폼의 브라우저 기본 유효성 메시지를 한국어로 표시
+    (function () {
+      var form = document.getElementById("inq");
+      var fields = form.querySelectorAll("input, textarea, select");
+      Array.prototype.forEach.call(fields, function (el) {
+        el.addEventListener("invalid", function () {
+          if (el.validity.valueMissing) {
+            el.setCustomValidity("이 입력란을 작성해 주세요.");
+          } else if (el.validity.typeMismatch && el.type === "email") {
+            el.setCustomValidity("올바른 이메일 주소를 입력해 주세요.");
+          } else {
+            el.setCustomValidity("");
+          }
+        });
+        el.addEventListener("input", function () {
+          el.setCustomValidity("");
+        });
+      });
+    })();
+
+    // 문의 내용을 저장해 관리자 페이지에서 확인할 수 있도록 하는 Cloudflare Worker
+    var INQUIRY_WORKER = "https://ecoday-admin.tjsgh3377.workers.dev";
+
+    function showNotice(msg, isErr) {
+      var form = document.getElementById("inq");
+      var box = document.getElementById("inqNotice");
+      if (!box) {
+        box = document.createElement("div");
+        box.id = "inqNotice";
+        box.style.cssText = "border-radius:12px;padding:14px 16px;margin-bottom:18px;font-size:14.5px;font-weight:600";
+        form.parentNode.insertBefore(box, form);
+      }
+      if (isErr) {
+        box.style.background = "#fdecec"; box.style.border = "1px solid #f3c2c2"; box.style.color = "#a12a2a";
+      } else {
+        box.style.background = "#e8f7ee"; box.style.border = "1px solid #bfe6cd"; box.style.color = "#1e6b3f";
+      }
+      box.textContent = msg;
+      box.style.display = "block";
+      box.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+
+    document.getElementById("inq").addEventListener("submit", function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var btn = f.querySelector('button[type="submit"]');
+      var origText = btn ? btn.textContent : "";
+      if (btn) { btn.disabled = true; btn.textContent = "전송 중…"; }
+
+      fetch(INQUIRY_WORKER, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          action: "submitInquiry",
+          name: f.name.value,
+          company: f.company.value,
+          phone: f.phone.value,
+          email: f.email.value,
+          topic: f.topic.value,
+          msg: f.msg.value
+        })
+      })
+      .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, j: j }; }); })
+      .then(function (res) {
+        if (res.ok && res.j && res.j.ok) {
+          showNotice("✔ 문의가 정상적으로 접수되었습니다. 담당자가 최대한 빠르게 연락드리겠습니다.", false);
+          f.reset();
+        } else {
+          throw new Error((res.j && res.j.error) || "submit failed");
+        }
+      })
+      .catch(function () {
+        showNotice("⚠ 죄송합니다. 문의 전송에 실패했습니다. 잠시 후 다시 시도하시거나 대표번호 +82 32-574-1770 으로 연락해 주세요.", true);
+      })
+      .then(function () {
+        if (btn) { btn.disabled = false; btn.textContent = origText; }
+      });
+    });
+  </script>
+</body>
+</html>
