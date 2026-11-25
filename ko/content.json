@@ -106,7 +106,7 @@
         "href": "bollard.html",
         "chips": [
           "LED 볼라드",
-          "자가발전",
+          "비조명형",
           "스테인리스"
         ]
       },
@@ -137,8 +137,8 @@
         "img": "assets/photos/prod_sign.jpg",
         "href": "sign.html",
         "chips": [
-          "태양광 LED",
-          "LED 내부조명"
+          "교통안전표지",
+          "갈매기표지판"
         ]
       }
     ]
@@ -398,25 +398,30 @@
       "install": {
         "eyebrow": "설치사례",
         "title": "설치사례",
-        "desc": "횡단보도, 중앙·좌우차선, 안심귀갓길, 공원, 산책로, 자전거도로 등 다양한 현장에 설치되었습니다.",
+        "desc": "횡단보도·중앙/좌우차선·안심귀갓길·공원·수변도로·회전교차로·산책로·자전거도로 등 다양한 현장에 설치.",
         "layout": "cases",
         "cta": "제품 견적 문의 →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_6088.jpg",
-            "alt": "Crosswalk installation case",
+            "img": "assets/photos/cat/inst/rs_crosswalk.jpg",
+            "alt": "설치사례",
             "title": "횡단보도 · 중앙차선"
           },
           {
-            "img": "assets/photos/IMG_6806.JPG",
-            "alt": "Safe-return path installation case",
-            "title": "안심귀갓길 · 골목길"
+            "img": "assets/photos/cat/inst/rs_centerlane.jpg",
+            "alt": "설치사례",
+            "title": "곡선도로 · 좌우차선"
           },
           {
-            "img": "assets/photos/IMG_7987.JPG",
-            "alt": "Bike-lane installation case",
-            "title": "공원 · 산책로 · 자전거도로"
+            "img": "assets/photos/cat/inst/rs_park.jpg",
+            "alt": "설치사례",
+            "title": "공원 · 수변 · 산책로"
+          },
+          {
+            "img": "assets/photos/cat/inst/rs_roundabout.jpg",
+            "alt": "설치사례",
+            "title": "회전교차로 · 도로섬"
           }
         ],
         "feats": []
@@ -432,8 +437,8 @@
       },
       "lineup": {
         "eyebrow": "라인업",
-        "title": "조명 방식별 제품 라인업",
-        "desc": "고휘도 LED 볼라드와 반사지형 비조명 · 스테인리스 볼라드."
+        "title": "타입별 제품군",
+        "desc": "LED 볼라드, 반사지 비조명형 볼라드, 스테인리스 볼라드 — 매립식·앵커식·이동식."
       },
       "hasTabs": true,
       "tabs": [
@@ -556,7 +561,13 @@
               "features": [
                 "충격을 흡수하는 폴리우레탄 커버로 차량·보행자 접촉 시 안전 확보"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "stainless",
+          "label": "스테인리스 볼라드",
+          "cards": [
             {
               "img": "assets/photos/cat/bd_stainless.jpg",
               "alt": "ECO-BRD101S product image",
@@ -584,25 +595,25 @@
       "install": {
         "eyebrow": "설치사례",
         "title": "설치사례",
-        "desc": "",
+        "desc": "횡단보도·어린이보호구역·보도·광장에서 보행자를 보호하며 주야간 시인성이 우수합니다.",
         "layout": "cases",
         "cta": "제품 견적 문의 →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_6458.JPG",
-            "alt": "Bollard installation case",
+            "img": "assets/photos/cat/inst/bo_crosswalk.jpg",
+            "alt": "설치사례",
             "title": "횡단보도 · 어린이보호구역"
           },
           {
-            "img": "assets/photos/IMG_6460.JPG",
-            "alt": "Bollard installation case",
-            "title": "산책로 · 보행로"
+            "img": "assets/photos/cat/inst/bo_pavement.jpg",
+            "alt": "설치사례",
+            "title": "보도 · 광장"
           },
           {
-            "img": "assets/photos/IMG_E0202.JPG",
-            "alt": "Bollard installation case",
-            "title": "공원 · 자전거도로"
+            "img": "assets/photos/cat/inst/bo_night.jpg",
+            "alt": "설치사례",
+            "title": "야간 시인성"
           }
         ],
         "feats": []
@@ -1178,25 +1189,25 @@
       "install": {
         "eyebrow": "설치사례",
         "title": "설치사례",
-        "desc": "",
+        "desc": "회전교차로 경계석 조명과 로고젝터 투영부터 교량·수변 경관 투광조명까지.",
         "layout": "cases",
         "cta": "제품 견적 문의 →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_7987.JPG",
-            "alt": "Landscape lighting installation case",
-            "title": "공원 · 산책로 조명"
+            "img": "assets/photos/cat/inst/lt_roundabout.jpg",
+            "alt": "설치사례",
+            "title": "회전교차로 경계석 조명"
           },
           {
-            "img": "assets/photos/KakaoTalk_20231206_083144551_01.jpg",
-            "alt": "Landscape lighting installation case",
-            "title": "보차도 경계 · 라인조명"
+            "img": "assets/photos/cat/inst/lt_gobo.jpg",
+            "alt": "설치사례",
+            "title": "로고젝터(고보) 투영"
           },
           {
-            "img": "assets/photos/KakaoTalk_20231206_083144551_02.jpg",
-            "alt": "Landscape lighting installation case",
-            "title": "울타리 · 볼라드 조명"
+            "img": "assets/photos/cat/inst/lt_flood.jpg",
+            "alt": "설치사례",
+            "title": "교량 · 경관 투광조명"
           }
         ],
         "feats": []
@@ -1368,25 +1379,25 @@
       "install": {
         "eyebrow": "설치사례",
         "title": "설치사례",
-        "desc": "",
+        "desc": "자전거도로·산책로·보차도 경계에서 보행자와 차량을 안전하게 분리합니다.",
         "layout": "cases",
         "cta": "제품 견적 문의 →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_6460.JPG",
-            "alt": "Fence installation case",
-            "title": "도심 보행자 방호"
+            "img": "assets/photos/cat/inst/fn_bikepath.jpg",
+            "alt": "설치사례",
+            "title": "자전거도로 · 산책로"
           },
           {
-            "img": "assets/photos/KakaoTalk_20231206_083144551_03.jpg",
-            "alt": "Fence installation case",
+            "img": "assets/photos/cat/inst/fn_boundary.jpg",
+            "alt": "설치사례",
             "title": "보차도 경계"
           },
           {
-            "img": "assets/photos/IMG_E0205.JPG",
-            "alt": "Fence installation case",
-            "title": "LED 경계석 조명"
+            "img": "assets/photos/cat/inst/fn_schoolzone.jpg",
+            "alt": "설치사례",
+            "title": "보행자 방호울타리"
           }
         ],
         "feats": []
@@ -1402,14 +1413,14 @@
       },
       "lineup": {
         "eyebrow": "라인업",
-        "title": "조명 방식별 표지",
-        "desc": "태양광 LED 내부조명과 전기형 LED 내부조명 2가지 방식."
+        "title": "타입별 표지",
+        "desc": "교통안전표지(어린이보호구역·속도제한·횡단보도·회전교차로·일방통행·굽은도로)와 갈매기표지판 — 태양광/전기 LED 내부조명."
       },
       "hasTabs": true,
       "tabs": [
         {
-          "id": "solar",
-          "label": "태양광 LED 내부조명",
+          "id": "traffic",
+          "label": "교통안전표지",
           "cards": [
             {
               "img": "assets/photos/cat/sg_traffic.jpg",
@@ -1437,37 +1448,6 @@
               ]
             },
             {
-              "img": "assets/photos/cat/sg_chevron.jpg",
-              "alt": "ECO-GS450-SW product image",
-              "pc": false,
-              "tagLine": "태양광 LED 내부조명",
-              "title": "갈매기표지 (태양광형)",
-              "model": "ECO-GS450-SW (single-sided) / ECO-GS450-SW2 (double-sided)",
-              "specs": [
-                {
-                  "k": "조명",
-                  "v": "태양광 LED 내부조명"
-                },
-                {
-                  "k": "규격",
-                  "v": "450 × 600 × 50mm"
-                },
-                {
-                  "k": "조달 식별번호",
-                  "v": "25234399(단면) 외"
-                }
-              ],
-              "features": [
-                "커브·급커브 구간의 방향 유도 · 단면/양면 선택"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "mains",
-          "label": "전기형 LED 내부조명",
-          "cards": [
-            {
               "img": "assets/photos/cat/sg_traffic.jpg",
               "alt": "ECO-TS·CW product image",
               "pc": true,
@@ -1490,6 +1470,37 @@
               ],
               "features": [
                 "안정적 전원 공급으로 상시 고휘도 점등 · 대형 규격 지원"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chevron",
+          "label": "갈매기표지판",
+          "cards": [
+            {
+              "img": "assets/photos/cat/sg_chevron.jpg",
+              "alt": "ECO-GS450-SW product image",
+              "pc": false,
+              "tagLine": "태양광 LED 내부조명",
+              "title": "갈매기표지 (태양광형)",
+              "model": "ECO-GS450-SW (single-sided) / ECO-GS450-SW2 (double-sided)",
+              "specs": [
+                {
+                  "k": "조명",
+                  "v": "태양광 LED 내부조명"
+                },
+                {
+                  "k": "규격",
+                  "v": "450 × 600 × 50mm"
+                },
+                {
+                  "k": "조달 식별번호",
+                  "v": "25234399(단면) 외"
+                }
+              ],
+              "features": [
+                "커브·급커브 구간의 방향 유도 · 단면/양면 선택"
               ]
             },
             {
@@ -1523,25 +1534,25 @@
       "install": {
         "eyebrow": "설치사례",
         "title": "설치사례",
-        "desc": "",
+        "desc": "갈매기·속도제한·어린이보호구역 표지에 LED 내부조명을 적용해 주야간 시인성이 뛰어납니다.",
         "layout": "cases",
         "cta": "제품 견적 문의 →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_4377.jpg",
-            "alt": "Sign installation case",
-            "title": "갈매기표지 · 급커브"
+            "img": "assets/photos/cat/inst/sn_chevron.jpg",
+            "alt": "설치사례",
+            "title": "갈매기표지판 · 급커브"
           },
           {
-            "img": "assets/photos/IMG_1029.JPG",
-            "alt": "Sign installation case",
-            "title": "어린이보호구역 표지"
+            "img": "assets/photos/cat/inst/sn_speed.jpg",
+            "alt": "설치사례",
+            "title": "속도제한표지"
           },
           {
             "img": "assets/photos/IMG_3064.jpg",
-            "alt": "Sign installation case",
-            "title": "횡단보도 · 회전교차로"
+            "alt": "설치사례",
+            "title": "주의표지 · 야간 도로"
           }
         ],
         "feats": []
@@ -1645,35 +1656,30 @@
         }
       ],
       "install": {
-        "eyebrow": "연동 방식",
-        "title": "시스템 연동 방법",
-        "desc": "",
-        "layout": "feats",
+        "eyebrow": "설치사례",
+        "title": "설치사례",
+        "desc": "횡단보도 시작점 바닥에 설치되어 보행신호와 연동 — 녹색에 점등, 적색에 소등.",
+        "layout": "cases",
         "cta": "제품 견적 문의 →",
         "ctaHref": "contact.html",
-        "cases": [],
-        "feats": [
+        "cases": [
           {
-            "no": "01",
-            "title": "표준 신호제어기",
-            "desc": "기존 교통신호제어기에 옵션보드를 장착합니다."
+            "img": "assets/photos/cat/inst/sg_green.jpg",
+            "alt": "설치사례",
+            "title": "녹색 보행신호 연동"
           },
           {
-            "no": "02",
-            "title": "옵션보드 전송",
-            "desc": "RS485 통신으로 보행신호 데이터를 제어부에 전송합니다."
+            "img": "assets/photos/cat/inst/sg_red.jpg",
+            "alt": "설치사례",
+            "title": "적색 보행신호 연동"
           },
           {
-            "no": "03",
-            "title": "제어부",
-            "desc": "수신한 신호로 바닥 표출부를 제어합니다."
-          },
-          {
-            "no": "04",
-            "title": "바닥 표출부",
-            "desc": "녹색신호에 동기 점등, 적색신호에 소등하여 보행자를 유도합니다."
+            "img": "assets/photos/cat/inst/sg_sidewalk.jpg",
+            "alt": "설치사례",
+            "title": "횡단보도 시작점 설치"
           }
-        ]
+        ],
+        "feats": []
       },
       "hasInstall": true
     }

@@ -106,7 +106,7 @@
         "href": "bollard.html",
         "chips": [
           "LED Bollard",
-          "Self-generating",
+          "Non-illuminated",
           "Stainless"
         ]
       },
@@ -137,8 +137,8 @@
         "img": "assets/photos/prod_sign.jpg",
         "href": "sign.html",
         "chips": [
-          "Solar LED",
-          "LED Internal Light"
+          "Traffic Safety",
+          "Chevron Sign"
         ]
       }
     ]
@@ -398,25 +398,30 @@
       "install": {
         "eyebrow": "Installation",
         "title": "Installation Cases",
-        "desc": "Installed at diverse sites — crosswalks, center/side lanes, safe-return paths, parks, walkways and bike lanes.",
+        "desc": "Installed across crosswalks, center/side lanes, safe-return alleys, parks, waterfront roads, roundabouts, walkways and bike lanes.",
         "layout": "cases",
         "cta": "Request a Product Quote →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_6088.jpg",
-            "alt": "Crosswalk installation case",
+            "img": "assets/photos/cat/inst/rs_crosswalk.jpg",
+            "alt": "installation case",
             "title": "Crosswalk · Center Lane"
           },
           {
-            "img": "assets/photos/IMG_6806.JPG",
-            "alt": "Safe-return path installation case",
-            "title": "Safe-Return Path · Alley"
+            "img": "assets/photos/cat/inst/rs_centerlane.jpg",
+            "alt": "installation case",
+            "title": "Curved Road · Side Lane"
           },
           {
-            "img": "assets/photos/IMG_7987.JPG",
-            "alt": "Bike-lane installation case",
-            "title": "Park · Walkway · Bike Lane"
+            "img": "assets/photos/cat/inst/rs_park.jpg",
+            "alt": "installation case",
+            "title": "Park · Waterfront · Walkway"
+          },
+          {
+            "img": "assets/photos/cat/inst/rs_roundabout.jpg",
+            "alt": "installation case",
+            "title": "Roundabout · Traffic Island"
           }
         ],
         "feats": []
@@ -432,8 +437,8 @@
       },
       "lineup": {
         "eyebrow": "Line-up",
-        "title": "Product Range by Lighting Type",
-        "desc": "High-brightness LED bollards and reflective-sheet non-illuminated / stainless bollards."
+        "title": "Product Range by Type",
+        "desc": "LED bollards, reflective non-illuminated bollards and stainless bollards — embedded, surface or detachable."
       },
       "hasTabs": true,
       "tabs": [
@@ -556,7 +561,13 @@
               "features": [
                 "Impact-absorbing polyurethane cover ensures safety on vehicle or pedestrian contact"
               ]
-            },
+            }
+          ]
+        },
+        {
+          "id": "stainless",
+          "label": "Stainless Bollard",
+          "cards": [
             {
               "img": "assets/photos/cat/bd_stainless.jpg",
               "alt": "ECO-BRD101S product image",
@@ -584,25 +595,25 @@
       "install": {
         "eyebrow": "Installation",
         "title": "Installation Cases",
-        "desc": "",
+        "desc": "Protects pedestrians at crosswalks, school zones, sidewalks and plazas — high visibility day and night.",
         "layout": "cases",
         "cta": "Request a Product Quote →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_6458.JPG",
-            "alt": "Bollard installation case",
+            "img": "assets/photos/cat/inst/bo_crosswalk.jpg",
+            "alt": "installation case",
             "title": "Crosswalk · School Zone"
           },
           {
-            "img": "assets/photos/IMG_6460.JPG",
-            "alt": "Bollard installation case",
-            "title": "Walkway · Footpath"
+            "img": "assets/photos/cat/inst/bo_pavement.jpg",
+            "alt": "installation case",
+            "title": "Sidewalk · Plaza"
           },
           {
-            "img": "assets/photos/IMG_E0202.JPG",
-            "alt": "Bollard installation case",
-            "title": "Park · Bike Lane"
+            "img": "assets/photos/cat/inst/bo_night.jpg",
+            "alt": "installation case",
+            "title": "Nighttime Visibility"
           }
         ],
         "feats": []
@@ -1178,25 +1189,25 @@
       "install": {
         "eyebrow": "Installation",
         "title": "Installation Cases",
-        "desc": "",
+        "desc": "From roundabout curb lighting and gobo projection to bridge and waterfront landscape floodlighting.",
         "layout": "cases",
         "cta": "Request a Product Quote →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_7987.JPG",
-            "alt": "Landscape lighting installation case",
-            "title": "Park · Walkway Lighting"
+            "img": "assets/photos/cat/inst/lt_roundabout.jpg",
+            "alt": "installation case",
+            "title": "Roundabout Curb Lighting"
           },
           {
-            "img": "assets/photos/KakaoTalk_20231206_083144551_01.jpg",
-            "alt": "Landscape lighting installation case",
-            "title": "Road/Sidewalk Boundary · Line Light"
+            "img": "assets/photos/cat/inst/lt_gobo.jpg",
+            "alt": "installation case",
+            "title": "Gobo Logo Projection"
           },
           {
-            "img": "assets/photos/KakaoTalk_20231206_083144551_02.jpg",
-            "alt": "Landscape lighting installation case",
-            "title": "Fence · Bollard Lighting"
+            "img": "assets/photos/cat/inst/lt_flood.jpg",
+            "alt": "installation case",
+            "title": "Bridge · Landscape Floodlighting"
           }
         ],
         "feats": []
@@ -1368,25 +1379,25 @@
       "install": {
         "eyebrow": "Installation",
         "title": "Installation Cases",
-        "desc": "",
+        "desc": "Separates pedestrians and vehicles along bike paths, walkways and road/sidewalk boundaries.",
         "layout": "cases",
         "cta": "Request a Product Quote →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_6460.JPG",
-            "alt": "Fence installation case",
-            "title": "Urban Pedestrian Protection"
+            "img": "assets/photos/cat/inst/fn_bikepath.jpg",
+            "alt": "installation case",
+            "title": "Bike Path · Walkway"
           },
           {
-            "img": "assets/photos/KakaoTalk_20231206_083144551_03.jpg",
-            "alt": "Fence installation case",
-            "title": "Road/Sidewalk Boundary"
+            "img": "assets/photos/cat/inst/fn_boundary.jpg",
+            "alt": "installation case",
+            "title": "Road / Sidewalk Boundary"
           },
           {
-            "img": "assets/photos/IMG_E0205.JPG",
-            "alt": "Fence installation case",
-            "title": "LED Curb Lighting"
+            "img": "assets/photos/cat/inst/fn_schoolzone.jpg",
+            "alt": "installation case",
+            "title": "Pedestrian Protection Fence"
           }
         ],
         "feats": []
@@ -1402,14 +1413,14 @@
       },
       "lineup": {
         "eyebrow": "Line-up",
-        "title": "Signs by Lighting Type",
-        "desc": "Two methods available: solar LED internal lighting and mains LED internal lighting."
+        "title": "Signs by Type",
+        "desc": "Traffic safety signs (school-zone, speed, crosswalk, roundabout, one-way, curve) and chevron signs — solar or mains LED internal lighting."
       },
       "hasTabs": true,
       "tabs": [
         {
-          "id": "solar",
-          "label": "Solar LED Internal Light",
+          "id": "traffic",
+          "label": "Traffic Safety Sign",
           "cards": [
             {
               "img": "assets/photos/cat/sg_traffic.jpg",
@@ -1437,37 +1448,6 @@
               ]
             },
             {
-              "img": "assets/photos/cat/sg_chevron.jpg",
-              "alt": "ECO-GS450-SW product image",
-              "pc": false,
-              "tagLine": "Solar LED Internal Light",
-              "title": "Chevron Sign (Solar Type)",
-              "model": "ECO-GS450-SW (single-sided) / ECO-GS450-SW2 (double-sided)",
-              "specs": [
-                {
-                  "k": "Lighting",
-                  "v": "Solar LED internal lighting"
-                },
-                {
-                  "k": "Spec",
-                  "v": "450 × 600 × 50mm"
-                },
-                {
-                  "k": "Procurement No.",
-                  "v": "25234399 (single-sided) etc."
-                }
-              ],
-              "features": [
-                "Guides direction on curves and sharp bends · single/double-sided option"
-              ]
-            }
-          ]
-        },
-        {
-          "id": "mains",
-          "label": "Mains LED Internal Light",
-          "cards": [
-            {
               "img": "assets/photos/cat/sg_traffic.jpg",
               "alt": "ECO-TS·CW product image",
               "pc": true,
@@ -1490,6 +1470,37 @@
               ],
               "features": [
                 "Stable power supply for constant high-brightness lighting · supports large sizes"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chevron",
+          "label": "Chevron Sign",
+          "cards": [
+            {
+              "img": "assets/photos/cat/sg_chevron.jpg",
+              "alt": "ECO-GS450-SW product image",
+              "pc": false,
+              "tagLine": "Solar LED Internal Light",
+              "title": "Chevron Sign (Solar Type)",
+              "model": "ECO-GS450-SW (single-sided) / ECO-GS450-SW2 (double-sided)",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Solar LED internal lighting"
+                },
+                {
+                  "k": "Spec",
+                  "v": "450 × 600 × 50mm"
+                },
+                {
+                  "k": "Procurement No.",
+                  "v": "25234399 (single-sided) etc."
+                }
+              ],
+              "features": [
+                "Guides direction on curves and sharp bends · single/double-sided option"
               ]
             },
             {
@@ -1523,25 +1534,25 @@
       "install": {
         "eyebrow": "Installation",
         "title": "Installation Cases",
-        "desc": "",
+        "desc": "Chevron, speed-limit and school-zone signs with LED internal lighting for clear day-and-night recognition.",
         "layout": "cases",
         "cta": "Request a Product Quote →",
         "ctaHref": "contact.html",
         "cases": [
           {
-            "img": "assets/photos/IMG_4377.jpg",
-            "alt": "Sign installation case",
+            "img": "assets/photos/cat/inst/sn_chevron.jpg",
+            "alt": "installation case",
             "title": "Chevron Sign · Sharp Bend"
           },
           {
-            "img": "assets/photos/IMG_1029.JPG",
-            "alt": "Sign installation case",
-            "title": "School Zone Sign"
+            "img": "assets/photos/cat/inst/sn_speed.jpg",
+            "alt": "installation case",
+            "title": "Speed-Limit Sign"
           },
           {
             "img": "assets/photos/IMG_3064.jpg",
-            "alt": "Sign installation case",
-            "title": "Crosswalk · Roundabout"
+            "alt": "installation case",
+            "title": "Warning Sign · Night Road"
           }
         ],
         "feats": []
@@ -1645,35 +1656,30 @@
         }
       ],
       "install": {
-        "eyebrow": "How it works",
-        "title": "How the System Links",
-        "desc": "",
-        "layout": "feats",
+        "eyebrow": "Installation",
+        "title": "Installation Cases",
+        "desc": "Embedded at the crosswalk start and synced with the pedestrian signal — green on walk, off on stop.",
+        "layout": "cases",
         "cta": "Request a Product Quote →",
         "ctaHref": "contact.html",
-        "cases": [],
-        "feats": [
+        "cases": [
           {
-            "no": "01",
-            "title": "Standard Controller",
-            "desc": "Install the option board in the existing traffic-signal controller."
+            "img": "assets/photos/cat/inst/sg_green.jpg",
+            "alt": "installation case",
+            "title": "Synced with Green Signal"
           },
           {
-            "no": "02",
-            "title": "Option Board Relay",
-            "desc": "Sends pedestrian-signal data to the control unit via RS485."
+            "img": "assets/photos/cat/inst/sg_red.jpg",
+            "alt": "installation case",
+            "title": "Synced with Red Signal"
           },
           {
-            "no": "03",
-            "title": "Control Unit",
-            "desc": "Uses the received signal to control the ground display."
-          },
-          {
-            "no": "04",
-            "title": "Ground Display",
-            "desc": "Lights in sync with green and turns off on red to guide pedestrians."
+            "img": "assets/photos/cat/inst/sg_sidewalk.jpg",
+            "alt": "installation case",
+            "title": "Crosswalk-Start Installation"
           }
-        ]
+        ],
+        "feats": []
       },
       "hasInstall": true
     }
