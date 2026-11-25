@@ -95,7 +95,8 @@
         "chips": [
           "Line Light",
           "Floor Light",
-          "Logo Projector"
+          "Floodlight",
+          "In-ground"
         ]
       },
       {
@@ -562,7 +563,7 @@
               "pc": true,
               "tagLine": "Stainless",
               "title": "Stainless Bollard",
-              "model": "ECO-BRD101S-ID / IA / IM",
+              "model": "ECO-BRD101S-I · ECO-BRD1200S-U (embedded · surface · detachable)",
               "specs": [
                 {
                   "k": "Materials",
@@ -618,7 +619,7 @@
       "lineup": {
         "eyebrow": "Line-up",
         "title": "Landscape Lighting by Purpose",
-        "desc": "Seven series of landscape lighting according to installation location and effect."
+        "desc": "Nine series of landscape lighting according to installation location and effect."
       },
       "hasTabs": true,
       "tabs": [
@@ -680,6 +681,36 @@
               "features": [
                 "Low-power long life · lights 5+ days without sun · IP68"
               ]
+            },
+            {
+              "img": "assets/photos/cat/lt_handrail.jpg",
+              "alt": "ECO26-LLBA1000 handrail bar light",
+              "pc": true,
+              "tagLine": "Handrail",
+              "title": "LED Handrail · Bar Light",
+              "model": "ECO26-LLBA1000-L15 / H15 / L15B",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "SMD LED · DC 24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY die-cast aluminum · LENS polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "1000×25×21 / 1000×55(Ø72)×17 / 1000×26×25mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "15W"
+                }
+              ],
+              "features": [
+                "Designed for handrail and railing installation · adjustable angle",
+                "Milky or clear cover · custom lengths · supports color effects"
+              ]
             }
           ]
         },
@@ -732,6 +763,36 @@
               ],
               "features": [
                 "Alleys, walkways, bike lanes · lights 5+ days without sun · IP68"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_floor_recessed.jpg",
+              "alt": "ECO-LL solar recessed floor light",
+              "pc": false,
+              "tagLine": "Floor · Solar",
+              "title": "LED Recessed Floor Light (Solar)",
+              "model": "ECO-LL222-60S / LL118-60S / LL120-60S / LL96-47S / LL67-30S",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "Super-luminosity LED · super-capacitor"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY aluminum & stainless · LENS polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø67–Ø222mm (round) / 118–222mm (square)"
+                },
+                {
+                  "k": "Power",
+                  "v": "4mW – 27mW"
+                }
+              ],
+              "features": [
+                "Solar self-generating in-ground floor light; 5+ days autonomy without sun (IP68)",
+                "No wiring required · white / yellow / green / red / blue options"
               ]
             }
           ]
@@ -816,6 +877,168 @@
               "features": [
                 "Safety lighting for high-traffic areas such as school zones, crosswalks and walkways",
                 "High-brightness LED · IP65 water- and dust-proof"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "flood",
+          "label": "Floodlight",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_flood_bar.jpg",
+              "alt": "ECO26-LLBA1000-F bar floodlight",
+              "pc": true,
+              "tagLine": "Floodlight",
+              "title": "LED Bar Floodlight",
+              "model": "ECO26-LLBA1000-F18 / F24 / F36 / F54",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY die-cast aluminum · LENS polycarbonate"
+                },
+                {
+                  "k": "Size",
+                  "v": "1000×36×30mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "18W / 24W / 36W / 54W"
+                }
+              ],
+              "features": [
+                "Linear bar-type floodlight, built in 500mm increments",
+                "SMD-type LEDs with optional sub-controller · choice of 3 bracket types"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_flood_circle.jpg",
+              "alt": "ECO26-LLC circle floodlight",
+              "pc": false,
+              "tagLine": "Floodlight",
+              "title": "LED Circle Floodlight",
+              "model": "ECO26-LLC125-F12–F24 / LLC160-F36–F42 / LLC217-F54–F108",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY aluminum · LENS tempered glass"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø125 / Ø165 / Ø217mm bodies"
+                },
+                {
+                  "k": "Power",
+                  "v": "12W – 108W"
+                }
+              ],
+              "features": [
+                "Round floodlight with up to five mounting/bracket options",
+                "Front tempered glass can be sandblasted · optional light-shield hood"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "inground",
+          "label": "In-ground Light",
+          "cards": [
+            {
+              "img": "assets/photos/cat/lt_inground_circle.jpg",
+              "alt": "ECO-LL in-ground circle light",
+              "pc": false,
+              "tagLine": "In-ground",
+              "title": "LED Circle In-ground Light",
+              "model": "ECO-LL100-C12 / LL140-C18 / LL180-C36 / LL220-C54 / LL220-C72",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY aluminum · LENS tempered glass"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø100 / Ø140 / Ø180 / Ø220mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "12W / 18W / 36W / 54W / 72W"
+                }
+              ],
+              "features": [
+                "Recessed in-ground uplight for walkways and plazas",
+                "Replaceable SMD LED to reduce glare"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_inground_bar.jpg",
+              "alt": "ECO-LL1010 linear in-ground light",
+              "pc": true,
+              "tagLine": "In-ground",
+              "title": "LED Linear In-ground Light",
+              "model": "ECO-LL1010-C15 / C36 / C72",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "BODY extruded aluminum · LENS tempered glass"
+                },
+                {
+                  "k": "Size",
+                  "v": "1010×65×70 / 1010×90×100 / 1010×95×105mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "15W / 36W / 72W"
+                }
+              ],
+              "features": [
+                "Linear recessed in-ground light for wall-grazing and pathways",
+                "Energy-saving and hazard-free · design customizable on request"
+              ]
+            },
+            {
+              "img": "assets/photos/cat/lt_column.jpg",
+              "alt": "ECO-LL2000-120 column light",
+              "pc": false,
+              "tagLine": "Column",
+              "title": "LED Column Light",
+              "model": "ECO-LL2000-120",
+              "specs": [
+                {
+                  "k": "Lighting",
+                  "v": "POWER LED · DC 24V"
+                },
+                {
+                  "k": "Materials",
+                  "v": "Stainless steel"
+                },
+                {
+                  "k": "Size",
+                  "v": "Ø216×2000mm"
+                },
+                {
+                  "k": "Power",
+                  "v": "120W"
+                }
+              ],
+              "features": [
+                "Tall stainless column light with a perforated inner pipe",
+                "Perforation pattern can be customized"
               ]
             }
           ]
