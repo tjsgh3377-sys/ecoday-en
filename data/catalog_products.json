@@ -1,9 +1,7 @@
 {
  "meta": {
   "source": "Ecoday final catalog (08.11, 40 PDF pages)",
-  "generated": "2026-11-26",
-  "imageSource": "Ecoday 80-page brochure (주식회사 에코데이 브로슈어 국영문 혼합본) - full-page render + region crop",
-  "imageUpdated": "2026-11-26"
+  "generated": "2026-11-26"
  },
  "groups": [
   {
@@ -3227,11 +3225,11 @@
    "procurementId": "26158540",
    "price": "91,300",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p006-eco26-138bw.png",
+   "image": "assets/photos/cat/rs_138b.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p006-eco26-138bw.png"
+    "assets/photos/cat/rs_138b.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3262,8 +3260,8 @@
     "rs-crosswalk",
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "6",
-   "sourcePdfPage": 6,
+   "sourceCatalogPage": "6-7",
+   "sourcePdfPage": 4,
    "verificationStatus": "ok"
   },
   {
@@ -3284,11 +3282,11 @@
    "procurementId": "26158539",
    "price": "91,300",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p006-eco26-138by.png",
+   "image": "assets/photos/cat/rs_138b.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p006-eco26-138by.png"
+    "assets/photos/cat/rs_138b.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3319,8 +3317,8 @@
     "rs-crosswalk",
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "6",
-   "sourcePdfPage": 6,
+   "sourceCatalogPage": "6-7",
+   "sourcePdfPage": 4,
    "verificationStatus": "ok"
   },
   {
@@ -3341,11 +3339,11 @@
    "procurementId": "26158537",
    "price": "93,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p007-eco26-138hw.png",
+   "image": "assets/photos/cat/rs_138h.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p007-eco26-138hw.png"
+    "assets/photos/cat/rs_138h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3376,8 +3374,8 @@
     "rs-crosswalk",
     "rs-park"
    ],
-   "sourceCatalogPage": "7",
-   "sourcePdfPage": 7,
+   "sourceCatalogPage": "6-7",
+   "sourcePdfPage": 4,
    "verificationStatus": "ok"
   },
   {
@@ -3398,11 +3396,11 @@
    "procurementId": "26158538",
    "price": "93,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p007-eco26-138hy.png",
+   "image": "assets/photos/cat/rs_138h.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p007-eco26-138hy.png"
+    "assets/photos/cat/rs_138h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3433,8 +3431,8 @@
     "rs-crosswalk",
     "rs-park"
    ],
-   "sourceCatalogPage": "7",
-   "sourcePdfPage": 7,
+   "sourceCatalogPage": "6-7",
+   "sourcePdfPage": 4,
    "verificationStatus": "ok"
   },
   {
@@ -3455,11 +3453,11 @@
    "procurementId": "26151915",
    "price": "82,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p008-eco26-138sw.png",
+   "image": "assets/photos/cat/rs_138s.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p008-eco26-138sw.png"
+    "assets/photos/cat/rs_138s.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3490,8 +3488,8 @@
     "rs-park",
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "8",
-   "sourcePdfPage": 8,
+   "sourceCatalogPage": "8-9",
+   "sourcePdfPage": 5,
    "verificationStatus": "ok"
   },
   {
@@ -3512,11 +3510,11 @@
    "procurementId": "26151916",
    "price": "82,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p008-eco26-138sy.png",
+   "image": "assets/photos/cat/rs_138s.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p008-eco26-138sy.png"
+    "assets/photos/cat/rs_138s.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3547,8 +3545,8 @@
     "rs-park",
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "8",
-   "sourcePdfPage": 8,
+   "sourceCatalogPage": "8-9",
+   "sourcePdfPage": 5,
    "verificationStatus": "ok"
   },
   {
@@ -3569,11 +3567,11 @@
    "procurementId": "25740381",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p009-eco-25rs113-bw.png",
+   "image": "assets/photos/cat/rs_113.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p009-eco-25rs113-bw.png"
+    "assets/photos/cat/rs_113.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3601,8 +3599,8 @@
    "installationCaseIds": [
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "9",
-   "sourcePdfPage": 9,
+   "sourceCatalogPage": "8-9",
+   "sourcePdfPage": 5,
    "verificationStatus": "ok"
   },
   {
@@ -3623,11 +3621,11 @@
    "procurementId": "25740380",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p009-eco-25rs113-by.png",
+   "image": "assets/photos/cat/rs_113.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p009-eco-25rs113-by.png"
+    "assets/photos/cat/rs_113.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3655,8 +3653,8 @@
    "installationCaseIds": [
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "9",
-   "sourcePdfPage": 9,
+   "sourceCatalogPage": "8-9",
+   "sourcePdfPage": 5,
    "verificationStatus": "ok"
   },
   {
@@ -3677,11 +3675,11 @@
    "procurementId": "26372354",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p009-eco-25rs113-hw.png",
+   "image": "assets/photos/cat/rs_113.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p009-eco-25rs113-hw.png"
+    "assets/photos/cat/rs_113.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3709,8 +3707,8 @@
    "installationCaseIds": [
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "9",
-   "sourcePdfPage": 9,
+   "sourceCatalogPage": "8-9",
+   "sourcePdfPage": 5,
    "verificationStatus": "ok"
   },
   {
@@ -3731,11 +3729,11 @@
    "procurementId": "26372355",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p009-eco-25rs113-hy.png",
+   "image": "assets/photos/cat/rs_113.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p009-eco-25rs113-hy.png"
+    "assets/photos/cat/rs_113.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3763,8 +3761,8 @@
    "installationCaseIds": [
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "9",
-   "sourcePdfPage": 9,
+   "sourceCatalogPage": "8-9",
+   "sourcePdfPage": 5,
    "verificationStatus": "ok"
   },
   {
@@ -3785,11 +3783,11 @@
    "procurementId": "26151913",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p009-eco26-113sw.png",
+   "image": "assets/photos/cat/rs_113.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p009-eco26-113sw.png"
+    "assets/photos/cat/rs_113.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3817,8 +3815,8 @@
    "installationCaseIds": [
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "9",
-   "sourcePdfPage": 9,
+   "sourceCatalogPage": "8-9",
+   "sourcePdfPage": 5,
    "verificationStatus": "ok"
   },
   {
@@ -3839,11 +3837,11 @@
    "procurementId": "26151914",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p009-eco26-113sy.png",
+   "image": "assets/photos/cat/rs_113.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p009-eco26-113sy.png"
+    "assets/photos/cat/rs_113.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -3871,8 +3869,8 @@
    "installationCaseIds": [
     "rs-centerlane"
    ],
-   "sourceCatalogPage": "9",
-   "sourcePdfPage": 9,
+   "sourceCatalogPage": "8-9",
+   "sourcePdfPage": 5,
    "verificationStatus": "ok"
   },
   {
@@ -3893,11 +3891,11 @@
    "procurementId": "25737635",
    "price": "429,000",
    "priceBasis": "납품장소하차도",
-   "image": "assets/images/catalog80/products/p010-eco25-rs125-cw.png",
+   "image": "assets/photos/cat/rs_125.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p010-eco25-rs125-cw.png"
+    "assets/photos/cat/rs_125.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 27pcs",
@@ -3925,8 +3923,8 @@
    "installationCaseIds": [
     "rs-crosswalk"
    ],
-   "sourceCatalogPage": "10",
-   "sourcePdfPage": 10,
+   "sourceCatalogPage": "10-11",
+   "sourcePdfPage": 6,
    "verificationStatus": "ok"
   },
   {
@@ -3947,11 +3945,11 @@
    "procurementId": "25737636",
    "price": "429,000",
    "priceBasis": "납품장소하차도",
-   "image": "assets/images/catalog80/products/p010-eco25-rs125-cy.png",
+   "image": "assets/photos/cat/rs_125.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p010-eco25-rs125-cy.png"
+    "assets/photos/cat/rs_125.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 27pcs",
@@ -3979,8 +3977,8 @@
    "installationCaseIds": [
     "rs-crosswalk"
    ],
-   "sourceCatalogPage": "10",
-   "sourcePdfPage": 10,
+   "sourceCatalogPage": "10-11",
+   "sourcePdfPage": 6,
    "verificationStatus": "ok"
   },
   {
@@ -4001,11 +3999,11 @@
    "procurementId": "25543620",
    "price": "319,000",
    "priceBasis": "납품장소하차도",
-   "image": "assets/images/catalog80/products/p011-eco-rs196-rw.png",
+   "image": "assets/photos/cat/rs_196.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p011-eco-rs196-rw.png"
+    "assets/photos/cat/rs_196.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -4033,8 +4031,8 @@
    "installationCaseIds": [
     "rs-roundabout"
    ],
-   "sourceCatalogPage": "11",
-   "sourcePdfPage": 11,
+   "sourceCatalogPage": "10-11",
+   "sourcePdfPage": 6,
    "verificationStatus": "ok"
   },
   {
@@ -4055,11 +4053,11 @@
    "procurementId": "25543621",
    "price": "319,000",
    "priceBasis": "납품장소하차도",
-   "image": "assets/images/catalog80/products/p011-eco-rs196-ry.png",
+   "image": "assets/photos/cat/rs_196.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p011-eco-rs196-ry.png"
+    "assets/photos/cat/rs_196.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -4087,8 +4085,8 @@
    "installationCaseIds": [
     "rs-roundabout"
    ],
-   "sourceCatalogPage": "11",
-   "sourcePdfPage": 11,
+   "sourceCatalogPage": "10-11",
+   "sourcePdfPage": 6,
    "verificationStatus": "ok"
   },
   {
@@ -4108,11 +4106,11 @@
    "procurementId": "26084710",
    "price": "67,100~176,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p018-llba1200.png",
+   "image": "assets/photos/cat/lt_line.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p018-llba1200.png"
+    "assets/photos/cat/lt_line.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -4138,8 +4136,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "18",
-   "sourcePdfPage": 18,
+   "sourceCatalogPage": "18-19",
+   "sourcePdfPage": 10,
    "verificationStatus": "ok"
   },
   {
@@ -4159,11 +4157,11 @@
    "procurementId": "26084709",
    "price": "67,100~176,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p018-llba1000.png",
+   "image": "assets/photos/cat/lt_line.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p018-llba1000.png"
+    "assets/photos/cat/lt_line.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -4189,8 +4187,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "18",
-   "sourcePdfPage": 18,
+   "sourceCatalogPage": "18-19",
+   "sourcePdfPage": 10,
    "verificationStatus": "ok"
   },
   {
@@ -4210,11 +4208,11 @@
    "procurementId": "26084708",
    "price": "67,100~176,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p018-llflex1000.png",
+   "image": "assets/photos/cat/lt_line.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p018-llflex1000.png"
+    "assets/photos/cat/lt_line.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -4240,8 +4238,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "18",
-   "sourcePdfPage": 18,
+   "sourceCatalogPage": "18-19",
+   "sourcePdfPage": 10,
    "verificationStatus": "ok"
   },
   {
@@ -4261,11 +4259,11 @@
    "procurementId": "26316681",
    "price": "67,100~176,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p018-llflex1000-10.png",
+   "image": "assets/photos/cat/lt_line.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p018-llflex1000-10.png"
+    "assets/photos/cat/lt_line.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -4291,8 +4289,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "18",
-   "sourcePdfPage": 18,
+   "sourceCatalogPage": "18-19",
+   "sourcePdfPage": 10,
    "verificationStatus": "ok"
   },
   {
@@ -4312,11 +4310,11 @@
    "procurementId": "25241455",
    "price": "192,500~264,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p020-ll180-s.png",
+   "image": "assets/photos/cat/lt_wall.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p020-ll180-s.png"
+    "assets/photos/cat/lt_wall.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -4342,8 +4340,8 @@
    "installationCaseIds": [
     "lt-wall-case"
    ],
-   "sourceCatalogPage": "20",
-   "sourcePdfPage": 20,
+   "sourceCatalogPage": "20-21",
+   "sourcePdfPage": 11,
    "verificationStatus": "ok"
   },
   {
@@ -4363,11 +4361,11 @@
    "procurementId": "26084705",
    "price": "192,500~264,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p020-llw109.png",
+   "image": "assets/photos/cat/lt_wall.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p020-llw109.png"
+    "assets/photos/cat/lt_wall.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -4393,8 +4391,8 @@
    "installationCaseIds": [
     "lt-wall-case"
    ],
-   "sourceCatalogPage": "20",
-   "sourcePdfPage": 20,
+   "sourceCatalogPage": "20-21",
+   "sourcePdfPage": 11,
    "verificationStatus": "ok"
   },
   {
@@ -4414,11 +4412,11 @@
    "procurementId": "25987478",
    "price": "445,500~462,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p022-ll19-au.png",
+   "image": "assets/photos/cat/lt_curb_rainbow.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p022-ll19-au.png"
+    "assets/photos/cat/lt_curb_rainbow.jpg"
    ],
    "specifications": {
     "lighting": "RGBW LED × 27EA",
@@ -4446,8 +4444,8 @@
    "installationCaseIds": [
     "lt-roundabout"
    ],
-   "sourceCatalogPage": "22",
-   "sourcePdfPage": 22,
+   "sourceCatalogPage": "22-23",
+   "sourcePdfPage": 12,
    "verificationStatus": "ok"
   },
   {
@@ -4467,11 +4465,11 @@
    "procurementId": "25987477",
    "price": "445,500~462,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p022-ll23-au.png",
+   "image": "assets/photos/cat/lt_curb_rainbow.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p022-ll23-au.png"
+    "assets/photos/cat/lt_curb_rainbow.jpg"
    ],
    "specifications": {
     "lighting": "RGBW LED × 27EA",
@@ -4499,8 +4497,8 @@
    "installationCaseIds": [
     "lt-roundabout"
    ],
-   "sourceCatalogPage": "22",
-   "sourcePdfPage": 22,
+   "sourceCatalogPage": "22-23",
+   "sourcePdfPage": 12,
    "verificationStatus": "ok"
   },
   {
@@ -4520,11 +4518,11 @@
    "procurementId": "25235290",
    "price": "1,980,000~3,630,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p024-ll50w-cu.png",
+   "image": "assets/photos/cat/lt_gobo_50.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p024-ll50w-cu.png"
+    "assets/photos/cat/lt_gobo_50.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 1pcs",
@@ -4550,8 +4548,8 @@
    "installationCaseIds": [
     "lt-gobo-case"
    ],
-   "sourceCatalogPage": "24",
-   "sourcePdfPage": 24,
+   "sourceCatalogPage": "24-25",
+   "sourcePdfPage": 13,
    "verificationStatus": "ok"
   },
   {
@@ -4571,11 +4569,11 @@
    "procurementId": "25235291",
    "price": "1,980,000~3,630,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p024-ll80w-cu.png",
+   "image": "assets/photos/cat/lt_gobo_80.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p024-ll80w-cu.png"
+    "assets/photos/cat/lt_gobo_80.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 1pcs",
@@ -4601,8 +4599,8 @@
    "installationCaseIds": [
     "lt-gobo-case"
    ],
-   "sourceCatalogPage": "24",
-   "sourcePdfPage": 24,
+   "sourceCatalogPage": "24-25",
+   "sourcePdfPage": 13,
    "verificationStatus": "ok"
   },
   {
@@ -4622,11 +4620,11 @@
    "procurementId": "25235292",
    "price": "1,980,000~3,630,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p024-ll100w-cu.png",
+   "image": "assets/photos/cat/lt_gobo_100.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p024-ll100w-cu.png"
+    "assets/photos/cat/lt_gobo_100.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 1pcs",
@@ -4652,8 +4650,8 @@
    "installationCaseIds": [
     "lt-gobo-case"
    ],
-   "sourceCatalogPage": "24",
-   "sourcePdfPage": 24,
+   "sourceCatalogPage": "24-25",
+   "sourcePdfPage": 13,
    "verificationStatus": "ok"
   },
   {
@@ -4673,11 +4671,11 @@
    "procurementId": "25476606",
    "price": "1,980,000~3,630,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p024-ll200w-cu.png",
+   "image": "assets/photos/cat/lt_gobo_200.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p024-ll200w-cu.png"
+    "assets/photos/cat/lt_gobo_200.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 1pcs",
@@ -4703,8 +4701,8 @@
    "installationCaseIds": [
     "lt-gobo-case"
    ],
-   "sourceCatalogPage": "24",
-   "sourcePdfPage": 24,
+   "sourceCatalogPage": "24-25",
+   "sourcePdfPage": 13,
    "verificationStatus": "ok"
   },
   {
@@ -4725,11 +4723,11 @@
    "procurementId": "25241460",
    "price": "121,000~132,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p026-ll155-hu.png",
+   "image": "assets/photos/cat/lt_curb155.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p026-ll155-hu.png"
+    "assets/photos/cat/lt_curb155.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -4757,8 +4755,8 @@
    "installationCaseIds": [
     "lt-roundabout"
    ],
-   "sourceCatalogPage": "26",
-   "sourcePdfPage": 26,
+   "sourceCatalogPage": "26-27",
+   "sourcePdfPage": 14,
    "verificationStatus": "ok"
   },
   {
@@ -4779,11 +4777,11 @@
    "procurementId": "25241459",
    "price": "121,000~132,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p026-ll155-bu.png",
+   "image": "assets/photos/cat/lt_curb155.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p026-ll155-bu.png"
+    "assets/photos/cat/lt_curb155.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
@@ -4811,8 +4809,8 @@
    "installationCaseIds": [
     "lt-roundabout"
    ],
-   "sourceCatalogPage": "26",
-   "sourcePdfPage": 26,
+   "sourceCatalogPage": "26-27",
+   "sourcePdfPage": 14,
    "verificationStatus": "ok"
   },
   {
@@ -4832,11 +4830,11 @@
    "procurementId": "25468414",
    "price": "1,815,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p028-ll60w-butterfly.png",
+   "image": "assets/photos/cat/lt_park.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p028-ll60w-butterfly.png"
+    "assets/photos/cat/lt_park.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED × 784pcs",
@@ -4862,8 +4860,8 @@
    "installationCaseIds": [
     "lt-park-case"
    ],
-   "sourceCatalogPage": "28",
-   "sourcePdfPage": 28,
+   "sourceCatalogPage": "28-29",
+   "sourcePdfPage": 15,
    "verificationStatus": "ok"
   },
   {
@@ -4883,11 +4881,11 @@
    "procurementId": "25462493",
    "price": "1,815,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p028-ll60w-seagull.png",
+   "image": "assets/photos/cat/lt_park.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p028-ll60w-seagull.png"
+    "assets/photos/cat/lt_park.jpg"
    ],
    "specifications": {
     "lighting": "× 910pcs",
@@ -4913,8 +4911,8 @@
    "installationCaseIds": [
     "lt-park-case"
    ],
-   "sourceCatalogPage": "28",
-   "sourcePdfPage": 28,
+   "sourceCatalogPage": "28-29",
+   "sourcePdfPage": 15,
    "verificationStatus": "ok"
   },
   {
@@ -4934,11 +4932,11 @@
    "procurementId": "25800234",
    "price": "2,350,000~3,300,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p030-ll50s.png",
+   "image": "assets/photos/cat/lt_security.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p030-ll50s.png"
+    "assets/photos/cat/lt_security.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module",
@@ -4964,8 +4962,8 @@
    "installationCaseIds": [
     "lt-park-case"
    ],
-   "sourceCatalogPage": "30",
-   "sourcePdfPage": 30,
+   "sourceCatalogPage": "30-33",
+   "sourcePdfPage": 16,
    "verificationStatus": "ok"
   },
   {
@@ -4985,11 +4983,11 @@
    "procurementId": "25795266",
    "price": "2,350,000~3,300,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p030-ll30s-3m.png",
+   "image": "assets/photos/cat/lt_security.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p030-ll30s-3m.png"
+    "assets/photos/cat/lt_security.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module",
@@ -5015,8 +5013,8 @@
    "installationCaseIds": [
     "lt-park-case"
    ],
-   "sourceCatalogPage": "30",
-   "sourcePdfPage": 30,
+   "sourceCatalogPage": "30-33",
+   "sourcePdfPage": 16,
    "verificationStatus": "ok"
   },
   {
@@ -5036,11 +5034,11 @@
    "procurementId": "25987479",
    "price": "2,350,000~3,300,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p032-ll25s.png",
+   "image": "assets/photos/cat/lt_security.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p032-ll25s.png"
+    "assets/photos/cat/lt_security.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module",
@@ -5066,8 +5064,8 @@
    "installationCaseIds": [
     "lt-park-case"
    ],
-   "sourceCatalogPage": "32",
-   "sourcePdfPage": 32,
+   "sourceCatalogPage": "30-33",
+   "sourcePdfPage": 16,
    "verificationStatus": "ok"
   },
   {
@@ -5088,11 +5086,11 @@
    "procurementId": "25241458",
    "price": "77,000~253,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p033-ll130-bu.png",
+   "image": "assets/photos/cat/lt_accent.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p033-ll130-bu.png"
+    "assets/photos/cat/lt_accent.jpg"
    ],
    "specifications": {
     "lighting": "×4pcs",
@@ -5118,8 +5116,8 @@
    "installationCaseIds": [
     "lt-gobo-case"
    ],
-   "sourceCatalogPage": "33",
-   "sourcePdfPage": 33,
+   "sourceCatalogPage": "32-33",
+   "sourcePdfPage": 17,
    "verificationStatus": "ok"
   },
   {
@@ -5140,11 +5138,11 @@
    "procurementId": "25241461",
    "price": "77,000~253,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p033-ll138-su.png",
+   "image": "assets/photos/cat/lt_accent.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p033-ll138-su.png"
+    "assets/photos/cat/lt_accent.jpg"
    ],
    "specifications": {
     "lighting": "×6pcs",
@@ -5170,8 +5168,8 @@
    "installationCaseIds": [
     "lt-gobo-case"
    ],
-   "sourceCatalogPage": "33",
-   "sourcePdfPage": 33,
+   "sourceCatalogPage": "32-33",
+   "sourcePdfPage": 17,
    "verificationStatus": "ok"
   },
   {
@@ -5192,11 +5190,11 @@
    "procurementId": "26316682",
    "price": "77,000~253,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p033-ll275-c10.png",
+   "image": "assets/photos/cat/lt_accent.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p033-ll275-c10.png"
+    "assets/photos/cat/lt_accent.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -5222,8 +5220,8 @@
    "installationCaseIds": [
     "lt-gobo-case"
    ],
-   "sourceCatalogPage": "33",
-   "sourcePdfPage": 33,
+   "sourceCatalogPage": "32-33",
+   "sourcePdfPage": 17,
    "verificationStatus": "ok"
   },
   {
@@ -5243,11 +5241,11 @@
    "procurementId": "25462494",
    "price": "143,000~264,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p034-ll222-60s.png",
+   "image": "assets/photos/cat/lt_floor_square.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p034-ll222-60s.png"
+    "assets/photos/cat/lt_floor_square.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 4pcs",
@@ -5273,8 +5271,8 @@
    "installationCaseIds": [
     "lt-floor-case"
    ],
-   "sourceCatalogPage": "34",
-   "sourcePdfPage": 34,
+   "sourceCatalogPage": "34-35",
+   "sourcePdfPage": 18,
    "verificationStatus": "ok"
   },
   {
@@ -5294,11 +5292,11 @@
    "procurementId": "25462495",
    "price": "143,000~264,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p034-ll118-60s.png",
+   "image": "assets/photos/cat/lt_floor_square.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p034-ll118-60s.png"
+    "assets/photos/cat/lt_floor_square.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 4pcs",
@@ -5324,8 +5322,8 @@
    "installationCaseIds": [
     "lt-floor-case"
    ],
-   "sourceCatalogPage": "34",
-   "sourcePdfPage": 34,
+   "sourceCatalogPage": "34-35",
+   "sourcePdfPage": 18,
    "verificationStatus": "ok"
   },
   {
@@ -5345,11 +5343,11 @@
    "procurementId": "25468417",
    "price": "36,300~143,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p036-ll120-60s.png",
+   "image": "assets/photos/cat/lt_floor_recessed.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p036-ll120-60s.png"
+    "assets/photos/cat/lt_floor_recessed.jpg"
    ],
    "specifications": {
     "lighting": "① ×4 ② ×5 ③ ×1pcs",
@@ -5375,8 +5373,8 @@
    "installationCaseIds": [
     "lt-floor-case"
    ],
-   "sourceCatalogPage": "36",
-   "sourcePdfPage": 36,
+   "sourceCatalogPage": "36-37",
+   "sourcePdfPage": 19,
    "verificationStatus": "needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)"
   },
   {
@@ -5396,11 +5394,11 @@
    "procurementId": "25468416",
    "price": "36,300~143,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p036-ll96-47s.png",
+   "image": "assets/photos/cat/lt_floor_recessed.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p036-ll96-47s.png"
+    "assets/photos/cat/lt_floor_recessed.jpg"
    ],
    "specifications": {
     "lighting": "① ×4 ② ×5 ③ ×1pcs",
@@ -5426,8 +5424,8 @@
    "installationCaseIds": [
     "lt-floor-case"
    ],
-   "sourceCatalogPage": "36",
-   "sourcePdfPage": 36,
+   "sourceCatalogPage": "36-37",
+   "sourcePdfPage": 19,
    "verificationStatus": "needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)"
   },
   {
@@ -5447,11 +5445,11 @@
    "procurementId": "25468415",
    "price": "36,300~143,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p036-ll67-30s.png",
+   "image": "assets/photos/cat/lt_floor_recessed.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p036-ll67-30s.png"
+    "assets/photos/cat/lt_floor_recessed.jpg"
    ],
    "specifications": {
     "lighting": "① ×4 ② ×5 ③ ×1pcs",
@@ -5477,8 +5475,8 @@
    "installationCaseIds": [
     "lt-floor-case"
    ],
-   "sourceCatalogPage": "36",
-   "sourcePdfPage": 36,
+   "sourceCatalogPage": "36-37",
+   "sourcePdfPage": 19,
    "verificationStatus": "needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)"
   },
   {
@@ -5498,11 +5496,11 @@
    "procurementId": "-",
    "price": "36,300~143,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p036-ll120-60s.png",
+   "image": "assets/photos/cat/lt_floor_recessed.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p036-ll120-60s.png"
+    "assets/photos/cat/lt_floor_recessed.jpg"
    ],
    "specifications": {
     "lighting": "① ×4 ② ×5 ③ ×1pcs",
@@ -5528,8 +5526,8 @@
    "installationCaseIds": [
     "lt-floor-case"
    ],
-   "sourceCatalogPage": "36",
-   "sourcePdfPage": 36,
+   "sourceCatalogPage": "36-37",
+   "sourcePdfPage": 19,
    "verificationStatus": "needs_check"
   },
   {
@@ -5550,11 +5548,11 @@
    "procurementId": "25251812",
    "price": "145,200~220,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p038-ll157-su-hu.png",
+   "image": "assets/photos/cat/lt_post_sq.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p038-ll157-su-hu.png"
+    "assets/photos/cat/lt_post_sq.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
@@ -5582,8 +5580,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "38",
-   "sourcePdfPage": 38,
+   "sourceCatalogPage": "38-39",
+   "sourcePdfPage": 20,
    "verificationStatus": "needs_check (배터리형 타입 표기 불일치 — 38P)"
   },
   {
@@ -5604,11 +5602,11 @@
    "procurementId": "25251811",
    "price": "145,200~220,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p038-ll157-su-hu.png",
+   "image": "assets/photos/cat/lt_post_sq.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p038-ll157-su-hu.png"
+    "assets/photos/cat/lt_post_sq.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
@@ -5636,8 +5634,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "38",
-   "sourcePdfPage": 38,
+   "sourceCatalogPage": "38-39",
+   "sourcePdfPage": 20,
    "verificationStatus": "needs_check (배터리형 타입 표기 불일치 — 38P)"
   },
   {
@@ -5658,11 +5656,11 @@
    "procurementId": "25251810",
    "price": "145,200~220,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p038-ll157-bu.png",
+   "image": "assets/photos/cat/lt_post_sq.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p038-ll157-bu.png"
+    "assets/photos/cat/lt_post_sq.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
@@ -5690,8 +5688,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "38",
-   "sourcePdfPage": 38,
+   "sourceCatalogPage": "38-39",
+   "sourcePdfPage": 20,
    "verificationStatus": "needs_check"
   },
   {
@@ -5712,11 +5710,11 @@
    "procurementId": "25251813",
    "price": "198,000~396,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p040-ll110-su.png",
+   "image": "assets/photos/cat/lt_post_rd_s.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p040-ll110-su.png"
+    "assets/photos/cat/lt_post_rd_s.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
@@ -5744,8 +5742,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "40",
-   "sourcePdfPage": 40,
+   "sourceCatalogPage": "40-41",
+   "sourcePdfPage": 21,
    "verificationStatus": "needs_check (모델명 표기 불일치 — 40P)"
   },
   {
@@ -5766,11 +5764,11 @@
    "procurementId": "25251814",
    "price": "198,000~396,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p040-ll110-hu.png",
+   "image": "assets/photos/cat/lt_post_rd_h.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p040-ll110-hu.png"
+    "assets/photos/cat/lt_post_rd_h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
@@ -5798,8 +5796,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "40",
-   "sourcePdfPage": 40,
+   "sourceCatalogPage": "40-41",
+   "sourcePdfPage": 21,
    "verificationStatus": "needs_check (모델명 표기 불일치 — 40P)"
   },
   {
@@ -5820,11 +5818,11 @@
    "procurementId": "-",
    "price": "198,000~396,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p040-ll110-cu.png",
+   "image": "assets/photos/cat/lt_post_rd_c.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p040-ll110-cu.png"
+    "assets/photos/cat/lt_post_rd_c.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
@@ -5852,8 +5850,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "40",
-   "sourcePdfPage": 40,
+   "sourceCatalogPage": "40-41",
+   "sourcePdfPage": 21,
    "verificationStatus": "needs_check"
   },
   {
@@ -5873,11 +5871,11 @@
    "procurementId": "26084707",
    "price": "286,000~319,000 (일부 가격문의)",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p042-llbrd800.png",
+   "image": "assets/photos/cat/lt_bollardlight_800.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p042-llbrd800.png"
+    "assets/photos/cat/lt_bollardlight_800.jpg"
    ],
    "specifications": {
     "lighting": "COB LED",
@@ -5903,8 +5901,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "42",
-   "sourcePdfPage": 42,
+   "sourceCatalogPage": "42-43",
+   "sourcePdfPage": 22,
    "verificationStatus": "ok"
   },
   {
@@ -5924,11 +5922,11 @@
    "procurementId": "26084706",
    "price": "286,000~319,000 (일부 가격문의)",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p042-llbrd300.png",
+   "image": "assets/photos/cat/lt_bollardlight_300.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p042-llbrd300.png"
+    "assets/photos/cat/lt_bollardlight_300.jpg"
    ],
    "specifications": {
     "lighting": "COB LED",
@@ -5954,8 +5952,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "42",
-   "sourcePdfPage": 42,
+   "sourceCatalogPage": "42-43",
+   "sourcePdfPage": 22,
    "verificationStatus": "ok"
   },
   {
@@ -5975,11 +5973,11 @@
    "procurementId": "26122096",
    "price": "286,000~319,000 (일부 가격문의)",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p042-llbrd110.png",
+   "image": "assets/photos/cat/lt_bollardlight_110.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p042-llbrd110.png"
+    "assets/photos/cat/lt_bollardlight_110.jpg"
    ],
    "specifications": {
     "lighting": "COB LED",
@@ -6005,8 +6003,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "42",
-   "sourcePdfPage": 42,
+   "sourceCatalogPage": "42-43",
+   "sourcePdfPage": 22,
    "verificationStatus": "ok"
   },
   {
@@ -6026,11 +6024,11 @@
    "procurementId": "26122095",
    "price": "286,000~319,000 (일부 가격문의)",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p042-llbrd150.png",
+   "image": "assets/photos/cat/lt_bollardlight_110.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p042-llbrd150.png"
+    "assets/photos/cat/lt_bollardlight_110.jpg"
    ],
    "specifications": {
     "lighting": "COB LED",
@@ -6056,8 +6054,8 @@
    "installationCaseIds": [
     "lt-post-case"
    ],
-   "sourceCatalogPage": "42",
-   "sourcePdfPage": 42,
+   "sourceCatalogPage": "42-43",
+   "sourcePdfPage": 22,
    "verificationStatus": "ok"
   },
   {
@@ -6077,11 +6075,11 @@
    "procurementId": "26316683",
    "price": "132,000~253,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p044-llba1000-l15.png",
+   "image": "assets/photos/cat/lt_handrail.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p044-llba1000-l15.png"
+    "assets/photos/cat/lt_handrail.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -6109,8 +6107,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "44",
-   "sourcePdfPage": 44,
+   "sourceCatalogPage": "44-45",
+   "sourcePdfPage": 23,
    "verificationStatus": "ok"
   },
   {
@@ -6130,11 +6128,11 @@
    "procurementId": "23619182",
    "price": "132,000~253,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p044-llba1000-h15.png",
+   "image": "assets/photos/cat/lt_handrail.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p044-llba1000-h15.png"
+    "assets/photos/cat/lt_handrail.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -6162,8 +6160,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "44",
-   "sourcePdfPage": 44,
+   "sourceCatalogPage": "44-45",
+   "sourcePdfPage": 23,
    "verificationStatus": "ok"
   },
   {
@@ -6183,11 +6181,11 @@
    "procurementId": "26316692",
    "price": "132,000~253,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p044-llba1000-l15b.png",
+   "image": "assets/photos/cat/lt_handrail.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p044-llba1000-l15b.png"
+    "assets/photos/cat/lt_handrail.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
@@ -6215,8 +6213,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "44",
-   "sourcePdfPage": 44,
+   "sourceCatalogPage": "44-45",
+   "sourcePdfPage": 23,
    "verificationStatus": "ok"
   },
   {
@@ -6236,11 +6234,11 @@
    "procurementId": "26316684",
    "price": "319,000~451,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p046-llba1000-flood.png",
+   "image": "assets/photos/cat/lt_flood_bar.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p046-llba1000-flood.png"
+    "assets/photos/cat/lt_flood_bar.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6270,8 +6268,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "46",
-   "sourcePdfPage": 46,
+   "sourceCatalogPage": "46-47",
+   "sourcePdfPage": 24,
    "verificationStatus": "ok"
   },
   {
@@ -6291,11 +6289,11 @@
    "procurementId": "26316685",
    "price": "319,000~451,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p046-llba1000-flood.png",
+   "image": "assets/photos/cat/lt_flood_bar.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p046-llba1000-flood.png"
+    "assets/photos/cat/lt_flood_bar.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6325,8 +6323,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "46",
-   "sourcePdfPage": 46,
+   "sourceCatalogPage": "46-47",
+   "sourcePdfPage": 24,
    "verificationStatus": "ok"
   },
   {
@@ -6346,11 +6344,11 @@
    "procurementId": "26316693",
    "price": "319,000~451,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p046-llba1000-flood.png",
+   "image": "assets/photos/cat/lt_flood_bar.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p046-llba1000-flood.png"
+    "assets/photos/cat/lt_flood_bar.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6380,8 +6378,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "46",
-   "sourcePdfPage": 46,
+   "sourceCatalogPage": "46-47",
+   "sourcePdfPage": 24,
    "verificationStatus": "ok"
   },
   {
@@ -6401,11 +6399,11 @@
    "procurementId": "26316694",
    "price": "319,000~451,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p046-llba1000-flood.png",
+   "image": "assets/photos/cat/lt_flood_bar.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p046-llba1000-flood.png"
+    "assets/photos/cat/lt_flood_bar.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6435,8 +6433,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "46",
-   "sourcePdfPage": 46,
+   "sourceCatalogPage": "46-47",
+   "sourcePdfPage": 24,
    "verificationStatus": "ok"
   },
   {
@@ -6456,11 +6454,11 @@
    "procurementId": "26316686",
    "price": "352,000~418,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p048-llc125-flood.png",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p048-llc125-flood.png"
+    "assets/photos/cat/lt_flood_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6486,8 +6484,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "48",
-   "sourcePdfPage": 48,
+   "sourceCatalogPage": "48-49",
+   "sourcePdfPage": 25,
    "verificationStatus": "ok"
   },
   {
@@ -6507,11 +6505,11 @@
    "procurementId": "26316687",
    "price": "352,000~418,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p048-llc125-flood.png",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p048-llc125-flood.png"
+    "assets/photos/cat/lt_flood_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6537,8 +6535,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "48",
-   "sourcePdfPage": 48,
+   "sourceCatalogPage": "48-49",
+   "sourcePdfPage": 25,
    "verificationStatus": "ok"
   },
   {
@@ -6558,11 +6556,11 @@
    "procurementId": "26316688",
    "price": "352,000~418,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p048-llc125-flood.png",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p048-llc125-flood.png"
+    "assets/photos/cat/lt_flood_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6588,8 +6586,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "48",
-   "sourcePdfPage": 48,
+   "sourceCatalogPage": "48-49",
+   "sourcePdfPage": 25,
    "verificationStatus": "ok"
   },
   {
@@ -6609,11 +6607,11 @@
    "procurementId": "26316695",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p050-llc160-f36.png",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p050-llc160-f36.png"
+    "assets/photos/cat/lt_flood_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6639,8 +6637,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "50",
-   "sourcePdfPage": 50,
+   "sourceCatalogPage": "50-51",
+   "sourcePdfPage": 26,
    "verificationStatus": "needs_check (72W·108W 모델명 표기 불일치 — 50P)"
   },
   {
@@ -6660,11 +6658,11 @@
    "procurementId": "26316696",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p050-llc160-f42.png",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p050-llc160-f42.png"
+    "assets/photos/cat/lt_flood_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6690,8 +6688,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "50",
-   "sourcePdfPage": 50,
+   "sourceCatalogPage": "50-51",
+   "sourcePdfPage": 26,
    "verificationStatus": "needs_check (72W·108W 모델명 표기 불일치 — 50P)"
   },
   {
@@ -6711,11 +6709,11 @@
    "procurementId": "26316697",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p050-ll217-flood.png",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p050-ll217-flood.png"
+    "assets/photos/cat/lt_flood_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6741,8 +6739,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "50",
-   "sourcePdfPage": 50,
+   "sourceCatalogPage": "50-51",
+   "sourcePdfPage": 26,
    "verificationStatus": "needs_check (72W·108W 모델명 표기 불일치 — 50P)"
   },
   {
@@ -6762,11 +6760,11 @@
    "procurementId": "26316701",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p050-ll217-flood.png",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p050-ll217-flood.png"
+    "assets/photos/cat/lt_flood_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6792,8 +6790,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "50",
-   "sourcePdfPage": 50,
+   "sourceCatalogPage": "50-51",
+   "sourcePdfPage": 26,
    "verificationStatus": "needs_check"
   },
   {
@@ -6813,11 +6811,11 @@
    "procurementId": "26316704",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p050-ll217-flood.png",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p050-ll217-flood.png"
+    "assets/photos/cat/lt_flood_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6843,8 +6841,8 @@
    "installationCaseIds": [
     "lt-flood"
    ],
-   "sourceCatalogPage": "50",
-   "sourcePdfPage": 50,
+   "sourceCatalogPage": "50-51",
+   "sourcePdfPage": 26,
    "verificationStatus": "needs_check"
   },
   {
@@ -6864,11 +6862,11 @@
    "procurementId": "26316689",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p052-ll100-c12.png",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p052-ll100-c12.png"
+    "assets/photos/cat/lt_inground_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6892,8 +6890,8 @@
    "installationCaseIds": [
     "lt-inground-case"
    ],
-   "sourceCatalogPage": "52",
-   "sourcePdfPage": 52,
+   "sourceCatalogPage": "52-53",
+   "sourcePdfPage": 27,
    "verificationStatus": "ok"
   },
   {
@@ -6913,11 +6911,11 @@
    "procurementId": "26316690",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p052-ll140-c18.png",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p052-ll140-c18.png"
+    "assets/photos/cat/lt_inground_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6941,8 +6939,8 @@
    "installationCaseIds": [
     "lt-inground-case"
    ],
-   "sourceCatalogPage": "52",
-   "sourcePdfPage": 52,
+   "sourceCatalogPage": "52-53",
+   "sourcePdfPage": 27,
    "verificationStatus": "ok"
   },
   {
@@ -6962,11 +6960,11 @@
    "procurementId": "26316698",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p052-ll180-c36.png",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p052-ll180-c36.png"
+    "assets/photos/cat/lt_inground_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -6990,8 +6988,8 @@
    "installationCaseIds": [
     "lt-inground-case"
    ],
-   "sourceCatalogPage": "52",
-   "sourcePdfPage": 52,
+   "sourceCatalogPage": "52-53",
+   "sourcePdfPage": 27,
    "verificationStatus": "ok"
   },
   {
@@ -7011,11 +7009,11 @@
    "procurementId": "26316699",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p052-ll220-c54-c72.png",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p052-ll220-c54-c72.png"
+    "assets/photos/cat/lt_inground_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -7039,8 +7037,8 @@
    "installationCaseIds": [
     "lt-inground-case"
    ],
-   "sourceCatalogPage": "52",
-   "sourcePdfPage": 52,
+   "sourceCatalogPage": "52-53",
+   "sourcePdfPage": 27,
    "verificationStatus": "ok"
   },
   {
@@ -7060,11 +7058,11 @@
    "procurementId": "26316702",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p052-ll220-c54-c72.png",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p052-ll220-c54-c72.png"
+    "assets/photos/cat/lt_inground_circle.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -7088,8 +7086,8 @@
    "installationCaseIds": [
     "lt-inground-case"
    ],
-   "sourceCatalogPage": "52",
-   "sourcePdfPage": 52,
+   "sourceCatalogPage": "52-53",
+   "sourcePdfPage": 27,
    "verificationStatus": "ok"
   },
   {
@@ -7109,11 +7107,11 @@
    "procurementId": "26316691",
    "price": "341,000~715,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p054-ll1010-c15.png",
+   "image": "assets/photos/cat/lt_inground_bar.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p054-ll1010-c15.png"
+    "assets/photos/cat/lt_inground_bar.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -7137,8 +7135,8 @@
    "installationCaseIds": [
     "lt-inground-case"
    ],
-   "sourceCatalogPage": "54",
-   "sourcePdfPage": 54,
+   "sourceCatalogPage": "54-55",
+   "sourcePdfPage": 28,
    "verificationStatus": "ok"
   },
   {
@@ -7158,11 +7156,11 @@
    "procurementId": "26316700",
    "price": "341,000~715,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p054-ll1010-c36.png",
+   "image": "assets/photos/cat/lt_inground_bar.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p054-ll1010-c36.png"
+    "assets/photos/cat/lt_inground_bar.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -7186,8 +7184,8 @@
    "installationCaseIds": [
     "lt-inground-case"
    ],
-   "sourceCatalogPage": "54",
-   "sourcePdfPage": 54,
+   "sourceCatalogPage": "54-55",
+   "sourcePdfPage": 28,
    "verificationStatus": "ok"
   },
   {
@@ -7207,11 +7205,11 @@
    "procurementId": "26316703",
    "price": "341,000~715,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p054-ll1010-c72.png",
+   "image": "assets/photos/cat/lt_inground_bar.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p054-ll1010-c72.png"
+    "assets/photos/cat/lt_inground_bar.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -7235,8 +7233,8 @@
    "installationCaseIds": [
     "lt-inground-case"
    ],
-   "sourceCatalogPage": "54",
-   "sourcePdfPage": 54,
+   "sourceCatalogPage": "54-55",
+   "sourcePdfPage": 28,
    "verificationStatus": "ok"
   },
   {
@@ -7256,11 +7254,11 @@
    "procurementId": "26328196",
    "price": "3,300,000",
    "priceBasis": "납품하차도",
-   "image": "assets/images/catalog80/products/p055-ll2000-120.png",
+   "image": "assets/photos/cat/lt_column.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p055-ll2000-120.png"
+    "assets/photos/cat/lt_column.jpg"
    ],
    "specifications": {
     "lighting": "POWER LED",
@@ -7285,7 +7283,7 @@
     "lt-inground-case"
    ],
    "sourceCatalogPage": "55",
-   "sourcePdfPage": 55,
+   "sourcePdfPage": 28,
    "verificationStatus": "ok"
   },
   {
@@ -7306,11 +7304,11 @@
    "procurementId": "25676355",
    "price": "319,000~374,000",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p056-brd150-d.png",
+   "image": "assets/photos/cat/bd_150h.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p056-brd150-d.png"
+    "assets/photos/cat/bd_150h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 9pcs",
@@ -7336,8 +7334,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "56",
-   "sourcePdfPage": 56,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "needs_check (매립·앵커 식별번호 중복 — 56P)"
   },
   {
@@ -7358,11 +7356,11 @@
    "procurementId": "25676355",
    "price": "319,000~374,000",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p056-brd150-a.png",
+   "image": "assets/photos/cat/bd_150h.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p056-brd150-a.png"
+    "assets/photos/cat/bd_150h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 9pcs",
@@ -7388,8 +7386,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "56",
-   "sourcePdfPage": 56,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "needs_check"
   },
   {
@@ -7410,11 +7408,11 @@
    "procurementId": "25676358",
    "price": "319,000~374,000",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p056-brd150-m.png",
+   "image": "assets/photos/cat/bd_150h.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p056-brd150-m.png"
+    "assets/photos/cat/bd_150h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 9pcs",
@@ -7440,8 +7438,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "56",
-   "sourcePdfPage": 56,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "needs_check (매립·앵커 식별번호 중복 — 56P)"
   },
   {
@@ -7462,11 +7460,11 @@
    "procurementId": "25676351",
    "price": "335,500~397,100",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p056-brd150-d.png",
+   "image": "assets/photos/cat/bd_150h.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p056-brd150-d.png"
+    "assets/photos/cat/bd_150h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 9pcs",
@@ -7490,8 +7488,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "56",
-   "sourcePdfPage": 56,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "needs_check (매립·앵커 식별번호 중복 — 56P)"
   },
   {
@@ -7512,11 +7510,11 @@
    "procurementId": "25676351",
    "price": "335,500~397,100",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p056-brd150-a.png",
+   "image": "assets/photos/cat/bd_150h.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p056-brd150-a.png"
+    "assets/photos/cat/bd_150h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 9pcs",
@@ -7540,8 +7538,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "56",
-   "sourcePdfPage": 56,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "needs_check"
   },
   {
@@ -7562,11 +7560,11 @@
    "procurementId": "25676353",
    "price": "335,500~397,100",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p056-brd150-m.png",
+   "image": "assets/photos/cat/bd_150h.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p056-brd150-m.png"
+    "assets/photos/cat/bd_150h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 9pcs",
@@ -7590,8 +7588,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "56",
-   "sourcePdfPage": 56,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "needs_check (매립·앵커 식별번호 중복 — 56P)"
   },
   {
@@ -7612,11 +7610,11 @@
    "procurementId": "25676347",
    "price": "309,100~381,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p057-brd110-d.png",
+   "image": "assets/photos/cat/bd_110.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p057-brd110-d.png"
+    "assets/photos/cat/bd_110.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 18pcs",
@@ -7642,8 +7640,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "57",
-   "sourcePdfPage": 57,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "ok"
   },
   {
@@ -7664,11 +7662,11 @@
    "procurementId": "25675323",
    "price": "309,100~381,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p057-brd110-a.png",
+   "image": "assets/photos/cat/bd_110.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p057-brd110-a.png"
+    "assets/photos/cat/bd_110.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 18pcs",
@@ -7694,8 +7692,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "57",
-   "sourcePdfPage": 57,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "ok"
   },
   {
@@ -7716,11 +7714,11 @@
    "procurementId": "25676348",
    "price": "309,100~381,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p057-brd110-m.png",
+   "image": "assets/photos/cat/bd_110.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p057-brd110-m.png"
+    "assets/photos/cat/bd_110.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 18pcs",
@@ -7746,8 +7744,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "57",
-   "sourcePdfPage": 57,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "ok"
   },
   {
@@ -7768,11 +7766,11 @@
    "procurementId": "25676349",
    "price": "335,500~436,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p057-brd110-d.png",
+   "image": "assets/photos/cat/bd_110.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p057-brd110-d.png"
+    "assets/photos/cat/bd_110.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 18pcs",
@@ -7798,8 +7796,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "57",
-   "sourcePdfPage": 57,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "ok"
   },
   {
@@ -7820,11 +7818,11 @@
    "procurementId": "25675324",
    "price": "335,500~436,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p057-brd110-a.png",
+   "image": "assets/photos/cat/bd_110.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p057-brd110-a.png"
+    "assets/photos/cat/bd_110.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 18pcs",
@@ -7850,8 +7848,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "57",
-   "sourcePdfPage": 57,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "ok"
   },
   {
@@ -7872,11 +7870,11 @@
    "procurementId": "25676350",
    "price": "335,500~436,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p057-brd110-m.png",
+   "image": "assets/photos/cat/bd_110.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p057-brd110-m.png"
+    "assets/photos/cat/bd_110.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 18pcs",
@@ -7902,8 +7900,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "57",
-   "sourcePdfPage": 57,
+   "sourceCatalogPage": "56-57",
+   "sourcePdfPage": 29,
    "verificationStatus": "ok"
   },
   {
@@ -7923,11 +7921,11 @@
    "procurementId": "25658332",
    "price": "189,200~229,900",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p058-brd110x-d.png",
+   "image": "assets/photos/cat/bd_110x.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p058-brd110x-d.png"
+    "assets/photos/cat/bd_110x.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -7951,8 +7949,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "58",
-   "sourcePdfPage": 58,
+   "sourceCatalogPage": "58-59",
+   "sourcePdfPage": 30,
    "verificationStatus": "ok"
   },
   {
@@ -7972,11 +7970,11 @@
    "procurementId": "25658331",
    "price": "189,200~229,900",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p058-brd110x-a.png",
+   "image": "assets/photos/cat/bd_110x.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p058-brd110x-a.png"
+    "assets/photos/cat/bd_110x.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8000,8 +7998,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "58",
-   "sourcePdfPage": 58,
+   "sourceCatalogPage": "58-59",
+   "sourcePdfPage": 30,
    "verificationStatus": "ok"
   },
   {
@@ -8021,11 +8019,11 @@
    "procurementId": "25658330",
    "price": "189,200~229,900",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p058-brd110x-m.png",
+   "image": "assets/photos/cat/bd_110x.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p058-brd110x-m.png"
+    "assets/photos/cat/bd_110x.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8049,8 +8047,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "58",
-   "sourcePdfPage": 58,
+   "sourceCatalogPage": "58-59",
+   "sourcePdfPage": 30,
    "verificationStatus": "ok"
   },
   {
@@ -8070,11 +8068,11 @@
    "procurementId": "25658329",
    "price": "209,000~249,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p059-brd150x-d.png",
+   "image": "assets/photos/cat/bd_150x.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p059-brd150x-d.png"
+    "assets/photos/cat/bd_150x.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8098,8 +8096,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "59",
-   "sourcePdfPage": 59,
+   "sourceCatalogPage": "58-59",
+   "sourcePdfPage": 30,
    "verificationStatus": "ok"
   },
   {
@@ -8119,11 +8117,11 @@
    "procurementId": "25658328",
    "price": "209,000~249,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p059-brd150x-a.png",
+   "image": "assets/photos/cat/bd_150x.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p059-brd150x-a.png"
+    "assets/photos/cat/bd_150x.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8147,8 +8145,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "59",
-   "sourcePdfPage": 59,
+   "sourceCatalogPage": "58-59",
+   "sourcePdfPage": 30,
    "verificationStatus": "ok"
   },
   {
@@ -8168,11 +8166,11 @@
    "procurementId": "25658327",
    "price": "209,000~249,700",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p059-brd150x-m.png",
+   "image": "assets/photos/cat/bd_150x.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p059-brd150x-m.png"
+    "assets/photos/cat/bd_150x.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8196,8 +8194,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "59",
-   "sourcePdfPage": 59,
+   "sourceCatalogPage": "58-59",
+   "sourcePdfPage": 30,
    "verificationStatus": "ok"
   },
   {
@@ -8217,11 +8215,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p062-brd101s-id.png",
+   "image": "assets/photos/cat/bd_stainless_i.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p062-brd101s-id.png"
+    "assets/photos/cat/bd_stainless_i.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8247,8 +8245,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "62",
-   "sourcePdfPage": 62,
+   "sourceCatalogPage": "62-63",
+   "sourcePdfPage": 32,
    "verificationStatus": "needs_check (제품명과 실제 형태 불일치 — 63P)"
   },
   {
@@ -8268,11 +8266,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p062-brd101s-ia.png",
+   "image": "assets/photos/cat/bd_stainless_i.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p062-brd101s-ia.png"
+    "assets/photos/cat/bd_stainless_i.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8298,8 +8296,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "62",
-   "sourcePdfPage": 62,
+   "sourceCatalogPage": "62-63",
+   "sourcePdfPage": 32,
    "verificationStatus": "needs_check (제품명과 실제 형태 불일치 — 63P)"
   },
   {
@@ -8319,11 +8317,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p062-brd101s-im.png",
+   "image": "assets/photos/cat/bd_stainless_i.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p062-brd101s-im.png"
+    "assets/photos/cat/bd_stainless_i.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8349,8 +8347,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "62",
-   "sourcePdfPage": 62,
+   "sourceCatalogPage": "62-63",
+   "sourcePdfPage": 32,
    "verificationStatus": "needs_check (제품명과 실제 형태 불일치 — 63P)"
   },
   {
@@ -8370,11 +8368,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p063-brd1200s-ud.png",
+   "image": "assets/photos/cat/bd_stainless_u.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p063-brd1200s-ud.png"
+    "assets/photos/cat/bd_stainless_u.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8400,8 +8398,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "63",
-   "sourcePdfPage": 63,
+   "sourceCatalogPage": "62-63",
+   "sourcePdfPage": 32,
    "verificationStatus": "ok"
   },
   {
@@ -8421,11 +8419,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p063-brd1200s-ua.png",
+   "image": "assets/photos/cat/bd_stainless_u.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p063-brd1200s-ua.png"
+    "assets/photos/cat/bd_stainless_u.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8451,8 +8449,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "63",
-   "sourcePdfPage": 63,
+   "sourceCatalogPage": "62-63",
+   "sourcePdfPage": 32,
    "verificationStatus": "ok"
   },
   {
@@ -8472,11 +8470,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p063-brd1200s-um.png",
+   "image": "assets/photos/cat/bd_stainless_u.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p063-brd1200s-um.png"
+    "assets/photos/cat/bd_stainless_u.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8502,8 +8500,8 @@
    "installationCaseIds": [
     "bo-case"
    ],
-   "sourceCatalogPage": "63",
-   "sourcePdfPage": 63,
+   "sourceCatalogPage": "62-63",
+   "sourcePdfPage": 32,
    "verificationStatus": "ok"
   },
   {
@@ -8523,11 +8521,11 @@
    "procurementId": "26002008",
    "price": "320,000~340,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p064-fn-jhgd1.png",
+   "image": "assets/photos/cat/fn_guard.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p064-fn-jhgd1.png"
+    "assets/photos/cat/fn_guard.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8553,8 +8551,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "64",
-   "sourcePdfPage": 64,
+   "sourceCatalogPage": "64-65",
+   "sourcePdfPage": 33,
    "verificationStatus": "ok"
   },
   {
@@ -8574,11 +8572,11 @@
    "procurementId": "26002007",
    "price": "320,000~340,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p064-fn-jhgd1-01.png",
+   "image": "assets/photos/cat/fn_guard.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p064-fn-jhgd1-01.png"
+    "assets/photos/cat/fn_guard.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8604,8 +8602,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "64",
-   "sourcePdfPage": 64,
+   "sourceCatalogPage": "64-65",
+   "sourcePdfPage": 33,
    "verificationStatus": "ok"
   },
   {
@@ -8625,11 +8623,11 @@
    "procurementId": "26002006",
    "price": "320,000~340,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p064-fn-jhgd1-02.png",
+   "image": "assets/photos/cat/fn_guard.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p064-fn-jhgd1-02.png"
+    "assets/photos/cat/fn_guard.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8655,8 +8653,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "64",
-   "sourcePdfPage": 64,
+   "sourceCatalogPage": "64-65",
+   "sourcePdfPage": 33,
    "verificationStatus": "ok"
   },
   {
@@ -8676,11 +8674,11 @@
    "procurementId": "26002005",
    "price": "320,000~340,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p064-fn-jhgd1-03.png",
+   "image": "assets/photos/cat/fn_guard.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p064-fn-jhgd1-03.png"
+    "assets/photos/cat/fn_guard.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8706,8 +8704,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "64",
-   "sourcePdfPage": 64,
+   "sourceCatalogPage": "64-65",
+   "sourcePdfPage": 33,
    "verificationStatus": "ok"
   },
   {
@@ -8727,11 +8725,12 @@
    "procurementId": "25987812",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p065-fn-r190j77.png",
+   "image": "assets/photos/cat/fn_ped1.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p065-fn-r190j77.png"
+    "assets/photos/cat/fn_ped1.jpg",
+    "assets/photos/cat/fn_ped2.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8757,8 +8756,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "65",
-   "sourcePdfPage": 65,
+   "sourceCatalogPage": "64-67",
+   "sourcePdfPage": 33,
    "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
   },
   {
@@ -8778,11 +8777,12 @@
    "procurementId": "25987811",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p065-fn-r196j52.png",
+   "image": "assets/photos/cat/fn_ped1.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p065-fn-r196j52.png"
+    "assets/photos/cat/fn_ped1.jpg",
+    "assets/photos/cat/fn_ped2.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8808,8 +8808,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "65",
-   "sourcePdfPage": 65,
+   "sourceCatalogPage": "64-67",
+   "sourcePdfPage": 33,
    "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
   },
   {
@@ -8829,11 +8829,12 @@
    "procurementId": "25987810",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p065-fn-r195j50.png",
+   "image": "assets/photos/cat/fn_ped1.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p065-fn-r195j50.png"
+    "assets/photos/cat/fn_ped1.jpg",
+    "assets/photos/cat/fn_ped2.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8859,8 +8860,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "65",
-   "sourcePdfPage": 65,
+   "sourceCatalogPage": "64-67",
+   "sourcePdfPage": 33,
    "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
   },
   {
@@ -8880,11 +8881,12 @@
    "procurementId": "25987809",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p065-fn-r193j46.png",
+   "image": "assets/photos/cat/fn_ped1.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p065-fn-r193j46.png"
+    "assets/photos/cat/fn_ped1.jpg",
+    "assets/photos/cat/fn_ped2.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8910,8 +8912,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "65",
-   "sourcePdfPage": 65,
+   "sourceCatalogPage": "64-67",
+   "sourcePdfPage": 33,
    "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
   },
   {
@@ -8931,11 +8933,12 @@
    "procurementId": "25987808",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p066-fn-r193j45.png",
+   "image": "assets/photos/cat/fn_ped1.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p066-fn-r193j45.png"
+    "assets/photos/cat/fn_ped1.jpg",
+    "assets/photos/cat/fn_ped2.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8961,8 +8964,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "66",
-   "sourcePdfPage": 66,
+   "sourceCatalogPage": "64-67",
+   "sourcePdfPage": 33,
    "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
   },
   {
@@ -8982,11 +8985,12 @@
    "procurementId": "25994797",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p066-fn-r157j23.png",
+   "image": "assets/photos/cat/fn_ped1.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p066-fn-r157j23.png"
+    "assets/photos/cat/fn_ped1.jpg",
+    "assets/photos/cat/fn_ped2.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -9012,8 +9016,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "66",
-   "sourcePdfPage": 66,
+   "sourceCatalogPage": "64-67",
+   "sourcePdfPage": 33,
    "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
   },
   {
@@ -9033,11 +9037,12 @@
    "procurementId": "25987807",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p066-fn-r155j17.png",
+   "image": "assets/photos/cat/fn_ped1.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p066-fn-r155j17.png"
+    "assets/photos/cat/fn_ped1.jpg",
+    "assets/photos/cat/fn_ped2.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -9063,8 +9068,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "66",
-   "sourcePdfPage": 66,
+   "sourceCatalogPage": "64-67",
+   "sourcePdfPage": 33,
    "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
   },
   {
@@ -9084,11 +9089,12 @@
    "procurementId": "25987806",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p067-fn-r156-01.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9114,8 +9120,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "67",
-   "sourcePdfPage": 67,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9135,11 +9141,12 @@
    "procurementId": "25994798",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p067-fn-r157.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p067-fn-r157.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9165,8 +9172,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "67",
-   "sourcePdfPage": 67,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9186,11 +9193,12 @@
    "procurementId": "25994799",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p067-fn-r157-02.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p067-fn-r157-02.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9216,8 +9224,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "67",
-   "sourcePdfPage": 67,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9237,11 +9245,12 @@
    "procurementId": "25994800",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p067-fn-r161.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p067-fn-r161.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9267,8 +9276,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "67",
-   "sourcePdfPage": 67,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9288,11 +9297,12 @@
    "procurementId": "25987805",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p068-fn-r164.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p068-fn-r164.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9318,8 +9328,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "68",
-   "sourcePdfPage": 68,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9339,11 +9349,12 @@
    "procurementId": "25987804",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p068-fn-r164-01.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p068-fn-r164-01.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9369,8 +9380,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "68",
-   "sourcePdfPage": 68,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9390,11 +9401,12 @@
    "procurementId": "25987803",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p068-fn-r165.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p068-fn-r165.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9420,8 +9432,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "68",
-   "sourcePdfPage": 68,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9441,11 +9453,12 @@
    "procurementId": "25987802",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p068-fn-r165-02.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p068-fn-r165-02.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9471,8 +9484,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "68",
-   "sourcePdfPage": 68,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9492,11 +9505,12 @@
    "procurementId": "26002011",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p069-fn-r165-03.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p069-fn-r165-03.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9522,8 +9536,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "69",
-   "sourcePdfPage": 69,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9543,11 +9557,12 @@
    "procurementId": "25987801",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p069-fn-r189-01.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p069-fn-r189-01.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9573,8 +9588,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "69",
-   "sourcePdfPage": 69,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9594,11 +9609,12 @@
    "procurementId": "25987800",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p069-fn-r190-01.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p069-fn-r190-01.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9624,8 +9640,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "69",
-   "sourcePdfPage": 69,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9645,11 +9661,12 @@
    "procurementId": "25987799",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p069-fn-r235-a.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p069-fn-r235-a.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9675,8 +9692,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "69",
-   "sourcePdfPage": 69,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9696,11 +9713,12 @@
    "procurementId": "25987798",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p070-fn-r117-ah.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p070-fn-r117-ah.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9726,8 +9744,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "70",
-   "sourcePdfPage": 70,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9747,11 +9765,12 @@
    "procurementId": "25987797",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p070-fn-r118-ah.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p070-fn-r118-ah.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9777,8 +9796,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "70",
-   "sourcePdfPage": 70,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9798,11 +9817,12 @@
    "procurementId": "25987796",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p070-fn-r130h.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p070-fn-r130h.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9828,8 +9848,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "70",
-   "sourcePdfPage": 70,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9849,11 +9869,12 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p070-fn-rb04.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p070-fn-rb04.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9879,8 +9900,8 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "70",
-   "sourcePdfPage": 70,
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
    "verificationStatus": "ok"
   },
   {
@@ -9900,11 +9921,12 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p067-fn-r156-01.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9930,9 +9952,9 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "67",
-   "sourcePdfPage": 67,
-   "verificationStatus": "needs_check"
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
+   "verificationStatus": "ok"
   },
   {
    "id": "eco-r02-01",
@@ -9951,11 +9973,12 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p067-fn-r156-01.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -9981,9 +10004,9 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "67",
-   "sourcePdfPage": 67,
-   "verificationStatus": "needs_check"
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
+   "verificationStatus": "ok"
   },
   {
    "id": "eco-r216",
@@ -10002,11 +10025,12 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p067-fn-r156-01.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -10032,9 +10056,9 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "67",
-   "sourcePdfPage": 67,
-   "verificationStatus": "needs_check"
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
+   "verificationStatus": "ok"
   },
   {
    "id": "eco-r218",
@@ -10053,11 +10077,12 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "image": "assets/photos/cat/fn_sep.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p067-fn-r156-01.png"
+    "assets/photos/cat/fn_sep.jpg",
+    "assets/photos/cat/fn_led.jpg"
    ],
    "specifications": {
     "lighting": "일부 LED 경계석 조명형(R01/R02-01/R216/R218)",
@@ -10083,9 +10108,9 @@
    "installationCaseIds": [
     "fn-case"
    ],
-   "sourceCatalogPage": "67",
-   "sourcePdfPage": 67,
-   "verificationStatus": "needs_check"
+   "sourceCatalogPage": "66-71",
+   "sourcePdfPage": 34,
+   "verificationStatus": "ok"
   },
   {
    "id": "edbl-200",
@@ -10104,11 +10129,11 @@
    "procurementId": "26109111",
    "price": "279,400~880,000",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p074-edbl-200.png",
+   "image": "assets/photos/cat/sn_display.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p074-edbl-200.png"
+    "assets/photos/cat/sn_display.jpg"
    ],
    "specifications": {
     "lighting": "표출부 LED (디밍 0~100 100단계)",
@@ -10138,8 +10163,8 @@
     "sg-red",
     "sg-sidewalk"
    ],
-   "sourceCatalogPage": "74",
-   "sourcePdfPage": 74,
+   "sourceCatalogPage": "74-75",
+   "sourcePdfPage": 38,
    "verificationStatus": "ok"
   },
   {
@@ -10159,11 +10184,11 @@
    "procurementId": "26109112",
    "price": "279,400~880,000",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p074-edcb-200.png",
+   "image": "assets/photos/cat/sn_control.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p074-edcb-200.png"
+    "assets/photos/cat/sn_control.jpg"
    ],
    "specifications": {
     "lighting": "표출부 LED (디밍 0~100 100단계)",
@@ -10193,8 +10218,8 @@
     "sg-red",
     "sg-sidewalk"
    ],
-   "sourceCatalogPage": "74",
-   "sourcePdfPage": 74,
+   "sourceCatalogPage": "74-75",
+   "sourcePdfPage": 38,
    "verificationStatus": "ok"
   },
   {
@@ -10214,11 +10239,11 @@
    "procurementId": "26109113",
    "price": "279,400~880,000",
    "priceBasis": "현장설치도",
-   "image": "assets/images/catalog80/products/p074-edob-200.png",
+   "image": "assets/photos/cat/sn_option.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p074-edob-200.png"
+    "assets/photos/cat/sn_option.jpg"
    ],
    "specifications": {
     "lighting": "표출부 LED (디밍 0~100 100단계)",
@@ -10248,8 +10273,8 @@
     "sg-red",
     "sg-sidewalk"
    ],
-   "sourceCatalogPage": "74",
-   "sourcePdfPage": 74,
+   "sourceCatalogPage": "74-75",
+   "sourcePdfPage": 38,
    "verificationStatus": "ok"
   },
   {
@@ -10269,11 +10294,11 @@
    "procurementId": "25235503",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-oneway-c.png",
+   "image": "assets/photos/cat/sg_type_oneway.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-oneway-c.png"
+    "assets/photos/cat/sg_type_oneway.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10299,8 +10324,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10320,11 +10345,11 @@
    "procurementId": "25235504",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-oneway-c.png",
+   "image": "assets/photos/cat/sg_type_oneway.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-oneway-c.png"
+    "assets/photos/cat/sg_type_oneway.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10350,8 +10375,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10371,11 +10396,11 @@
    "procurementId": "25235535",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-oneway-s.png",
+   "image": "assets/photos/cat/sg_type_oneway.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-oneway-s.png"
+    "assets/photos/cat/sg_type_oneway.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10401,8 +10426,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10422,11 +10447,11 @@
    "procurementId": "25235537",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-oneway-s.png",
+   "image": "assets/photos/cat/sg_type_oneway.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-oneway-s.png"
+    "assets/photos/cat/sg_type_oneway.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10452,8 +10477,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10473,11 +10498,11 @@
    "procurementId": "25235471",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-school-speed30-c.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-school-speed30-c.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10503,8 +10528,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10524,11 +10549,11 @@
    "procurementId": "25235463",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-school-speed30-c.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-school-speed30-c.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10554,8 +10579,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10575,11 +10600,11 @@
    "procurementId": "25235466",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-school-speed30-c.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-school-speed30-c.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10605,8 +10630,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10626,11 +10651,11 @@
    "procurementId": "25235464",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-school-diamond-c.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-school-diamond-c.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10656,8 +10681,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10677,11 +10702,11 @@
    "procurementId": "25235529",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-school-diamond-c.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-school-diamond-c.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10707,8 +10732,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10728,11 +10753,11 @@
    "procurementId": "25235510",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-school-speed30-s.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-school-speed30-s.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10758,8 +10783,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10779,11 +10804,11 @@
    "procurementId": "25235509",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-school-speed30-s.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-school-speed30-s.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10809,8 +10834,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10830,11 +10855,11 @@
    "procurementId": "25235508",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-school-speed30-s.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-school-speed30-s.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10860,8 +10885,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10881,11 +10906,11 @@
    "procurementId": "25235507",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-school-diamond-s.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-school-diamond-s.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10911,8 +10936,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10932,11 +10957,11 @@
    "procurementId": "25235506",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-school-diamond-s.png",
+   "image": "assets/photos/cat/sg_type_school.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-school-diamond-s.png"
+    "assets/photos/cat/sg_type_school.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -10962,8 +10987,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -10983,11 +11008,11 @@
    "procurementId": "25235482",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-speed-c.png",
+   "image": "assets/photos/cat/sg_type_speed.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-speed-c.png"
+    "assets/photos/cat/sg_type_speed.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11013,8 +11038,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11034,11 +11059,11 @@
    "procurementId": "25235490",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-speed-c.png",
+   "image": "assets/photos/cat/sg_type_speed.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-speed-c.png"
+    "assets/photos/cat/sg_type_speed.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11064,8 +11089,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11085,11 +11110,11 @@
    "procurementId": "25235512",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-speed-s.png",
+   "image": "assets/photos/cat/sg_type_speed.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-speed-s.png"
+    "assets/photos/cat/sg_type_speed.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11115,8 +11140,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11136,11 +11161,11 @@
    "procurementId": "25235513",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-speed-s.png",
+   "image": "assets/photos/cat/sg_type_speed.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-speed-s.png"
+    "assets/photos/cat/sg_type_speed.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11166,8 +11191,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11187,11 +11212,11 @@
    "procurementId": "25235501",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-crosswalk-c.png",
+   "image": "assets/photos/cat/sg_type_crosswalk.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-crosswalk-c.png"
+    "assets/photos/cat/sg_type_crosswalk.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11217,8 +11242,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11238,11 +11263,11 @@
    "procurementId": "25235502",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-crosswalk-c.png",
+   "image": "assets/photos/cat/sg_type_crosswalk.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-crosswalk-c.png"
+    "assets/photos/cat/sg_type_crosswalk.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11268,8 +11293,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11289,11 +11314,11 @@
    "procurementId": "25235532",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-crosswalk-s.png",
+   "image": "assets/photos/cat/sg_type_crosswalk.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-crosswalk-s.png"
+    "assets/photos/cat/sg_type_crosswalk.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11319,8 +11344,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11340,11 +11365,11 @@
    "procurementId": "25235534",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-crosswalk-s.png",
+   "image": "assets/photos/cat/sg_type_crosswalk.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-crosswalk-s.png"
+    "assets/photos/cat/sg_type_crosswalk.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11370,8 +11395,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11391,11 +11416,11 @@
    "procurementId": "25235497",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-roundabout-c.png",
+   "image": "assets/photos/cat/sg_type_roundabout.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-roundabout-c.png"
+    "assets/photos/cat/sg_type_roundabout.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11421,8 +11446,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11442,11 +11467,11 @@
    "procurementId": "25235499",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-roundabout-c.png",
+   "image": "assets/photos/cat/sg_type_roundabout.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-roundabout-c.png"
+    "assets/photos/cat/sg_type_roundabout.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11472,8 +11497,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11493,11 +11518,11 @@
    "procurementId": "25235518",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-roundabout-s.png",
+   "image": "assets/photos/cat/sg_type_roundabout.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-roundabout-s.png"
+    "assets/photos/cat/sg_type_roundabout.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11523,8 +11548,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11544,11 +11569,11 @@
    "procurementId": "25235523",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p076-sgn-roundabout-s.png",
+   "image": "assets/photos/cat/sg_type_roundabout.jpg",
    "imageType": "product",
    "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p076-sgn-roundabout-s.png"
+    "assets/photos/cat/sg_type_roundabout.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11574,8 +11599,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "76",
-   "sourcePdfPage": 76,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11595,11 +11620,11 @@
    "procurementId": "25235487",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-curve-c.png",
+   "image": "assets/photos/cat/sg_type_curve.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-curve-c.png"
+    "assets/photos/cat/sg_type_curve.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11625,8 +11650,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11646,11 +11671,11 @@
    "procurementId": "25235511",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p077-sgn-curve-s.png",
+   "image": "assets/photos/cat/sg_type_curve.jpg",
    "imageType": "product",
-   "sharedImage": false,
+   "sharedImage": true,
    "images": [
-    "assets/images/catalog80/products/p077-sgn-curve-s.png"
+    "assets/photos/cat/sg_type_curve.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명",
@@ -11676,8 +11701,8 @@
    "installationCaseIds": [
     "sn-speed"
    ],
-   "sourceCatalogPage": "77",
-   "sourcePdfPage": 77,
+   "sourceCatalogPage": "76-77",
+   "sourcePdfPage": 39,
    "verificationStatus": "ok"
   },
   {
@@ -11697,11 +11722,11 @@
    "procurementId": "25234398",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p078-gs450-cw.png",
+   "image": "assets/photos/cat/sg_chevron_cw.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p078-gs450-cw.png"
+    "assets/photos/cat/sg_chevron_cw.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명 / 태양광 LED 내부조명",
@@ -11728,8 +11753,8 @@
     "sn-chevron",
     "sn-speed"
    ],
-   "sourceCatalogPage": "78",
-   "sourcePdfPage": 78,
+   "sourceCatalogPage": "78-79",
+   "sourcePdfPage": 40,
    "verificationStatus": "needs_check (양면형 모델명·식별번호 중복 — 78P)"
   },
   {
@@ -11749,11 +11774,11 @@
    "procurementId": "25234399",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p078-gs450-sw.png",
+   "image": "assets/photos/cat/sg_chevron_sw.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p078-gs450-sw.png"
+    "assets/photos/cat/sg_chevron_sw.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명 / 태양광 LED 내부조명",
@@ -11780,8 +11805,8 @@
     "sn-chevron",
     "sn-speed"
    ],
-   "sourceCatalogPage": "78",
-   "sourcePdfPage": 78,
+   "sourceCatalogPage": "78-79",
+   "sourcePdfPage": 40,
    "verificationStatus": "needs_check (양면형 모델명·식별번호 중복 — 78P)"
   },
   {
@@ -11801,11 +11826,11 @@
    "procurementId": "25234396",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p078-gs450-cw2-m.png",
+   "image": "assets/photos/cat/sg_chevron_cw2.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p078-gs450-cw2-m.png"
+    "assets/photos/cat/sg_chevron_cw2.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명 / 태양광 LED 내부조명",
@@ -11832,8 +11857,8 @@
     "sn-chevron",
     "sn-speed"
    ],
-   "sourceCatalogPage": "78",
-   "sourcePdfPage": 78,
+   "sourceCatalogPage": "78-79",
+   "sourcePdfPage": 40,
    "verificationStatus": "needs_check (양면형 모델명·식별번호 중복 — 78P)"
   },
   {
@@ -11853,11 +11878,11 @@
    "procurementId": "25234396",
    "price": "별도문의",
    "priceBasis": "나라장터",
-   "image": "assets/images/catalog80/products/p078-gs450-cw2-s.png",
+   "image": "assets/photos/cat/sg_chevron_cw2s.jpg",
    "imageType": "product",
    "sharedImage": false,
    "images": [
-    "assets/images/catalog80/products/p078-gs450-cw2-s.png"
+    "assets/photos/cat/sg_chevron_cw2s.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명 / 태양광 LED 내부조명",
@@ -11884,8 +11909,8 @@
     "sn-chevron",
     "sn-speed"
    ],
-   "sourceCatalogPage": "78",
-   "sourcePdfPage": 78,
+   "sourceCatalogPage": "78-79",
+   "sourcePdfPage": 40,
    "verificationStatus": "needs_check"
   }
  ]
