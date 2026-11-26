@@ -65,6 +65,70 @@
    "verification": "ok"
   },
   {
+   "id": "rs-sidelane",
+   "category": "roadstud",
+   "subcategoryKo": "좌우차선",
+   "subcategoryEn": "Side Lanes",
+   "titleKo": "좌우차선 설치사례",
+   "titleEn": "Side-Lane Installation",
+   "image": "assets/photos/cat/inst/rs_sidelane.jpg",
+   "relatedProductGroupIds": [
+    "rs-138-battery",
+    "rs-138-solar"
+   ],
+   "catalogPage": "14-15",
+   "pdfPage": 8,
+   "verification": "ok"
+  },
+  {
+   "id": "rs-safepath",
+   "category": "roadstud",
+   "subcategoryKo": "안심귀갓길·수변",
+   "subcategoryEn": "Safe-Return · Waterfront",
+   "titleKo": "안심귀갓길·골목길 설치사례",
+   "titleEn": "Safe-Return Path · Alley Installation",
+   "image": "assets/photos/cat/inst/rs_safepath.jpg",
+   "relatedProductGroupIds": [
+    "rs-138-solar",
+    "rs-138-hybrid"
+   ],
+   "catalogPage": "14-15",
+   "pdfPage": 8,
+   "verification": "ok"
+  },
+  {
+   "id": "rs-bikepath",
+   "category": "roadstud",
+   "subcategoryKo": "자전거도로",
+   "subcategoryEn": "Bike Path",
+   "titleKo": "자전거도로 설치사례",
+   "titleEn": "Bike-Path Installation",
+   "image": "assets/photos/cat/inst/rs_bikepath.jpg",
+   "relatedProductGroupIds": [
+    "rs-138-solar",
+    "rs-113-module"
+   ],
+   "catalogPage": "16-17",
+   "pdfPage": 9,
+   "verification": "ok"
+  },
+  {
+   "id": "rs-tunnel",
+   "category": "roadstud",
+   "subcategoryKo": "터널·지하차도",
+   "subcategoryEn": "Tunnel · Underpass",
+   "titleKo": "터널·지하차도 설치사례",
+   "titleEn": "Tunnel · Underpass Installation",
+   "image": "assets/photos/cat/inst/rs_tunnel.jpg",
+   "relatedProductGroupIds": [
+    "rs-125-mains",
+    "rs-138-battery"
+   ],
+   "catalogPage": "12-13",
+   "pdfPage": 7,
+   "verification": "ok"
+  },
+  {
    "id": "lt-roundabout",
    "category": "lighting",
    "subcategoryKo": "경계석·회전교차로",
@@ -245,6 +309,54 @@
    "verification": "ok"
   },
   {
+   "id": "bo-wall",
+   "category": "bollard",
+   "subcategoryKo": "보행로·벽면",
+   "subcategoryEn": "Walkway",
+   "titleKo": "보행로 설치사례",
+   "titleEn": "Walkway Installation",
+   "image": "assets/photos/cat/inst/bo_wall.jpg",
+   "relatedProductGroupIds": [
+    "brd-110-solar",
+    "brd-110-hybrid"
+   ],
+   "catalogPage": "60-61",
+   "pdfPage": 31,
+   "verification": "ok"
+  },
+  {
+   "id": "bo-plaza",
+   "category": "bollard",
+   "subcategoryKo": "광장·주차장",
+   "subcategoryEn": "Plaza · Lot",
+   "titleKo": "광장·주차장 설치사례",
+   "titleEn": "Plaza · Lot Installation",
+   "image": "assets/photos/cat/inst/bo_plaza.jpg",
+   "relatedProductGroupIds": [
+    "brd-150-hybrid",
+    "brd-150-battery"
+   ],
+   "catalogPage": "60-61",
+   "pdfPage": 31,
+   "verification": "ok"
+  },
+  {
+   "id": "bo-sidewalk",
+   "category": "bollard",
+   "subcategoryKo": "보도 야간",
+   "subcategoryEn": "Sidewalk Night",
+   "titleKo": "보도 야간 설치사례",
+   "titleEn": "Sidewalk Nighttime Installation",
+   "image": "assets/photos/cat/inst/bo_sidewalk.jpg",
+   "relatedProductGroupIds": [
+    "brd-110-solar",
+    "brd-150-hybrid"
+   ],
+   "catalogPage": "60-61",
+   "pdfPage": 31,
+   "verification": "ok"
+  },
+  {
    "id": "fn-case",
    "category": "fence",
    "subcategoryKo": "자전거도로·산책로",
@@ -285,6 +397,52 @@
    "image": "assets/photos/cat/inst/fn_schoolzone.jpg",
    "relatedProductGroupIds": [
     "fn-ped"
+   ],
+   "catalogPage": "72-73",
+   "pdfPage": 37,
+   "verification": "ok"
+  },
+  {
+   "id": "fn-schoolzone2",
+   "category": "fence",
+   "subcategoryKo": "어린이보호구역",
+   "subcategoryEn": "School Zone",
+   "titleKo": "어린이보호구역 설치사례",
+   "titleEn": "School-Zone Installation",
+   "image": "assets/photos/cat/inst/fn_schoolzone2.jpg",
+   "relatedProductGroupIds": [
+    "fn-ped"
+   ],
+   "catalogPage": "72-73",
+   "pdfPage": 37,
+   "verification": "ok"
+  },
+  {
+   "id": "fn-bikepath2",
+   "category": "fence",
+   "subcategoryKo": "자전거도로 경계",
+   "subcategoryEn": "Bike-Path Boundary",
+   "titleKo": "자전거도로 경계 설치사례",
+   "titleEn": "Bike-Path Boundary Installation",
+   "image": "assets/photos/cat/inst/fn_bikepath2.jpg",
+   "relatedProductGroupIds": [
+    "fn-sep",
+    "fn-ped"
+   ],
+   "catalogPage": "72-73",
+   "pdfPage": 37,
+   "verification": "ok"
+  },
+  {
+   "id": "fn-boundary2",
+   "category": "fence",
+   "subcategoryKo": "보차도 경계 II",
+   "subcategoryEn": "Road Boundary II",
+   "titleKo": "보차도 경계 설치사례 II",
+   "titleEn": "Road/Sidewalk Boundary Installation II",
+   "image": "assets/photos/cat/inst/fn_boundary2.jpg",
+   "relatedProductGroupIds": [
+    "fn-sep"
    ],
    "catalogPage": "72-73",
    "pdfPage": 37,

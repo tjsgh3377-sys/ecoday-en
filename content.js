@@ -59,6 +59,16 @@
     ["단면 전기", "single-sided mains"], ["단면 태양광", "single-sided solar"],
     ["양면 전기", "double-sided mains"], ["양면 태양광", "double-sided solar"],
     ["전기형", "mains"], ["배터리형", "battery"], ["하이브리드형", "hybrid"], ["태양광형", "solar"],
+    ["UV 코팅", "UV coating"], ["코팅", "coating"],
+    ["모델별 상이", "varies per model"], ["모델별", "per model"], ["상이", "varies"],
+    ["입력전압", "input voltage"], ["소비전력", "power consumption"],
+    ["조정가능", "adjustable"], ["조정", "adjustable"],
+    ["부착형", "attach type"], ["매립형", "flush type"],
+    ["경계석", "curb"], ["조명형", "lighting type"],
+    ["100단계", "100-step"], ["단계", "-step"], ["실리콘", "silicone"], ["점멸", "flashing"],
+    ["통신", "communication"], ["적색", "red"], ["황색", "yellow"], ["녹색", "green"], ["백색", "white"],
+    ["최대", "max."], ["소등", "off"], ["일부", "some"], ["이하", "or less"], ["작동", "operation"],
+    ["입력", "input"], [" 등", " etc."], ["가능", "available"], ["전기", "mains"],
     ["전기 ", "mains "], ["각)", "sq.)"]
   ];
   function tr(s) {
