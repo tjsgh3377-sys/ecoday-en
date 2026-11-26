@@ -1,0 +1,3408 @@
+{
+ "meta": {
+  "source": "Ecoday 80-page brochure",
+  "generated": "2026-11-26",
+  "method": "full-page render + region crop"
+ },
+ "items": [
+  {
+   "id": "eco26-138bw",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO26-138BW",
+   "nameKo": "Ø138 LED 도로표지병 · 배터리형",
+   "procurementId": "26158540",
+   "pdfPage": 6,
+   "cropBox": [
+    33,
+    141,
+    292,
+    311
+   ],
+   "imageNew": "assets/images/catalog80/products/p006-eco26-138bw.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-138by",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO26-138BY",
+   "nameKo": "Ø138 LED 도로표지병 · 배터리형",
+   "procurementId": "26158539",
+   "pdfPage": 6,
+   "cropBox": [
+    33,
+    360,
+    292,
+    530
+   ],
+   "imageNew": "assets/images/catalog80/products/p006-eco26-138by.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-138hw",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO26-138HW",
+   "nameKo": "Ø138 LED 도로표지병 · 하이브리드형",
+   "procurementId": "26158537",
+   "pdfPage": 7,
+   "cropBox": [
+    56,
+    141,
+    315,
+    311
+   ],
+   "imageNew": "assets/images/catalog80/products/p007-eco26-138hw.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-138hy",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO26-138HY",
+   "nameKo": "Ø138 LED 도로표지병 · 하이브리드형",
+   "procurementId": "26158538",
+   "pdfPage": 7,
+   "cropBox": [
+    56,
+    360,
+    315,
+    530
+   ],
+   "imageNew": "assets/images/catalog80/products/p007-eco26-138hy.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-138sw",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO26-138SW",
+   "nameKo": "Ø138 LED 도로표지병 · 태양광형",
+   "procurementId": "26151915",
+   "pdfPage": 8,
+   "cropBox": [
+    33,
+    141,
+    292,
+    311
+   ],
+   "imageNew": "assets/images/catalog80/products/p008-eco26-138sw.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-138sy",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO26-138SY",
+   "nameKo": "Ø138 LED 도로표지병 · 태양광형",
+   "procurementId": "26151916",
+   "pdfPage": 8,
+   "cropBox": [
+    33,
+    360,
+    292,
+    530
+   ],
+   "imageNew": "assets/images/catalog80/products/p008-eco26-138sy.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-25rs113-bw",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO-25RS113-BW",
+   "nameKo": "Ø138 도로표지병 모듈교체용 (Ø113)",
+   "procurementId": "25740381",
+   "pdfPage": 9,
+   "cropBox": [
+    56,
+    150,
+    184,
+    256
+   ],
+   "imageNew": "assets/images/catalog80/products/p009-eco-25rs113-bw.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-25rs113-by",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO-25RS113-BY",
+   "nameKo": "Ø138 도로표지병 모듈교체용 (Ø113)",
+   "procurementId": "25740380",
+   "pdfPage": 9,
+   "cropBox": [
+    187,
+    150,
+    315,
+    256
+   ],
+   "imageNew": "assets/images/catalog80/products/p009-eco-25rs113-by.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-25rs113-hw",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO-25RS113-HW",
+   "nameKo": "Ø138 도로표지병 모듈교체용 (Ø113)",
+   "procurementId": "26372354",
+   "pdfPage": 9,
+   "cropBox": [
+    56,
+    297,
+    184,
+    403
+   ],
+   "imageNew": "assets/images/catalog80/products/p009-eco-25rs113-hw.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-25rs113-hy",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO-25RS113-HY",
+   "nameKo": "Ø138 도로표지병 모듈교체용 (Ø113)",
+   "procurementId": "26372355",
+   "pdfPage": 9,
+   "cropBox": [
+    187,
+    297,
+    315,
+    403
+   ],
+   "imageNew": "assets/images/catalog80/products/p009-eco-25rs113-hy.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-113sw",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO26-113SW",
+   "nameKo": "Ø138 도로표지병 모듈교체용 (Ø113)",
+   "procurementId": "26151913",
+   "pdfPage": 9,
+   "cropBox": [
+    56,
+    443,
+    184,
+    549
+   ],
+   "imageNew": "assets/images/catalog80/products/p009-eco26-113sw.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-113sy",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO26-113SY",
+   "nameKo": "Ø138 도로표지병 모듈교체용 (Ø113)",
+   "procurementId": "26151914",
+   "pdfPage": 9,
+   "cropBox": [
+    187,
+    443,
+    315,
+    549
+   ],
+   "imageNew": "assets/images/catalog80/products/p009-eco26-113sy.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco25-rs125-cw",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO25-RS125-CW",
+   "nameKo": "Ø125 LED 도로표지병 · 전기형",
+   "procurementId": "25737635",
+   "pdfPage": 10,
+   "cropBox": [
+    33,
+    141,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p010-eco25-rs125-cw.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco25-rs125-cy",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO25-RS125-CY",
+   "nameKo": "Ø125 LED 도로표지병 · 전기형",
+   "procurementId": "25737636",
+   "pdfPage": 10,
+   "cropBox": [
+    33,
+    360,
+    292,
+    533
+   ],
+   "imageNew": "assets/images/catalog80/products/p010-eco25-rs125-cy.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-rs196-rw",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO-RS196-RW",
+   "nameKo": "196 LED 도로표지병 · 전기형",
+   "procurementId": "25543620",
+   "pdfPage": 11,
+   "cropBox": [
+    56,
+    141,
+    315,
+    311
+   ],
+   "imageNew": "assets/images/catalog80/products/p011-eco-rs196-rw.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-rs196-ry",
+   "type": "product",
+   "category": "roadstud",
+   "model": "ECO-RS196-RY",
+   "nameKo": "196 LED 도로표지병 · 전기형",
+   "procurementId": "25543621",
+   "pdfPage": 11,
+   "cropBox": [
+    56,
+    360,
+    315,
+    530
+   ],
+   "imageNew": "assets/images/catalog80/products/p011-eco-rs196-ry.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-llba1200",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLBA1200",
+   "nameKo": "LED 라인조명 · 플렉시블 조명",
+   "procurementId": "26084710",
+   "pdfPage": 18,
+   "cropBox": [
+    34,
+    145,
+    300,
+    214
+   ],
+   "imageNew": "assets/images/catalog80/products/p018-llba1200.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-llba1000",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLBA1000",
+   "nameKo": "LED 라인조명 · 플렉시블 조명",
+   "procurementId": "26084709",
+   "pdfPage": 18,
+   "cropBox": [
+    34,
+    240,
+    300,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p018-llba1000.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-llflex1000",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLFLEX1000",
+   "nameKo": "LED 라인조명 · 플렉시블 조명",
+   "procurementId": "26084708",
+   "pdfPage": 18,
+   "cropBox": [
+    34,
+    320,
+    300,
+    442
+   ],
+   "imageNew": "assets/images/catalog80/products/p018-llflex1000.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-llflex1000-10",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLFLEX1000-10",
+   "nameKo": "LED 라인조명 · 플렉시블 조명",
+   "procurementId": "26316681",
+   "pdfPage": 18,
+   "cropBox": [
+    34,
+    486,
+    300,
+    566
+   ],
+   "imageNew": "assets/images/catalog80/products/p018-llflex1000-10.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll180-s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL180-S",
+   "nameKo": "LED 벽부등",
+   "procurementId": "25241455",
+   "pdfPage": 20,
+   "cropBox": [
+    33,
+    141,
+    292,
+    311
+   ],
+   "imageNew": "assets/images/catalog80/products/p020-ll180-s.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-llw109",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLW109",
+   "nameKo": "LED 벽부등",
+   "procurementId": "26084705",
+   "pdfPage": 20,
+   "cropBox": [
+    33,
+    360,
+    292,
+    530
+   ],
+   "imageNew": "assets/images/catalog80/products/p020-llw109.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll19-au",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL19-AU",
+   "nameKo": "LED 경계석조명 · 레인보우",
+   "procurementId": "25987478",
+   "pdfPage": 22,
+   "cropBox": [
+    33,
+    141,
+    292,
+    311
+   ],
+   "imageNew": "assets/images/catalog80/products/p022-ll19-au.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll23-au",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL23-AU",
+   "nameKo": "LED 경계석조명 · 레인보우",
+   "procurementId": "25987477",
+   "pdfPage": 22,
+   "cropBox": [
+    33,
+    360,
+    292,
+    530
+   ],
+   "imageNew": "assets/images/catalog80/products/p022-ll23-au.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll50w-cu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL50W-CU",
+   "nameKo": "로고젝터 (LED 경관조명기구)",
+   "procurementId": "25235290",
+   "pdfPage": 24,
+   "cropBox": [
+    33,
+    141,
+    154,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p024-ll50w-cu.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll80w-cu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL80W-CU",
+   "nameKo": "로고젝터 (LED 경관조명기구)",
+   "procurementId": "25235291",
+   "pdfPage": 24,
+   "cropBox": [
+    171,
+    141,
+    292,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p024-ll80w-cu.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll100w-cu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL100W-CU",
+   "nameKo": "로고젝터 (LED 경관조명기구)",
+   "procurementId": "25235292",
+   "pdfPage": 24,
+   "cropBox": [
+    33,
+    359,
+    154,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p024-ll100w-cu.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll200w-cu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL200W-CU",
+   "nameKo": "로고젝터 (LED 경관조명기구)",
+   "procurementId": "25476606",
+   "pdfPage": 24,
+   "cropBox": [
+    171,
+    359,
+    292,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p024-ll200w-cu.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll155-hu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL155-HU",
+   "nameKo": "LED 경계석조명 · 뉴경계석표지병",
+   "procurementId": "25241460",
+   "pdfPage": 26,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p026-ll155-hu.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll155-bu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL155-BU",
+   "nameKo": "LED 경계석조명 · 뉴경계석표지병",
+   "procurementId": "25241459",
+   "pdfPage": 26,
+   "cropBox": [
+    33,
+    355,
+    292,
+    525
+   ],
+   "imageNew": "assets/images/catalog80/products/p026-ll155-bu.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll60w-butterfly",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL60W-Butterfly",
+   "nameKo": "LED 공원등 (디자인 가로등)",
+   "procurementId": "25468414",
+   "pdfPage": 28,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p028-ll60w-butterfly.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll60w-seagull",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL60W-Seagull",
+   "nameKo": "LED 공원등 (디자인 가로등)",
+   "procurementId": "25462493",
+   "pdfPage": 28,
+   "cropBox": [
+    33,
+    349,
+    292,
+    525
+   ],
+   "imageNew": "assets/images/catalog80/products/p028-ll60w-seagull.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll50s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL50S",
+   "nameKo": "LED 공원보안등 (태양광형)",
+   "procurementId": "25800234",
+   "pdfPage": 30,
+   "cropBox": [
+    33,
+    141,
+    162,
+    532
+   ],
+   "imageNew": "assets/images/catalog80/products/p030-ll50s.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll30s-3m",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL30S-3M",
+   "nameKo": "LED 공원보안등 (태양광형)",
+   "procurementId": "25795266",
+   "pdfPage": 30,
+   "cropBox": [
+    165,
+    141,
+    296,
+    532
+   ],
+   "imageNew": "assets/images/catalog80/products/p030-ll30s-3m.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll25s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL25S",
+   "nameKo": "LED 공원보안등 (태양광형)",
+   "procurementId": "25987479",
+   "pdfPage": 32,
+   "cropBox": [
+    33,
+    141,
+    292,
+    532
+   ],
+   "imageNew": "assets/images/catalog80/products/p032-ll25s.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll130-bu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL130-BU",
+   "nameKo": "LED 포인트 조명",
+   "procurementId": "25241458",
+   "pdfPage": 33,
+   "cropBox": [
+    56,
+    140,
+    315,
+    270
+   ],
+   "imageNew": "assets/images/catalog80/products/p033-ll130-bu.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll138-su",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL138-SU",
+   "nameKo": "LED 포인트 조명",
+   "procurementId": "25241461",
+   "pdfPage": 33,
+   "cropBox": [
+    56,
+    303,
+    315,
+    413
+   ],
+   "imageNew": "assets/images/catalog80/products/p033-ll138-su.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll275-c10",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL275-C10",
+   "nameKo": "LED 포인트 조명",
+   "procurementId": "26316682",
+   "pdfPage": 33,
+   "cropBox": [
+    56,
+    430,
+    315,
+    560
+   ],
+   "imageNew": "assets/images/catalog80/products/p033-ll275-c10.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll222-60s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL222-60S",
+   "nameKo": "LED 바닥매립등 · 사각형 (태양광)",
+   "procurementId": "25462494",
+   "pdfPage": 34,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p034-ll222-60s.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll118-60s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL118-60S",
+   "nameKo": "LED 바닥매립등 · 사각형 (태양광)",
+   "procurementId": "25462495",
+   "pdfPage": 34,
+   "cropBox": [
+    33,
+    355,
+    292,
+    525
+   ],
+   "imageNew": "assets/images/catalog80/products/p034-ll118-60s.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll120-60s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL120-60S",
+   "nameKo": "LED 바닥매립등 · 원형 (태양광)",
+   "procurementId": "25468417",
+   "pdfPage": 36,
+   "cropBox": [
+    33,
+    141,
+    154,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p036-ll120-60s.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)"
+  },
+  {
+   "id": "eco-ll96-47s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL96-47S",
+   "nameKo": "LED 바닥매립등 · 원형 (태양광)",
+   "procurementId": "25468416",
+   "pdfPage": 36,
+   "cropBox": [
+    171,
+    141,
+    292,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p036-ll96-47s.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)"
+  },
+  {
+   "id": "eco-ll67-30s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL67-30S",
+   "nameKo": "LED 바닥매립등 · 원형 (태양광)",
+   "procurementId": "25468415",
+   "pdfPage": 36,
+   "cropBox": [
+    33,
+    359,
+    154,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p036-ll67-30s.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)"
+  },
+  {
+   "id": "eco-ll110-90s",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL110-90S",
+   "nameKo": "LED 바닥매립등 · 원형 (태양광)",
+   "procurementId": "-",
+   "pdfPage": 36,
+   "cropBox": [
+    33,
+    141,
+    154,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p036-ll120-60s.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-ll157-su",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL157-SU",
+   "nameKo": "사각 펜스기둥조명",
+   "procurementId": "25251812",
+   "pdfPage": 38,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p038-ll157-su-hu.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check (배터리형 타입 표기 불일치 — 38P)"
+  },
+  {
+   "id": "eco-ll157-hu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL157-HU",
+   "nameKo": "사각 펜스기둥조명",
+   "procurementId": "25251811",
+   "pdfPage": 38,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p038-ll157-su-hu.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check (배터리형 타입 표기 불일치 — 38P)"
+  },
+  {
+   "id": "eco-ll157-bu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL157-BU",
+   "nameKo": "사각 펜스기둥조명",
+   "procurementId": "25251810",
+   "pdfPage": 38,
+   "cropBox": [
+    33,
+    360,
+    292,
+    530
+   ],
+   "imageNew": "assets/images/catalog80/products/p038-ll157-bu.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-ll110-su",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL110-SU",
+   "nameKo": "원형 펜스기둥조명",
+   "procurementId": "25251813",
+   "pdfPage": 40,
+   "cropBox": [
+    33,
+    141,
+    154,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p040-ll110-su.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (모델명 표기 불일치 — 40P)"
+  },
+  {
+   "id": "eco-ll110-hu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL110-HU",
+   "nameKo": "원형 펜스기둥조명",
+   "procurementId": "25251814",
+   "pdfPage": 40,
+   "cropBox": [
+    171,
+    141,
+    292,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p040-ll110-hu.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (모델명 표기 불일치 — 40P)"
+  },
+  {
+   "id": "eco-ll110-cu",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL110-CU",
+   "nameKo": "원형 펜스기둥조명",
+   "procurementId": "-",
+   "pdfPage": 40,
+   "cropBox": [
+    33,
+    359,
+    154,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p040-ll110-cu.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-llbrd800",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLBRD800",
+   "nameKo": "LED 볼라드 조명",
+   "procurementId": "26084707",
+   "pdfPage": 42,
+   "cropBox": [
+    33,
+    141,
+    154,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p042-llbrd800.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-llbrd300",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLBRD300",
+   "nameKo": "LED 볼라드 조명",
+   "procurementId": "26084706",
+   "pdfPage": 42,
+   "cropBox": [
+    171,
+    141,
+    292,
+    325
+   ],
+   "imageNew": "assets/images/catalog80/products/p042-llbrd300.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-llbrd110",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLBRD110",
+   "nameKo": "LED 볼라드 조명",
+   "procurementId": "26122096",
+   "pdfPage": 42,
+   "cropBox": [
+    33,
+    359,
+    154,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p042-llbrd110.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-llbrd150",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LLBRD150",
+   "nameKo": "LED 볼라드 조명",
+   "procurementId": "26122095",
+   "pdfPage": 42,
+   "cropBox": [
+    171,
+    359,
+    292,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p042-llbrd150.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llba1000-l15",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLBA1000-L15",
+   "nameKo": "LED 라인조명 (라인바·핸드레일바·바)",
+   "procurementId": "26316683",
+   "pdfPage": 44,
+   "cropBox": [
+    34,
+    142,
+    290,
+    256
+   ],
+   "imageNew": "assets/images/catalog80/products/p044-llba1000-l15.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llba1000-h15",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLBA1000-H15",
+   "nameKo": "LED 라인조명 (라인바·핸드레일바·바)",
+   "procurementId": "23619182",
+   "pdfPage": 44,
+   "cropBox": [
+    34,
+    286,
+    290,
+    400
+   ],
+   "imageNew": "assets/images/catalog80/products/p044-llba1000-h15.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llba1000-l15b",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLBA1000-L15B",
+   "nameKo": "LED 라인조명 (라인바·핸드레일바·바)",
+   "procurementId": "26316692",
+   "pdfPage": 44,
+   "cropBox": [
+    34,
+    456,
+    290,
+    572
+   ],
+   "imageNew": "assets/images/catalog80/products/p044-llba1000-l15b.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llba1000-f18",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLBA1000-F18",
+   "nameKo": "LED 바 투광등 (라인투광조명)",
+   "procurementId": "26316684",
+   "pdfPage": 46,
+   "cropBox": [
+    34,
+    144,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p046-llba1000-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llba1000-f24",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLBA1000-F24",
+   "nameKo": "LED 바 투광등 (라인투광조명)",
+   "procurementId": "26316685",
+   "pdfPage": 46,
+   "cropBox": [
+    34,
+    144,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p046-llba1000-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llba1000-f36",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLBA1000-F36",
+   "nameKo": "LED 바 투광등 (라인투광조명)",
+   "procurementId": "26316693",
+   "pdfPage": 46,
+   "cropBox": [
+    34,
+    144,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p046-llba1000-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llba1000-f54",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLBA1000-F54",
+   "nameKo": "LED 바 투광등 (라인투광조명)",
+   "procurementId": "26316694",
+   "pdfPage": 46,
+   "cropBox": [
+    34,
+    144,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p046-llba1000-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llc125-f12",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLC125-F12",
+   "nameKo": "LED 원형 투광등 (Ø125)",
+   "procurementId": "26316686",
+   "pdfPage": 48,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p048-llc125-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llc125-f18",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLC125-F18",
+   "nameKo": "LED 원형 투광등 (Ø125)",
+   "procurementId": "26316687",
+   "pdfPage": 48,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p048-llc125-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llc125-f24",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLC125-F24",
+   "nameKo": "LED 원형 투광등 (Ø125)",
+   "procurementId": "26316688",
+   "pdfPage": 48,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p048-llc125-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco26-llc160-f36",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLC160-F36",
+   "nameKo": "LED 원형 투광등 (Ø165/Ø217)",
+   "procurementId": "26316695",
+   "pdfPage": 50,
+   "cropBox": [
+    33,
+    140,
+    157,
+    305
+   ],
+   "imageNew": "assets/images/catalog80/products/p050-llc160-f36.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (72W·108W 모델명 표기 불일치 — 50P)"
+  },
+  {
+   "id": "eco26-llc160-f42",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLC160-F42",
+   "nameKo": "LED 원형 투광등 (Ø165/Ø217)",
+   "procurementId": "26316696",
+   "pdfPage": 50,
+   "cropBox": [
+    168,
+    140,
+    292,
+    305
+   ],
+   "imageNew": "assets/images/catalog80/products/p050-llc160-f42.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (72W·108W 모델명 표기 불일치 — 50P)"
+  },
+  {
+   "id": "eco26-llc217-f54",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LLC217-F54",
+   "nameKo": "LED 원형 투광등 (Ø165/Ø217)",
+   "procurementId": "26316697",
+   "pdfPage": 50,
+   "cropBox": [
+    33,
+    358,
+    157,
+    524
+   ],
+   "imageNew": "assets/images/catalog80/products/p050-ll217-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check (72W·108W 모델명 표기 불일치 — 50P)"
+  },
+  {
+   "id": "eco26-ll217-f72",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LL217-F72",
+   "nameKo": "LED 원형 투광등 (Ø165/Ø217)",
+   "procurementId": "26316701",
+   "pdfPage": 50,
+   "cropBox": [
+    33,
+    358,
+    157,
+    524
+   ],
+   "imageNew": "assets/images/catalog80/products/p050-ll217-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco26-ll217-f108",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO26-LL217-F108",
+   "nameKo": "LED 원형 투광등 (Ø165/Ø217)",
+   "procurementId": "26316704",
+   "pdfPage": 50,
+   "cropBox": [
+    33,
+    358,
+    157,
+    524
+   ],
+   "imageNew": "assets/images/catalog80/products/p050-ll217-flood.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-ll100-c12",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL100-C12",
+   "nameKo": "LED 원형 지중등",
+   "procurementId": "26316689",
+   "pdfPage": 52,
+   "cropBox": [
+    33,
+    140,
+    157,
+    305
+   ],
+   "imageNew": "assets/images/catalog80/products/p052-ll100-c12.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll140-c18",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL140-C18",
+   "nameKo": "LED 원형 지중등",
+   "procurementId": "26316690",
+   "pdfPage": 52,
+   "cropBox": [
+    168,
+    140,
+    292,
+    305
+   ],
+   "imageNew": "assets/images/catalog80/products/p052-ll140-c18.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll180-c36",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL180-C36",
+   "nameKo": "LED 원형 지중등",
+   "procurementId": "26316698",
+   "pdfPage": 52,
+   "cropBox": [
+    33,
+    358,
+    157,
+    524
+   ],
+   "imageNew": "assets/images/catalog80/products/p052-ll180-c36.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll220-c54",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL220-C54",
+   "nameKo": "LED 원형 지중등",
+   "procurementId": "26316699",
+   "pdfPage": 52,
+   "cropBox": [
+    168,
+    358,
+    292,
+    524
+   ],
+   "imageNew": "assets/images/catalog80/products/p052-ll220-c54-c72.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll220-c72",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL220-C72",
+   "nameKo": "LED 원형 지중등",
+   "procurementId": "26316702",
+   "pdfPage": 52,
+   "cropBox": [
+    168,
+    358,
+    292,
+    524
+   ],
+   "imageNew": "assets/images/catalog80/products/p052-ll220-c54-c72.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll1010-c15",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL1010-C15",
+   "nameKo": "LED 바 지중등 (라인지중등)",
+   "procurementId": "26316691",
+   "pdfPage": 54,
+   "cropBox": [
+    34,
+    142,
+    290,
+    256
+   ],
+   "imageNew": "assets/images/catalog80/products/p054-ll1010-c15.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll1010-c36",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL1010-C36",
+   "nameKo": "LED 바 지중등 (라인지중등)",
+   "procurementId": "26316700",
+   "pdfPage": 54,
+   "cropBox": [
+    34,
+    286,
+    290,
+    400
+   ],
+   "imageNew": "assets/images/catalog80/products/p054-ll1010-c36.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll1010-c72",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL1010-C72",
+   "nameKo": "LED 바 지중등 (라인지중등)",
+   "procurementId": "26316703",
+   "pdfPage": 54,
+   "cropBox": [
+    34,
+    456,
+    290,
+    572
+   ],
+   "imageNew": "assets/images/catalog80/products/p054-ll1010-c72.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ll2000-120",
+   "type": "product",
+   "category": "lighting",
+   "model": "ECO-LL2000-120",
+   "nameKo": "LED 열주등",
+   "procurementId": "26328196",
+   "pdfPage": 55,
+   "cropBox": [
+    55,
+    141,
+    315,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p055-ll2000-120.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd150-hd",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-HD",
+   "nameKo": "Ø150 LED 볼라드 · 하이브리드형",
+   "procurementId": "25676355",
+   "pdfPage": 56,
+   "cropBox": [
+    33,
+    141,
+    119,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p056-brd150-d.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check (매립·앵커 식별번호 중복 — 56P)"
+  },
+  {
+   "id": "eco-brd150-ha",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-HA",
+   "nameKo": "Ø150 LED 볼라드 · 하이브리드형",
+   "procurementId": "25676355",
+   "pdfPage": 56,
+   "cropBox": [
+    120,
+    141,
+    206,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p056-brd150-a.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-brd150-hm",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-HM",
+   "nameKo": "Ø150 LED 볼라드 · 하이브리드형",
+   "procurementId": "25676358",
+   "pdfPage": 56,
+   "cropBox": [
+    207,
+    141,
+    292,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p056-brd150-m.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check (매립·앵커 식별번호 중복 — 56P)"
+  },
+  {
+   "id": "eco-brd150-bd",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-BD",
+   "nameKo": "Ø150 LED 볼라드 · 배터리형",
+   "procurementId": "25676351",
+   "pdfPage": 56,
+   "cropBox": [
+    33,
+    141,
+    119,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p056-brd150-d.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check (매립·앵커 식별번호 중복 — 56P)"
+  },
+  {
+   "id": "eco-brd150-ba",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-BA",
+   "nameKo": "Ø150 LED 볼라드 · 배터리형",
+   "procurementId": "25676351",
+   "pdfPage": 56,
+   "cropBox": [
+    120,
+    141,
+    206,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p056-brd150-a.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-brd150-bm",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-BM",
+   "nameKo": "Ø150 LED 볼라드 · 배터리형",
+   "procurementId": "25676353",
+   "pdfPage": 56,
+   "cropBox": [
+    207,
+    141,
+    292,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p056-brd150-m.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check (매립·앵커 식별번호 중복 — 56P)"
+  },
+  {
+   "id": "eco-brd110-sd",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-SD",
+   "nameKo": "Ø110 LED 볼라드 · 태양광형",
+   "procurementId": "25676347",
+   "pdfPage": 57,
+   "cropBox": [
+    57,
+    141,
+    143,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p057-brd110-d.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd110-sa",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-SA",
+   "nameKo": "Ø110 LED 볼라드 · 태양광형",
+   "procurementId": "25675323",
+   "pdfPage": 57,
+   "cropBox": [
+    144,
+    141,
+    229,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p057-brd110-a.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd110-sm",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-SM",
+   "nameKo": "Ø110 LED 볼라드 · 태양광형",
+   "procurementId": "25676348",
+   "pdfPage": 57,
+   "cropBox": [
+    230,
+    141,
+    315,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p057-brd110-m.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd110-hd",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-HD",
+   "nameKo": "Ø110 LED 볼라드 · 하이브리드형",
+   "procurementId": "25676349",
+   "pdfPage": 57,
+   "cropBox": [
+    57,
+    141,
+    143,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p057-brd110-d.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd110-ha",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-HA",
+   "nameKo": "Ø110 LED 볼라드 · 하이브리드형",
+   "procurementId": "25675324",
+   "pdfPage": 57,
+   "cropBox": [
+    144,
+    141,
+    229,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p057-brd110-a.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd110-hm",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-HM",
+   "nameKo": "Ø110 LED 볼라드 · 하이브리드형",
+   "procurementId": "25676350",
+   "pdfPage": 57,
+   "cropBox": [
+    230,
+    141,
+    315,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p057-brd110-m.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd110-xd",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-XD",
+   "nameKo": "Ø110 비조명형 볼라드",
+   "procurementId": "25658332",
+   "pdfPage": 58,
+   "cropBox": [
+    33,
+    141,
+    119,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p058-brd110x-d.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd110-xa",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-XA",
+   "nameKo": "Ø110 비조명형 볼라드",
+   "procurementId": "25658331",
+   "pdfPage": 58,
+   "cropBox": [
+    120,
+    141,
+    206,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p058-brd110x-a.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd110-xm",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD110-XM",
+   "nameKo": "Ø110 비조명형 볼라드",
+   "procurementId": "25658330",
+   "pdfPage": 58,
+   "cropBox": [
+    207,
+    141,
+    292,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p058-brd110x-m.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd150-xd",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-XD",
+   "nameKo": "Ø150 비조명형 볼라드",
+   "procurementId": "25658329",
+   "pdfPage": 59,
+   "cropBox": [
+    56,
+    141,
+    142,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p059-brd150x-d.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd150-xa",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-XA",
+   "nameKo": "Ø150 비조명형 볼라드",
+   "procurementId": "25658328",
+   "pdfPage": 59,
+   "cropBox": [
+    143,
+    141,
+    229,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p059-brd150x-a.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd150-xm",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD150-XM",
+   "nameKo": "Ø150 비조명형 볼라드",
+   "procurementId": "25658327",
+   "pdfPage": 59,
+   "cropBox": [
+    230,
+    141,
+    315,
+    505
+   ],
+   "imageNew": "assets/images/catalog80/products/p059-brd150x-m.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd101s-id",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD101S-ID",
+   "nameKo": "스테인리스 볼라드 · I형",
+   "procurementId": null,
+   "pdfPage": 62,
+   "cropBox": [
+    34,
+    141,
+    120,
+    512
+   ],
+   "imageNew": "assets/images/catalog80/products/p062-brd101s-id.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (제품명과 실제 형태 불일치 — 63P)"
+  },
+  {
+   "id": "eco-brd101s-ia",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD101S-IA",
+   "nameKo": "스테인리스 볼라드 · I형",
+   "procurementId": null,
+   "pdfPage": 62,
+   "cropBox": [
+    121,
+    141,
+    206,
+    512
+   ],
+   "imageNew": "assets/images/catalog80/products/p062-brd101s-ia.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (제품명과 실제 형태 불일치 — 63P)"
+  },
+  {
+   "id": "eco-brd101s-im",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD101S-IM",
+   "nameKo": "스테인리스 볼라드 · I형",
+   "procurementId": null,
+   "pdfPage": 62,
+   "cropBox": [
+    207,
+    141,
+    292,
+    512
+   ],
+   "imageNew": "assets/images/catalog80/products/p062-brd101s-im.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (제품명과 실제 형태 불일치 — 63P)"
+  },
+  {
+   "id": "eco-brd1200s-ud",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD1200S-UD",
+   "nameKo": "스테인리스 볼라드 · U형",
+   "procurementId": null,
+   "pdfPage": 63,
+   "cropBox": [
+    57,
+    151,
+    424,
+    266
+   ],
+   "imageNew": "assets/images/catalog80/products/p063-brd1200s-ud.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd1200s-ua",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD1200S-UA",
+   "nameKo": "스테인리스 볼라드 · U형",
+   "procurementId": null,
+   "pdfPage": 63,
+   "cropBox": [
+    57,
+    299,
+    424,
+    414
+   ],
+   "imageNew": "assets/images/catalog80/products/p063-brd1200s-ua.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-brd1200s-um",
+   "type": "product",
+   "category": "bollard",
+   "model": "ECO-BRD1200S-UM",
+   "nameKo": "스테인리스 볼라드 · U형",
+   "procurementId": null,
+   "pdfPage": 63,
+   "cropBox": [
+    57,
+    448,
+    424,
+    562
+   ],
+   "imageNew": "assets/images/catalog80/products/p063-brd1200s-um.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-jhgd1",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-JHGD1",
+   "nameKo": "차량방호책 · SB1등급",
+   "procurementId": "26002008",
+   "pdfPage": 64,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p064-fn-jhgd1.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-jhgd1-01",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-JHGD1-01",
+   "nameKo": "차량방호책 · SB1등급",
+   "procurementId": "26002007",
+   "pdfPage": 64,
+   "cropBox": [
+    411,
+    155,
+    782,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p064-fn-jhgd1-01.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-jhgd1-02",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-JHGD1-02",
+   "nameKo": "차량방호책 · SB1등급",
+   "procurementId": "26002006",
+   "pdfPage": 64,
+   "cropBox": [
+    34,
+    298,
+    405,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p064-fn-jhgd1-02.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-jhgd1-03",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-JHGD1-03",
+   "nameKo": "차량방호책 · SB1등급",
+   "procurementId": "26002005",
+   "pdfPage": 64,
+   "cropBox": [
+    411,
+    298,
+    782,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p064-fn-jhgd1-03.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r190j77",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R190J77",
+   "nameKo": "보행자용 방호울타리 · 도심구간",
+   "procurementId": "25987812",
+   "pdfPage": 65,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p065-fn-r190j77.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
+  },
+  {
+   "id": "eco-r196j52",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R196J52",
+   "nameKo": "보행자용 방호울타리 · 도심구간",
+   "procurementId": "25987811",
+   "pdfPage": 65,
+   "cropBox": [
+    34,
+    298,
+    405,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p065-fn-r196j52.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
+  },
+  {
+   "id": "eco-r195j50",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R195J50",
+   "nameKo": "보행자용 방호울타리 · 도심구간",
+   "procurementId": "25987810",
+   "pdfPage": 65,
+   "cropBox": [
+    411,
+    155,
+    782,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p065-fn-r195j50.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
+  },
+  {
+   "id": "eco-r193j46",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R193J46",
+   "nameKo": "보행자용 방호울타리 · 도심구간",
+   "procurementId": "25987809",
+   "pdfPage": 65,
+   "cropBox": [
+    411,
+    298,
+    782,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p065-fn-r193j46.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
+  },
+  {
+   "id": "eco-r193j45",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R193J45",
+   "nameKo": "보행자용 방호울타리 · 도심구간",
+   "procurementId": "25987808",
+   "pdfPage": 66,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p066-fn-r193j45.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
+  },
+  {
+   "id": "eco-r157j23",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R157J23",
+   "nameKo": "보행자용 방호울타리 · 도심구간",
+   "procurementId": "25994797",
+   "pdfPage": 66,
+   "cropBox": [
+    411,
+    155,
+    782,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p066-fn-r157j23.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
+  },
+  {
+   "id": "eco-r155j17",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R155J17",
+   "nameKo": "보행자용 방호울타리 · 도심구간",
+   "procurementId": "25987807",
+   "pdfPage": 66,
+   "cropBox": [
+    34,
+    298,
+    405,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p066-fn-r155j17.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)"
+  },
+  {
+   "id": "eco-r156-01",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R156-01",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987806",
+   "pdfPage": 67,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r157",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R157",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25994798",
+   "pdfPage": 67,
+   "cropBox": [
+    411,
+    155,
+    782,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p067-fn-r157.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r157-02",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R157-02",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25994799",
+   "pdfPage": 67,
+   "cropBox": [
+    34,
+    298,
+    405,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p067-fn-r157-02.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r161",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R161",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25994800",
+   "pdfPage": 67,
+   "cropBox": [
+    411,
+    298,
+    782,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p067-fn-r161.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r164",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R164",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987805",
+   "pdfPage": 68,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p068-fn-r164.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r164-01",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R164-01",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987804",
+   "pdfPage": 68,
+   "cropBox": [
+    411,
+    155,
+    782,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p068-fn-r164-01.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r165",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R165",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987803",
+   "pdfPage": 68,
+   "cropBox": [
+    34,
+    298,
+    405,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p068-fn-r165.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r165-02",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R165-02",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987802",
+   "pdfPage": 68,
+   "cropBox": [
+    411,
+    298,
+    782,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p068-fn-r165-02.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r165-03",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R165-03",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "26002011",
+   "pdfPage": 69,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p069-fn-r165-03.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r189-01",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R189-01",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987801",
+   "pdfPage": 69,
+   "cropBox": [
+    411,
+    155,
+    782,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p069-fn-r189-01.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r190-01",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R190-01",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987800",
+   "pdfPage": 69,
+   "cropBox": [
+    34,
+    298,
+    405,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p069-fn-r190-01.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r235-a",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R235-A",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987799",
+   "pdfPage": 69,
+   "cropBox": [
+    411,
+    298,
+    782,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p069-fn-r235-a.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r117-ah",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R117-AH",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987798",
+   "pdfPage": 70,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p070-fn-r117-ah.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r118-ah",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R118-AH",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987797",
+   "pdfPage": 70,
+   "cropBox": [
+    411,
+    155,
+    782,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p070-fn-r118-ah.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r130h",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R130H",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": "25987796",
+   "pdfPage": 70,
+   "cropBox": [
+    34,
+    298,
+    405,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p070-fn-r130h.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-rb04",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-RB04",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": null,
+   "pdfPage": 70,
+   "cropBox": [
+    411,
+    298,
+    782,
+    405
+   ],
+   "imageNew": "assets/images/catalog80/products/p070-fn-rb04.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-r01",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R01",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": null,
+   "pdfPage": 67,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-r02-01",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R02-01",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": null,
+   "pdfPage": 67,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-r216",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R216",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": null,
+   "pdfPage": 67,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "eco-r218",
+   "type": "product",
+   "category": "fence",
+   "model": "ECO-R218",
+   "nameKo": "보차도경계용 울타리",
+   "procurementId": null,
+   "pdfPage": 67,
+   "cropBox": [
+    34,
+    155,
+    405,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/products/p067-fn-r156-01.png",
+   "sharedImage": true,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "edbl-200",
+   "type": "product",
+   "category": "signal",
+   "model": "EDBL-200",
+   "nameKo": "바닥형 보행신호등 시스템",
+   "procurementId": "26109111",
+   "pdfPage": 74,
+   "cropBox": [
+    33,
+    142,
+    292,
+    312
+   ],
+   "imageNew": "assets/images/catalog80/products/p074-edbl-200.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "edcb-200",
+   "type": "product",
+   "category": "signal",
+   "model": "EDCB-200",
+   "nameKo": "바닥형 보행신호등 시스템",
+   "procurementId": "26109112",
+   "pdfPage": 74,
+   "cropBox": [
+    33,
+    359,
+    154,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p074-edcb-200.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "edob-200",
+   "type": "product",
+   "category": "signal",
+   "model": "EDOB-200",
+   "nameKo": "바닥형 보행신호등 시스템",
+   "procurementId": "26109113",
+   "pdfPage": 74,
+   "cropBox": [
+    171,
+    359,
+    292,
+    543
+   ],
+   "imageNew": "assets/images/catalog80/products/p074-edob-200.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts600-cws",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS600-CWS",
+   "nameKo": "일방통행표지",
+   "procurementId": "25235503",
+   "pdfPage": 76,
+   "cropBox": [
+    84,
+    146,
+    142,
+    224
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-oneway-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts700-cws",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS700-CWS",
+   "nameKo": "일방통행표지",
+   "procurementId": "25235504",
+   "pdfPage": 76,
+   "cropBox": [
+    84,
+    146,
+    142,
+    224
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-oneway-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts600-sws",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS600-SWS",
+   "nameKo": "일방통행표지",
+   "procurementId": "25235535",
+   "pdfPage": 76,
+   "cropBox": [
+    84,
+    240,
+    142,
+    322
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-oneway-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts700-sws",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS700-SWS",
+   "nameKo": "일방통행표지",
+   "procurementId": "25235537",
+   "pdfPage": 76,
+   "cropBox": [
+    84,
+    240,
+    142,
+    322
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-oneway-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts3000-cwl",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS3000-CWL",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235471",
+   "pdfPage": 77,
+   "cropBox": [
+    84,
+    384,
+    150,
+    462
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-school-speed30-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts3000-cwp",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS3000-CWP",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235463",
+   "pdfPage": 77,
+   "cropBox": [
+    84,
+    384,
+    150,
+    462
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-school-speed30-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts1500-cw",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS1500-CW",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235466",
+   "pdfPage": 77,
+   "cropBox": [
+    84,
+    384,
+    150,
+    462
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-school-speed30-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts1000-cw",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS1000-CW",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235464",
+   "pdfPage": 76,
+   "cropBox": [
+    84,
+    374,
+    148,
+    462
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-school-diamond-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts700-cw",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS700-CW",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235529",
+   "pdfPage": 76,
+   "cropBox": [
+    84,
+    374,
+    148,
+    462
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-school-diamond-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts3000-swl",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS3000-SWL",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235510",
+   "pdfPage": 77,
+   "cropBox": [
+    84,
+    484,
+    150,
+    562
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-school-speed30-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts3000-swp",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS3000-SWP",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235509",
+   "pdfPage": 77,
+   "cropBox": [
+    84,
+    484,
+    150,
+    562
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-school-speed30-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts1500-sw",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS1500-SW",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235508",
+   "pdfPage": 77,
+   "cropBox": [
+    84,
+    484,
+    150,
+    562
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-school-speed30-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts1000-sw",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS1000-SW",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235507",
+   "pdfPage": 76,
+   "cropBox": [
+    84,
+    484,
+    148,
+    562
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-school-diamond-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts700-sw",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS700-SW",
+   "nameKo": "어린이보호구역표지",
+   "procurementId": "25235506",
+   "pdfPage": 76,
+   "cropBox": [
+    84,
+    484,
+    148,
+    562
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-school-diamond-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts600-cwr",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS600-CWR",
+   "nameKo": "최고속도제한표지",
+   "procurementId": "25235482",
+   "pdfPage": 77,
+   "cropBox": [
+    103,
+    150,
+    160,
+    226
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-speed-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts900-cwr",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS900-CWR",
+   "nameKo": "최고속도제한표지",
+   "procurementId": "25235490",
+   "pdfPage": 77,
+   "cropBox": [
+    103,
+    150,
+    160,
+    226
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-speed-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts600-swr",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS600-SWR",
+   "nameKo": "최고속도제한표지",
+   "procurementId": "25235512",
+   "pdfPage": 77,
+   "cropBox": [
+    103,
+    242,
+    160,
+    322
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-speed-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts900-swr",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS900-SWR",
+   "nameKo": "최고속도제한표지",
+   "procurementId": "25235513",
+   "pdfPage": 77,
+   "cropBox": [
+    103,
+    242,
+    160,
+    322
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-speed-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts600-cw5",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS600-CW5",
+   "nameKo": "횡단보도표지",
+   "procurementId": "25235501",
+   "pdfPage": 76,
+   "cropBox": [
+    461,
+    146,
+    520,
+    224
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-crosswalk-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts900-cw5",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS900-CW5",
+   "nameKo": "횡단보도표지",
+   "procurementId": "25235502",
+   "pdfPage": 76,
+   "cropBox": [
+    461,
+    146,
+    520,
+    224
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-crosswalk-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts600-sw5",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS600-SW5",
+   "nameKo": "횡단보도표지",
+   "procurementId": "25235532",
+   "pdfPage": 76,
+   "cropBox": [
+    461,
+    240,
+    520,
+    322
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-crosswalk-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts900-sw5",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS900-SW5",
+   "nameKo": "횡단보도표지",
+   "procurementId": "25235534",
+   "pdfPage": 76,
+   "cropBox": [
+    461,
+    240,
+    520,
+    322
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-crosswalk-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts600-cwi",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS600-CWI",
+   "nameKo": "회전교차로표지",
+   "procurementId": "25235497",
+   "pdfPage": 76,
+   "cropBox": [
+    457,
+    382,
+    524,
+    462
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-roundabout-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts900-cwi",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS900-CWI",
+   "nameKo": "회전교차로표지",
+   "procurementId": "25235499",
+   "pdfPage": 76,
+   "cropBox": [
+    457,
+    382,
+    524,
+    462
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-roundabout-c.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts600-swi",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS600-SWI",
+   "nameKo": "회전교차로표지",
+   "procurementId": "25235518",
+   "pdfPage": 76,
+   "cropBox": [
+    457,
+    482,
+    524,
+    562
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-roundabout-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts900-swi",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS900-SWI",
+   "nameKo": "회전교차로표지",
+   "procurementId": "25235523",
+   "pdfPage": 76,
+   "cropBox": [
+    457,
+    482,
+    524,
+    562
+   ],
+   "imageNew": "assets/images/catalog80/products/p076-sgn-roundabout-s.png",
+   "sharedImage": true,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts900-cww",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS900-CWW",
+   "nameKo": "우로굽은도로주의표지",
+   "procurementId": "25235487",
+   "pdfPage": 77,
+   "cropBox": [
+    461,
+    146,
+    520,
+    230
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-curve-c.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-ts900-sww",
+   "type": "product",
+   "category": "sign",
+   "model": "ECO-TS900-SWW",
+   "nameKo": "우로굽은도로주의표지",
+   "procurementId": "25235511",
+   "pdfPage": 77,
+   "cropBox": [
+    461,
+    240,
+    520,
+    322
+   ],
+   "imageNew": "assets/images/catalog80/products/p077-sgn-curve-s.png",
+   "sharedImage": false,
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "eco-gs450-cw",
+   "type": "product",
+   "category": "chevron",
+   "model": "ECO-GS450-CW",
+   "nameKo": "갈매기표지판",
+   "procurementId": "25234398",
+   "pdfPage": 78,
+   "cropBox": [
+    128,
+    143,
+    214,
+    232
+   ],
+   "imageNew": "assets/images/catalog80/products/p078-gs450-cw.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (양면형 모델명·식별번호 중복 — 78P)"
+  },
+  {
+   "id": "eco-gs450-sw",
+   "type": "product",
+   "category": "chevron",
+   "model": "ECO-GS450-SW",
+   "nameKo": "갈매기표지판",
+   "procurementId": "25234399",
+   "pdfPage": 78,
+   "cropBox": [
+    128,
+    240,
+    214,
+    334
+   ],
+   "imageNew": "assets/images/catalog80/products/p078-gs450-sw.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (양면형 모델명·식별번호 중복 — 78P)"
+  },
+  {
+   "id": "eco-gs450-cw2",
+   "type": "product",
+   "category": "chevron",
+   "model": "ECO-GS450-CW2",
+   "nameKo": "갈매기표지판",
+   "procurementId": "25234396",
+   "pdfPage": 78,
+   "cropBox": [
+    128,
+    375,
+    214,
+    468
+   ],
+   "imageNew": "assets/images/catalog80/products/p078-gs450-cw2-m.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check (양면형 모델명·식별번호 중복 — 78P)"
+  },
+  {
+   "id": "eco-gs450-cw2-2",
+   "type": "product",
+   "category": "chevron",
+   "model": "ECO-GS450-CW2",
+   "nameKo": "갈매기표지판",
+   "procurementId": "25234396",
+   "pdfPage": 78,
+   "cropBox": [
+    128,
+    478,
+    214,
+    572
+   ],
+   "imageNew": "assets/images/catalog80/products/p078-gs450-cw2-s.png",
+   "sharedImage": false,
+   "verificationStatus": "needs_check"
+  },
+  {
+   "id": "cert-01",
+   "type": "certificate",
+   "title": "건설업 등록증",
+   "entity": "주식회사 에코데이인터내셔널",
+   "pdfPage": 4,
+   "cropBox": [
+    88,
+    156,
+    222,
+    334
+   ],
+   "imageNew": "assets/images/catalog80/certificates/p004-cert-01-construction.png",
+   "verificationStatus": "entity_check"
+  },
+  {
+   "id": "cert-02",
+   "type": "certificate",
+   "title": "전기공사업 등록증",
+   "entity": "주식회사 에코데이",
+   "pdfPage": 4,
+   "cropBox": [
+    330,
+    156,
+    465,
+    334
+   ],
+   "imageNew": "assets/images/catalog80/certificates/p004-cert-02-electrical.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "cert-03",
+   "type": "certificate",
+   "title": "옥외광고사업 등록증",
+   "entity": "주식회사 에코데이",
+   "pdfPage": 4,
+   "cropBox": [
+    574,
+    158,
+    708,
+    332
+   ],
+   "imageNew": "assets/images/catalog80/certificates/p004-cert-03-advertising.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "cert-04",
+   "type": "certificate",
+   "title": "공장등록증명",
+   "entity": "주식회사 에코데이인터내셔널",
+   "pdfPage": 4,
+   "cropBox": [
+    40,
+    398,
+    237,
+    567
+   ],
+   "imageNew": "assets/images/catalog80/certificates/p004-cert-04-factory.png",
+   "verificationStatus": "entity_check"
+  },
+  {
+   "id": "cert-05",
+   "type": "certificate",
+   "title": "벤처기업 확인서",
+   "entity": "주식회사 에코데이인터내셔널",
+   "pdfPage": 4,
+   "cropBox": [
+    252,
+    398,
+    426,
+    567
+   ],
+   "imageNew": "assets/images/catalog80/certificates/p004-cert-05-venture.png",
+   "verificationStatus": "entity_check"
+  },
+  {
+   "id": "cert-06",
+   "type": "certificate",
+   "title": "연구개발전담부서 인정서",
+   "entity": "주식회사 에코데이",
+   "pdfPage": 4,
+   "cropBox": [
+    444,
+    396,
+    580,
+    582
+   ],
+   "imageNew": "assets/images/catalog80/certificates/p004-cert-06-rnd.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "cert-07",
+   "type": "certificate",
+   "title": "유망중소기업 인증서",
+   "entity": "주식회사 에코데이",
+   "pdfPage": 4,
+   "cropBox": [
+    658,
+    396,
+    795,
+    582
+   ],
+   "imageNew": "assets/images/catalog80/certificates/p004-cert-07-sme.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-01",
+   "type": "intellectual-property",
+   "title": "안내판 표시장치",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    46.0,
+    157,
+    130.0,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-01-information-display.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-02",
+   "type": "intellectual-property",
+   "title": "솔라 셀 모듈용 지주장치",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    178.6,
+    157,
+    262.6,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-02-solar-support.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-03",
+   "type": "intellectual-property",
+   "title": "보안등 겸용 안내표시장치",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    311.2,
+    157,
+    395.2,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-03-security-display.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-04",
+   "type": "intellectual-property",
+   "title": "조명식 도로표시판 겸용 보조등",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    443.8,
+    157,
+    527.8,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-04-aux-roadsign-light.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-05",
+   "type": "intellectual-property",
+   "title": "조명식 도로표시판 겸용 보조등을 위한 지지장치",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    576.4,
+    157,
+    660.4,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-05-aux-roadsign-support.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-06",
+   "type": "intellectual-property",
+   "title": "차륜의 야간안전용 발광장치",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    709.0,
+    157,
+    793.0,
+    263
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-06-wheel-light.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-07",
+   "type": "intellectual-property",
+   "title": "전원 소모 저감 기능이 구비된 도로표지병",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    46.0,
+    323,
+    130.0,
+    429
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-07-roadstud-powersave.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-08",
+   "type": "intellectual-property",
+   "title": "가로등 지주에 설치되는 공공 서비스 편의 시스템",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    178.6,
+    323,
+    262.6,
+    429
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-08-streetlight-pubsys.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-09",
+   "type": "intellectual-property",
+   "title": "조명장치",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    311.2,
+    323,
+    395.2,
+    429
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-09-lighting-device.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-10",
+   "type": "intellectual-property",
+   "title": "도로 표지병의 제어 장치",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    443.8,
+    323,
+    527.8,
+    429
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-10-roadstud-control.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-11",
+   "type": "intellectual-property",
+   "title": "도로표지병",
+   "ipType": "특허",
+   "pdfPage": 5,
+   "cropBox": [
+    576.4,
+    323,
+    660.4,
+    429
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-11-roadstud.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-12",
+   "type": "intellectual-property",
+   "title": "도로안내 표지판",
+   "ipType": "디자인등록",
+   "pdfPage": 5,
+   "cropBox": [
+    709.0,
+    323,
+    793.0,
+    429
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-12-roadsign-design.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-13",
+   "type": "intellectual-property",
+   "title": "볼라드",
+   "ipType": "디자인등록",
+   "pdfPage": 5,
+   "cropBox": [
+    46.0,
+    487,
+    130.0,
+    594
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-13-bollard-design.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-14",
+   "type": "intellectual-property",
+   "title": "도로안내 표지판",
+   "ipType": "디자인등록",
+   "pdfPage": 5,
+   "cropBox": [
+    178.6,
+    487,
+    262.6,
+    594
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-14-roadsign-design2.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-15",
+   "type": "intellectual-property",
+   "title": "도로표지병",
+   "ipType": "디자인등록",
+   "pdfPage": 5,
+   "cropBox": [
+    311.2,
+    487,
+    395.2,
+    594
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-15-roadstud-design.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-16",
+   "type": "intellectual-property",
+   "title": "델리네이터",
+   "ipType": "디자인등록",
+   "pdfPage": 5,
+   "cropBox": [
+    443.8,
+    487,
+    527.8,
+    594
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-16-delineator-1.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-17",
+   "type": "intellectual-property",
+   "title": "델리네이터",
+   "ipType": "관련디자인등록",
+   "pdfPage": 5,
+   "cropBox": [
+    576.4,
+    487,
+    660.4,
+    594
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-17-delineator-2.png",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "ip-18",
+   "type": "intellectual-property",
+   "title": "델리네이터",
+   "ipType": "관련디자인등록",
+   "pdfPage": 5,
+   "cropBox": [
+    709.0,
+    487,
+    793.0,
+    594
+   ],
+   "imageNew": "assets/images/catalog80/intellectual-properties/p005-ip-18-delineator-3.png",
+   "verificationStatus": "ok"
+  }
+ ]
+}

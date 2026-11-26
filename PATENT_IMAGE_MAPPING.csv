@@ -1,0 +1,19 @@
+﻿id,title,ipType,pdfPage,cropBox,imageNew,verificationStatus
+ip-01,안내판 표시장치,특허,5,"[46.0, 157, 130.0, 263]",assets/images/catalog80/intellectual-properties/p005-ip-01-information-display.png,ok
+ip-02,솔라 셀 모듈용 지주장치,특허,5,"[178.6, 157, 262.6, 263]",assets/images/catalog80/intellectual-properties/p005-ip-02-solar-support.png,ok
+ip-03,보안등 겸용 안내표시장치,특허,5,"[311.2, 157, 395.2, 263]",assets/images/catalog80/intellectual-properties/p005-ip-03-security-display.png,ok
+ip-04,조명식 도로표시판 겸용 보조등,특허,5,"[443.8, 157, 527.8, 263]",assets/images/catalog80/intellectual-properties/p005-ip-04-aux-roadsign-light.png,ok
+ip-05,조명식 도로표시판 겸용 보조등을 위한 지지장치,특허,5,"[576.4, 157, 660.4, 263]",assets/images/catalog80/intellectual-properties/p005-ip-05-aux-roadsign-support.png,ok
+ip-06,차륜의 야간안전용 발광장치,특허,5,"[709.0, 157, 793.0, 263]",assets/images/catalog80/intellectual-properties/p005-ip-06-wheel-light.png,ok
+ip-07,전원 소모 저감 기능이 구비된 도로표지병,특허,5,"[46.0, 323, 130.0, 429]",assets/images/catalog80/intellectual-properties/p005-ip-07-roadstud-powersave.png,ok
+ip-08,가로등 지주에 설치되는 공공 서비스 편의 시스템,특허,5,"[178.6, 323, 262.6, 429]",assets/images/catalog80/intellectual-properties/p005-ip-08-streetlight-pubsys.png,ok
+ip-09,조명장치,특허,5,"[311.2, 323, 395.2, 429]",assets/images/catalog80/intellectual-properties/p005-ip-09-lighting-device.png,ok
+ip-10,도로 표지병의 제어 장치,특허,5,"[443.8, 323, 527.8, 429]",assets/images/catalog80/intellectual-properties/p005-ip-10-roadstud-control.png,ok
+ip-11,도로표지병,특허,5,"[576.4, 323, 660.4, 429]",assets/images/catalog80/intellectual-properties/p005-ip-11-roadstud.png,ok
+ip-12,도로안내 표지판,디자인등록,5,"[709.0, 323, 793.0, 429]",assets/images/catalog80/intellectual-properties/p005-ip-12-roadsign-design.png,ok
+ip-13,볼라드,디자인등록,5,"[46.0, 487, 130.0, 594]",assets/images/catalog80/intellectual-properties/p005-ip-13-bollard-design.png,ok
+ip-14,도로안내 표지판,디자인등록,5,"[178.6, 487, 262.6, 594]",assets/images/catalog80/intellectual-properties/p005-ip-14-roadsign-design2.png,ok
+ip-15,도로표지병,디자인등록,5,"[311.2, 487, 395.2, 594]",assets/images/catalog80/intellectual-properties/p005-ip-15-roadstud-design.png,ok
+ip-16,델리네이터,디자인등록,5,"[443.8, 487, 527.8, 594]",assets/images/catalog80/intellectual-properties/p005-ip-16-delineator-1.png,ok
+ip-17,델리네이터,관련디자인등록,5,"[576.4, 487, 660.4, 594]",assets/images/catalog80/intellectual-properties/p005-ip-17-delineator-2.png,ok
+ip-18,델리네이터,관련디자인등록,5,"[709.0, 487, 793.0, 594]",assets/images/catalog80/intellectual-properties/p005-ip-18-delineator-3.png,ok

@@ -1,169 +1,169 @@
-﻿id,category,category_ko,productGroup,model,procurementId,catalogPage,pdfPage,image,verificationStatus
-eco26-138bw,roadstud,도로표지병,rs-138-battery,ECO26-138BW,26158540,6-7,4,assets/photos/cat/rs_138b.jpg,ok
-eco26-138by,roadstud,도로표지병,rs-138-battery,ECO26-138BY,26158539,6-7,4,assets/photos/cat/rs_138b.jpg,ok
-eco26-138hw,roadstud,도로표지병,rs-138-hybrid,ECO26-138HW,26158537,6-7,4,assets/photos/cat/rs_138h.jpg,ok
-eco26-138hy,roadstud,도로표지병,rs-138-hybrid,ECO26-138HY,26158538,6-7,4,assets/photos/cat/rs_138h.jpg,ok
-eco26-138sw,roadstud,도로표지병,rs-138-solar,ECO26-138SW,26151915,8-9,5,assets/photos/cat/rs_138s.jpg,ok
-eco26-138sy,roadstud,도로표지병,rs-138-solar,ECO26-138SY,26151916,8-9,5,assets/photos/cat/rs_138s.jpg,ok
-eco-25rs113-bw,roadstud,도로표지병,rs-113-module,ECO-25RS113-BW,25740381,8-9,5,assets/photos/cat/rs_113.jpg,ok
-eco-25rs113-by,roadstud,도로표지병,rs-113-module,ECO-25RS113-BY,25740380,8-9,5,assets/photos/cat/rs_113.jpg,ok
-eco-25rs113-hw,roadstud,도로표지병,rs-113-module,ECO-25RS113-HW,26372354,8-9,5,assets/photos/cat/rs_113.jpg,ok
-eco-25rs113-hy,roadstud,도로표지병,rs-113-module,ECO-25RS113-HY,26372355,8-9,5,assets/photos/cat/rs_113.jpg,ok
-eco26-113sw,roadstud,도로표지병,rs-113-module,ECO26-113SW,26151913,8-9,5,assets/photos/cat/rs_113.jpg,ok
-eco26-113sy,roadstud,도로표지병,rs-113-module,ECO26-113SY,26151914,8-9,5,assets/photos/cat/rs_113.jpg,ok
-eco25-rs125-cw,roadstud,도로표지병,rs-125-mains,ECO25-RS125-CW,25737635,10-11,6,assets/photos/cat/rs_125.jpg,ok
-eco25-rs125-cy,roadstud,도로표지병,rs-125-mains,ECO25-RS125-CY,25737636,10-11,6,assets/photos/cat/rs_125.jpg,ok
-eco-rs196-rw,roadstud,도로표지병,rs-196-mains,ECO-RS196-RW,25543620,10-11,6,assets/photos/cat/rs_196.jpg,ok
-eco-rs196-ry,roadstud,도로표지병,rs-196-mains,ECO-RS196-RY,25543621,10-11,6,assets/photos/cat/rs_196.jpg,ok
-eco-llba1200,lighting,LED 경관조명기구,lt-line,ECO-LLBA1200,26084710,18-19,10,assets/photos/cat/lt_line.jpg,ok
-eco-llba1000,lighting,LED 경관조명기구,lt-line,ECO-LLBA1000,26084709,18-19,10,assets/photos/cat/lt_line.jpg,ok
-eco-llflex1000,lighting,LED 경관조명기구,lt-line,ECO-LLFLEX1000,26084708,18-19,10,assets/photos/cat/lt_line.jpg,ok
-eco-llflex1000-10,lighting,LED 경관조명기구,lt-line,ECO-LLFLEX1000-10,26316681,18-19,10,assets/photos/cat/lt_line.jpg,ok
-eco-ll180-s,lighting,LED 경관조명기구,lt-wall,ECO-LL180-S,25241455,20-21,11,assets/photos/cat/lt_wall.jpg,ok
-eco-llw109,lighting,LED 경관조명기구,lt-wall,ECO-LLW109,26084705,20-21,11,assets/photos/cat/lt_wall.jpg,ok
-eco-ll19-au,lighting,LED 경관조명기구,lt-curb-rainbow,ECO-LL19-AU,25987478,22-23,12,assets/photos/cat/lt_curb_rainbow.jpg,ok
-eco-ll23-au,lighting,LED 경관조명기구,lt-curb-rainbow,ECO-LL23-AU,25987477,22-23,12,assets/photos/cat/lt_curb_rainbow.jpg,ok
-eco-ll50w-cu,lighting,LED 경관조명기구,lt-gobo,ECO-LL50W-CU,25235290,24-25,13,assets/photos/cat/lt_gobo.jpg,ok
-eco-ll80w-cu,lighting,LED 경관조명기구,lt-gobo,ECO-LL80W-CU,25235291,24-25,13,assets/photos/cat/lt_gobo.jpg,ok
-eco-ll100w-cu,lighting,LED 경관조명기구,lt-gobo,ECO-LL100W-CU,25235292,24-25,13,assets/photos/cat/lt_gobo.jpg,ok
-eco-ll200w-cu,lighting,LED 경관조명기구,lt-gobo,ECO-LL200W-CU,25476606,24-25,13,assets/photos/cat/lt_gobo.jpg,ok
-eco-ll155-hu,lighting,LED 경관조명기구,lt-curb-new,ECO-LL155-HU,25241460,26-27,14,assets/photos/cat/lt_curb155.jpg,ok
-eco-ll155-bu,lighting,LED 경관조명기구,lt-curb-new,ECO-LL155-BU,25241459,26-27,14,assets/photos/cat/lt_curb155.jpg,ok
-eco-ll60w-butterfly,lighting,LED 경관조명기구,lt-park,ECO-LL60W-Butterfly,25468414,28-29,15,assets/photos/cat/lt_park.jpg,ok
-eco-ll60w-seagull,lighting,LED 경관조명기구,lt-park,ECO-LL60W-Seagull,25462493,28-29,15,assets/photos/cat/lt_park.jpg,ok
-eco-ll50s,lighting,LED 경관조명기구,lt-security,ECO-LL50S,25800234,30-33,16,assets/photos/cat/lt_security.jpg,ok
-eco-ll30s-3m,lighting,LED 경관조명기구,lt-security,ECO-LL30S-3M,25795266,30-33,16,assets/photos/cat/lt_security.jpg,ok
-eco-ll25s,lighting,LED 경관조명기구,lt-security,ECO-LL25S,25987479,30-33,16,assets/photos/cat/lt_security.jpg,ok
-eco-ll130-bu,lighting,LED 경관조명기구,lt-accent,ECO-LL130-BU,25241458,32-33,17,assets/photos/cat/lt_accent.jpg,ok
-eco-ll138-su,lighting,LED 경관조명기구,lt-accent,ECO-LL138-SU,25241461,32-33,17,assets/photos/cat/lt_accent.jpg,ok
-eco-ll275-c10,lighting,LED 경관조명기구,lt-accent,ECO-LL275-C10,26316682,32-33,17,assets/photos/cat/lt_accent.jpg,ok
-eco-ll222-60s,lighting,LED 경관조명기구,lt-floor-square,ECO-LL222-60S,25462494,34-35,18,assets/photos/cat/lt_floor_square.jpg,ok
-eco-ll118-60s,lighting,LED 경관조명기구,lt-floor-square,ECO-LL118-60S,25462495,34-35,18,assets/photos/cat/lt_floor_square.jpg,ok
-eco-ll120-60s,lighting,LED 경관조명기구,lt-floor-circle,ECO-LL120-60S,25468417,36-37,19,assets/photos/cat/lt_floor_recessed.jpg,needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)
-eco-ll96-47s,lighting,LED 경관조명기구,lt-floor-circle,ECO-LL96-47S,25468416,36-37,19,assets/photos/cat/lt_floor_recessed.jpg,needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)
-eco-ll67-30s,lighting,LED 경관조명기구,lt-floor-circle,ECO-LL67-30S,25468415,36-37,19,assets/photos/cat/lt_floor_recessed.jpg,needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)
-eco-ll110-90s,lighting,LED 경관조명기구,lt-floor-circle,ECO-LL110-90S,-,36-37,19,assets/photos/cat/lt_floor_recessed.jpg,needs_check
-eco-ll157-su,lighting,LED 경관조명기구,lt-post-square,ECO-LL157-SU,25251812,38-39,20,assets/photos/cat/lt_post_sq.jpg,needs_check (배터리형 타입 표기 불일치 — 38P)
-eco-ll157-hu,lighting,LED 경관조명기구,lt-post-square,ECO-LL157-HU,25251811,38-39,20,assets/photos/cat/lt_post_sq.jpg,needs_check (배터리형 타입 표기 불일치 — 38P)
-eco-ll157-bu,lighting,LED 경관조명기구,lt-post-square,ECO-LL157-BU,25251810,38-39,20,assets/photos/cat/lt_post_sq.jpg,needs_check
-eco-ll110-su,lighting,LED 경관조명기구,lt-post-round,ECO-LL110-SU,25251813,40-41,21,assets/photos/cat/lt_post_rd.jpg,needs_check (모델명 표기 불일치 — 40P)
-eco-ll110-hu,lighting,LED 경관조명기구,lt-post-round,ECO-LL110-HU,25251814,40-41,21,assets/photos/cat/lt_post_rd.jpg,needs_check (모델명 표기 불일치 — 40P)
-eco-ll110-cu,lighting,LED 경관조명기구,lt-post-round,ECO-LL110-CU,-,40-41,21,assets/photos/cat/lt_post_rd.jpg,needs_check
-eco-llbrd800,lighting,LED 경관조명기구,lt-bollard-light,ECO-LLBRD800,26084707,42-43,22,assets/photos/cat/lt_bollardlight.jpg,ok
-eco-llbrd300,lighting,LED 경관조명기구,lt-bollard-light,ECO-LLBRD300,26084706,42-43,22,assets/photos/cat/lt_bollardlight.jpg,ok
-eco-llbrd110,lighting,LED 경관조명기구,lt-bollard-light,ECO-LLBRD110,26122096,42-43,22,assets/photos/cat/lt_bollardlight.jpg,ok
-eco-llbrd150,lighting,LED 경관조명기구,lt-bollard-light,ECO-LLBRD150,26122095,42-43,22,assets/photos/cat/lt_bollardlight.jpg,ok
-eco26-llba1000-l15,lighting,LED 경관조명기구,lt-linear,ECO26-LLBA1000-L15,26316683,44-45,23,assets/photos/cat/lt_handrail.jpg,ok
-eco26-llba1000-h15,lighting,LED 경관조명기구,lt-linear,ECO26-LLBA1000-H15,23619182,44-45,23,assets/photos/cat/lt_handrail.jpg,ok
-eco26-llba1000-l15b,lighting,LED 경관조명기구,lt-linear,ECO26-LLBA1000-L15B,26316692,44-45,23,assets/photos/cat/lt_handrail.jpg,ok
-eco26-llba1000-f18,lighting,LED 경관조명기구,lt-flood-bar,ECO26-LLBA1000-F18,26316684,46-47,24,assets/photos/cat/lt_flood_bar.jpg,ok
-eco26-llba1000-f24,lighting,LED 경관조명기구,lt-flood-bar,ECO26-LLBA1000-F24,26316685,46-47,24,assets/photos/cat/lt_flood_bar.jpg,ok
-eco26-llba1000-f36,lighting,LED 경관조명기구,lt-flood-bar,ECO26-LLBA1000-F36,26316693,46-47,24,assets/photos/cat/lt_flood_bar.jpg,ok
-eco26-llba1000-f54,lighting,LED 경관조명기구,lt-flood-bar,ECO26-LLBA1000-F54,26316694,46-47,24,assets/photos/cat/lt_flood_bar.jpg,ok
-eco26-llc125-f12,lighting,LED 경관조명기구,lt-flood-circle-125,ECO26-LLC125-F12,26316686,48-49,25,assets/photos/cat/lt_flood_circle.jpg,ok
-eco26-llc125-f18,lighting,LED 경관조명기구,lt-flood-circle-125,ECO26-LLC125-F18,26316687,48-49,25,assets/photos/cat/lt_flood_circle.jpg,ok
-eco26-llc125-f24,lighting,LED 경관조명기구,lt-flood-circle-125,ECO26-LLC125-F24,26316688,48-49,25,assets/photos/cat/lt_flood_circle.jpg,ok
-eco26-llc160-f36,lighting,LED 경관조명기구,lt-flood-circle-217,ECO26-LLC160-F36,26316695,50-51,26,assets/photos/cat/lt_flood_circle.jpg,needs_check (72W·108W 모델명 표기 불일치 — 50P)
-eco26-llc160-f42,lighting,LED 경관조명기구,lt-flood-circle-217,ECO26-LLC160-F42,26316696,50-51,26,assets/photos/cat/lt_flood_circle.jpg,needs_check (72W·108W 모델명 표기 불일치 — 50P)
-eco26-llc217-f54,lighting,LED 경관조명기구,lt-flood-circle-217,ECO26-LLC217-F54,26316697,50-51,26,assets/photos/cat/lt_flood_circle.jpg,needs_check (72W·108W 모델명 표기 불일치 — 50P)
-eco26-ll217-f72,lighting,LED 경관조명기구,lt-flood-circle-217,ECO26-LL217-F72,26316701,50-51,26,assets/photos/cat/lt_flood_circle.jpg,needs_check
-eco26-ll217-f108,lighting,LED 경관조명기구,lt-flood-circle-217,ECO26-LL217-F108,26316704,50-51,26,assets/photos/cat/lt_flood_circle.jpg,needs_check
-eco-ll100-c12,lighting,LED 경관조명기구,lt-inground-circle,ECO-LL100-C12,26316689,52-53,27,assets/photos/cat/lt_inground_circle.jpg,ok
-eco-ll140-c18,lighting,LED 경관조명기구,lt-inground-circle,ECO-LL140-C18,26316690,52-53,27,assets/photos/cat/lt_inground_circle.jpg,ok
-eco-ll180-c36,lighting,LED 경관조명기구,lt-inground-circle,ECO-LL180-C36,26316698,52-53,27,assets/photos/cat/lt_inground_circle.jpg,ok
-eco-ll220-c54,lighting,LED 경관조명기구,lt-inground-circle,ECO-LL220-C54,26316699,52-53,27,assets/photos/cat/lt_inground_circle.jpg,ok
-eco-ll220-c72,lighting,LED 경관조명기구,lt-inground-circle,ECO-LL220-C72,26316702,52-53,27,assets/photos/cat/lt_inground_circle.jpg,ok
-eco-ll1010-c15,lighting,LED 경관조명기구,lt-inground-bar,ECO-LL1010-C15,26316691,54-55,28,assets/photos/cat/lt_inground_bar.jpg,ok
-eco-ll1010-c36,lighting,LED 경관조명기구,lt-inground-bar,ECO-LL1010-C36,26316700,54-55,28,assets/photos/cat/lt_inground_bar.jpg,ok
-eco-ll1010-c72,lighting,LED 경관조명기구,lt-inground-bar,ECO-LL1010-C72,26316703,54-55,28,assets/photos/cat/lt_inground_bar.jpg,ok
-eco-ll2000-120,lighting,LED 경관조명기구,lt-column,ECO-LL2000-120,26328196,55,28,assets/photos/cat/lt_column.jpg,ok
-eco-brd150-hd,bollard,볼라드,brd-150-hybrid,ECO-BRD150-HD,25676355,56-57,29,assets/photos/cat/bd_150h.jpg,needs_check (매립·앵커 식별번호 중복 — 56P)
-eco-brd150-ha,bollard,볼라드,brd-150-hybrid,ECO-BRD150-HA,25676355,56-57,29,assets/photos/cat/bd_150h.jpg,needs_check
-eco-brd150-hm,bollard,볼라드,brd-150-hybrid,ECO-BRD150-HM,25676358,56-57,29,assets/photos/cat/bd_150h.jpg,needs_check (매립·앵커 식별번호 중복 — 56P)
-eco-brd150-bd,bollard,볼라드,brd-150-battery,ECO-BRD150-BD,25676351,56-57,29,assets/photos/cat/bd_150h.jpg,needs_check (매립·앵커 식별번호 중복 — 56P)
-eco-brd150-ba,bollard,볼라드,brd-150-battery,ECO-BRD150-BA,25676351,56-57,29,assets/photos/cat/bd_150h.jpg,needs_check
-eco-brd150-bm,bollard,볼라드,brd-150-battery,ECO-BRD150-BM,25676353,56-57,29,assets/photos/cat/bd_150h.jpg,needs_check (매립·앵커 식별번호 중복 — 56P)
-eco-brd110-sd,bollard,볼라드,brd-110-solar,ECO-BRD110-SD,25676347,56-57,29,assets/photos/cat/bd_110.jpg,ok
-eco-brd110-sa,bollard,볼라드,brd-110-solar,ECO-BRD110-SA,25675323,56-57,29,assets/photos/cat/bd_110.jpg,ok
-eco-brd110-sm,bollard,볼라드,brd-110-solar,ECO-BRD110-SM,25676348,56-57,29,assets/photos/cat/bd_110.jpg,ok
-eco-brd110-hd,bollard,볼라드,brd-110-hybrid,ECO-BRD110-HD,25676349,56-57,29,assets/photos/cat/bd_110.jpg,ok
-eco-brd110-ha,bollard,볼라드,brd-110-hybrid,ECO-BRD110-HA,25675324,56-57,29,assets/photos/cat/bd_110.jpg,ok
-eco-brd110-hm,bollard,볼라드,brd-110-hybrid,ECO-BRD110-HM,25676350,56-57,29,assets/photos/cat/bd_110.jpg,ok
-eco-brd110-xd,bollard,볼라드,brd-110-none,ECO-BRD110-XD,25658332,58-59,30,assets/photos/cat/bd_110x.jpg,ok
-eco-brd110-xa,bollard,볼라드,brd-110-none,ECO-BRD110-XA,25658331,58-59,30,assets/photos/cat/bd_110x.jpg,ok
-eco-brd110-xm,bollard,볼라드,brd-110-none,ECO-BRD110-XM,25658330,58-59,30,assets/photos/cat/bd_110x.jpg,ok
-eco-brd150-xd,bollard,볼라드,brd-150-none,ECO-BRD150-XD,25658329,58-59,30,assets/photos/cat/bd_150x.jpg,ok
-eco-brd150-xa,bollard,볼라드,brd-150-none,ECO-BRD150-XA,25658328,58-59,30,assets/photos/cat/bd_150x.jpg,ok
-eco-brd150-xm,bollard,볼라드,brd-150-none,ECO-BRD150-XM,25658327,58-59,30,assets/photos/cat/bd_150x.jpg,ok
-eco-brd101s-id,bollard,볼라드,brd-stainless-i,ECO-BRD101S-ID,,62-63,32,assets/photos/cat/bd_stainless.jpg,needs_check (제품명과 실제 형태 불일치 — 63P)
-eco-brd101s-ia,bollard,볼라드,brd-stainless-i,ECO-BRD101S-IA,,62-63,32,assets/photos/cat/bd_stainless.jpg,needs_check (제품명과 실제 형태 불일치 — 63P)
-eco-brd101s-im,bollard,볼라드,brd-stainless-i,ECO-BRD101S-IM,,62-63,32,assets/photos/cat/bd_stainless.jpg,needs_check (제품명과 실제 형태 불일치 — 63P)
-eco-brd1200s-ud,bollard,볼라드,brd-stainless-u,ECO-BRD1200S-UD,,62-63,32,assets/photos/cat/bd_stainless.jpg,ok
-eco-brd1200s-ua,bollard,볼라드,brd-stainless-u,ECO-BRD1200S-UA,,62-63,32,assets/photos/cat/bd_stainless.jpg,ok
-eco-brd1200s-um,bollard,볼라드,brd-stainless-u,ECO-BRD1200S-UM,,62-63,32,assets/photos/cat/bd_stainless.jpg,ok
-eco-jhgd1,fence,디자인형 울타리,fn-guard,ECO-JHGD1,26002008,64-65,33,assets/photos/cat/fn_guard.jpg,ok
-eco-jhgd1-01,fence,디자인형 울타리,fn-guard,ECO-JHGD1-01,26002007,64-65,33,assets/photos/cat/fn_guard.jpg,ok
-eco-jhgd1-02,fence,디자인형 울타리,fn-guard,ECO-JHGD1-02,26002006,64-65,33,assets/photos/cat/fn_guard.jpg,ok
-eco-jhgd1-03,fence,디자인형 울타리,fn-guard,ECO-JHGD1-03,26002005,64-65,33,assets/photos/cat/fn_guard.jpg,ok
-eco-r190j77,fence,디자인형 울타리,fn-ped,ECO-R190J77,25987812,64-67,33,assets/photos/cat/fn_ped1.jpg,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
-eco-r196j52,fence,디자인형 울타리,fn-ped,ECO-R196J52,25987811,64-67,33,assets/photos/cat/fn_ped1.jpg,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
-eco-r195j50,fence,디자인형 울타리,fn-ped,ECO-R195J50,25987810,64-67,33,assets/photos/cat/fn_ped1.jpg,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
-eco-r193j46,fence,디자인형 울타리,fn-ped,ECO-R193J46,25987809,64-67,33,assets/photos/cat/fn_ped1.jpg,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
-eco-r193j45,fence,디자인형 울타리,fn-ped,ECO-R193J45,25987808,64-67,33,assets/photos/cat/fn_ped1.jpg,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
-eco-r157j23,fence,디자인형 울타리,fn-ped,ECO-R157J23,25994797,64-67,33,assets/photos/cat/fn_ped1.jpg,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
-eco-r155j17,fence,디자인형 울타리,fn-ped,ECO-R155J17,25987807,64-67,33,assets/photos/cat/fn_ped1.jpg,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
-eco-r156-01,fence,디자인형 울타리,fn-sep,ECO-R156-01,25987806,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r157,fence,디자인형 울타리,fn-sep,ECO-R157,25994798,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r157-02,fence,디자인형 울타리,fn-sep,ECO-R157-02,25994799,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r161,fence,디자인형 울타리,fn-sep,ECO-R161,25994800,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r164,fence,디자인형 울타리,fn-sep,ECO-R164,25987805,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r164-01,fence,디자인형 울타리,fn-sep,ECO-R164-01,25987804,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r165,fence,디자인형 울타리,fn-sep,ECO-R165,25987803,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r165-02,fence,디자인형 울타리,fn-sep,ECO-R165-02,25987802,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r165-03,fence,디자인형 울타리,fn-sep,ECO-R165-03,26002011,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r189-01,fence,디자인형 울타리,fn-sep,ECO-R189-01,25987801,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r190-01,fence,디자인형 울타리,fn-sep,ECO-R190-01,25987800,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r235-a,fence,디자인형 울타리,fn-sep,ECO-R235-A,25987799,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r117-ah,fence,디자인형 울타리,fn-sep,ECO-R117-AH,25987798,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r118-ah,fence,디자인형 울타리,fn-sep,ECO-R118-AH,25987797,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r130h,fence,디자인형 울타리,fn-sep,ECO-R130H,25987796,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-rb04,fence,디자인형 울타리,fn-sep,ECO-RB04,,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r01,fence,디자인형 울타리,fn-sep,ECO-R01,,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r02-01,fence,디자인형 울타리,fn-sep,ECO-R02-01,,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r216,fence,디자인형 울타리,fn-sep,ECO-R216,,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-eco-r218,fence,디자인형 울타리,fn-sep,ECO-R218,,66-71,34,assets/photos/cat/fn_sep.jpg,ok
-edbl-200,signal,바닥형 보행신호등,sig-system,EDBL-200,26109111,74-75,38,assets/photos/cat/sn_display.jpg,ok
-edcb-200,signal,바닥형 보행신호등,sig-system,EDCB-200,26109112,74-75,38,assets/photos/cat/sn_display.jpg,ok
-edob-200,signal,바닥형 보행신호등,sig-system,EDOB-200,26109113,74-75,38,assets/photos/cat/sn_display.jpg,ok
-eco-ts600-cws,sign,교통안전표지판,sgn-oneway,ECO-TS600-CWS,25235503,76-77,39,assets/photos/cat/sg_type_oneway.jpg,ok
-eco-ts700-cws,sign,교통안전표지판,sgn-oneway,ECO-TS700-CWS,25235504,76-77,39,assets/photos/cat/sg_type_oneway.jpg,ok
-eco-ts600-sws,sign,교통안전표지판,sgn-oneway,ECO-TS600-SWS,25235535,76-77,39,assets/photos/cat/sg_type_oneway.jpg,ok
-eco-ts700-sws,sign,교통안전표지판,sgn-oneway,ECO-TS700-SWS,25235537,76-77,39,assets/photos/cat/sg_type_oneway.jpg,ok
-eco-ts3000-cwl,sign,교통안전표지판,sgn-school,ECO-TS3000-CWL,25235471,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts3000-cwp,sign,교통안전표지판,sgn-school,ECO-TS3000-CWP,25235463,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts1500-cw,sign,교통안전표지판,sgn-school,ECO-TS1500-CW,25235466,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts1000-cw,sign,교통안전표지판,sgn-school,ECO-TS1000-CW,25235464,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts700-cw,sign,교통안전표지판,sgn-school,ECO-TS700-CW,25235529,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts3000-swl,sign,교통안전표지판,sgn-school,ECO-TS3000-SWL,25235510,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts3000-swp,sign,교통안전표지판,sgn-school,ECO-TS3000-SWP,25235509,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts1500-sw,sign,교통안전표지판,sgn-school,ECO-TS1500-SW,25235508,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts1000-sw,sign,교통안전표지판,sgn-school,ECO-TS1000-SW,25235507,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts700-sw,sign,교통안전표지판,sgn-school,ECO-TS700-SW,25235506,76-77,39,assets/photos/cat/sg_type_school.jpg,ok
-eco-ts600-cwr,sign,교통안전표지판,sgn-speed,ECO-TS600-CWR,25235482,76-77,39,assets/photos/cat/sg_type_speed.jpg,ok
-eco-ts900-cwr,sign,교통안전표지판,sgn-speed,ECO-TS900-CWR,25235490,76-77,39,assets/photos/cat/sg_type_speed.jpg,ok
-eco-ts600-swr,sign,교통안전표지판,sgn-speed,ECO-TS600-SWR,25235512,76-77,39,assets/photos/cat/sg_type_speed.jpg,ok
-eco-ts900-swr,sign,교통안전표지판,sgn-speed,ECO-TS900-SWR,25235513,76-77,39,assets/photos/cat/sg_type_speed.jpg,ok
-eco-ts600-cw5,sign,교통안전표지판,sgn-crosswalk,ECO-TS600-CW5,25235501,76-77,39,assets/photos/cat/sg_type_crosswalk.jpg,ok
-eco-ts900-cw5,sign,교통안전표지판,sgn-crosswalk,ECO-TS900-CW5,25235502,76-77,39,assets/photos/cat/sg_type_crosswalk.jpg,ok
-eco-ts600-sw5,sign,교통안전표지판,sgn-crosswalk,ECO-TS600-SW5,25235532,76-77,39,assets/photos/cat/sg_type_crosswalk.jpg,ok
-eco-ts900-sw5,sign,교통안전표지판,sgn-crosswalk,ECO-TS900-SW5,25235534,76-77,39,assets/photos/cat/sg_type_crosswalk.jpg,ok
-eco-ts600-cwi,sign,교통안전표지판,sgn-roundabout,ECO-TS600-CWI,25235497,76-77,39,assets/photos/cat/sg_type_roundabout.jpg,ok
-eco-ts900-cwi,sign,교통안전표지판,sgn-roundabout,ECO-TS900-CWI,25235499,76-77,39,assets/photos/cat/sg_type_roundabout.jpg,ok
-eco-ts600-swi,sign,교통안전표지판,sgn-roundabout,ECO-TS600-SWI,25235518,76-77,39,assets/photos/cat/sg_type_roundabout.jpg,ok
-eco-ts900-swi,sign,교통안전표지판,sgn-roundabout,ECO-TS900-SWI,25235523,76-77,39,assets/photos/cat/sg_type_roundabout.jpg,ok
-eco-ts900-cww,sign,교통안전표지판,sgn-curve,ECO-TS900-CWW,25235487,76-77,39,assets/photos/cat/sg_type_curve.jpg,ok
-eco-ts900-sww,sign,교통안전표지판,sgn-curve,ECO-TS900-SWW,25235511,76-77,39,assets/photos/cat/sg_type_curve.jpg,ok
-eco-gs450-cw,chevron,갈매기표지판,sgn-chevron,ECO-GS450-CW,25234398,78-79,40,assets/photos/cat/sg_chevron.jpg,needs_check (양면형 모델명·식별번호 중복 — 78P)
-eco-gs450-sw,chevron,갈매기표지판,sgn-chevron,ECO-GS450-SW,25234399,78-79,40,assets/photos/cat/sg_chevron.jpg,needs_check (양면형 모델명·식별번호 중복 — 78P)
-eco-gs450-cw2,chevron,갈매기표지판,sgn-chevron,ECO-GS450-CW2,25234396,78-79,40,assets/photos/cat/sg_chevron.jpg,needs_check (양면형 모델명·식별번호 중복 — 78P)
-eco-gs450-cw2-2,chevron,갈매기표지판,sgn-chevron,ECO-GS450-CW2,25234396,78-79,40,assets/photos/cat/sg_chevron.jpg,needs_check
+﻿id,category,model,procurementId,pdfPage,cropBox,imageNew,sharedImage,verificationStatus
+eco26-138bw,roadstud,ECO26-138BW,26158540,6,"[33, 141, 292, 311]",assets/images/catalog80/products/p006-eco26-138bw.png,False,ok
+eco26-138by,roadstud,ECO26-138BY,26158539,6,"[33, 360, 292, 530]",assets/images/catalog80/products/p006-eco26-138by.png,False,ok
+eco26-138hw,roadstud,ECO26-138HW,26158537,7,"[56, 141, 315, 311]",assets/images/catalog80/products/p007-eco26-138hw.png,False,ok
+eco26-138hy,roadstud,ECO26-138HY,26158538,7,"[56, 360, 315, 530]",assets/images/catalog80/products/p007-eco26-138hy.png,False,ok
+eco26-138sw,roadstud,ECO26-138SW,26151915,8,"[33, 141, 292, 311]",assets/images/catalog80/products/p008-eco26-138sw.png,False,ok
+eco26-138sy,roadstud,ECO26-138SY,26151916,8,"[33, 360, 292, 530]",assets/images/catalog80/products/p008-eco26-138sy.png,False,ok
+eco-25rs113-bw,roadstud,ECO-25RS113-BW,25740381,9,"[56, 150, 184, 256]",assets/images/catalog80/products/p009-eco-25rs113-bw.png,False,ok
+eco-25rs113-by,roadstud,ECO-25RS113-BY,25740380,9,"[187, 150, 315, 256]",assets/images/catalog80/products/p009-eco-25rs113-by.png,False,ok
+eco-25rs113-hw,roadstud,ECO-25RS113-HW,26372354,9,"[56, 297, 184, 403]",assets/images/catalog80/products/p009-eco-25rs113-hw.png,False,ok
+eco-25rs113-hy,roadstud,ECO-25RS113-HY,26372355,9,"[187, 297, 315, 403]",assets/images/catalog80/products/p009-eco-25rs113-hy.png,False,ok
+eco26-113sw,roadstud,ECO26-113SW,26151913,9,"[56, 443, 184, 549]",assets/images/catalog80/products/p009-eco26-113sw.png,False,ok
+eco26-113sy,roadstud,ECO26-113SY,26151914,9,"[187, 443, 315, 549]",assets/images/catalog80/products/p009-eco26-113sy.png,False,ok
+eco25-rs125-cw,roadstud,ECO25-RS125-CW,25737635,10,"[33, 141, 292, 312]",assets/images/catalog80/products/p010-eco25-rs125-cw.png,False,ok
+eco25-rs125-cy,roadstud,ECO25-RS125-CY,25737636,10,"[33, 360, 292, 533]",assets/images/catalog80/products/p010-eco25-rs125-cy.png,False,ok
+eco-rs196-rw,roadstud,ECO-RS196-RW,25543620,11,"[56, 141, 315, 311]",assets/images/catalog80/products/p011-eco-rs196-rw.png,False,ok
+eco-rs196-ry,roadstud,ECO-RS196-RY,25543621,11,"[56, 360, 315, 530]",assets/images/catalog80/products/p011-eco-rs196-ry.png,False,ok
+eco-llba1200,lighting,ECO-LLBA1200,26084710,18,"[34, 145, 300, 214]",assets/images/catalog80/products/p018-llba1200.png,False,ok
+eco-llba1000,lighting,ECO-LLBA1000,26084709,18,"[34, 240, 300, 312]",assets/images/catalog80/products/p018-llba1000.png,False,ok
+eco-llflex1000,lighting,ECO-LLFLEX1000,26084708,18,"[34, 320, 300, 442]",assets/images/catalog80/products/p018-llflex1000.png,False,ok
+eco-llflex1000-10,lighting,ECO-LLFLEX1000-10,26316681,18,"[34, 486, 300, 566]",assets/images/catalog80/products/p018-llflex1000-10.png,False,ok
+eco-ll180-s,lighting,ECO-LL180-S,25241455,20,"[33, 141, 292, 311]",assets/images/catalog80/products/p020-ll180-s.png,False,ok
+eco-llw109,lighting,ECO-LLW109,26084705,20,"[33, 360, 292, 530]",assets/images/catalog80/products/p020-llw109.png,False,ok
+eco-ll19-au,lighting,ECO-LL19-AU,25987478,22,"[33, 141, 292, 311]",assets/images/catalog80/products/p022-ll19-au.png,False,ok
+eco-ll23-au,lighting,ECO-LL23-AU,25987477,22,"[33, 360, 292, 530]",assets/images/catalog80/products/p022-ll23-au.png,False,ok
+eco-ll50w-cu,lighting,ECO-LL50W-CU,25235290,24,"[33, 141, 154, 325]",assets/images/catalog80/products/p024-ll50w-cu.png,False,ok
+eco-ll80w-cu,lighting,ECO-LL80W-CU,25235291,24,"[171, 141, 292, 325]",assets/images/catalog80/products/p024-ll80w-cu.png,False,ok
+eco-ll100w-cu,lighting,ECO-LL100W-CU,25235292,24,"[33, 359, 154, 543]",assets/images/catalog80/products/p024-ll100w-cu.png,False,ok
+eco-ll200w-cu,lighting,ECO-LL200W-CU,25476606,24,"[171, 359, 292, 543]",assets/images/catalog80/products/p024-ll200w-cu.png,False,ok
+eco-ll155-hu,lighting,ECO-LL155-HU,25241460,26,"[33, 142, 292, 312]",assets/images/catalog80/products/p026-ll155-hu.png,False,ok
+eco-ll155-bu,lighting,ECO-LL155-BU,25241459,26,"[33, 355, 292, 525]",assets/images/catalog80/products/p026-ll155-bu.png,False,ok
+eco-ll60w-butterfly,lighting,ECO-LL60W-Butterfly,25468414,28,"[33, 142, 292, 312]",assets/images/catalog80/products/p028-ll60w-butterfly.png,False,ok
+eco-ll60w-seagull,lighting,ECO-LL60W-Seagull,25462493,28,"[33, 349, 292, 525]",assets/images/catalog80/products/p028-ll60w-seagull.png,False,ok
+eco-ll50s,lighting,ECO-LL50S,25800234,30,"[33, 141, 162, 532]",assets/images/catalog80/products/p030-ll50s.png,False,ok
+eco-ll30s-3m,lighting,ECO-LL30S-3M,25795266,30,"[165, 141, 296, 532]",assets/images/catalog80/products/p030-ll30s-3m.png,False,ok
+eco-ll25s,lighting,ECO-LL25S,25987479,32,"[33, 141, 292, 532]",assets/images/catalog80/products/p032-ll25s.png,False,ok
+eco-ll130-bu,lighting,ECO-LL130-BU,25241458,33,"[56, 140, 315, 270]",assets/images/catalog80/products/p033-ll130-bu.png,False,ok
+eco-ll138-su,lighting,ECO-LL138-SU,25241461,33,"[56, 303, 315, 413]",assets/images/catalog80/products/p033-ll138-su.png,False,ok
+eco-ll275-c10,lighting,ECO-LL275-C10,26316682,33,"[56, 430, 315, 560]",assets/images/catalog80/products/p033-ll275-c10.png,False,ok
+eco-ll222-60s,lighting,ECO-LL222-60S,25462494,34,"[33, 142, 292, 312]",assets/images/catalog80/products/p034-ll222-60s.png,False,ok
+eco-ll118-60s,lighting,ECO-LL118-60S,25462495,34,"[33, 355, 292, 525]",assets/images/catalog80/products/p034-ll118-60s.png,False,ok
+eco-ll120-60s,lighting,ECO-LL120-60S,25468417,36,"[33, 141, 154, 325]",assets/images/catalog80/products/p036-ll120-60s.png,True,needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)
+eco-ll96-47s,lighting,ECO-LL96-47S,25468416,36,"[171, 141, 292, 325]",assets/images/catalog80/products/p036-ll96-47s.png,False,needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)
+eco-ll67-30s,lighting,ECO-LL67-30S,25468415,36,"[33, 359, 154, 543]",assets/images/catalog80/products/p036-ll67-30s.png,False,needs_check (ECO-LL110-90S 사양·이미지 불명확 — 36P)
+eco-ll110-90s,lighting,ECO-LL110-90S,-,36,"[33, 141, 154, 325]",assets/images/catalog80/products/p036-ll120-60s.png,True,needs_check
+eco-ll157-su,lighting,ECO-LL157-SU,25251812,38,"[33, 142, 292, 312]",assets/images/catalog80/products/p038-ll157-su-hu.png,True,needs_check (배터리형 타입 표기 불일치 — 38P)
+eco-ll157-hu,lighting,ECO-LL157-HU,25251811,38,"[33, 142, 292, 312]",assets/images/catalog80/products/p038-ll157-su-hu.png,True,needs_check (배터리형 타입 표기 불일치 — 38P)
+eco-ll157-bu,lighting,ECO-LL157-BU,25251810,38,"[33, 360, 292, 530]",assets/images/catalog80/products/p038-ll157-bu.png,False,needs_check
+eco-ll110-su,lighting,ECO-LL110-SU,25251813,40,"[33, 141, 154, 325]",assets/images/catalog80/products/p040-ll110-su.png,False,needs_check (모델명 표기 불일치 — 40P)
+eco-ll110-hu,lighting,ECO-LL110-HU,25251814,40,"[171, 141, 292, 325]",assets/images/catalog80/products/p040-ll110-hu.png,False,needs_check (모델명 표기 불일치 — 40P)
+eco-ll110-cu,lighting,ECO-LL110-CU,-,40,"[33, 359, 154, 543]",assets/images/catalog80/products/p040-ll110-cu.png,False,needs_check
+eco-llbrd800,lighting,ECO-LLBRD800,26084707,42,"[33, 141, 154, 325]",assets/images/catalog80/products/p042-llbrd800.png,False,ok
+eco-llbrd300,lighting,ECO-LLBRD300,26084706,42,"[171, 141, 292, 325]",assets/images/catalog80/products/p042-llbrd300.png,False,ok
+eco-llbrd110,lighting,ECO-LLBRD110,26122096,42,"[33, 359, 154, 543]",assets/images/catalog80/products/p042-llbrd110.png,False,ok
+eco-llbrd150,lighting,ECO-LLBRD150,26122095,42,"[171, 359, 292, 543]",assets/images/catalog80/products/p042-llbrd150.png,False,ok
+eco26-llba1000-l15,lighting,ECO26-LLBA1000-L15,26316683,44,"[34, 142, 290, 256]",assets/images/catalog80/products/p044-llba1000-l15.png,False,ok
+eco26-llba1000-h15,lighting,ECO26-LLBA1000-H15,23619182,44,"[34, 286, 290, 400]",assets/images/catalog80/products/p044-llba1000-h15.png,False,ok
+eco26-llba1000-l15b,lighting,ECO26-LLBA1000-L15B,26316692,44,"[34, 456, 290, 572]",assets/images/catalog80/products/p044-llba1000-l15b.png,False,ok
+eco26-llba1000-f18,lighting,ECO26-LLBA1000-F18,26316684,46,"[34, 144, 292, 312]",assets/images/catalog80/products/p046-llba1000-flood.png,True,ok
+eco26-llba1000-f24,lighting,ECO26-LLBA1000-F24,26316685,46,"[34, 144, 292, 312]",assets/images/catalog80/products/p046-llba1000-flood.png,True,ok
+eco26-llba1000-f36,lighting,ECO26-LLBA1000-F36,26316693,46,"[34, 144, 292, 312]",assets/images/catalog80/products/p046-llba1000-flood.png,True,ok
+eco26-llba1000-f54,lighting,ECO26-LLBA1000-F54,26316694,46,"[34, 144, 292, 312]",assets/images/catalog80/products/p046-llba1000-flood.png,True,ok
+eco26-llc125-f12,lighting,ECO26-LLC125-F12,26316686,48,"[33, 142, 292, 312]",assets/images/catalog80/products/p048-llc125-flood.png,True,ok
+eco26-llc125-f18,lighting,ECO26-LLC125-F18,26316687,48,"[33, 142, 292, 312]",assets/images/catalog80/products/p048-llc125-flood.png,True,ok
+eco26-llc125-f24,lighting,ECO26-LLC125-F24,26316688,48,"[33, 142, 292, 312]",assets/images/catalog80/products/p048-llc125-flood.png,True,ok
+eco26-llc160-f36,lighting,ECO26-LLC160-F36,26316695,50,"[33, 140, 157, 305]",assets/images/catalog80/products/p050-llc160-f36.png,False,needs_check (72W·108W 모델명 표기 불일치 — 50P)
+eco26-llc160-f42,lighting,ECO26-LLC160-F42,26316696,50,"[168, 140, 292, 305]",assets/images/catalog80/products/p050-llc160-f42.png,False,needs_check (72W·108W 모델명 표기 불일치 — 50P)
+eco26-llc217-f54,lighting,ECO26-LLC217-F54,26316697,50,"[33, 358, 157, 524]",assets/images/catalog80/products/p050-ll217-flood.png,True,needs_check (72W·108W 모델명 표기 불일치 — 50P)
+eco26-ll217-f72,lighting,ECO26-LL217-F72,26316701,50,"[33, 358, 157, 524]",assets/images/catalog80/products/p050-ll217-flood.png,True,needs_check
+eco26-ll217-f108,lighting,ECO26-LL217-F108,26316704,50,"[33, 358, 157, 524]",assets/images/catalog80/products/p050-ll217-flood.png,True,needs_check
+eco-ll100-c12,lighting,ECO-LL100-C12,26316689,52,"[33, 140, 157, 305]",assets/images/catalog80/products/p052-ll100-c12.png,False,ok
+eco-ll140-c18,lighting,ECO-LL140-C18,26316690,52,"[168, 140, 292, 305]",assets/images/catalog80/products/p052-ll140-c18.png,False,ok
+eco-ll180-c36,lighting,ECO-LL180-C36,26316698,52,"[33, 358, 157, 524]",assets/images/catalog80/products/p052-ll180-c36.png,False,ok
+eco-ll220-c54,lighting,ECO-LL220-C54,26316699,52,"[168, 358, 292, 524]",assets/images/catalog80/products/p052-ll220-c54-c72.png,True,ok
+eco-ll220-c72,lighting,ECO-LL220-C72,26316702,52,"[168, 358, 292, 524]",assets/images/catalog80/products/p052-ll220-c54-c72.png,True,ok
+eco-ll1010-c15,lighting,ECO-LL1010-C15,26316691,54,"[34, 142, 290, 256]",assets/images/catalog80/products/p054-ll1010-c15.png,False,ok
+eco-ll1010-c36,lighting,ECO-LL1010-C36,26316700,54,"[34, 286, 290, 400]",assets/images/catalog80/products/p054-ll1010-c36.png,False,ok
+eco-ll1010-c72,lighting,ECO-LL1010-C72,26316703,54,"[34, 456, 290, 572]",assets/images/catalog80/products/p054-ll1010-c72.png,False,ok
+eco-ll2000-120,lighting,ECO-LL2000-120,26328196,55,"[55, 141, 315, 543]",assets/images/catalog80/products/p055-ll2000-120.png,False,ok
+eco-brd150-hd,bollard,ECO-BRD150-HD,25676355,56,"[33, 141, 119, 505]",assets/images/catalog80/products/p056-brd150-d.png,True,needs_check (매립·앵커 식별번호 중복 — 56P)
+eco-brd150-ha,bollard,ECO-BRD150-HA,25676355,56,"[120, 141, 206, 505]",assets/images/catalog80/products/p056-brd150-a.png,True,needs_check
+eco-brd150-hm,bollard,ECO-BRD150-HM,25676358,56,"[207, 141, 292, 505]",assets/images/catalog80/products/p056-brd150-m.png,True,needs_check (매립·앵커 식별번호 중복 — 56P)
+eco-brd150-bd,bollard,ECO-BRD150-BD,25676351,56,"[33, 141, 119, 505]",assets/images/catalog80/products/p056-brd150-d.png,True,needs_check (매립·앵커 식별번호 중복 — 56P)
+eco-brd150-ba,bollard,ECO-BRD150-BA,25676351,56,"[120, 141, 206, 505]",assets/images/catalog80/products/p056-brd150-a.png,True,needs_check
+eco-brd150-bm,bollard,ECO-BRD150-BM,25676353,56,"[207, 141, 292, 505]",assets/images/catalog80/products/p056-brd150-m.png,True,needs_check (매립·앵커 식별번호 중복 — 56P)
+eco-brd110-sd,bollard,ECO-BRD110-SD,25676347,57,"[57, 141, 143, 505]",assets/images/catalog80/products/p057-brd110-d.png,True,ok
+eco-brd110-sa,bollard,ECO-BRD110-SA,25675323,57,"[144, 141, 229, 505]",assets/images/catalog80/products/p057-brd110-a.png,True,ok
+eco-brd110-sm,bollard,ECO-BRD110-SM,25676348,57,"[230, 141, 315, 505]",assets/images/catalog80/products/p057-brd110-m.png,True,ok
+eco-brd110-hd,bollard,ECO-BRD110-HD,25676349,57,"[57, 141, 143, 505]",assets/images/catalog80/products/p057-brd110-d.png,True,ok
+eco-brd110-ha,bollard,ECO-BRD110-HA,25675324,57,"[144, 141, 229, 505]",assets/images/catalog80/products/p057-brd110-a.png,True,ok
+eco-brd110-hm,bollard,ECO-BRD110-HM,25676350,57,"[230, 141, 315, 505]",assets/images/catalog80/products/p057-brd110-m.png,True,ok
+eco-brd110-xd,bollard,ECO-BRD110-XD,25658332,58,"[33, 141, 119, 505]",assets/images/catalog80/products/p058-brd110x-d.png,False,ok
+eco-brd110-xa,bollard,ECO-BRD110-XA,25658331,58,"[120, 141, 206, 505]",assets/images/catalog80/products/p058-brd110x-a.png,False,ok
+eco-brd110-xm,bollard,ECO-BRD110-XM,25658330,58,"[207, 141, 292, 505]",assets/images/catalog80/products/p058-brd110x-m.png,False,ok
+eco-brd150-xd,bollard,ECO-BRD150-XD,25658329,59,"[56, 141, 142, 505]",assets/images/catalog80/products/p059-brd150x-d.png,False,ok
+eco-brd150-xa,bollard,ECO-BRD150-XA,25658328,59,"[143, 141, 229, 505]",assets/images/catalog80/products/p059-brd150x-a.png,False,ok
+eco-brd150-xm,bollard,ECO-BRD150-XM,25658327,59,"[230, 141, 315, 505]",assets/images/catalog80/products/p059-brd150x-m.png,False,ok
+eco-brd101s-id,bollard,ECO-BRD101S-ID,,62,"[34, 141, 120, 512]",assets/images/catalog80/products/p062-brd101s-id.png,False,needs_check (제품명과 실제 형태 불일치 — 63P)
+eco-brd101s-ia,bollard,ECO-BRD101S-IA,,62,"[121, 141, 206, 512]",assets/images/catalog80/products/p062-brd101s-ia.png,False,needs_check (제품명과 실제 형태 불일치 — 63P)
+eco-brd101s-im,bollard,ECO-BRD101S-IM,,62,"[207, 141, 292, 512]",assets/images/catalog80/products/p062-brd101s-im.png,False,needs_check (제품명과 실제 형태 불일치 — 63P)
+eco-brd1200s-ud,bollard,ECO-BRD1200S-UD,,63,"[57, 151, 424, 266]",assets/images/catalog80/products/p063-brd1200s-ud.png,False,ok
+eco-brd1200s-ua,bollard,ECO-BRD1200S-UA,,63,"[57, 299, 424, 414]",assets/images/catalog80/products/p063-brd1200s-ua.png,False,ok
+eco-brd1200s-um,bollard,ECO-BRD1200S-UM,,63,"[57, 448, 424, 562]",assets/images/catalog80/products/p063-brd1200s-um.png,False,ok
+eco-jhgd1,fence,ECO-JHGD1,26002008,64,"[34, 155, 405, 263]",assets/images/catalog80/products/p064-fn-jhgd1.png,False,ok
+eco-jhgd1-01,fence,ECO-JHGD1-01,26002007,64,"[411, 155, 782, 263]",assets/images/catalog80/products/p064-fn-jhgd1-01.png,False,ok
+eco-jhgd1-02,fence,ECO-JHGD1-02,26002006,64,"[34, 298, 405, 405]",assets/images/catalog80/products/p064-fn-jhgd1-02.png,False,ok
+eco-jhgd1-03,fence,ECO-JHGD1-03,26002005,64,"[411, 298, 782, 405]",assets/images/catalog80/products/p064-fn-jhgd1-03.png,False,ok
+eco-r190j77,fence,ECO-R190J77,25987812,65,"[34, 155, 405, 263]",assets/images/catalog80/products/p065-fn-r190j77.png,False,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
+eco-r196j52,fence,ECO-R196J52,25987811,65,"[34, 298, 405, 405]",assets/images/catalog80/products/p065-fn-r196j52.png,False,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
+eco-r195j50,fence,ECO-R195J50,25987810,65,"[411, 155, 782, 263]",assets/images/catalog80/products/p065-fn-r195j50.png,False,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
+eco-r193j46,fence,ECO-R193J46,25987809,65,"[411, 298, 782, 405]",assets/images/catalog80/products/p065-fn-r193j46.png,False,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
+eco-r193j45,fence,ECO-R193J45,25987808,66,"[34, 155, 405, 263]",assets/images/catalog80/products/p066-fn-r193j45.png,False,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
+eco-r157j23,fence,ECO-R157J23,25994797,66,"[411, 155, 782, 263]",assets/images/catalog80/products/p066-fn-r157j23.png,False,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
+eco-r155j17,fence,ECO-R155J17,25987807,66,"[34, 298, 405, 405]",assets/images/catalog80/products/p066-fn-r155j17.png,False,needs_check (66P·71P 이미지 캡션과 사양표 모델명 불일치)
+eco-r156-01,fence,ECO-R156-01,25987806,67,"[34, 155, 405, 263]",assets/images/catalog80/products/p067-fn-r156-01.png,True,ok
+eco-r157,fence,ECO-R157,25994798,67,"[411, 155, 782, 263]",assets/images/catalog80/products/p067-fn-r157.png,False,ok
+eco-r157-02,fence,ECO-R157-02,25994799,67,"[34, 298, 405, 405]",assets/images/catalog80/products/p067-fn-r157-02.png,False,ok
+eco-r161,fence,ECO-R161,25994800,67,"[411, 298, 782, 405]",assets/images/catalog80/products/p067-fn-r161.png,False,ok
+eco-r164,fence,ECO-R164,25987805,68,"[34, 155, 405, 263]",assets/images/catalog80/products/p068-fn-r164.png,False,ok
+eco-r164-01,fence,ECO-R164-01,25987804,68,"[411, 155, 782, 263]",assets/images/catalog80/products/p068-fn-r164-01.png,False,ok
+eco-r165,fence,ECO-R165,25987803,68,"[34, 298, 405, 405]",assets/images/catalog80/products/p068-fn-r165.png,False,ok
+eco-r165-02,fence,ECO-R165-02,25987802,68,"[411, 298, 782, 405]",assets/images/catalog80/products/p068-fn-r165-02.png,False,ok
+eco-r165-03,fence,ECO-R165-03,26002011,69,"[34, 155, 405, 263]",assets/images/catalog80/products/p069-fn-r165-03.png,False,ok
+eco-r189-01,fence,ECO-R189-01,25987801,69,"[411, 155, 782, 263]",assets/images/catalog80/products/p069-fn-r189-01.png,False,ok
+eco-r190-01,fence,ECO-R190-01,25987800,69,"[34, 298, 405, 405]",assets/images/catalog80/products/p069-fn-r190-01.png,False,ok
+eco-r235-a,fence,ECO-R235-A,25987799,69,"[411, 298, 782, 405]",assets/images/catalog80/products/p069-fn-r235-a.png,False,ok
+eco-r117-ah,fence,ECO-R117-AH,25987798,70,"[34, 155, 405, 263]",assets/images/catalog80/products/p070-fn-r117-ah.png,False,ok
+eco-r118-ah,fence,ECO-R118-AH,25987797,70,"[411, 155, 782, 263]",assets/images/catalog80/products/p070-fn-r118-ah.png,False,ok
+eco-r130h,fence,ECO-R130H,25987796,70,"[34, 298, 405, 405]",assets/images/catalog80/products/p070-fn-r130h.png,False,ok
+eco-rb04,fence,ECO-RB04,,70,"[411, 298, 782, 405]",assets/images/catalog80/products/p070-fn-rb04.png,False,ok
+eco-r01,fence,ECO-R01,,67,"[34, 155, 405, 263]",assets/images/catalog80/products/p067-fn-r156-01.png,True,needs_check
+eco-r02-01,fence,ECO-R02-01,,67,"[34, 155, 405, 263]",assets/images/catalog80/products/p067-fn-r156-01.png,True,needs_check
+eco-r216,fence,ECO-R216,,67,"[34, 155, 405, 263]",assets/images/catalog80/products/p067-fn-r156-01.png,True,needs_check
+eco-r218,fence,ECO-R218,,67,"[34, 155, 405, 263]",assets/images/catalog80/products/p067-fn-r156-01.png,True,needs_check
+edbl-200,signal,EDBL-200,26109111,74,"[33, 142, 292, 312]",assets/images/catalog80/products/p074-edbl-200.png,False,ok
+edcb-200,signal,EDCB-200,26109112,74,"[33, 359, 154, 543]",assets/images/catalog80/products/p074-edcb-200.png,False,ok
+edob-200,signal,EDOB-200,26109113,74,"[171, 359, 292, 543]",assets/images/catalog80/products/p074-edob-200.png,False,ok
+eco-ts600-cws,sign,ECO-TS600-CWS,25235503,76,"[84, 146, 142, 224]",assets/images/catalog80/products/p076-sgn-oneway-c.png,True,ok
+eco-ts700-cws,sign,ECO-TS700-CWS,25235504,76,"[84, 146, 142, 224]",assets/images/catalog80/products/p076-sgn-oneway-c.png,True,ok
+eco-ts600-sws,sign,ECO-TS600-SWS,25235535,76,"[84, 240, 142, 322]",assets/images/catalog80/products/p076-sgn-oneway-s.png,True,ok
+eco-ts700-sws,sign,ECO-TS700-SWS,25235537,76,"[84, 240, 142, 322]",assets/images/catalog80/products/p076-sgn-oneway-s.png,True,ok
+eco-ts3000-cwl,sign,ECO-TS3000-CWL,25235471,77,"[84, 384, 150, 462]",assets/images/catalog80/products/p077-sgn-school-speed30-c.png,True,ok
+eco-ts3000-cwp,sign,ECO-TS3000-CWP,25235463,77,"[84, 384, 150, 462]",assets/images/catalog80/products/p077-sgn-school-speed30-c.png,True,ok
+eco-ts1500-cw,sign,ECO-TS1500-CW,25235466,77,"[84, 384, 150, 462]",assets/images/catalog80/products/p077-sgn-school-speed30-c.png,True,ok
+eco-ts1000-cw,sign,ECO-TS1000-CW,25235464,76,"[84, 374, 148, 462]",assets/images/catalog80/products/p076-sgn-school-diamond-c.png,True,ok
+eco-ts700-cw,sign,ECO-TS700-CW,25235529,76,"[84, 374, 148, 462]",assets/images/catalog80/products/p076-sgn-school-diamond-c.png,True,ok
+eco-ts3000-swl,sign,ECO-TS3000-SWL,25235510,77,"[84, 484, 150, 562]",assets/images/catalog80/products/p077-sgn-school-speed30-s.png,True,ok
+eco-ts3000-swp,sign,ECO-TS3000-SWP,25235509,77,"[84, 484, 150, 562]",assets/images/catalog80/products/p077-sgn-school-speed30-s.png,True,ok
+eco-ts1500-sw,sign,ECO-TS1500-SW,25235508,77,"[84, 484, 150, 562]",assets/images/catalog80/products/p077-sgn-school-speed30-s.png,True,ok
+eco-ts1000-sw,sign,ECO-TS1000-SW,25235507,76,"[84, 484, 148, 562]",assets/images/catalog80/products/p076-sgn-school-diamond-s.png,True,ok
+eco-ts700-sw,sign,ECO-TS700-SW,25235506,76,"[84, 484, 148, 562]",assets/images/catalog80/products/p076-sgn-school-diamond-s.png,True,ok
+eco-ts600-cwr,sign,ECO-TS600-CWR,25235482,77,"[103, 150, 160, 226]",assets/images/catalog80/products/p077-sgn-speed-c.png,True,ok
+eco-ts900-cwr,sign,ECO-TS900-CWR,25235490,77,"[103, 150, 160, 226]",assets/images/catalog80/products/p077-sgn-speed-c.png,True,ok
+eco-ts600-swr,sign,ECO-TS600-SWR,25235512,77,"[103, 242, 160, 322]",assets/images/catalog80/products/p077-sgn-speed-s.png,True,ok
+eco-ts900-swr,sign,ECO-TS900-SWR,25235513,77,"[103, 242, 160, 322]",assets/images/catalog80/products/p077-sgn-speed-s.png,True,ok
+eco-ts600-cw5,sign,ECO-TS600-CW5,25235501,76,"[461, 146, 520, 224]",assets/images/catalog80/products/p076-sgn-crosswalk-c.png,True,ok
+eco-ts900-cw5,sign,ECO-TS900-CW5,25235502,76,"[461, 146, 520, 224]",assets/images/catalog80/products/p076-sgn-crosswalk-c.png,True,ok
+eco-ts600-sw5,sign,ECO-TS600-SW5,25235532,76,"[461, 240, 520, 322]",assets/images/catalog80/products/p076-sgn-crosswalk-s.png,True,ok
+eco-ts900-sw5,sign,ECO-TS900-SW5,25235534,76,"[461, 240, 520, 322]",assets/images/catalog80/products/p076-sgn-crosswalk-s.png,True,ok
+eco-ts600-cwi,sign,ECO-TS600-CWI,25235497,76,"[457, 382, 524, 462]",assets/images/catalog80/products/p076-sgn-roundabout-c.png,True,ok
+eco-ts900-cwi,sign,ECO-TS900-CWI,25235499,76,"[457, 382, 524, 462]",assets/images/catalog80/products/p076-sgn-roundabout-c.png,True,ok
+eco-ts600-swi,sign,ECO-TS600-SWI,25235518,76,"[457, 482, 524, 562]",assets/images/catalog80/products/p076-sgn-roundabout-s.png,True,ok
+eco-ts900-swi,sign,ECO-TS900-SWI,25235523,76,"[457, 482, 524, 562]",assets/images/catalog80/products/p076-sgn-roundabout-s.png,True,ok
+eco-ts900-cww,sign,ECO-TS900-CWW,25235487,77,"[461, 146, 520, 230]",assets/images/catalog80/products/p077-sgn-curve-c.png,False,ok
+eco-ts900-sww,sign,ECO-TS900-SWW,25235511,77,"[461, 240, 520, 322]",assets/images/catalog80/products/p077-sgn-curve-s.png,False,ok
+eco-gs450-cw,chevron,ECO-GS450-CW,25234398,78,"[128, 143, 214, 232]",assets/images/catalog80/products/p078-gs450-cw.png,False,needs_check (양면형 모델명·식별번호 중복 — 78P)
+eco-gs450-sw,chevron,ECO-GS450-SW,25234399,78,"[128, 240, 214, 334]",assets/images/catalog80/products/p078-gs450-sw.png,False,needs_check (양면형 모델명·식별번호 중복 — 78P)
+eco-gs450-cw2,chevron,ECO-GS450-CW2,25234396,78,"[128, 375, 214, 468]",assets/images/catalog80/products/p078-gs450-cw2-m.png,False,needs_check (양면형 모델명·식별번호 중복 — 78P)
+eco-gs450-cw2-2,chevron,ECO-GS450-CW2,25234396,78,"[128, 478, 214, 572]",assets/images/catalog80/products/p078-gs450-cw2-s.png,False,needs_check
