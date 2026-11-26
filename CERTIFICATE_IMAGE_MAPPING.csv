@@ -1,0 +1,22 @@
+﻿id,class,titleKo,titleEn,catalogPage,pdfPage,image,entity,verificationStatus
+cert-construction,인증서(Certificate),건설업 등록증,Construction Business Registration,4,3,assets/photos/certs/cert_construction.jpg,주식회사 에코데이,ok
+cert-electrical,인증서(Certificate),전기공사업 등록증,Electrical Construction Registration,4,3,assets/photos/certs/cert_electrical.jpg,주식회사 에코데이,ok
+cert-advertising,인증서(Certificate),옥외광고사업 등록증,Outdoor Advertising Business Registration,4,3,assets/photos/certs/cert_advertising.jpg,주식회사 에코데이,ok
+cert-factory,인증서(Certificate),공장등록증명,Factory Registration Certificate,4,3,assets/photos/certs/cert_factory.jpg,주식회사 에코데이인터내셔널,needs_check (법인명 확인 필요)
+cert-venture,인증서(Certificate),벤처기업확인서,Venture Enterprise Certificate,4,3,assets/photos/certs/cert_venture.jpg,주식회사 에코데이인터내셔널,needs_check (법인명 확인 필요 · 유효 2024.07.02~2027.07.01)
+cert-rnd,인증서(Certificate),연구개발전담부서 인정서,R&D Department Recognition Certificate,4,3,assets/photos/certs/cert_rnd.jpg,주식회사 에코데이,ok
+cert-sme,인증서(Certificate),유망중소기업 인증서,Promising SME Certificate,4,3,assets/photos/certs/cert_sme.jpg,주식회사 에코데이,ok
+pat-powersave,지적재산권(특허),전원 소모 저감 기능이 구비된 도로표지병,Power-Saving Road Stud,5,3,assets/photos/certs/pat_powersave.jpg,주식회사 에코데이,ok
+pat-control,지적재산권(특허),도로 표지병의 제어 장치,Road-Stud Control Device,5,3,assets/photos/certs/pat_control.jpg,주식회사 에코데이,ok
+pat-roadstud,지적재산권(특허),도로표지병,Road Stud,5,3,assets/photos/certs/pat_roadstud.jpg,주식회사 에코데이,ok
+pat-solarpost,지적재산권(특허),솔라 셀 모듈용 지주장치,Solar-Cell Module Post Unit,5,3,assets/photos/certs/pat_solarpost.jpg,주식회사 에코데이,ok
+pat-auxlight,지적재산권(특허),조명식 도로표시판 겸용 보조등,Illuminated Road-Sign Auxiliary Light,5,3,assets/photos/certs/pat_auxlight.jpg,주식회사 에코데이,ok
+pat-auxsupport,지적재산권(특허),조명식 도로표시판 겸용 보조등을 위한 지지장치,Support Device for the Auxiliary Road-Sign Light,5,3,assets/photos/certs/pat_auxsupport.jpg,주식회사 에코데이,ok
+pat-lighting,지적재산권(특허),조명장치,Lighting Device,5,3,assets/photos/certs/pat_lighting.jpg,주식회사 에코데이,ok
+pat-signboard,지적재산권(특허),안내판 표시장치,Information Display Device,5,3,assets/photos/certs/pat_signboard.jpg,주식회사 에코데이,ok
+pat-securitylight,지적재산권(특허),보안등 겸용 안내표시장치,Security-Light Information Display,5,3,assets/photos/certs/pat_securitylight.jpg,주식회사 에코데이,ok
+pat-publicsys,지적재산권(특허),가로등 지주에 설치되는 공공 서비스 편의 시스템,Streetlight-Mounted Public Convenience System,5,3,assets/photos/certs/pat_publicsys.jpg,주식회사 에코데이,ok
+pat-wheellight,지적재산권(특허),차륜의 야간안전용 발광장치,Nighttime Wheel Safety Illuminator,5,3,assets/photos/certs/pat_wheellight.jpg,주식회사 에코데이,ok
+pat-roadsign,지적재산권(디자인등록),도로안내 표지판,Road Sign,5,3,assets/photos/certs/pat_roadsign.jpg,주식회사 에코데이,ok (복수 등록)
+pat-delineator,지적재산권(디자인등록),델리네이터,Delineator,5,3,assets/photos/certs/pat_delineator.jpg,주식회사 에코데이,ok (복수 등록)
+pat-bollard,지적재산권(디자인등록),볼라드,Bollard,5,3,assets/photos/certs/pat_bollard.jpg,주식회사 에코데이,ok

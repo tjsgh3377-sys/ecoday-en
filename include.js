@@ -14,15 +14,25 @@
       company:  { label: "Company",       items: [
         { label: "Greeting", href: "greeting.html" },
         { label: "History", href: "history.html" },
-        { label: "Certification", href: "cert.html" } ] },
+        { label: "Certification", href: "cert.html" },
+        { label: "Location", href: "location.html" } ] },
       business: { label: "Business Area",  solo: "business.html" },
       products: { label: "Products",       items: [
         { label: "Road Stud", href: "roadstud.html" },
-        { label: "Bollard", href: "bollard.html" },
         { label: "LED Landscape Lighting", href: "lighting.html" },
+        { label: "Bollard", href: "bollard.html" },
         { label: "Design Fence", href: "fence.html" },
-        { label: "Traffic & Chevron Sign", href: "sign.html" },
-        { label: "In-Ground Traffic Light", href: "signal.html" } ] },
+        { label: "In-Ground Traffic Light", href: "signal.html" },
+        { label: "Traffic Safety Signs", href: "sign.html" },
+        { label: "Chevron Sign", href: "chevron.html" } ] },
+      installations: { label: "Installations", items: [
+        { label: "All Installations", href: "installations.html" },
+        { label: "Road Stud", href: "installations.html?category=roadstud" },
+        { label: "LED Landscape Lighting", href: "installations.html?category=lighting" },
+        { label: "Bollard", href: "installations.html?category=bollard" },
+        { label: "Design Fence", href: "installations.html?category=fence" },
+        { label: "In-Ground Traffic Light", href: "installations.html?category=signal" },
+        { label: "Traffic / Chevron Signs", href: "installations.html?category=signs" } ] },
       contact:  { label: "Contact Us",     items: [
         { label: "Downloads", href: "resources.html" },
         { label: "Online Inquiry", href: "contact.html" },
@@ -33,15 +43,25 @@
       company:  { label: "회사소개",       items: [
         { label: "인사말", href: "greeting.html" },
         { label: "연혁", href: "history.html" },
-        { label: "인증현황", href: "cert.html" } ] },
+        { label: "인증현황", href: "cert.html" },
+        { label: "오시는 길", href: "location.html" } ] },
       business: { label: "사업분야",       solo: "business.html" },
       products: { label: "제품소개",       items: [
         { label: "도로표지병", href: "roadstud.html" },
+        { label: "LED 경관조명기구", href: "lighting.html" },
         { label: "볼라드", href: "bollard.html" },
-        { label: "LED 경관조명", href: "lighting.html" },
         { label: "디자인형 울타리", href: "fence.html" },
-        { label: "교통안전·갈매기 표지", href: "sign.html" },
-        { label: "바닥형 보행신호등", href: "signal.html" } ] },
+        { label: "바닥형 보행신호등", href: "signal.html" },
+        { label: "교통안전표지판", href: "sign.html" },
+        { label: "갈매기표지판", href: "chevron.html" } ] },
+      installations: { label: "설치사례", items: [
+        { label: "전체 설치사례", href: "installations.html" },
+        { label: "도로표지병", href: "installations.html?category=roadstud" },
+        { label: "LED 경관조명기구", href: "installations.html?category=lighting" },
+        { label: "볼라드", href: "installations.html?category=bollard" },
+        { label: "디자인형 울타리", href: "installations.html?category=fence" },
+        { label: "바닥형 보행신호등", href: "installations.html?category=signal" },
+        { label: "교통안전·갈매기표지판", href: "installations.html?category=signs" } ] },
       contact:  { label: "고객지원",       items: [
         { label: "자료실", href: "resources.html" },
         { label: "온라인 문의", href: "contact.html" },
@@ -88,7 +108,7 @@
 
   var groups = NAV[LANG];
   var FL = FOOT[LANG];
-  var order = ["company", "business", "products", "contact"];
+  var order = ["company", "business", "products", "installations", "contact"];
   var current = document.body.getAttribute("data-group");
   var currentPage = document.body.getAttribute("data-page");
 

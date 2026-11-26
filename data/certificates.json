@@ -1,0 +1,241 @@
+{
+ "meta": {
+  "source": "Ecoday final catalog p.4-5 (PDF page 3)",
+  "note": "certificates = left page, IP = right page"
+ },
+ "certificates": [
+  {
+   "id": "cert-construction",
+   "titleKo": "건설업 등록증",
+   "titleEn": "Construction Business Registration",
+   "image": "assets/photos/certs/cert_construction.jpg",
+   "entity": "주식회사 에코데이",
+   "catalogPage": "4",
+   "pdfPage": 3,
+   "side": "left",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "cert-electrical",
+   "titleKo": "전기공사업 등록증",
+   "titleEn": "Electrical Construction Registration",
+   "image": "assets/photos/certs/cert_electrical.jpg",
+   "entity": "주식회사 에코데이",
+   "catalogPage": "4",
+   "pdfPage": 3,
+   "side": "left",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "cert-advertising",
+   "titleKo": "옥외광고사업 등록증",
+   "titleEn": "Outdoor Advertising Business Registration",
+   "image": "assets/photos/certs/cert_advertising.jpg",
+   "entity": "주식회사 에코데이",
+   "catalogPage": "4",
+   "pdfPage": 3,
+   "side": "left",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "cert-factory",
+   "titleKo": "공장등록증명",
+   "titleEn": "Factory Registration Certificate",
+   "image": "assets/photos/certs/cert_factory.jpg",
+   "entity": "주식회사 에코데이인터내셔널",
+   "catalogPage": "4",
+   "pdfPage": 3,
+   "side": "left",
+   "verificationStatus": "needs_check (법인명 확인 필요)"
+  },
+  {
+   "id": "cert-venture",
+   "titleKo": "벤처기업확인서",
+   "titleEn": "Venture Enterprise Certificate",
+   "image": "assets/photos/certs/cert_venture.jpg",
+   "entity": "주식회사 에코데이인터내셔널",
+   "catalogPage": "4",
+   "pdfPage": 3,
+   "side": "left",
+   "verificationStatus": "needs_check (법인명 확인 필요 · 유효 2024.07.02~2027.07.01)"
+  },
+  {
+   "id": "cert-rnd",
+   "titleKo": "연구개발전담부서 인정서",
+   "titleEn": "R&D Department Recognition Certificate",
+   "image": "assets/photos/certs/cert_rnd.jpg",
+   "entity": "주식회사 에코데이",
+   "catalogPage": "4",
+   "pdfPage": 3,
+   "side": "left",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "cert-sme",
+   "titleKo": "유망중소기업 인증서",
+   "titleEn": "Promising SME Certificate",
+   "image": "assets/photos/certs/cert_sme.jpg",
+   "entity": "주식회사 에코데이",
+   "catalogPage": "4",
+   "pdfPage": 3,
+   "side": "left",
+   "verificationStatus": "ok"
+  }
+ ],
+ "intellectualProperties": [
+  {
+   "id": "pat-powersave",
+   "titleKo": "전원 소모 저감 기능이 구비된 도로표지병",
+   "titleEn": "Power-Saving Road Stud",
+   "image": "assets/photos/certs/pat_powersave.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-control",
+   "titleKo": "도로 표지병의 제어 장치",
+   "titleEn": "Road-Stud Control Device",
+   "image": "assets/photos/certs/pat_control.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-roadstud",
+   "titleKo": "도로표지병",
+   "titleEn": "Road Stud",
+   "image": "assets/photos/certs/pat_roadstud.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-solarpost",
+   "titleKo": "솔라 셀 모듈용 지주장치",
+   "titleEn": "Solar-Cell Module Post Unit",
+   "image": "assets/photos/certs/pat_solarpost.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-auxlight",
+   "titleKo": "조명식 도로표시판 겸용 보조등",
+   "titleEn": "Illuminated Road-Sign Auxiliary Light",
+   "image": "assets/photos/certs/pat_auxlight.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-auxsupport",
+   "titleKo": "조명식 도로표시판 겸용 보조등을 위한 지지장치",
+   "titleEn": "Support Device for the Auxiliary Road-Sign Light",
+   "image": "assets/photos/certs/pat_auxsupport.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-lighting",
+   "titleKo": "조명장치",
+   "titleEn": "Lighting Device",
+   "image": "assets/photos/certs/pat_lighting.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-signboard",
+   "titleKo": "안내판 표시장치",
+   "titleEn": "Information Display Device",
+   "image": "assets/photos/certs/pat_signboard.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-securitylight",
+   "titleKo": "보안등 겸용 안내표시장치",
+   "titleEn": "Security-Light Information Display",
+   "image": "assets/photos/certs/pat_securitylight.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-publicsys",
+   "titleKo": "가로등 지주에 설치되는 공공 서비스 편의 시스템",
+   "titleEn": "Streetlight-Mounted Public Convenience System",
+   "image": "assets/photos/certs/pat_publicsys.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-wheellight",
+   "titleKo": "차륜의 야간안전용 발광장치",
+   "titleEn": "Nighttime Wheel Safety Illuminator",
+   "image": "assets/photos/certs/pat_wheellight.jpg",
+   "type": "특허",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  },
+  {
+   "id": "pat-roadsign",
+   "titleKo": "도로안내 표지판",
+   "titleEn": "Road Sign",
+   "image": "assets/photos/certs/pat_roadsign.jpg",
+   "type": "디자인등록",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok (복수 등록)"
+  },
+  {
+   "id": "pat-delineator",
+   "titleKo": "델리네이터",
+   "titleEn": "Delineator",
+   "image": "assets/photos/certs/pat_delineator.jpg",
+   "type": "디자인등록",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok (복수 등록)"
+  },
+  {
+   "id": "pat-bollard",
+   "titleKo": "볼라드",
+   "titleEn": "Bollard",
+   "image": "assets/photos/certs/pat_bollard.jpg",
+   "type": "디자인등록",
+   "catalogPage": "5",
+   "pdfPage": 3,
+   "side": "right",
+   "verificationStatus": "ok"
+  }
+ ]
+}

@@ -68,7 +68,8 @@
     ["100단계", "100-step"], ["단계", "-step"], ["실리콘", "silicone"], ["점멸", "flashing"],
     ["통신", "communication"], ["적색", "red"], ["황색", "yellow"], ["녹색", "green"], ["백색", "white"],
     ["최대", "max."], ["소등", "off"], ["일부", "some"], ["이하", "or less"], ["작동", "operation"],
-    ["입력", "input"], [" 등", " etc."], ["가능", "available"], ["전기", "mains"],
+    ["입력", "input"], [" 등", " etc."], ["단면", "single-sided"], ["양면", "double-sided"],
+    ["가능", "available"], ["전기", "mains"],
     ["전기 ", "mains "], ["각)", "sq.)"]
   ];
   function tr(s) {
@@ -133,10 +134,14 @@
         var pg = (data.productPages && data.productPages[key]) || {};
         loadCatalog(phost, key, pg);
       }
+      var ihost = document.getElementById("cms-installations");
+      if (ihost) loadInstalls(ihost);
     })
     .catch(function () {
       var phost = document.getElementById("cms-product");
       if (phost) loadCatalog(phost, document.body.getAttribute("data-page"), {});
+      var ihost = document.getElementById("cms-installations");
+      if (ihost) loadInstalls(ihost);
     });
 
   // ---- shared catalog (products + installs) ----
@@ -149,6 +154,103 @@
       var installs = (res[1].installs || []).filter(function (i) { return i.category === category; });
       renderProduct(host, pg, groups, installs);
     }).catch(function () { /* keep static fallback */ });
+  }
+
+  // ---- installations page (independent gallery with filters + lightbox) ----
+  function loadInstalls(host) {
+    fetch(BASE + "data/catalog_installs.json", { cache: "no-store" })
+      .then(function (r) { return r.json(); })
+      .then(function (res) { renderInstallations(host, res.installs || []); })
+      .catch(function () { });
+  }
+  function instFilterKey(cat) { return (cat === "sign" || cat === "chevron") ? "signs" : cat; }
+
+  function renderInstallations(host, installs) {
+    var FILTERS = [
+      ["all", L("전체", "All")], ["roadstud", L("도로표지병", "Road Stud")],
+      ["lighting", L("LED 경관조명기구", "LED Landscape Lighting")], ["bollard", L("볼라드", "Bollard")],
+      ["fence", L("디자인형 울타리", "Design Fence")], ["signal", L("바닥형 보행신호등", "In-Ground Traffic Light")],
+      ["signs", L("교통안전·갈매기표지판", "Traffic / Chevron Signs")]
+    ];
+    var out = '<section class="pagehero"><div class="container">' +
+      '<div class="crumb"><a href="index.html">' + L("홈", "HOME") + '</a><span>/</span> ' + L("설치사례", "Installations") + '</div>' +
+      '<span class="eyebrow">INSTALLATION CASES</span><h1>' + L("설치사례", "Installation Cases") + '</h1>' +
+      '<p class="lead">' + L("에코데이 제품이 적용된 다양한 설치 환경을 만나보세요.", "Explore the diverse environments where Ecoday products are installed.") + '</p>' +
+      '</div></section>';
+    out += '<section class="section"><div class="container" data-instwrap>';
+    out += '<div class="ptabs inst-filters reveal in">' + FILTERS.map(function (f) {
+      return '<button class="ptab inst-filter" data-filter="' + f[0] + '">' + esc(f[1]) + '</button>';
+    }).join("") + '</div>';
+    out += '<div class="grid cols-3 instgrid">' + installs.map(function (c, i) {
+      var fk = instFilterKey(c.category); var title = KO ? c.titleKo : c.titleEn;
+      var sub = KO ? (c.subcategoryKo || "") : (c.subcategoryEn || "");
+      return '<button class="card reveal in instcard" data-filter="' + fk + '" data-lb="' + i + '" type="button">' +
+        '<div class="thumb"><img loading="lazy" decoding="async" src="' + esc(BASE + c.image) + '" alt="' + esc(title) + '"></div>' +
+        '<div class="body">' + (sub ? '<div class="en" style="font-size:12px">' + esc(sub) + '</div>' : '') +
+        '<h3 style="font-size:16px">' + esc(title) + '</h3></div></button>';
+    }).join("") + '</div>';
+    out += '<div class="pnohit" hidden>' + L("해당 설치사례가 없습니다.", "No installations in this category.") + '</div>';
+    out += '</div></section>';
+    out += '<section class="section soft"><div class="container"><div class="cta-band reveal in">' +
+      '<h2>' + L("제품과 설치가 궁금하세요?", "Interested in our products and installation?") + '</h2>' +
+      '<p>' + L("제품소개에서 상세 사양을 확인하거나 온라인으로 문의해 주세요.", "Check detailed specs on the product pages or send us an inquiry.") + '</p>' +
+      '<a class="btn btn-green" href="roadstud.html">' + L("제품소개 →", "Products →") + '</a>' +
+      ' <a class="btn btn-outline" href="contact.html">' + L("온라인 문의 →", "Online Inquiry →") + '</a>' +
+      '</div></div></section>';
+    host.innerHTML = out;
+
+    var wrap = host.querySelector("[data-instwrap]");
+    var btns = wrap.querySelectorAll(".inst-filter");
+    var cards = wrap.querySelectorAll(".instcard");
+    var nohit = wrap.querySelector(".pnohit");
+    function apply(fk) {
+      btns.forEach(function (b) { b.classList.toggle("active", b.dataset.filter === fk); });
+      var n = 0;
+      cards.forEach(function (c) { var hit = (fk === "all" || c.dataset.filter === fk); c.style.display = hit ? "" : "none"; if (hit) n++; });
+      if (nohit) nohit.hidden = n !== 0;
+      try { history.replaceState(null, "", "?category=" + fk); } catch (e) { }
+    }
+    btns.forEach(function (b) { b.addEventListener("click", function () { apply(b.dataset.filter); }); });
+    var q = (new URLSearchParams(location.search)).get("category") || "all";
+    if (!FILTERS.some(function (f) { return f[0] === q; })) q = "all";
+    apply(q);
+    wireInstLightbox(host, installs, cards);
+  }
+
+  function wireInstLightbox(host, installs, cards) {
+    var ov = document.createElement("div");
+    ov.className = "lb-overlay"; ov.hidden = true;
+    ov.innerHTML = '<button class="lb-close" aria-label="close">×</button>' +
+      '<button class="lb-nav lb-prev" aria-label="prev">‹</button>' +
+      '<figure class="lb-fig"><img class="lb-img" alt=""><figcaption class="lb-cap"></figcaption></figure>' +
+      '<button class="lb-nav lb-next" aria-label="next">›</button>';
+    document.body.appendChild(ov);
+    var img = ov.querySelector(".lb-img"), cap = ov.querySelector(".lb-cap");
+    var visible = [], cur = 0;
+    function rebuild() {
+      visible = Array.prototype.slice.call(cards)
+        .filter(function (c) { return c.style.display !== "none"; })
+        .map(function (c) { return +c.getAttribute("data-lb"); });
+    }
+    function show(i) {
+      if (!visible.length) return;
+      cur = (i + visible.length) % visible.length;
+      var c = installs[visible[cur]];
+      img.src = BASE + c.image; img.alt = KO ? c.titleKo : c.titleEn; cap.textContent = KO ? c.titleKo : c.titleEn;
+    }
+    function openByIdx(idx) { rebuild(); var p = visible.indexOf(idx); show(p < 0 ? 0 : p); ov.hidden = false; document.body.style.overflow = "hidden"; }
+    function close() { ov.hidden = true; document.body.style.overflow = ""; }
+    cards.forEach(function (c) { c.addEventListener("click", function () { openByIdx(+c.getAttribute("data-lb")); }); });
+    ov.querySelector(".lb-close").addEventListener("click", close);
+    ov.querySelector(".lb-prev").addEventListener("click", function (e) { e.stopPropagation(); show(cur - 1); });
+    ov.querySelector(".lb-next").addEventListener("click", function (e) { e.stopPropagation(); show(cur + 1); });
+    ov.addEventListener("click", function (e) { if (e.target === ov) close(); });
+    document.addEventListener("keydown", function (e) {
+      if (ov.hidden) return;
+      if (e.key === "Escape") close();
+      else if (e.key === "ArrowLeft") show(cur - 1);
+      else if (e.key === "ArrowRight") show(cur + 1);
+    });
   }
 
   function head(h, cls) {

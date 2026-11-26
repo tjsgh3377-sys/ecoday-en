@@ -132,13 +132,27 @@
         ]
       },
       {
-        "title": "Traffic & Chevron Signs",
-        "en": "Traffic Safety Signs & Chevron Sign",
+        "title": "Traffic Safety Signs",
+        "en": "Traffic Safety Signs",
         "img": "assets/photos/prod_sign.jpg",
         "href": "sign.html",
         "chips": [
-          "Traffic Safety",
-          "Chevron Sign"
+          "School Zone",
+          "Speed Limit",
+          "Crosswalk",
+          "Roundabout"
+        ]
+      },
+      {
+        "title": "Chevron Sign",
+        "en": "Chevron Alignment Sign",
+        "img": "assets/photos/prod_chevron.jpg",
+        "href": "chevron.html",
+        "chips": [
+          "Single-sided",
+          "Double-sided",
+          "Mains",
+          "Solar"
         ]
       }
     ]
@@ -1406,15 +1420,15 @@
     },
     "sign": {
       "hero": {
-        "eyebrow": "Traffic Safety Signs & Chevron Sign",
-        "title": "Traffic & Chevron Signs",
-        "lead": "Traffic safety signs and chevron signs with LED internal lighting for clear recognition even at night and in bad weather. Available in solar and mains types by power method.",
-        "crumb": "Traffic & Chevron Signs"
+        "eyebrow": "Traffic Safety Signs",
+        "title": "Traffic Safety Signs",
+        "crumb": "Traffic Safety Signs",
+        "lead": "Traffic safety signs with LED internal lighting for clear recognition even at night and in bad weather. Available in solar and mains types by size and purpose."
       },
       "lineup": {
         "eyebrow": "Line-up",
         "title": "Signs by Type",
-        "desc": "Traffic safety signs (school-zone, speed, crosswalk, roundabout, one-way, curve) and chevron signs — solar or mains LED internal lighting."
+        "desc": "Traffic safety signs (school-zone, speed, crosswalk, roundabout, one-way, curve) — solar or mains LED internal lighting."
       },
       "hasTabs": true,
       "tabs": [
@@ -1682,6 +1696,19 @@
         "feats": []
       },
       "hasInstall": true
+    },
+    "chevron": {
+      "hero": {
+        "eyebrow": "Chevron Sign",
+        "title": "Chevron Alignment Sign",
+        "crumb": "Chevron Sign",
+        "lead": "Chevron alignment signs that guide drivers on sharp bends, with LED internal lighting for nighttime visibility. Single/double-sided, solar and mains types."
+      },
+      "lineup": {
+        "eyebrow": "Line-up",
+        "title": "Chevron Sign",
+        "desc": "Single or double-sided chevron signs with LED internal lighting — solar and mains."
+      }
     }
   },
   "site": {
