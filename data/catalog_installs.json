@@ -1,0 +1,370 @@
+{
+ "installs": [
+  {
+   "id": "rs-crosswalk",
+   "category": "roadstud",
+   "subcategoryKo": "횡단보도",
+   "subcategoryEn": "Crosswalk",
+   "titleKo": "횡단보도 설치사례",
+   "titleEn": "Crosswalk Installation",
+   "image": "assets/photos/cat/inst/rs_crosswalk.jpg",
+   "relatedProductGroupIds": [
+    "rs-138-battery",
+    "rs-138-hybrid",
+    "rs-125-mains"
+   ],
+   "catalogPage": "12-13",
+   "pdfPage": 7,
+   "verification": "ok"
+  },
+  {
+   "id": "rs-centerlane",
+   "category": "roadstud",
+   "subcategoryKo": "중앙차선",
+   "subcategoryEn": "Center Lane",
+   "titleKo": "중앙차선 설치사례",
+   "titleEn": "Center-Lane Installation",
+   "image": "assets/photos/cat/inst/rs_centerlane.jpg",
+   "relatedProductGroupIds": [
+    "rs-138-battery",
+    "rs-113-module"
+   ],
+   "catalogPage": "13",
+   "pdfPage": 7,
+   "verification": "ok"
+  },
+  {
+   "id": "rs-park",
+   "category": "roadstud",
+   "subcategoryKo": "공원·수변·산책로",
+   "subcategoryEn": "Park · Waterfront · Trail",
+   "titleKo": "공원·수변·산책로 설치사례",
+   "titleEn": "Park / Waterfront / Trail Installation",
+   "image": "assets/photos/cat/inst/rs_park.jpg",
+   "relatedProductGroupIds": [
+    "rs-138-solar",
+    "rs-138-hybrid"
+   ],
+   "catalogPage": "16-17",
+   "pdfPage": 9,
+   "verification": "ok"
+  },
+  {
+   "id": "rs-roundabout",
+   "category": "roadstud",
+   "subcategoryKo": "회전교차로",
+   "subcategoryEn": "Roundabout",
+   "titleKo": "회전교차로 설치사례",
+   "titleEn": "Roundabout Installation",
+   "image": "assets/photos/cat/inst/rs_roundabout.jpg",
+   "relatedProductGroupIds": [
+    "rs-196-mains"
+   ],
+   "catalogPage": "16-17",
+   "pdfPage": 9,
+   "verification": "ok"
+  },
+  {
+   "id": "lt-roundabout",
+   "category": "lighting",
+   "subcategoryKo": "경계석·회전교차로",
+   "subcategoryEn": "Curb · Roundabout",
+   "titleKo": "회전교차로 경계석 조명",
+   "titleEn": "Roundabout Curb Lighting",
+   "image": "assets/photos/cat/inst/lt_roundabout.jpg",
+   "relatedProductGroupIds": [
+    "lt-curb-rainbow",
+    "lt-curb-new"
+   ],
+   "catalogPage": "23",
+   "pdfPage": 12,
+   "verification": "ok"
+  },
+  {
+   "id": "lt-gobo-case",
+   "category": "lighting",
+   "subcategoryKo": "로고젝터·포인트",
+   "subcategoryEn": "Gobo · Accent",
+   "titleKo": "로고젝터(고보) 투영",
+   "titleEn": "Gobo Logo Projection",
+   "image": "assets/photos/cat/inst/lt_gobo.jpg",
+   "relatedProductGroupIds": [
+    "lt-gobo",
+    "lt-accent"
+   ],
+   "catalogPage": "25",
+   "pdfPage": 13,
+   "verification": "ok"
+  },
+  {
+   "id": "lt-flood",
+   "category": "lighting",
+   "subcategoryKo": "투광·라인",
+   "subcategoryEn": "Floodlight · Line",
+   "titleKo": "교량·경관 투광조명",
+   "titleEn": "Bridge / Landscape Floodlighting",
+   "image": "assets/photos/cat/inst/lt_flood.jpg",
+   "relatedProductGroupIds": [
+    "lt-flood-bar",
+    "lt-flood-circle-125",
+    "lt-flood-circle-217",
+    "lt-line",
+    "lt-linear"
+   ],
+   "catalogPage": "47-51",
+   "pdfPage": 24,
+   "verification": "ok"
+  },
+  {
+   "id": "lt-wall-case",
+   "category": "lighting",
+   "subcategoryKo": "벽부등",
+   "subcategoryEn": "Wall Light",
+   "titleKo": "벽부 경관조명",
+   "titleEn": "Wall-Mounted Lighting",
+   "image": "assets/photos/cat/inst/lt_wall_case.jpg",
+   "relatedProductGroupIds": [
+    "lt-wall"
+   ],
+   "catalogPage": "21",
+   "pdfPage": 11,
+   "verification": "ok"
+  },
+  {
+   "id": "lt-floor-case",
+   "category": "lighting",
+   "subcategoryKo": "바닥매립등",
+   "subcategoryEn": "Floor Light",
+   "titleKo": "바닥매립 경관조명",
+   "titleEn": "Recessed Floor Lighting",
+   "image": "assets/photos/cat/inst/lt_floor_case.jpg",
+   "relatedProductGroupIds": [
+    "lt-floor-square",
+    "lt-floor-circle"
+   ],
+   "catalogPage": "35-37",
+   "pdfPage": 18,
+   "verification": "ok"
+  },
+  {
+   "id": "lt-post-case",
+   "category": "lighting",
+   "subcategoryKo": "펜스기둥·볼라드",
+   "subcategoryEn": "Fence-Post · Bollard",
+   "titleKo": "펜스기둥·볼라드 조명",
+   "titleEn": "Fence-Post / Bollard Lighting",
+   "image": "assets/photos/cat/inst/lt_post_case.jpg",
+   "relatedProductGroupIds": [
+    "lt-post-square",
+    "lt-post-round",
+    "lt-bollard-light"
+   ],
+   "catalogPage": "39-43",
+   "pdfPage": 20,
+   "verification": "ok"
+  },
+  {
+   "id": "lt-inground-case",
+   "category": "lighting",
+   "subcategoryKo": "지중등·열주",
+   "subcategoryEn": "In-ground · Column",
+   "titleKo": "지중·열주 경관조명",
+   "titleEn": "In-ground / Column Lighting",
+   "image": "assets/photos/cat/inst/lt_inground_case.jpg",
+   "relatedProductGroupIds": [
+    "lt-inground-circle",
+    "lt-inground-bar",
+    "lt-column"
+   ],
+   "catalogPage": "53",
+   "pdfPage": 27,
+   "verification": "ok"
+  },
+  {
+   "id": "lt-park-case",
+   "category": "lighting",
+   "subcategoryKo": "공원등·보안등",
+   "subcategoryEn": "Park · Security",
+   "titleKo": "공원 디자인 가로등",
+   "titleEn": "Park Design Streetlight",
+   "image": "assets/photos/cat/inst/lt_park_case.jpg",
+   "relatedProductGroupIds": [
+    "lt-park",
+    "lt-security"
+   ],
+   "catalogPage": "29-31",
+   "pdfPage": 15,
+   "verification": "ok"
+  },
+  {
+   "id": "bo-case",
+   "category": "bollard",
+   "subcategoryKo": "볼라드",
+   "subcategoryEn": "Bollard",
+   "titleKo": "횡단보도·보도 볼라드",
+   "titleEn": "Crosswalk / Sidewalk Bollards",
+   "image": "assets/photos/cat/inst/bo_crosswalk.jpg",
+   "relatedProductGroupIds": [
+    "brd-150-hybrid",
+    "brd-110-solar"
+   ],
+   "catalogPage": "60-61",
+   "pdfPage": 31,
+   "verification": "ok"
+  },
+  {
+   "id": "bo-pavement",
+   "category": "bollard",
+   "subcategoryKo": "보도·광장",
+   "subcategoryEn": "Sidewalk · Plaza",
+   "titleKo": "보도·광장 설치사례",
+   "titleEn": "Sidewalk / Plaza Installation",
+   "image": "assets/photos/cat/inst/bo_pavement.jpg",
+   "relatedProductGroupIds": [
+    "brd-110-none",
+    "brd-150-none"
+   ],
+   "catalogPage": "60-61",
+   "pdfPage": 31,
+   "verification": "ok"
+  },
+  {
+   "id": "bo-night",
+   "category": "bollard",
+   "subcategoryKo": "야간",
+   "subcategoryEn": "Nighttime",
+   "titleKo": "야간 시인성 설치사례",
+   "titleEn": "Nighttime Visibility",
+   "image": "assets/photos/cat/inst/bo_night.jpg",
+   "relatedProductGroupIds": [
+    "brd-stainless-i",
+    "brd-stainless-u"
+   ],
+   "catalogPage": "60-61",
+   "pdfPage": 31,
+   "verification": "ok"
+  },
+  {
+   "id": "fn-case",
+   "category": "fence",
+   "subcategoryKo": "자전거도로·산책로",
+   "subcategoryEn": "Bike Path · Trail",
+   "titleKo": "자전거도로·산책로 설치사례",
+   "titleEn": "Bike Path / Trail Installation",
+   "image": "assets/photos/cat/inst/fn_bikepath.jpg",
+   "relatedProductGroupIds": [
+    "fn-ped",
+    "fn-guard"
+   ],
+   "catalogPage": "72-73",
+   "pdfPage": 37,
+   "verification": "ok"
+  },
+  {
+   "id": "fn-boundary",
+   "category": "fence",
+   "subcategoryKo": "보차도 경계",
+   "subcategoryEn": "Road Boundary",
+   "titleKo": "보차도 경계 설치사례",
+   "titleEn": "Road/Sidewalk Boundary Installation",
+   "image": "assets/photos/cat/inst/fn_boundary.jpg",
+   "relatedProductGroupIds": [
+    "fn-sep"
+   ],
+   "catalogPage": "72-73",
+   "pdfPage": 37,
+   "verification": "ok"
+  },
+  {
+   "id": "fn-schoolzone",
+   "category": "fence",
+   "subcategoryKo": "보행자 방호",
+   "subcategoryEn": "Pedestrian Fence",
+   "titleKo": "보행자 방호울타리 설치사례",
+   "titleEn": "Pedestrian Fence Installation",
+   "image": "assets/photos/cat/inst/fn_schoolzone.jpg",
+   "relatedProductGroupIds": [
+    "fn-ped"
+   ],
+   "catalogPage": "72-73",
+   "pdfPage": 37,
+   "verification": "ok"
+  },
+  {
+   "id": "sg-green",
+   "category": "signal",
+   "subcategoryKo": "보행신호 연동",
+   "subcategoryEn": "Signal Sync",
+   "titleKo": "녹색 보행신호 연동",
+   "titleEn": "Synced with Green Signal",
+   "image": "assets/photos/cat/inst/sg_green.jpg",
+   "relatedProductGroupIds": [
+    "sig-system"
+   ],
+   "catalogPage": "74-75",
+   "pdfPage": 38,
+   "verification": "ok"
+  },
+  {
+   "id": "sg-red",
+   "category": "signal",
+   "subcategoryKo": "보행신호 연동",
+   "subcategoryEn": "Signal Sync",
+   "titleKo": "적색 보행신호 연동",
+   "titleEn": "Synced with Red Signal",
+   "image": "assets/photos/cat/inst/sg_red.jpg",
+   "relatedProductGroupIds": [
+    "sig-system"
+   ],
+   "catalogPage": "74-75",
+   "pdfPage": 38,
+   "verification": "ok"
+  },
+  {
+   "id": "sg-sidewalk",
+   "category": "signal",
+   "subcategoryKo": "횡단보도 시작점",
+   "subcategoryEn": "Crosswalk Start",
+   "titleKo": "횡단보도 시작점 설치",
+   "titleEn": "Crosswalk-Start Installation",
+   "image": "assets/photos/cat/inst/sg_sidewalk.jpg",
+   "relatedProductGroupIds": [
+    "sig-system"
+   ],
+   "catalogPage": "75",
+   "pdfPage": 38,
+   "verification": "ok"
+  },
+  {
+   "id": "sn-chevron",
+   "category": "sign",
+   "subcategoryKo": "갈매기표지판",
+   "subcategoryEn": "Chevron Sign",
+   "titleKo": "갈매기표지판 · 급커브",
+   "titleEn": "Chevron Sign · Sharp Bend",
+   "image": "assets/photos/cat/inst/sn_chevron.jpg",
+   "relatedProductGroupIds": [
+    "sgn-chevron"
+   ],
+   "catalogPage": "79",
+   "pdfPage": 40,
+   "verification": "ok"
+  },
+  {
+   "id": "sn-speed",
+   "category": "sign",
+   "subcategoryKo": "교통안전표지",
+   "subcategoryEn": "Traffic Sign",
+   "titleKo": "속도제한표지",
+   "titleEn": "Speed-Limit Sign",
+   "image": "assets/photos/cat/inst/sn_speed.jpg",
+   "relatedProductGroupIds": [
+    "sgn-speed",
+    "sgn-curve"
+   ],
+   "catalogPage": "79",
+   "pdfPage": 40,
+   "verification": "ok"
+  }
+ ]
+}

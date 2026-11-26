@@ -1,10 +1,13 @@
-/* ECODAY (English site) — renders editable sections from content.json.
-   Works on static hosting (GitHub Pages). Each page keeps its original markup as a
-   fallback; if content.json loads, the matching container is re-rendered from data.
-   Editable via admin.html (local serve.ps1). */
+/* ECODAY — renders editable sections from content.json, and product detail
+   pages from the shared normalized catalog (data/catalog_products.json +
+   data/catalog_installs.json). KO (/ko/) and EN share the SAME catalog data;
+   language is chosen at render time. Works on static hosting (GitHub Pages). */
 (function () {
-  // Korean pages live under /ko/, so image paths from content.json resolve with "../".
-  var BASE = (document.documentElement.getAttribute("lang") || "en").slice(0, 2).toLowerCase() === "ko" ? "../" : "";
+  // Korean pages live under /ko/, so shared assets/data resolve with "../".
+  var LANG = (document.documentElement.getAttribute("lang") || "en").slice(0, 2).toLowerCase() === "ko" ? "ko" : "en";
+  var BASE = LANG === "ko" ? "../" : "";
+  var KO = LANG === "ko";
+
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
       return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c];
@@ -14,19 +17,68 @@
     var el = document.getElementById(id);
     if (el) el.innerHTML = html;
   }
+  function L(ko, en) { return KO ? ko : en; }
 
+  // English labels for subcategory tabs (data stores subcategory in Korean)
+  var SUBEN = {
+    "Ø138": "Ø138", "모듈교체형": "Module-Replacement", "전기형": "Mains",
+    "라인조명": "Line Light", "벽부등": "Wall Light", "경계석조명": "Curb-Stone Light",
+    "로고젝터": "Logo Projector", "공원등": "Park Light", "공원보안등": "Park Security Light",
+    "포인트조명": "Accent Light", "바닥매립등": "Recessed Floor Light", "펜스기둥조명": "Fence-Post Light",
+    "볼라드조명": "Bollard Light", "투광조명": "Floodlight", "지중등": "In-ground Light", "열주등": "Column Light",
+    "LED 볼라드": "LED Bollard", "비조명형 볼라드": "Non-illuminated Bollard", "스테인리스 볼라드": "Stainless Bollard",
+    "차량방호책": "Vehicle Guard", "보행자용 방호울타리": "Pedestrian Fence", "보차도경계용 울타리": "Road/Sidewalk Boundary",
+    "바닥형보행신호등": "In-Ground Signal", "교통안전표지": "Traffic Safety Sign", "갈매기표지판": "Chevron Sign"
+  };
+  function subLabel(s) { return KO ? s : (SUBEN[s] || s); }
+
+  // Spec/label term translation for the EN site (data spec values are Korean-mixed).
+  var TR_EXACT = {
+    "백/황/녹/적/청 (1 선택)": "White/Yellow/Green/Red/Blue (choose 1)",
+    "보행신호 연동": "Synced with pedestrian signal",
+    "라인바": "Line Bar", "핸드레일바": "Handrail Bar", "바": "Bar",
+    "부착형(Attach)": "Attach type", "매립형(Flush)": "Flush type"
+  };
+  var TR_SUB = [
+    ["알루미늄 다이캐스팅", "die-cast aluminum"], ["알루미늄 압출", "extruded aluminum"],
+    ["스테인리스강", "stainless steel"], ["초고휘도 반사지", "ultra-high-brightness reflective sheet"],
+    ["고휘도 반사지", "high-brightness reflective sheet"], ["고강도 폴리카보네이트", "high-strength polycarbonate"],
+    ["다이캐스팅", "die-casting"], ["압출", "extruded"],
+    ["폴리카보네이트", "polycarbonate"], ["폴리우레탄", "polyurethane"], ["강화유리", "tempered glass"],
+    ["스테인레스", "stainless"], ["스테인리스", "stainless"], ["알루미늄", "aluminum"],
+    ["기준 조도 100lx 이하 작동", "Operates at ≤100lx"], ["기준 조도 100Ix 이하 작동", "Operates at ≤100lx"],
+    ["부조일수 5일 이상", "5+ days without sun"], ["전원인입", "mains input"], ["전기인입", "mains input"],
+    ["점등 또는 점멸", "steady-on or flashing"], ["선택가능(패턴설정)", "selectable (pattern)"],
+    ["컨트롤러 구동방식", "controller-driven"], ["컨트롤러 구동", "controller-driven"],
+    ["이미지 배광 방식", "image light distribution"], ["이미지 배광", "image light distribution"],
+    ["조명부", "lighting section"], ["충격흡수", "shock absorber"], ["반사지", "reflective sheet"],
+    ["몸체", "body"], ["등주", "post"], ["표출부", "Display"], ["제어부", "Control Unit"],
+    ["옵션보드", "Option Board"], ["태양광", "solar"], ["LED 내부조명", "LED internal lighting"],
+    ["디밍", "dimming"], ["별도", "separate"], ["점등", "steady-on"], ["디자인형울타리", "design fence"],
+    ["매립식", "embedded"], ["앵커식", "surface"], ["이동식", "detachable"],
+    ["단면 전기", "single-sided mains"], ["단면 태양광", "single-sided solar"],
+    ["양면 전기", "double-sided mains"], ["양면 태양광", "double-sided solar"],
+    ["전기형", "mains"], ["배터리형", "battery"], ["하이브리드형", "hybrid"], ["태양광형", "solar"],
+    ["전기 ", "mains "], ["각)", "sq.)"]
+  ];
+  function tr(s) {
+    if (KO || s == null) return s;
+    s = String(s);
+    if (TR_EXACT[s]) return TR_EXACT[s];
+    for (var i = 0; i < TR_SUB.length; i++) s = s.split(TR_SUB[i][0]).join(TR_SUB[i][1]);
+    return s;
+  }
+
+  // ---- editable sections (home/company/business/downloads) ----
   fetch("content.json", { cache: "no-store" })
     .then(function (r) { return r.json(); })
     .then(function (data) {
-      // Company > History (history.html)
       if (data.history && data.history.items) {
         set("cms-history", data.history.items.map(function (it) {
           return '<div class="tl-item reveal in"><div class="tl-year">' +
             esc(it.year) + '</div><p>' + esc(it.desc) + '</p></div>';
         }).join(""));
       }
-
-      // Business Area (business.html)
       if (data.business && data.business.items) {
         set("cms-business", data.business.items.map(function (it) {
           return '<a class="card reveal in" href="' + esc(it.href) + '">' +
@@ -35,8 +87,6 @@
             '</h3><p>' + esc(it.desc) + '</p></div></a>';
         }).join(""));
       }
-
-      // Products (index.html)
       if (data.products && data.products.items) {
         set("cms-products", data.products.items.map(function (it) {
           var chips = (it.chips || []).map(function (c) {
@@ -49,133 +99,281 @@
             '</div><div class="chips">' + chips + '</div></div></a>';
         }).join(""));
       }
-
-      // Contact Us > Downloads (resources.html)
       if (data.downloads && data.downloads.items) {
         set("cms-downloads", data.downloads.items.map(function (it) {
           var inner = '<div class="ic">▤</div><div><b>' + esc(it.title) + '</b><span>' + esc(it.desc) + '</span></div>';
           if (it.soon) {
-            // Not yet available — non-clickable "Coming soon" state.
             return '<div class="dl reveal in" style="cursor:default">' + inner +
-              '<div class="go" style="color:var(--muted)">Coming soon</div></div>';
+              '<div class="go" style="color:var(--muted)">' + L("준비 중", "Coming soon") + '</div></div>';
           }
           var hasUrl = it.url && String(it.url).trim();
-          var href = hasUrl
-            ? esc(String(it.url).trim())
+          var href = hasUrl ? esc(String(it.url).trim())
             : ("mailto:ecoday-road@daum.net?subject=" + esc("[Material Request] " + (it.subject || it.title || "")));
           var extra = hasUrl ? ' target="_blank" rel="noopener"' : '';
-          var label = hasUrl ? 'View →' : 'Request →';
+          var label = hasUrl ? L("보기 →", "View →") : L("자료 요청 →", "Request →");
           return '<a class="dl reveal in" href="' + href + '"' + extra + '>' + inner +
             '<div class="go">' + label + '</div></a>';
         }).join(""));
       }
 
-      // Products > detail pages (roadstud/bollard/lighting/fence/sign/signal)
+      // product hero/lineup headings still come from content.json (bilingual)
       var phost = document.getElementById("cms-product");
-      if (phost && data.productPages) {
+      if (phost) {
         var key = document.body.getAttribute("data-page");
-        var pg = data.productPages[key];
-        if (pg) { renderProduct(phost, pg); }
+        var pg = (data.productPages && data.productPages[key]) || {};
+        loadCatalog(phost, key, pg);
       }
     })
-    .catch(function () { /* keep static fallback markup */ });
+    .catch(function () {
+      var phost = document.getElementById("cms-product");
+      if (phost) loadCatalog(phost, document.body.getAttribute("data-page"), {});
+    });
 
-  function card(c) {
-    var rows = (c.specs || []).map(function (s) {
-      return '<tr><th>' + esc(s.k) + '</th><td>' + esc(s.v) + '</td></tr>';
-    }).join("");
-    var feats = (c.features || []).map(function (f) {
-      return '<li>' + esc(f) + '</li>';
-    }).join("");
-    return '<div class="prow reveal in">' +
-      '<div class="pimg' + (c.pc ? ' pc' : '') + '"><img src="' + esc(BASE + c.img) + '" alt="' + esc(c.alt || c.title) + '"></div>' +
-      '<div>' +
-        (c.tagLine ? '<span class="tag-line">' + esc(c.tagLine) + '</span>' : '') +
-        '<h3>' + esc(c.title) + '</h3>' +
-        (c.model ? '<div class="model">' + esc(c.model) + '</div>' : '') +
-        (rows ? '<table class="spec">' + rows + '</table>' : '') +
-        (feats ? '<ul class="plist">' + feats + '</ul>' : '') +
-      '</div></div>';
+  // ---- shared catalog (products + installs) ----
+  function loadCatalog(host, category, pg) {
+    Promise.all([
+      fetch(BASE + "data/catalog_products.json", { cache: "no-store" }).then(function (r) { return r.json(); }),
+      fetch(BASE + "data/catalog_installs.json", { cache: "no-store" }).then(function (r) { return r.json(); })
+    ]).then(function (res) {
+      var groups = (res[0].groups || []).filter(function (g) { return g.category === category; });
+      var installs = (res[1].installs || []).filter(function (i) { return i.category === category; });
+      renderProduct(host, pg, groups, installs);
+    }).catch(function () { /* keep static fallback */ });
   }
 
   function head(h, cls) {
     return '<div class="section-head ' + cls + '">' +
       (h.eyebrow ? '<span class="eyebrow">' + esc(h.eyebrow) + '</span>' : '') +
-      '<h2>' + esc(h.title) + '</h2>' +
+      (h.title ? '<h2>' + esc(h.title) + '</h2>' : '') +
       (h.desc ? '<p>' + esc(h.desc) + '</p>' : '') + '</div>';
   }
 
-  function renderProduct(host, pg) {
+  var SPECK = [
+    ["lighting", "조명장치", "Lighting"],
+    ["power", "전원장치", "Power"],
+    ["materials", "주요재질", "Materials"],
+    ["size", "크기/규격", "Size"],
+    ["method", "점등방식", "Lighting Method"],
+    ["consumption", "소비전력", "Power Consumption"]
+  ];
+
+  function productCard(g) {
+    var name = KO ? g.nameKo : g.nameEn;
+    var ptype = KO ? g.powerTypeKo : g.powerTypeEn;
+    var desc = KO ? g.descriptionKo : g.descriptionEn;
+    var feats = (KO ? g.featuresKo : g.featuresEn) || [];
+    var sp = g.specifications || {};
+    // spec table
+    var rows = SPECK.map(function (k) {
+      var v = sp[k[0]];
+      if (!v || v === "-") return "";
+      return '<tr><th>' + esc(KO ? k[1] : k[2]) + '</th><td>' + esc(tr(v)) + '</td></tr>';
+    }).join("");
+    // per-model option table (model · variant · procurement no.)
+    var mrows = (g.models || []).map(function (m) {
+      var variant = m.variant ? '<span class="mv">' + esc(tr(m.variant)) + '</span>' : '';
+      var pid = m.procurementId ? esc(m.procurementId)
+        : '<span class="muted">' + L("확인 중", "TBC") + '</span>';
+      var note = m.note ? ' <span class="vnote" title="' + esc(m.note) + '">※</span>' : '';
+      return '<tr><td class="mc"><b>' + esc(m.model.trim()) + '</b>' + variant + note + '</td>' +
+        '<td class="mp">' + pid + '</td></tr>';
+    }).join("");
+    var mtable = mrows
+      ? '<div class="mtable-wrap"><table class="mtable"><thead><tr><th>' + L("모델명", "Model") +
+        '</th><th>' + L("나라장터 식별번호", "Procurement No.") + '</th></tr></thead><tbody>' +
+        mrows + '</tbody></table></div>'
+      : "";
+    var featsHtml = feats.length ? '<ul class="plist">' + feats.map(function (f) {
+      return '<li>' + esc(f) + '</li>';
+    }).join("") + '</ul>' : "";
+    var ledc = (g.ledColors && g.ledColors.length && g.ledColors[0] !== "-")
+      ? '<div class="model">LED: ' + esc(tr(g.ledColors.join(" · "))) + '</div>' : "";
+    // optional system diagram (in-ground signal)
+    var sys = "";
+    if (g.systemDiagram) {
+      var steps = KO
+        ? ["표준교통신호제어기", "옵션보드 (EDOB-200)", "제어부 (EDCB-200)", "표출부 (EDBL-200)"]
+        : ["Standard Signal Controller", "Option Board (EDOB-200)", "Control Unit (EDCB-200)", "Display (EDBL-200)"];
+      sys = '<div class="sysflow" aria-label="system diagram">' +
+        steps.map(function (s, i) {
+          return (i ? '<span class="sysar">→</span>' : '') + '<span class="sysnode">' + esc(s) + '</span>';
+        }).join("") +
+        '</div><p class="sysnote">' +
+        L("RS485 통신 · 보행신호 녹색 점등 / 적색 소등 연동", "RS485 communication · green = on, red = off, synced with the pedestrian signal") +
+        '</p>';
+    }
+    var search = ((name || "") + " " + (g.models || []).map(function (m) {
+      return m.model + " " + (m.procurementId || "");
+    }).join(" ")).toLowerCase();
+
+    return '<div class="prow reveal in pcard" data-search="' + esc(search) + '">' +
+      '<div class="pimg pc"><img loading="lazy" decoding="async" src="' + esc(BASE + (g.image || "")) +
+        '" alt="' + esc(name) + '"></div>' +
+      '<div>' +
+        (ptype && ptype !== "-" ? '<span class="tag-line">' + esc(ptype) + '</span>' : '') +
+        '<h3>' + esc(name) + '</h3>' +
+        ledc +
+        (desc ? '<p class="pdesc">' + esc(desc) + '</p>' : '') +
+        (rows ? '<table class="spec">' + rows + '</table>' : '') +
+        mtable +
+        sys +
+        featsHtml +
+      '</div></div>';
+  }
+
+  function renderProduct(host, pg, groups, installs) {
     var h = pg.hero || {};
     var out = '<section class="pagehero"><div class="container">' +
-      '<div class="crumb"><a href="index.html">' + (BASE ? "홈" : "HOME") + '</a><span>/</span> ' + (BASE ? "제품소개" : "Products") + ' <span>/</span> ' + esc(h.crumb || h.title) + '</div>' +
+      '<div class="crumb"><a href="index.html">' + L("홈", "HOME") + '</a><span>/</span> ' +
+      L("제품소개", "Products") + ' <span>/</span> ' + esc(h.crumb || h.title || "") + '</div>' +
       (h.eyebrow ? '<span class="eyebrow">' + esc(h.eyebrow) + '</span>' : '') +
-      '<h1>' + esc(h.title) + '</h1>' +
+      '<h1>' + esc(h.title || "") + '</h1>' +
       (h.lead ? '<p class="lead">' + esc(h.lead) + '</p>' : '') +
       '</div></section>';
 
-    // line-up
-    var tabs = pg.tabs || [];
-    if (pg.hasTabs) {
-      var btns = tabs.map(function (t) {
-        return '<button class="ptab" data-tab="' + esc(t.id) + '">' + esc(t.label) + '</button>';
-      }).join("");
-      var panels = tabs.map(function (t) {
-        return '<div class="ppanel" data-panel="' + esc(t.id) + '">' +
-          (t.cards || []).map(card).join("") + '</div>';
-      }).join("");
-      out += '<section class="section"><div class="container" data-tabs>' +
-        head(pg.lineup || {}, "reveal in") +
-        '<div class="ptabs reveal in">' + btns + '</div>' + panels +
-        '</div></section>';
-    } else {
-      var allCards = (tabs[0] && tabs[0].cards ? tabs[0].cards : []).map(card).join("");
-      out += '<section class="section"><div class="container">' +
-        head(pg.lineup || {}, "reveal in") + allCards +
-        '</div></section>';
-    }
+    // subcategories in order of first appearance
+    var subOrder = [], subMap = {};
+    groups.forEach(function (g) {
+      if (!subMap[g.subcategory]) { subMap[g.subcategory] = []; subOrder.push(g.subcategory); }
+      subMap[g.subcategory].push(g);
+    });
+    var modelCount = groups.reduce(function (n, g) { return n + (g.models ? g.models.length : 0); }, 0);
 
-    // soft section (install cases OR feat-grid)
-    if (pg.hasInstall && pg.install) {
-      var ins = pg.install, body = "";
-      if (ins.layout === "feats") {
-        body = '<div class="feat-grid">' + (ins.feats || []).map(function (f) {
-          return '<div class="feat reveal in"><span class="no">' + esc(f.no) + '</span>' +
-            '<h4>' + esc(f.title) + '</h4><p>' + esc(f.desc) + '</p></div>';
-        }).join("") + '</div>';
-      } else {
-        body = '<div class="grid cols-3">' + (ins.cases || []).map(function (cs) {
-          return '<div class="card reveal in"><div class="thumb"><img src="' + esc(BASE + cs.img) +
-            '" alt="' + esc(cs.alt || cs.title) + '"></div>' +
-            '<div class="body"><h3 style="font-size:16px">' + esc(cs.title) + '</h3></div></div>';
-        }).join("") + '</div>';
-      }
-      var ctaBand = ins.cta ? '<div style="text-align:center;margin-top:40px" class="reveal in">' +
-        '<a class="btn btn-green" href="' + esc(ins.ctaHref || "contact.html") + '">' + esc(ins.cta) + '</a></div>' : "";
+    // line-up header + toolbar (count + search)
+    out += '<section class="section"><div class="container" data-tabs>' +
+      head(pg.lineup || { title: L("제품 라인업", "Product Line-up") }, "reveal in") +
+      '<div class="ptools reveal in">' +
+        '<div class="pcount">' + L("전체 모델", "Total models") + ' <b data-total>' + modelCount + '</b></div>' +
+        '<input class="psearch" type="search" placeholder="' +
+          L("모델명 · 식별번호 검색", "Search model · procurement no.") + '" aria-label="search">' +
+      '</div>';
+
+    // subcategory tabs
+    if (subOrder.length > 1) {
+      out += '<div class="ptabs reveal in">' + subOrder.map(function (s, i) {
+        return '<button class="ptab" data-tab="sub' + i + '">' + esc(subLabel(s)) + '</button>';
+      }).join("") + '</div>';
+    }
+    subOrder.forEach(function (s, i) {
+      out += '<div class="ppanel" data-panel="sub' + i + '">' +
+        subMap[s].map(productCard).join("") + '</div>';
+    });
+    out += '<div class="pnohit" hidden>' + L("검색 결과가 없습니다.", "No results.") + '</div>';
+    out += '</div></section>';
+
+    // installation cases (gallery + lightbox)
+    if (installs.length) {
       out += '<section class="section soft"><div class="container">' +
-        head(ins, "reveal in") + body + ctaBand + '</div></section>';
+        head({ eyebrow: L("설치사례", "Installation"), title: L("설치사례", "Installation Cases"),
+               desc: L("최종 카탈로그에 수록된 실제 설치 현장 사진입니다.",
+                       "Real installation photos from the final product catalog.") }, "reveal in") +
+        '<div class="grid cols-3 instgrid">' + installs.map(function (c, idx) {
+          var title = KO ? c.titleKo : c.titleEn;
+          return '<button class="card reveal in instcard" data-lb="' + idx + '" type="button">' +
+            '<div class="thumb"><img loading="lazy" decoding="async" src="' + esc(BASE + c.image) +
+              '" alt="' + esc(title) + '"></div>' +
+            '<div class="body"><h3 style="font-size:16px">' + esc(title) + '</h3></div></button>';
+        }).join("") + '</div>' +
+        '<div style="text-align:center;margin-top:40px" class="reveal in">' +
+          '<a class="btn btn-green" href="contact.html">' + L("제품 견적 문의 →", "Request a Product Quote →") + '</a></div>' +
+        '</div></section>';
     }
 
     host.innerHTML = out;
+    wireTabs(host);
+    wireSearch(host);
+    wireLightbox(host, installs);
+  }
 
-    // wire product tabs (include.js already ran before this async render)
+  function wireTabs(host) {
     host.querySelectorAll("[data-tabs]").forEach(function (wrap) {
       var ts = wrap.querySelectorAll(".ptab");
       var ps = wrap.querySelectorAll(".ppanel");
+      if (!ts.length) { ps.forEach(function (p) { p.classList.add("active"); }); return; }
       function activate(id) {
         ts.forEach(function (t) { t.classList.toggle("active", t.dataset.tab === id); });
         ps.forEach(function (p) { p.classList.toggle("active", p.dataset.panel === id); });
       }
       ts.forEach(function (t) {
         t.addEventListener("click", function () {
+          if (wrap.classList.contains("searching")) return;
           activate(t.dataset.tab);
           history.replaceState(null, "", "#" + t.dataset.tab);
         });
       });
       var hash = location.hash.replace("#", "");
-      if (ts.length) {
-        activate(hash && wrap.querySelector('.ptab[data-tab="' + hash + '"]') ? hash : ts[0].dataset.tab);
+      activate(hash && wrap.querySelector('.ptab[data-tab="' + hash + '"]') ? hash : ts[0].dataset.tab);
+      wrap._activate = activate; wrap._first = ts[0].dataset.tab;
+    });
+  }
+
+  function wireSearch(host) {
+    var wrap = host.querySelector("[data-tabs]");
+    if (!wrap) return;
+    var input = wrap.querySelector(".psearch");
+    var cards = Array.prototype.slice.call(wrap.querySelectorAll(".pcard"));
+    var panels = wrap.querySelectorAll(".ppanel");
+    var nohit = wrap.querySelector(".pnohit");
+    var totalEl = wrap.querySelector("[data-total]");
+    var total = totalEl ? totalEl.textContent : "";
+    if (!input) return;
+    input.addEventListener("input", function () {
+      var q = input.value.trim().toLowerCase();
+      if (!q) {
+        wrap.classList.remove("searching");
+        cards.forEach(function (c) { c.style.display = ""; });
+        panels.forEach(function (p) { p.classList.remove("force"); });
+        if (nohit) nohit.hidden = true;
+        if (totalEl) totalEl.textContent = total;
+        if (wrap._activate) wrap._activate(wrap._first);
+        return;
       }
+      wrap.classList.add("searching");
+      panels.forEach(function (p) { p.classList.add("force"); });
+      var n = 0;
+      cards.forEach(function (c) {
+        var hit = (c.getAttribute("data-search") || "").indexOf(q) !== -1;
+        c.style.display = hit ? "" : "none";
+        if (hit) n++;
+      });
+      if (nohit) nohit.hidden = n !== 0;
+      if (totalEl) totalEl.textContent = n;
+    });
+  }
+
+  function wireLightbox(host, installs) {
+    var cards = host.querySelectorAll(".instcard");
+    if (!cards.length) return;
+    var cur = 0;
+    var ov = document.createElement("div");
+    ov.className = "lb-overlay"; ov.hidden = true;
+    ov.innerHTML = '<button class="lb-close" aria-label="close">×</button>' +
+      '<button class="lb-nav lb-prev" aria-label="prev">‹</button>' +
+      '<figure class="lb-fig"><img class="lb-img" alt=""><figcaption class="lb-cap"></figcaption></figure>' +
+      '<button class="lb-nav lb-next" aria-label="next">›</button>';
+    document.body.appendChild(ov);
+    var img = ov.querySelector(".lb-img"), cap = ov.querySelector(".lb-cap");
+    function show(i) {
+      cur = (i + installs.length) % installs.length;
+      var c = installs[cur];
+      img.src = BASE + c.image;
+      img.alt = KO ? c.titleKo : c.titleEn;
+      cap.textContent = KO ? c.titleKo : c.titleEn;
+    }
+    function open(i) { show(i); ov.hidden = false; document.body.style.overflow = "hidden"; }
+    function close() { ov.hidden = true; document.body.style.overflow = ""; }
+    cards.forEach(function (card) {
+      card.addEventListener("click", function () { open(+card.getAttribute("data-lb")); });
+    });
+    ov.querySelector(".lb-close").addEventListener("click", close);
+    ov.querySelector(".lb-prev").addEventListener("click", function (e) { e.stopPropagation(); show(cur - 1); });
+    ov.querySelector(".lb-next").addEventListener("click", function (e) { e.stopPropagation(); show(cur + 1); });
+    ov.addEventListener("click", function (e) { if (e.target === ov) close(); });
+    document.addEventListener("keydown", function (e) {
+      if (ov.hidden) return;
+      if (e.key === "Escape") close();
+      else if (e.key === "ArrowLeft") show(cur - 1);
+      else if (e.key === "ArrowRight") show(cur + 1);
     });
   }
 })();
