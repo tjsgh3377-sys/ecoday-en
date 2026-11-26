@@ -229,4 +229,37 @@
     var hash = location.hash.replace("#", "");
     activate(hash && wrap.querySelector('.ptab[data-tab="' + hash + '"]') ? hash : tabs[0].dataset.tab);
   });
+
+  // certificate / gallery lightbox (activates when .cgal-item cards exist)
+  (function () {
+    var items = Array.prototype.slice.call(document.querySelectorAll(".cgal-item"));
+    if (!items.length) return;
+    var list = items.map(function (el) {
+      var img = el.querySelector("img");
+      return { src: img ? img.getAttribute("src") : "", cap: el.getAttribute("data-cap") || (img ? img.alt : "") };
+    });
+    var cur = 0;
+    var ov = document.createElement("div");
+    ov.className = "lb-overlay"; ov.hidden = true;
+    ov.innerHTML = '<button class="lb-close" aria-label="close">×</button>' +
+      '<button class="lb-nav lb-prev" aria-label="prev">‹</button>' +
+      '<figure class="lb-fig"><img class="lb-img" alt=""><figcaption class="lb-cap"></figcaption></figure>' +
+      '<button class="lb-nav lb-next" aria-label="next">›</button>';
+    document.body.appendChild(ov);
+    var lim = ov.querySelector(".lb-img"), lcap = ov.querySelector(".lb-cap");
+    function show(i) { cur = (i + list.length) % list.length; lim.src = list[cur].src; lim.alt = list[cur].cap; lcap.textContent = list[cur].cap; }
+    function open(i) { show(i); ov.hidden = false; document.body.style.overflow = "hidden"; }
+    function close() { ov.hidden = true; document.body.style.overflow = ""; }
+    items.forEach(function (el, i) { el.addEventListener("click", function () { open(i); }); });
+    ov.querySelector(".lb-close").addEventListener("click", close);
+    ov.querySelector(".lb-prev").addEventListener("click", function (e) { e.stopPropagation(); show(cur - 1); });
+    ov.querySelector(".lb-next").addEventListener("click", function (e) { e.stopPropagation(); show(cur + 1); });
+    ov.addEventListener("click", function (e) { if (e.target === ov) close(); });
+    document.addEventListener("keydown", function (e) {
+      if (ov.hidden) return;
+      if (e.key === "Escape") close();
+      else if (e.key === "ArrowLeft") show(cur - 1);
+      else if (e.key === "ArrowRight") show(cur + 1);
+    });
+  })();
 })();
