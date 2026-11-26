@@ -426,6 +426,19 @@ body[data-group="home"] .site-header{position:absolute;left:0;right:0;top:0;
 .psearch:focus{border-color:var(--green)}
 .ppanel.force{display:block}
 .pdesc{color:var(--muted);font-size:14.5px;line-height:1.6;margin:2px 0 14px}
+/* per-model block identifiers */
+.model-id{margin:4px 0 2px;font-size:14px;line-height:1.5}
+.model-id b{color:var(--green-d);font-size:15px;font-variant-numeric:tabular-nums}
+.model-id .mp{color:var(--muted);font-size:12.5px;margin-left:8px;font-variant-numeric:tabular-nums}
+.model-id .mp.muted{color:#c08a1e}
+.shimg{display:inline-block;font-size:11px;color:var(--muted);background:var(--bg-soft);
+  padding:2px 7px;border-radius:5px;margin-left:8px;vertical-align:middle}
+/* product-group sub-heading within a subcategory */
+.pgroup-head{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;
+  margin:36px 0 16px;padding-bottom:9px;border-bottom:2px solid var(--line)}
+.pgroup-head:first-child{margin-top:8px}
+.pgroup-head h3{font-size:19px;color:var(--navy);font-weight:800}
+.pgroup-count{font-size:13px;color:var(--muted);font-weight:600}
 .mtable-wrap{overflow-x:auto;margin:14px 0 4px}
 .mtable{width:100%;border-collapse:collapse;font-size:13.5px}
 .mtable thead th{text-align:left;background:var(--navy);color:#fff;font-weight:700;padding:8px 12px;
@@ -436,6 +449,8 @@ body[data-group="home"] .site-header{position:absolute;left:0;right:0;top:0;
 .mtable .mp{font-variant-numeric:tabular-nums;color:var(--green-d);font-weight:600;white-space:nowrap}
 .mtable .muted{color:var(--muted);font-weight:500}
 .vnote{color:#c08a1e;font-weight:700;cursor:help}
+.sysbox{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px 28px;margin:8px 0 24px}
+.sysbox h4{font-size:16px;color:var(--navy);margin-bottom:12px}
 .sysflow{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:16px 0 6px}
 .sysnode{background:var(--bg-soft);border:1.5px solid var(--line);border-radius:10px;
   padding:9px 13px;font-size:13px;font-weight:700;color:var(--navy)}

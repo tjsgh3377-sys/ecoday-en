@@ -2131,7 +2131,7 @@
    "ledColors": [
     "-"
    ],
-   "image": "assets/photos/cat/bd_stainless.jpg",
+   "image": "assets/photos/cat/bd_stainless_i.jpg",
    "usageKo": "차량 진입 차단 볼라드",
    "catalogPage": "62-63",
    "pdfPage": 32,
@@ -2196,7 +2196,7 @@
    "ledColors": [
     "-"
    ],
-   "image": "assets/photos/cat/bd_stainless.jpg",
+   "image": "assets/photos/cat/bd_stainless_u.jpg",
    "usageKo": "차량 진입 차단 볼라드",
    "catalogPage": "62-63",
    "pdfPage": 32,
@@ -3225,6 +3225,9 @@
    "procurementId": "26158540",
    "price": "91,300",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_138b.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_138b.jpg"
    ],
@@ -3279,6 +3282,9 @@
    "procurementId": "26158539",
    "price": "91,300",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_138b.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_138b.jpg"
    ],
@@ -3333,6 +3339,9 @@
    "procurementId": "26158537",
    "price": "93,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_138h.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_138h.jpg"
    ],
@@ -3387,6 +3396,9 @@
    "procurementId": "26158538",
    "price": "93,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_138h.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_138h.jpg"
    ],
@@ -3441,6 +3453,9 @@
    "procurementId": "26151915",
    "price": "82,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_138s.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_138s.jpg"
    ],
@@ -3495,6 +3510,9 @@
    "procurementId": "26151916",
    "price": "82,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_138s.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_138s.jpg"
    ],
@@ -3549,6 +3567,9 @@
    "procurementId": "25740381",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_113.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_113.jpg"
    ],
@@ -3600,6 +3621,9 @@
    "procurementId": "25740380",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_113.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_113.jpg"
    ],
@@ -3651,6 +3675,9 @@
    "procurementId": "26372354",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_113.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_113.jpg"
    ],
@@ -3702,6 +3729,9 @@
    "procurementId": "26372355",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_113.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_113.jpg"
    ],
@@ -3753,6 +3783,9 @@
    "procurementId": "26151913",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_113.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_113.jpg"
    ],
@@ -3804,6 +3837,9 @@
    "procurementId": "26151914",
    "price": "71,500~82,500",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/rs_113.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_113.jpg"
    ],
@@ -3855,6 +3891,9 @@
    "procurementId": "25737635",
    "price": "429,000",
    "priceBasis": "납품장소하차도",
+   "image": "assets/photos/cat/rs_125.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_125.jpg"
    ],
@@ -3906,6 +3945,9 @@
    "procurementId": "25737636",
    "price": "429,000",
    "priceBasis": "납품장소하차도",
+   "image": "assets/photos/cat/rs_125.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_125.jpg"
    ],
@@ -3957,6 +3999,9 @@
    "procurementId": "25543620",
    "price": "319,000",
    "priceBasis": "납품장소하차도",
+   "image": "assets/photos/cat/rs_196.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_196.jpg"
    ],
@@ -4008,6 +4053,9 @@
    "procurementId": "25543621",
    "price": "319,000",
    "priceBasis": "납품장소하차도",
+   "image": "assets/photos/cat/rs_196.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/rs_196.jpg"
    ],
@@ -4058,16 +4106,19 @@
    "procurementId": "26084710",
    "price": "67,100~176,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_line.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_line.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
     "power": "DC 24V",
-    "materials": "①② BODY 알루미늄 · COVER 폴리카보네이트  ③ UV-Coated Urethane  ④ 실리콘",
-    "size": "① 1,000×31×27  ② 1,000×18×9  ③ 1,000×15×4  ④ 1,000×10×10mm",
+    "materials": "BODY 알루미늄 · COVER 폴리카보네이트",
+    "size": "1,000×31×27",
     "method": "전원인입 / 점등",
-    "consumption": "① 15W ② 13W ③ 7W ④ 10W"
+    "consumption": "15W"
    },
    "descriptionKo": "선형렌즈로 협각 조사가 가능한 Bar 형태 LED 라인·플렉시블 조명. 좁은 공간 밀착 설치에 적합.",
    "descriptionEn": "Bar-type LED line / flexible lighting with linear lens for narrow-angle illumination; flush install in tight spaces.",
@@ -4106,16 +4157,19 @@
    "procurementId": "26084709",
    "price": "67,100~176,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_line.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_line.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
     "power": "DC 24V",
-    "materials": "①② BODY 알루미늄 · COVER 폴리카보네이트  ③ UV-Coated Urethane  ④ 실리콘",
-    "size": "① 1,000×31×27  ② 1,000×18×9  ③ 1,000×15×4  ④ 1,000×10×10mm",
+    "materials": "BODY 알루미늄 · COVER 폴리카보네이트",
+    "size": "1,000×18×9",
     "method": "전원인입 / 점등",
-    "consumption": "① 15W ② 13W ③ 7W ④ 10W"
+    "consumption": "13W"
    },
    "descriptionKo": "선형렌즈로 협각 조사가 가능한 Bar 형태 LED 라인·플렉시블 조명. 좁은 공간 밀착 설치에 적합.",
    "descriptionEn": "Bar-type LED line / flexible lighting with linear lens for narrow-angle illumination; flush install in tight spaces.",
@@ -4154,16 +4208,19 @@
    "procurementId": "26084708",
    "price": "67,100~176,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_line.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_line.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
     "power": "DC 24V",
-    "materials": "①② BODY 알루미늄 · COVER 폴리카보네이트  ③ UV-Coated Urethane  ④ 실리콘",
-    "size": "① 1,000×31×27  ② 1,000×18×9  ③ 1,000×15×4  ④ 1,000×10×10mm",
+    "materials": "UV-Coated Urethane",
+    "size": "1,000×15×4",
     "method": "전원인입 / 점등",
-    "consumption": "① 15W ② 13W ③ 7W ④ 10W"
+    "consumption": "7W"
    },
    "descriptionKo": "선형렌즈로 협각 조사가 가능한 Bar 형태 LED 라인·플렉시블 조명. 좁은 공간 밀착 설치에 적합.",
    "descriptionEn": "Bar-type LED line / flexible lighting with linear lens for narrow-angle illumination; flush install in tight spaces.",
@@ -4202,16 +4259,19 @@
    "procurementId": "26316681",
    "price": "67,100~176,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_line.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_line.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
     "power": "DC 24V",
-    "materials": "①② BODY 알루미늄 · COVER 폴리카보네이트  ③ UV-Coated Urethane  ④ 실리콘",
-    "size": "① 1,000×31×27  ② 1,000×18×9  ③ 1,000×15×4  ④ 1,000×10×10mm",
+    "materials": "실리콘",
+    "size": "1,000×10×10mm",
     "method": "전원인입 / 점등",
-    "consumption": "① 15W ② 13W ③ 7W ④ 10W"
+    "consumption": "10W"
    },
    "descriptionKo": "선형렌즈로 협각 조사가 가능한 Bar 형태 LED 라인·플렉시블 조명. 좁은 공간 밀착 설치에 적합.",
    "descriptionEn": "Bar-type LED line / flexible lighting with linear lens for narrow-angle illumination; flush install in tight spaces.",
@@ -4250,16 +4310,19 @@
    "procurementId": "25241455",
    "price": "192,500~264,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_wall.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_wall.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
-    "power": "① DC 3.2V(태양광)  ② DC 24V(전기)",
-    "materials": "① BODY·LENS 폴리카보네이트  ② BODY 알루미늄 · LENS 강화유리",
-    "size": "① 180×230×87.5  ② 109×167×203mm",
-    "method": "① 100lx 이하 작동  ② 전원인입",
-    "consumption": "① 2W ② 15W"
+    "power": "DC 3.2V(태양광)",
+    "materials": "BODY·LENS 폴리카보네이트",
+    "size": "180×230×87.5",
+    "method": "100lx 이하 작동",
+    "consumption": "2W"
    },
    "descriptionKo": "벽면 부착형 LED 벽부등. 태양광형과 전기형 선택 가능.",
    "descriptionEn": "Wall-mounted LED light, available in solar and mains types.",
@@ -4298,16 +4361,19 @@
    "procurementId": "26084705",
    "price": "192,500~264,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_wall.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_wall.jpg"
    ],
    "specifications": {
     "lighting": "SMD LED",
-    "power": "① DC 3.2V(태양광)  ② DC 24V(전기)",
-    "materials": "① BODY·LENS 폴리카보네이트  ② BODY 알루미늄 · LENS 강화유리",
-    "size": "① 180×230×87.5  ② 109×167×203mm",
-    "method": "① 100lx 이하 작동  ② 전원인입",
-    "consumption": "① 2W ② 15W"
+    "power": "DC 24V(전기)",
+    "materials": "BODY 알루미늄 · LENS 강화유리",
+    "size": "109×167×203mm",
+    "method": "전원인입",
+    "consumption": "15W"
    },
    "descriptionKo": "벽면 부착형 LED 벽부등. 태양광형과 전기형 선택 가능.",
    "descriptionEn": "Wall-mounted LED light, available in solar and mains types.",
@@ -4346,6 +4412,9 @@
    "procurementId": "25987478",
    "price": "445,500~462,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_curb_rainbow.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_curb_rainbow.jpg"
    ],
@@ -4353,7 +4422,7 @@
     "lighting": "RGBW LED × 27EA",
     "power": "DC 12V / 6W (SMPS 별도)",
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
-    "size": "① 부착형 195×100×30  ② 매립형 230×135×80mm",
+    "size": "부착형 195×100×30",
     "method": "선택가능(패턴설정) / 컨트롤러 구동",
     "consumption": "6W"
    },
@@ -4396,6 +4465,9 @@
    "procurementId": "25987477",
    "price": "445,500~462,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_curb_rainbow.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_curb_rainbow.jpg"
    ],
@@ -4403,7 +4475,7 @@
     "lighting": "RGBW LED × 27EA",
     "power": "DC 12V / 6W (SMPS 별도)",
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
-    "size": "① 부착형 195×100×30  ② 매립형 230×135×80mm",
+    "size": "매립형 230×135×80mm",
     "method": "선택가능(패턴설정) / 컨트롤러 구동",
     "consumption": "6W"
    },
@@ -4446,16 +4518,19 @@
    "procurementId": "25235290",
    "price": "1,980,000~3,630,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_gobo_50.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_gobo.jpg"
+    "assets/photos/cat/lt_gobo_50.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 1pcs",
     "power": "DC 12V (SMPS 별도) 50~200W",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① 327×111×170  ② 367×111×215  ③ 367×111×215  ④ 403×167×270mm",
+    "size": "327×111×170",
     "method": "점등, 이미지 배광",
-    "consumption": "① 50W ② 80W ③ 100W ④ 200W"
+    "consumption": "50W"
    },
    "descriptionKo": "원하는 문구·그림·환경을 이미지화하여 바닥에 투영하는 로고젝터. IP65.",
    "descriptionEn": "Gobo logo projector that casts custom text, images or scenes onto the ground. IP65.",
@@ -4494,16 +4569,19 @@
    "procurementId": "25235291",
    "price": "1,980,000~3,630,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_gobo_80.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_gobo.jpg"
+    "assets/photos/cat/lt_gobo_80.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 1pcs",
     "power": "DC 12V (SMPS 별도) 50~200W",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① 327×111×170  ② 367×111×215  ③ 367×111×215  ④ 403×167×270mm",
+    "size": "367×111×215",
     "method": "점등, 이미지 배광",
-    "consumption": "① 50W ② 80W ③ 100W ④ 200W"
+    "consumption": "80W"
    },
    "descriptionKo": "원하는 문구·그림·환경을 이미지화하여 바닥에 투영하는 로고젝터. IP65.",
    "descriptionEn": "Gobo logo projector that casts custom text, images or scenes onto the ground. IP65.",
@@ -4542,16 +4620,19 @@
    "procurementId": "25235292",
    "price": "1,980,000~3,630,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_gobo_100.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_gobo.jpg"
+    "assets/photos/cat/lt_gobo_100.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 1pcs",
     "power": "DC 12V (SMPS 별도) 50~200W",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① 327×111×170  ② 367×111×215  ③ 367×111×215  ④ 403×167×270mm",
+    "size": "367×111×215",
     "method": "점등, 이미지 배광",
-    "consumption": "① 50W ② 80W ③ 100W ④ 200W"
+    "consumption": "100W"
    },
    "descriptionKo": "원하는 문구·그림·환경을 이미지화하여 바닥에 투영하는 로고젝터. IP65.",
    "descriptionEn": "Gobo logo projector that casts custom text, images or scenes onto the ground. IP65.",
@@ -4590,16 +4671,19 @@
    "procurementId": "25476606",
    "price": "1,980,000~3,630,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_gobo_200.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_gobo.jpg"
+    "assets/photos/cat/lt_gobo_200.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 1pcs",
     "power": "DC 12V (SMPS 별도) 50~200W",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① 327×111×170  ② 367×111×215  ③ 367×111×215  ④ 403×167×270mm",
+    "size": "403×167×270mm",
     "method": "점등, 이미지 배광",
-    "consumption": "① 50W ② 80W ③ 100W ④ 200W"
+    "consumption": "200W"
    },
    "descriptionKo": "원하는 문구·그림·환경을 이미지화하여 바닥에 투영하는 로고젝터. IP65.",
    "descriptionEn": "Gobo logo projector that casts custom text, images or scenes onto the ground. IP65.",
@@ -4639,16 +4723,19 @@
    "procurementId": "25241460",
    "price": "121,000~132,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_curb155.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_curb155.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
-    "power": "① Hybrid: Lithium 3.6V·19Ahr×1 / Li-FePO4 3.2V·1.5Ahr×1  ② Battery: Lithium 3.6V·19Ahr×2",
+    "power": "Hybrid: Lithium 3.6V·19Ahr×1 / Li-FePO4 3.2V·1.5Ahr×1",
     "materials": "BODY·LENS 폴리카보네이트",
     "size": "W155 × D150 × H55mm",
     "method": "기준 조도 100lx 이하 작동",
-    "consumption": "① 9.6mW ② 3.6mW"
+    "consumption": "9.6mW"
    },
    "descriptionKo": "경계석에 설치하는 표지병형 경관조명. 모듈 교체형으로 도로 재시공 없이 유지관리.",
    "descriptionEn": "Curb-mounted stud-type landscape light; module-replaceable without road reconstruction.",
@@ -4690,16 +4777,19 @@
    "procurementId": "25241459",
    "price": "121,000~132,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_curb155.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_curb155.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 6pcs",
-    "power": "① Hybrid: Lithium 3.6V·19Ahr×1 / Li-FePO4 3.2V·1.5Ahr×1  ② Battery: Lithium 3.6V·19Ahr×2",
+    "power": "Battery: Lithium 3.6V·19Ahr×2",
     "materials": "BODY·LENS 폴리카보네이트",
     "size": "W155 × D150 × H55mm",
     "method": "기준 조도 100lx 이하 작동",
-    "consumption": "① 9.6mW ② 3.6mW"
+    "consumption": "3.6mW"
    },
    "descriptionKo": "경계석에 설치하는 표지병형 경관조명. 모듈 교체형으로 도로 재시공 없이 유지관리.",
    "descriptionEn": "Curb-mounted stud-type landscape light; module-replaceable without road reconstruction.",
@@ -4740,14 +4830,17 @@
    "procurementId": "25468414",
    "price": "1,815,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_park.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_park.jpg"
    ],
    "specifications": {
-    "lighting": "① Super Luminosity LED × 784pcs  ② × 910pcs",
+    "lighting": "Super Luminosity LED × 784pcs",
     "power": "DC 12V",
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
-    "size": "① 483×456×H132  ② 947×520×H421mm",
+    "size": "483×456×H132",
     "method": "전원인입",
     "consumption": "80W"
    },
@@ -4788,14 +4881,17 @@
    "procurementId": "25462493",
    "price": "1,815,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_park.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_park.jpg"
    ],
    "specifications": {
-    "lighting": "① Super Luminosity LED × 784pcs  ② × 910pcs",
+    "lighting": "× 910pcs",
     "power": "DC 12V",
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
-    "size": "① 483×456×H132  ② 947×520×H421mm",
+    "size": "947×520×H421mm",
     "method": "전원인입",
     "consumption": "80W"
    },
@@ -4836,6 +4932,9 @@
    "procurementId": "25800234",
    "price": "2,350,000~3,300,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_security.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_security.jpg"
    ],
@@ -4843,9 +4942,9 @@
     "lighting": "Super Luminosity LED module",
     "power": "태양광(Solar)",
     "materials": "몸체 알루미늄 · 등주 STS304",
-    "size": "① 1123×373×3900  ② 1123×373×3000  ③ 599×300×3000mm",
+    "size": "1123×373×3900",
     "method": "기준 조도 100lx 이하 작동",
-    "consumption": "① 50W ② 30W ③ 25W"
+    "consumption": "50W"
    },
    "descriptionKo": "태양광 자가발전 LED 공원보안등. 전선 없이 시공, 부조일수 5일 이상.",
    "descriptionEn": "Solar self-generating LED park security light; wireless install, 5+ days autonomy.",
@@ -4884,6 +4983,9 @@
    "procurementId": "25795266",
    "price": "2,350,000~3,300,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_security.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_security.jpg"
    ],
@@ -4891,9 +4993,9 @@
     "lighting": "Super Luminosity LED module",
     "power": "태양광(Solar)",
     "materials": "몸체 알루미늄 · 등주 STS304",
-    "size": "① 1123×373×3900  ② 1123×373×3000  ③ 599×300×3000mm",
+    "size": "1123×373×3000",
     "method": "기준 조도 100lx 이하 작동",
-    "consumption": "① 50W ② 30W ③ 25W"
+    "consumption": "30W"
    },
    "descriptionKo": "태양광 자가발전 LED 공원보안등. 전선 없이 시공, 부조일수 5일 이상.",
    "descriptionEn": "Solar self-generating LED park security light; wireless install, 5+ days autonomy.",
@@ -4932,6 +5034,9 @@
    "procurementId": "25987479",
    "price": "2,350,000~3,300,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_security.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_security.jpg"
    ],
@@ -4939,9 +5044,9 @@
     "lighting": "Super Luminosity LED module",
     "power": "태양광(Solar)",
     "materials": "몸체 알루미늄 · 등주 STS304",
-    "size": "① 1123×373×3900  ② 1123×373×3000  ③ 599×300×3000mm",
+    "size": "599×300×3000mm",
     "method": "기준 조도 100lx 이하 작동",
-    "consumption": "① 50W ② 30W ③ 25W"
+    "consumption": "25W"
    },
    "descriptionKo": "태양광 자가발전 LED 공원보안등. 전선 없이 시공, 부조일수 5일 이상.",
    "descriptionEn": "Solar self-generating LED park security light; wireless install, 5+ days autonomy.",
@@ -4981,16 +5086,19 @@
    "procurementId": "25241458",
    "price": "77,000~253,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_accent.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_accent.jpg"
    ],
    "specifications": {
-    "lighting": "① ×4pcs ② ×6pcs ③ SMD LED",
-    "power": "① Lithium 3.6V·19Ahr×2  ② Li-FePO4 3.2V·1.5Ahr×1  ③ DC 24V",
+    "lighting": "×4pcs",
+    "power": "Lithium 3.6V·19Ahr×2",
     "materials": "BODY 알루미늄/폴리카보네이트 · LENS 폴리카보네이트",
-    "size": "① 130×130×H95  ② 150×138×H25.5  ③ 275×80×59mm",
-    "method": "①② 100lx 이하  ③ 전기인입",
-    "consumption": "① 3.6mW ② 9.6W ③ 10W"
+    "size": "130×130×H95",
+    "method": "100lx 이하",
+    "consumption": "3.6mW"
    },
    "descriptionKo": "표지병미니·사각표지병·LED 스탭등으로 구성된 포인트 경관조명.",
    "descriptionEn": "Accent lighting range: mini stud, square stud and LED step light.",
@@ -5030,16 +5138,19 @@
    "procurementId": "25241461",
    "price": "77,000~253,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_accent.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_accent.jpg"
    ],
    "specifications": {
-    "lighting": "① ×4pcs ② ×6pcs ③ SMD LED",
-    "power": "① Lithium 3.6V·19Ahr×2  ② Li-FePO4 3.2V·1.5Ahr×1  ③ DC 24V",
+    "lighting": "×6pcs",
+    "power": "Li-FePO4 3.2V·1.5Ahr×1",
     "materials": "BODY 알루미늄/폴리카보네이트 · LENS 폴리카보네이트",
-    "size": "① 130×130×H95  ② 150×138×H25.5  ③ 275×80×59mm",
-    "method": "①② 100lx 이하  ③ 전기인입",
-    "consumption": "① 3.6mW ② 9.6W ③ 10W"
+    "size": "150×138×H25.5",
+    "method": "100lx 이하",
+    "consumption": "9.6W"
    },
    "descriptionKo": "표지병미니·사각표지병·LED 스탭등으로 구성된 포인트 경관조명.",
    "descriptionEn": "Accent lighting range: mini stud, square stud and LED step light.",
@@ -5079,16 +5190,19 @@
    "procurementId": "26316682",
    "price": "77,000~253,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_accent.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_accent.jpg"
    ],
    "specifications": {
-    "lighting": "① ×4pcs ② ×6pcs ③ SMD LED",
-    "power": "① Lithium 3.6V·19Ahr×2  ② Li-FePO4 3.2V·1.5Ahr×1  ③ DC 24V",
+    "lighting": "SMD LED",
+    "power": "DC 24V",
     "materials": "BODY 알루미늄/폴리카보네이트 · LENS 폴리카보네이트",
-    "size": "① 130×130×H95  ② 150×138×H25.5  ③ 275×80×59mm",
-    "method": "①② 100lx 이하  ③ 전기인입",
-    "consumption": "① 3.6mW ② 9.6W ③ 10W"
+    "size": "275×80×59mm",
+    "method": "전기인입",
+    "consumption": "10W"
    },
    "descriptionKo": "표지병미니·사각표지병·LED 스탭등으로 구성된 포인트 경관조명.",
    "descriptionEn": "Accent lighting range: mini stud, square stud and LED step light.",
@@ -5127,16 +5241,19 @@
    "procurementId": "25462494",
    "price": "143,000~264,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_floor_square.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_floor_square.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 4pcs",
-    "power": "① Super Capacitor ×6 2.3V·120F  ② ×2 2.3V·120F",
+    "power": "Super Capacitor ×6 2.3V·120F",
     "materials": "BODY 알루미늄·스테인레스 · LENS 폴리카보네이트",
-    "size": "① 222×222×H60  ② 118×118×H60mm",
+    "size": "222×222×H60",
     "method": "기준 조도 100lx 이하 작동",
-    "consumption": "① 27mW ② 4mW"
+    "consumption": "27mW"
    },
    "descriptionKo": "공원 이면도로·산책로·자전거도로에 매립하는 사각형 태양광 바닥등.",
    "descriptionEn": "Square solar recessed floor light for park roads, trails and bike paths.",
@@ -5175,16 +5292,19 @@
    "procurementId": "25462495",
    "price": "143,000~264,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_floor_square.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_floor_square.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 4pcs",
-    "power": "① Super Capacitor ×6 2.3V·120F  ② ×2 2.3V·120F",
+    "power": "×2 2.3V·120F",
     "materials": "BODY 알루미늄·스테인레스 · LENS 폴리카보네이트",
-    "size": "① 222×222×H60  ② 118×118×H60mm",
+    "size": "118×118×H60mm",
     "method": "기준 조도 100lx 이하 작동",
-    "consumption": "① 27mW ② 4mW"
+    "consumption": "4mW"
    },
    "descriptionKo": "공원 이면도로·산책로·자전거도로에 매립하는 사각형 태양광 바닥등.",
    "descriptionEn": "Square solar recessed floor light for park roads, trails and bike paths.",
@@ -5223,6 +5343,9 @@
    "procurementId": "25468417",
    "price": "36,300~143,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_floor_recessed.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_floor_recessed.jpg"
    ],
@@ -5271,6 +5394,9 @@
    "procurementId": "25468416",
    "price": "36,300~143,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_floor_recessed.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_floor_recessed.jpg"
    ],
@@ -5319,6 +5445,9 @@
    "procurementId": "25468415",
    "price": "36,300~143,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_floor_recessed.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_floor_recessed.jpg"
    ],
@@ -5367,6 +5496,9 @@
    "procurementId": "-",
    "price": "36,300~143,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_floor_recessed.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_floor_recessed.jpg"
    ],
@@ -5416,16 +5548,19 @@
    "procurementId": "25251812",
    "price": "145,200~220,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_post_sq.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_post_sq.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
-    "power": "① Solar Li-FePO4  ② Hybrid Lithium+Li-FePO4  ③ Battery Lithium×5",
+    "power": "Solar Li-FePO4",
     "materials": "BODY 알루미늄 다이캐스팅·폴리카보네이트 · LENS 폴리카보네이트",
     "size": "157×157×H101mm",
     "method": "100lx 이하 / 전원인입",
-    "consumption": "①② 9.6mW ③ 3.6mW"
+    "consumption": "9.6mW"
    },
    "descriptionKo": "휀스 기둥에 설치하는 사각 펜스기둥조명. 태양광·하이브리드·배터리형.",
    "descriptionEn": "Square post-top light for fences; solar, hybrid and battery types.",
@@ -5467,16 +5602,19 @@
    "procurementId": "25251811",
    "price": "145,200~220,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_post_sq.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_post_sq.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
-    "power": "① Solar Li-FePO4  ② Hybrid Lithium+Li-FePO4  ③ Battery Lithium×5",
+    "power": "Hybrid Lithium+Li-FePO4",
     "materials": "BODY 알루미늄 다이캐스팅·폴리카보네이트 · LENS 폴리카보네이트",
     "size": "157×157×H101mm",
     "method": "100lx 이하 / 전원인입",
-    "consumption": "①② 9.6mW ③ 3.6mW"
+    "consumption": "9.6mW"
    },
    "descriptionKo": "휀스 기둥에 설치하는 사각 펜스기둥조명. 태양광·하이브리드·배터리형.",
    "descriptionEn": "Square post-top light for fences; solar, hybrid and battery types.",
@@ -5518,16 +5656,19 @@
    "procurementId": "25251810",
    "price": "145,200~220,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_post_sq.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_post_sq.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
-    "power": "① Solar Li-FePO4  ② Hybrid Lithium+Li-FePO4  ③ Battery Lithium×5",
+    "power": "Battery Lithium×5",
     "materials": "BODY 알루미늄 다이캐스팅·폴리카보네이트 · LENS 폴리카보네이트",
     "size": "157×157×H101mm",
     "method": "100lx 이하 / 전원인입",
-    "consumption": "①② 9.6mW ③ 3.6mW"
+    "consumption": "3.6mW"
    },
    "descriptionKo": "휀스 기둥에 설치하는 사각 펜스기둥조명. 태양광·하이브리드·배터리형.",
    "descriptionEn": "Square post-top light for fences; solar, hybrid and battery types.",
@@ -5569,16 +5710,19 @@
    "procurementId": "25251813",
    "price": "198,000~396,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_post_rd_s.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_post_rd.jpg"
+    "assets/photos/cat/lt_post_rd_s.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
-    "power": "① Solar Li-FePO4 ×2  ② Hybrid Lithium+Li-FePO4  ③ Mains DC 24V",
+    "power": "Solar Li-FePO4 ×2",
     "materials": "BODY 알루미늄 다이캐스팅·폴리카보네이트 · LENS 폴리카보네이트",
     "size": "Ø110 × H234.5mm",
     "method": "100lx 이하 / 전원인입",
-    "consumption": "①② 9.6mW ③ 3W"
+    "consumption": "9.6mW"
    },
    "descriptionKo": "휀스 기둥에 설치하는 원형 펜스기둥조명. 태양광·하이브리드·전기형.",
    "descriptionEn": "Round post-top light for fences; solar, hybrid and mains types.",
@@ -5620,16 +5764,19 @@
    "procurementId": "25251814",
    "price": "198,000~396,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_post_rd_h.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_post_rd.jpg"
+    "assets/photos/cat/lt_post_rd_h.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
-    "power": "① Solar Li-FePO4 ×2  ② Hybrid Lithium+Li-FePO4  ③ Mains DC 24V",
+    "power": "Hybrid Lithium+Li-FePO4",
     "materials": "BODY 알루미늄 다이캐스팅·폴리카보네이트 · LENS 폴리카보네이트",
     "size": "Ø110 × H234.5mm",
     "method": "100lx 이하 / 전원인입",
-    "consumption": "①② 9.6mW ③ 3W"
+    "consumption": "9.6mW"
    },
    "descriptionKo": "휀스 기둥에 설치하는 원형 펜스기둥조명. 태양광·하이브리드·전기형.",
    "descriptionEn": "Round post-top light for fences; solar, hybrid and mains types.",
@@ -5671,16 +5818,19 @@
    "procurementId": "-",
    "price": "198,000~396,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_post_rd_c.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_post_rd.jpg"
+    "assets/photos/cat/lt_post_rd_c.jpg"
    ],
    "specifications": {
     "lighting": "Super Luminosity LED module × 28pcs",
-    "power": "① Solar Li-FePO4 ×2  ② Hybrid Lithium+Li-FePO4  ③ Mains DC 24V",
+    "power": "Mains DC 24V",
     "materials": "BODY 알루미늄 다이캐스팅·폴리카보네이트 · LENS 폴리카보네이트",
     "size": "Ø110 × H234.5mm",
     "method": "100lx 이하 / 전원인입",
-    "consumption": "①② 9.6mW ③ 3W"
+    "consumption": "3W"
    },
    "descriptionKo": "휀스 기둥에 설치하는 원형 펜스기둥조명. 태양광·하이브리드·전기형.",
    "descriptionEn": "Round post-top light for fences; solar, hybrid and mains types.",
@@ -5721,16 +5871,19 @@
    "procurementId": "26084707",
    "price": "286,000~319,000 (일부 가격문의)",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_bollardlight_800.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_bollardlight.jpg"
+    "assets/photos/cat/lt_bollardlight_800.jpg"
    ],
    "specifications": {
     "lighting": "COB LED",
-    "power": "① DC 38.5V ② DC 22V ③④ DC 12V",
+    "power": "DC 38.5V",
     "materials": "BODY 알루미늄 다이캐스팅/폴리카보네이트 · LENS 폴리카보네이트",
-    "size": "① 150×150×800  ② 72×115×300  ③ Ø110×1268  ④ Ø150×1065mm",
+    "size": "150×150×800",
     "method": "전원인입 / 점등·점멸",
-    "consumption": "① 9W ② 5.5W ③④ 3W"
+    "consumption": "9W"
    },
    "descriptionKo": "보행로 경관을 밝히는 LED 볼라드형 조명(경관조명 카테고리). 일반 볼라드와 별개.",
    "descriptionEn": "LED bollard-type landscape light (lighting category), distinct from traffic bollards.",
@@ -5769,16 +5922,19 @@
    "procurementId": "26084706",
    "price": "286,000~319,000 (일부 가격문의)",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_bollardlight_300.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/lt_bollardlight.jpg"
+    "assets/photos/cat/lt_bollardlight_300.jpg"
    ],
    "specifications": {
     "lighting": "COB LED",
-    "power": "① DC 38.5V ② DC 22V ③④ DC 12V",
+    "power": "DC 22V",
     "materials": "BODY 알루미늄 다이캐스팅/폴리카보네이트 · LENS 폴리카보네이트",
-    "size": "① 150×150×800  ② 72×115×300  ③ Ø110×1268  ④ Ø150×1065mm",
+    "size": "72×115×300",
     "method": "전원인입 / 점등·점멸",
-    "consumption": "① 9W ② 5.5W ③④ 3W"
+    "consumption": "5.5W"
    },
    "descriptionKo": "보행로 경관을 밝히는 LED 볼라드형 조명(경관조명 카테고리). 일반 볼라드와 별개.",
    "descriptionEn": "LED bollard-type landscape light (lighting category), distinct from traffic bollards.",
@@ -5817,16 +5973,19 @@
    "procurementId": "26122096",
    "price": "286,000~319,000 (일부 가격문의)",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_bollardlight_110.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
-    "assets/photos/cat/lt_bollardlight.jpg"
+    "assets/photos/cat/lt_bollardlight_110.jpg"
    ],
    "specifications": {
     "lighting": "COB LED",
-    "power": "① DC 38.5V ② DC 22V ③④ DC 12V",
+    "power": "DC 12V",
     "materials": "BODY 알루미늄 다이캐스팅/폴리카보네이트 · LENS 폴리카보네이트",
-    "size": "① 150×150×800  ② 72×115×300  ③ Ø110×1268  ④ Ø150×1065mm",
+    "size": "Ø110×1268",
     "method": "전원인입 / 점등·점멸",
-    "consumption": "① 9W ② 5.5W ③④ 3W"
+    "consumption": "3W"
    },
    "descriptionKo": "보행로 경관을 밝히는 LED 볼라드형 조명(경관조명 카테고리). 일반 볼라드와 별개.",
    "descriptionEn": "LED bollard-type landscape light (lighting category), distinct from traffic bollards.",
@@ -5865,16 +6024,19 @@
    "procurementId": "26122095",
    "price": "286,000~319,000 (일부 가격문의)",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_bollardlight_110.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
-    "assets/photos/cat/lt_bollardlight.jpg"
+    "assets/photos/cat/lt_bollardlight_110.jpg"
    ],
    "specifications": {
     "lighting": "COB LED",
-    "power": "① DC 38.5V ② DC 22V ③④ DC 12V",
+    "power": "DC 12V",
     "materials": "BODY 알루미늄 다이캐스팅/폴리카보네이트 · LENS 폴리카보네이트",
-    "size": "① 150×150×800  ② 72×115×300  ③ Ø110×1268  ④ Ø150×1065mm",
+    "size": "Ø150×1065mm",
     "method": "전원인입 / 점등·점멸",
-    "consumption": "① 9W ② 5.5W ③④ 3W"
+    "consumption": "3W"
    },
    "descriptionKo": "보행로 경관을 밝히는 LED 볼라드형 조명(경관조명 카테고리). 일반 볼라드와 별개.",
    "descriptionEn": "LED bollard-type landscape light (lighting category), distinct from traffic bollards.",
@@ -5913,6 +6075,9 @@
    "procurementId": "26316683",
    "price": "132,000~253,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_handrail.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_handrail.jpg"
    ],
@@ -5920,9 +6085,9 @@
     "lighting": "SMD LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
-    "size": "① 1000×25×21  ② 1000×55(Ø72)×17  ③ 1000×26×25mm",
+    "size": "1000×25×21",
     "method": "전기인입",
-    "consumption": "①②③ 15W"
+    "consumption": "15W"
    },
    "descriptionKo": "유백·투명 커버, 각도조절·길이별 제작 가능. 핸드레일 난간 설치용.",
    "descriptionEn": "Milky/clear covers, adjustable angle and custom lengths; for handrail installation.",
@@ -5963,6 +6128,9 @@
    "procurementId": "23619182",
    "price": "132,000~253,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_handrail.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_handrail.jpg"
    ],
@@ -5970,9 +6138,9 @@
     "lighting": "SMD LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
-    "size": "① 1000×25×21  ② 1000×55(Ø72)×17  ③ 1000×26×25mm",
+    "size": "1000×55(Ø72)×17",
     "method": "전기인입",
-    "consumption": "①②③ 15W"
+    "consumption": "15W"
    },
    "descriptionKo": "유백·투명 커버, 각도조절·길이별 제작 가능. 핸드레일 난간 설치용.",
    "descriptionEn": "Milky/clear covers, adjustable angle and custom lengths; for handrail installation.",
@@ -6013,6 +6181,9 @@
    "procurementId": "26316692",
    "price": "132,000~253,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_handrail.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_handrail.jpg"
    ],
@@ -6020,9 +6191,9 @@
     "lighting": "SMD LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
-    "size": "① 1000×25×21  ② 1000×55(Ø72)×17  ③ 1000×26×25mm",
+    "size": "1000×26×25mm",
     "method": "전기인입",
-    "consumption": "①②③ 15W"
+    "consumption": "15W"
    },
    "descriptionKo": "유백·투명 커버, 각도조절·길이별 제작 가능. 핸드레일 난간 설치용.",
    "descriptionEn": "Milky/clear covers, adjustable angle and custom lengths; for handrail installation.",
@@ -6063,6 +6234,9 @@
    "procurementId": "26316684",
    "price": "319,000~451,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_bar.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_bar.jpg"
    ],
@@ -6072,7 +6246,7 @@
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
     "size": "1000×36×30mm",
     "method": "전기인입",
-    "consumption": "① 18W ② 24W ③ 36W ④ 54W"
+    "consumption": "18W"
    },
    "descriptionKo": "500mm 단위 제작, 서브 컨트롤러 내장 가능. 기본 18구, LED 수량·브라켓 변경 가능.",
    "descriptionEn": "Made in 500mm increments, sub-controller option; 18 LEDs standard, adjustable count and 3 brackets.",
@@ -6115,6 +6289,9 @@
    "procurementId": "26316685",
    "price": "319,000~451,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_bar.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_bar.jpg"
    ],
@@ -6124,7 +6301,7 @@
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
     "size": "1000×36×30mm",
     "method": "전기인입",
-    "consumption": "① 18W ② 24W ③ 36W ④ 54W"
+    "consumption": "24W"
    },
    "descriptionKo": "500mm 단위 제작, 서브 컨트롤러 내장 가능. 기본 18구, LED 수량·브라켓 변경 가능.",
    "descriptionEn": "Made in 500mm increments, sub-controller option; 18 LEDs standard, adjustable count and 3 brackets.",
@@ -6167,6 +6344,9 @@
    "procurementId": "26316693",
    "price": "319,000~451,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_bar.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_bar.jpg"
    ],
@@ -6176,7 +6356,7 @@
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
     "size": "1000×36×30mm",
     "method": "전기인입",
-    "consumption": "① 18W ② 24W ③ 36W ④ 54W"
+    "consumption": "36W"
    },
    "descriptionKo": "500mm 단위 제작, 서브 컨트롤러 내장 가능. 기본 18구, LED 수량·브라켓 변경 가능.",
    "descriptionEn": "Made in 500mm increments, sub-controller option; 18 LEDs standard, adjustable count and 3 brackets.",
@@ -6219,6 +6399,9 @@
    "procurementId": "26316694",
    "price": "319,000~451,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_bar.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_bar.jpg"
    ],
@@ -6228,7 +6411,7 @@
     "materials": "BODY 알루미늄 다이캐스팅 · LENS 폴리카보네이트",
     "size": "1000×36×30mm",
     "method": "전기인입",
-    "consumption": "① 18W ② 24W ③ 36W ④ 54W"
+    "consumption": "54W"
    },
    "descriptionKo": "500mm 단위 제작, 서브 컨트롤러 내장 가능. 기본 18구, LED 수량·브라켓 변경 가능.",
    "descriptionEn": "Made in 500mm increments, sub-controller option; 18 LEDs standard, adjustable count and 3 brackets.",
@@ -6271,6 +6454,9 @@
    "procurementId": "26316686",
    "price": "352,000~418,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_circle.jpg"
    ],
@@ -6280,7 +6466,7 @@
     "materials": "BODY 알루미늄 · LENS 강화유리",
     "size": "Ø125 × 130mm",
     "method": "전기인입",
-    "consumption": "① 12W ② 18W ③ 24W"
+    "consumption": "12W"
    },
    "descriptionKo": "4가지 기구/브라켓 선택, 전면 강화유리 샌딩·빛가림판(후드) 장착 가능.",
    "descriptionEn": "4 mounting/bracket options; front tempered glass can be sandblasted, light-shield hood available.",
@@ -6319,6 +6505,9 @@
    "procurementId": "26316687",
    "price": "352,000~418,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_circle.jpg"
    ],
@@ -6328,7 +6517,7 @@
     "materials": "BODY 알루미늄 · LENS 강화유리",
     "size": "Ø125 × 130mm",
     "method": "전기인입",
-    "consumption": "① 12W ② 18W ③ 24W"
+    "consumption": "18W"
    },
    "descriptionKo": "4가지 기구/브라켓 선택, 전면 강화유리 샌딩·빛가림판(후드) 장착 가능.",
    "descriptionEn": "4 mounting/bracket options; front tempered glass can be sandblasted, light-shield hood available.",
@@ -6367,6 +6556,9 @@
    "procurementId": "26316688",
    "price": "352,000~418,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_circle.jpg"
    ],
@@ -6376,7 +6568,7 @@
     "materials": "BODY 알루미늄 · LENS 강화유리",
     "size": "Ø125 × 130mm",
     "method": "전기인입",
-    "consumption": "① 12W ② 18W ③ 24W"
+    "consumption": "24W"
    },
    "descriptionKo": "4가지 기구/브라켓 선택, 전면 강화유리 샌딩·빛가림판(후드) 장착 가능.",
    "descriptionEn": "4 mounting/bracket options; front tempered glass can be sandblasted, light-shield hood available.",
@@ -6415,6 +6607,9 @@
    "procurementId": "26316695",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_circle.jpg"
    ],
@@ -6422,9 +6617,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "①② Ø165×163  ③④⑤ Ø217×203mm",
+    "size": "Ø165×163",
     "method": "전기인입",
-    "consumption": "① 36W ② 42W ③ 54W ④ 72W ⑤ 108W"
+    "consumption": "36W"
    },
    "descriptionKo": "5가지 기구/브라켓 선택, 전면 강화유리 샌딩·후드 장착 가능.",
    "descriptionEn": "5 mounting/bracket options; sandblasted front glass and hood available.",
@@ -6463,6 +6658,9 @@
    "procurementId": "26316696",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_circle.jpg"
    ],
@@ -6470,9 +6668,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "①② Ø165×163  ③④⑤ Ø217×203mm",
+    "size": "Ø165×163",
     "method": "전기인입",
-    "consumption": "① 36W ② 42W ③ 54W ④ 72W ⑤ 108W"
+    "consumption": "42W"
    },
    "descriptionKo": "5가지 기구/브라켓 선택, 전면 강화유리 샌딩·후드 장착 가능.",
    "descriptionEn": "5 mounting/bracket options; sandblasted front glass and hood available.",
@@ -6511,6 +6709,9 @@
    "procurementId": "26316697",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_circle.jpg"
    ],
@@ -6518,9 +6719,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "①② Ø165×163  ③④⑤ Ø217×203mm",
+    "size": "Ø217×203mm",
     "method": "전기인입",
-    "consumption": "① 36W ② 42W ③ 54W ④ 72W ⑤ 108W"
+    "consumption": "54W"
    },
    "descriptionKo": "5가지 기구/브라켓 선택, 전면 강화유리 샌딩·후드 장착 가능.",
    "descriptionEn": "5 mounting/bracket options; sandblasted front glass and hood available.",
@@ -6559,6 +6760,9 @@
    "procurementId": "26316701",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_circle.jpg"
    ],
@@ -6566,9 +6770,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "①② Ø165×163  ③④⑤ Ø217×203mm",
+    "size": "Ø217×203mm",
     "method": "전기인입",
-    "consumption": "① 36W ② 42W ③ 54W ④ 72W ⑤ 108W"
+    "consumption": "72W"
    },
    "descriptionKo": "5가지 기구/브라켓 선택, 전면 강화유리 샌딩·후드 장착 가능.",
    "descriptionEn": "5 mounting/bracket options; sandblasted front glass and hood available.",
@@ -6607,6 +6811,9 @@
    "procurementId": "26316704",
    "price": "550,000~935,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_flood_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_flood_circle.jpg"
    ],
@@ -6614,9 +6821,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "①② Ø165×163  ③④⑤ Ø217×203mm",
+    "size": "Ø217×203mm",
     "method": "전기인입",
-    "consumption": "① 36W ② 42W ③ 54W ④ 72W ⑤ 108W"
+    "consumption": "108W"
    },
    "descriptionKo": "5가지 기구/브라켓 선택, 전면 강화유리 샌딩·후드 장착 가능.",
    "descriptionEn": "5 mounting/bracket options; sandblasted front glass and hood available.",
@@ -6655,6 +6862,9 @@
    "procurementId": "26316689",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_inground_circle.jpg"
    ],
@@ -6662,9 +6872,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① Ø100×95 ② Ø140×115 ③ Ø180×140 ④⑤ Ø220×150mm",
+    "size": "Ø100×95",
     "method": "전기인입",
-    "consumption": "① 12W ② 18W ③ 36W ④ 54W ⑤ 72W"
+    "consumption": "12W"
    },
    "descriptionKo": "지면 매립형 원형 지중등. SMD LED로 변경하여 눈부심 저감 가능.",
    "descriptionEn": "Recessed circular in-ground light; SMD LED option to reduce glare.",
@@ -6701,6 +6911,9 @@
    "procurementId": "26316690",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_inground_circle.jpg"
    ],
@@ -6708,9 +6921,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① Ø100×95 ② Ø140×115 ③ Ø180×140 ④⑤ Ø220×150mm",
+    "size": "Ø140×115",
     "method": "전기인입",
-    "consumption": "① 12W ② 18W ③ 36W ④ 54W ⑤ 72W"
+    "consumption": "18W"
    },
    "descriptionKo": "지면 매립형 원형 지중등. SMD LED로 변경하여 눈부심 저감 가능.",
    "descriptionEn": "Recessed circular in-ground light; SMD LED option to reduce glare.",
@@ -6747,6 +6960,9 @@
    "procurementId": "26316698",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_inground_circle.jpg"
    ],
@@ -6754,9 +6970,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① Ø100×95 ② Ø140×115 ③ Ø180×140 ④⑤ Ø220×150mm",
+    "size": "Ø180×140",
     "method": "전기인입",
-    "consumption": "① 12W ② 18W ③ 36W ④ 54W ⑤ 72W"
+    "consumption": "36W"
    },
    "descriptionKo": "지면 매립형 원형 지중등. SMD LED로 변경하여 눈부심 저감 가능.",
    "descriptionEn": "Recessed circular in-ground light; SMD LED option to reduce glare.",
@@ -6793,6 +7009,9 @@
    "procurementId": "26316699",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_inground_circle.jpg"
    ],
@@ -6800,9 +7019,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① Ø100×95 ② Ø140×115 ③ Ø180×140 ④⑤ Ø220×150mm",
+    "size": "Ø220×150mm",
     "method": "전기인입",
-    "consumption": "① 12W ② 18W ③ 36W ④ 54W ⑤ 72W"
+    "consumption": "54W"
    },
    "descriptionKo": "지면 매립형 원형 지중등. SMD LED로 변경하여 눈부심 저감 가능.",
    "descriptionEn": "Recessed circular in-ground light; SMD LED option to reduce glare.",
@@ -6839,6 +7058,9 @@
    "procurementId": "26316702",
    "price": "352,000~715,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_inground_circle.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_inground_circle.jpg"
    ],
@@ -6846,9 +7068,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 · LENS 강화유리",
-    "size": "① Ø100×95 ② Ø140×115 ③ Ø180×140 ④⑤ Ø220×150mm",
+    "size": "Ø220×150mm",
     "method": "전기인입",
-    "consumption": "① 12W ② 18W ③ 36W ④ 54W ⑤ 72W"
+    "consumption": "72W"
    },
    "descriptionKo": "지면 매립형 원형 지중등. SMD LED로 변경하여 눈부심 저감 가능.",
    "descriptionEn": "Recessed circular in-ground light; SMD LED option to reduce glare.",
@@ -6885,6 +7107,9 @@
    "procurementId": "26316691",
    "price": "341,000~715,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_inground_bar.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_inground_bar.jpg"
    ],
@@ -6892,9 +7117,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 압출 · LENS 강화유리",
-    "size": "① 1010×65×70 ② 1010×90×100 ③ 1010×95×105mm",
+    "size": "1010×65×70",
     "method": "전기인입",
-    "consumption": "① 15W ② 36W ③ 72W"
+    "consumption": "15W"
    },
    "descriptionKo": "라인형 바 지중등. 에너지 절전 친환경 제품.",
    "descriptionEn": "Linear bar-type in-ground light; energy-saving and eco-friendly.",
@@ -6931,6 +7156,9 @@
    "procurementId": "26316700",
    "price": "341,000~715,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_inground_bar.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_inground_bar.jpg"
    ],
@@ -6938,9 +7166,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 압출 · LENS 강화유리",
-    "size": "① 1010×65×70 ② 1010×90×100 ③ 1010×95×105mm",
+    "size": "1010×90×100",
     "method": "전기인입",
-    "consumption": "① 15W ② 36W ③ 72W"
+    "consumption": "36W"
    },
    "descriptionKo": "라인형 바 지중등. 에너지 절전 친환경 제품.",
    "descriptionEn": "Linear bar-type in-ground light; energy-saving and eco-friendly.",
@@ -6977,6 +7205,9 @@
    "procurementId": "26316703",
    "price": "341,000~715,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_inground_bar.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/lt_inground_bar.jpg"
    ],
@@ -6984,9 +7215,9 @@
     "lighting": "POWER LED",
     "power": "DC 24V",
     "materials": "BODY 알루미늄 압출 · LENS 강화유리",
-    "size": "① 1010×65×70 ② 1010×90×100 ③ 1010×95×105mm",
+    "size": "1010×95×105mm",
     "method": "전기인입",
-    "consumption": "① 15W ② 36W ③ 72W"
+    "consumption": "72W"
    },
    "descriptionKo": "라인형 바 지중등. 에너지 절전 친환경 제품.",
    "descriptionEn": "Linear bar-type in-ground light; energy-saving and eco-friendly.",
@@ -7023,6 +7254,9 @@
    "procurementId": "26328196",
    "price": "3,300,000",
    "priceBasis": "납품하차도",
+   "image": "assets/photos/cat/lt_column.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
     "assets/photos/cat/lt_column.jpg"
    ],
@@ -7070,6 +7304,9 @@
    "procurementId": "25676355",
    "price": "319,000~374,000",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150h.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150h.jpg"
    ],
@@ -7119,6 +7356,9 @@
    "procurementId": "25676355",
    "price": "319,000~374,000",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150h.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150h.jpg"
    ],
@@ -7168,6 +7408,9 @@
    "procurementId": "25676358",
    "price": "319,000~374,000",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150h.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150h.jpg"
    ],
@@ -7217,6 +7460,9 @@
    "procurementId": "25676351",
    "price": "335,500~397,100",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150h.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150h.jpg"
    ],
@@ -7264,6 +7510,9 @@
    "procurementId": "25676351",
    "price": "335,500~397,100",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150h.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150h.jpg"
    ],
@@ -7311,6 +7560,9 @@
    "procurementId": "25676353",
    "price": "335,500~397,100",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150h.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150h.jpg"
    ],
@@ -7358,6 +7610,9 @@
    "procurementId": "25676347",
    "price": "309,100~381,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110.jpg"
    ],
@@ -7407,6 +7662,9 @@
    "procurementId": "25675323",
    "price": "309,100~381,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110.jpg"
    ],
@@ -7456,6 +7714,9 @@
    "procurementId": "25676348",
    "price": "309,100~381,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110.jpg"
    ],
@@ -7505,6 +7766,9 @@
    "procurementId": "25676349",
    "price": "335,500~436,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110.jpg"
    ],
@@ -7554,6 +7818,9 @@
    "procurementId": "25675324",
    "price": "335,500~436,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110.jpg"
    ],
@@ -7603,6 +7870,9 @@
    "procurementId": "25676350",
    "price": "335,500~436,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110.jpg"
    ],
@@ -7651,6 +7921,9 @@
    "procurementId": "25658332",
    "price": "189,200~229,900",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110x.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110x.jpg"
    ],
@@ -7697,6 +7970,9 @@
    "procurementId": "25658331",
    "price": "189,200~229,900",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110x.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110x.jpg"
    ],
@@ -7743,6 +8019,9 @@
    "procurementId": "25658330",
    "price": "189,200~229,900",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_110x.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_110x.jpg"
    ],
@@ -7789,6 +8068,9 @@
    "procurementId": "25658329",
    "price": "209,000~249,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150x.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150x.jpg"
    ],
@@ -7835,6 +8117,9 @@
    "procurementId": "25658328",
    "price": "209,000~249,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150x.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150x.jpg"
    ],
@@ -7881,6 +8166,9 @@
    "procurementId": "25658327",
    "price": "209,000~249,700",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_150x.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/bd_150x.jpg"
    ],
@@ -7927,8 +8215,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_stainless_i.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
-    "assets/photos/cat/bd_stainless.jpg"
+    "assets/photos/cat/bd_stainless_i.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -7975,8 +8266,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_stainless_i.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
-    "assets/photos/cat/bd_stainless.jpg"
+    "assets/photos/cat/bd_stainless_i.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8023,8 +8317,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_stainless_i.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
-    "assets/photos/cat/bd_stainless.jpg"
+    "assets/photos/cat/bd_stainless_i.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8071,8 +8368,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_stainless_u.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
-    "assets/photos/cat/bd_stainless.jpg"
+    "assets/photos/cat/bd_stainless_u.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8119,8 +8419,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_stainless_u.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
-    "assets/photos/cat/bd_stainless.jpg"
+    "assets/photos/cat/bd_stainless_u.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8167,8 +8470,11 @@
    "procurementId": null,
    "price": "별도문의",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/bd_stainless_u.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
-    "assets/photos/cat/bd_stainless.jpg"
+    "assets/photos/cat/bd_stainless_u.jpg"
    ],
    "specifications": {
     "lighting": "-",
@@ -8215,6 +8521,9 @@
    "procurementId": "26002008",
    "price": "320,000~340,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_guard.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_guard.jpg"
    ],
@@ -8263,6 +8572,9 @@
    "procurementId": "26002007",
    "price": "320,000~340,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_guard.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_guard.jpg"
    ],
@@ -8311,6 +8623,9 @@
    "procurementId": "26002006",
    "price": "320,000~340,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_guard.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_guard.jpg"
    ],
@@ -8359,6 +8674,9 @@
    "procurementId": "26002005",
    "price": "320,000~340,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_guard.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_guard.jpg"
    ],
@@ -8407,6 +8725,9 @@
    "procurementId": "25987812",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_ped1.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_ped1.jpg",
     "assets/photos/cat/fn_ped2.jpg"
@@ -8456,6 +8777,9 @@
    "procurementId": "25987811",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_ped1.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_ped1.jpg",
     "assets/photos/cat/fn_ped2.jpg"
@@ -8505,6 +8829,9 @@
    "procurementId": "25987810",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_ped1.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_ped1.jpg",
     "assets/photos/cat/fn_ped2.jpg"
@@ -8554,6 +8881,9 @@
    "procurementId": "25987809",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_ped1.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_ped1.jpg",
     "assets/photos/cat/fn_ped2.jpg"
@@ -8603,6 +8933,9 @@
    "procurementId": "25987808",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_ped1.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_ped1.jpg",
     "assets/photos/cat/fn_ped2.jpg"
@@ -8652,6 +8985,9 @@
    "procurementId": "25994797",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_ped1.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_ped1.jpg",
     "assets/photos/cat/fn_ped2.jpg"
@@ -8701,6 +9037,9 @@
    "procurementId": "25987807",
    "price": "190,000~225,000/m",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_ped1.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_ped1.jpg",
     "assets/photos/cat/fn_ped2.jpg"
@@ -8750,6 +9089,9 @@
    "procurementId": "25987806",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -8799,6 +9141,9 @@
    "procurementId": "25994798",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -8848,6 +9193,9 @@
    "procurementId": "25994799",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -8897,6 +9245,9 @@
    "procurementId": "25994800",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -8946,6 +9297,9 @@
    "procurementId": "25987805",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -8995,6 +9349,9 @@
    "procurementId": "25987804",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9044,6 +9401,9 @@
    "procurementId": "25987803",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9093,6 +9453,9 @@
    "procurementId": "25987802",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9142,6 +9505,9 @@
    "procurementId": "26002011",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9191,6 +9557,9 @@
    "procurementId": "25987801",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9240,6 +9609,9 @@
    "procurementId": "25987800",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9289,6 +9661,9 @@
    "procurementId": "25987799",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9338,6 +9713,9 @@
    "procurementId": "25987798",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9387,6 +9765,9 @@
    "procurementId": "25987797",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9436,6 +9817,9 @@
    "procurementId": "25987796",
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9485,6 +9869,9 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9534,6 +9921,9 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9583,6 +9973,9 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9632,6 +10025,9 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9681,6 +10077,9 @@
    "procurementId": null,
    "price": "140,000~890,000/m·경간",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/fn_sep.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/fn_sep.jpg",
     "assets/photos/cat/fn_led.jpg"
@@ -9730,6 +10129,9 @@
    "procurementId": "26109111",
    "price": "279,400~880,000",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/sn_display.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
     "assets/photos/cat/sn_display.jpg"
    ],
@@ -9782,8 +10184,11 @@
    "procurementId": "26109112",
    "price": "279,400~880,000",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/sn_control.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/sn_display.jpg"
+    "assets/photos/cat/sn_control.jpg"
    ],
    "specifications": {
     "lighting": "표출부 LED (디밍 0~100 100단계)",
@@ -9834,8 +10239,11 @@
    "procurementId": "26109113",
    "price": "279,400~880,000",
    "priceBasis": "현장설치도",
+   "image": "assets/photos/cat/sn_option.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/sn_display.jpg"
+    "assets/photos/cat/sn_option.jpg"
    ],
    "specifications": {
     "lighting": "표출부 LED (디밍 0~100 100단계)",
@@ -9886,6 +10294,9 @@
    "procurementId": "25235503",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_oneway.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_oneway.jpg"
    ],
@@ -9934,6 +10345,9 @@
    "procurementId": "25235504",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_oneway.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_oneway.jpg"
    ],
@@ -9982,6 +10396,9 @@
    "procurementId": "25235535",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_oneway.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_oneway.jpg"
    ],
@@ -10030,6 +10447,9 @@
    "procurementId": "25235537",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_oneway.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_oneway.jpg"
    ],
@@ -10078,6 +10498,9 @@
    "procurementId": "25235471",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10126,6 +10549,9 @@
    "procurementId": "25235463",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10174,6 +10600,9 @@
    "procurementId": "25235466",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10222,6 +10651,9 @@
    "procurementId": "25235464",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10270,6 +10702,9 @@
    "procurementId": "25235529",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10318,6 +10753,9 @@
    "procurementId": "25235510",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10366,6 +10804,9 @@
    "procurementId": "25235509",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10414,6 +10855,9 @@
    "procurementId": "25235508",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10462,6 +10906,9 @@
    "procurementId": "25235507",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10510,6 +10957,9 @@
    "procurementId": "25235506",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_school.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_school.jpg"
    ],
@@ -10558,6 +11008,9 @@
    "procurementId": "25235482",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_speed.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_speed.jpg"
    ],
@@ -10606,6 +11059,9 @@
    "procurementId": "25235490",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_speed.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_speed.jpg"
    ],
@@ -10654,6 +11110,9 @@
    "procurementId": "25235512",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_speed.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_speed.jpg"
    ],
@@ -10702,6 +11161,9 @@
    "procurementId": "25235513",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_speed.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_speed.jpg"
    ],
@@ -10750,6 +11212,9 @@
    "procurementId": "25235501",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_crosswalk.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_crosswalk.jpg"
    ],
@@ -10798,6 +11263,9 @@
    "procurementId": "25235502",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_crosswalk.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_crosswalk.jpg"
    ],
@@ -10846,6 +11314,9 @@
    "procurementId": "25235532",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_crosswalk.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_crosswalk.jpg"
    ],
@@ -10894,6 +11365,9 @@
    "procurementId": "25235534",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_crosswalk.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_crosswalk.jpg"
    ],
@@ -10942,6 +11416,9 @@
    "procurementId": "25235497",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_roundabout.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_roundabout.jpg"
    ],
@@ -10990,6 +11467,9 @@
    "procurementId": "25235499",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_roundabout.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_roundabout.jpg"
    ],
@@ -11038,6 +11518,9 @@
    "procurementId": "25235518",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_roundabout.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_roundabout.jpg"
    ],
@@ -11086,6 +11569,9 @@
    "procurementId": "25235523",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_roundabout.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_roundabout.jpg"
    ],
@@ -11134,6 +11620,9 @@
    "procurementId": "25235487",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_curve.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_curve.jpg"
    ],
@@ -11182,6 +11671,9 @@
    "procurementId": "25235511",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_type_curve.jpg",
+   "imageType": "product",
+   "sharedImage": true,
    "images": [
     "assets/photos/cat/sg_type_curve.jpg"
    ],
@@ -11230,8 +11722,11 @@
    "procurementId": "25234398",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_chevron_cw.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/sg_chevron.jpg"
+    "assets/photos/cat/sg_chevron_cw.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명 / 태양광 LED 내부조명",
@@ -11279,8 +11774,11 @@
    "procurementId": "25234399",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_chevron_sw.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/sg_chevron.jpg"
+    "assets/photos/cat/sg_chevron_sw.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명 / 태양광 LED 내부조명",
@@ -11328,8 +11826,11 @@
    "procurementId": "25234396",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_chevron_cw2.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/sg_chevron.jpg"
+    "assets/photos/cat/sg_chevron_cw2.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명 / 태양광 LED 내부조명",
@@ -11377,8 +11878,11 @@
    "procurementId": "25234396",
    "price": "별도문의",
    "priceBasis": "나라장터",
+   "image": "assets/photos/cat/sg_chevron_cw2s.jpg",
+   "imageType": "product",
+   "sharedImage": false,
    "images": [
-    "assets/photos/cat/sg_chevron.jpg"
+    "assets/photos/cat/sg_chevron_cw2s.jpg"
    ],
    "specifications": {
     "lighting": "LED 내부조명 / 태양광 LED 내부조명",

@@ -40,6 +40,9 @@
     "부착형(Attach)": "Attach type", "매립형(Flush)": "Flush type"
   };
   var TR_SUB = [
+    ["표지병미니", "mini stud"], ["사각표지병", "square stud"],
+    ["LED 스탭등", "LED step light"], ["스탭등", "step light"],
+    ["222각", "222 sq."], ["118각", "118 sq."],
     ["알루미늄 다이캐스팅", "die-cast aluminum"], ["알루미늄 압출", "extruded aluminum"],
     ["스테인리스강", "stainless steel"], ["초고휘도 반사지", "ultra-high-brightness reflective sheet"],
     ["고휘도 반사지", "high-brightness reflective sheet"], ["고강도 폴리카보네이트", "high-strength polycarbonate"],
@@ -151,8 +154,9 @@
       fetch(BASE + "data/catalog_installs.json", { cache: "no-store" }).then(function (r) { return r.json(); })
     ]).then(function (res) {
       var groups = (res[0].groups || []).filter(function (g) { return g.category === category; });
+      var products = (res[0].products || []).filter(function (p) { return p.category === category; });
       var installs = (res[1].installs || []).filter(function (i) { return i.category === category; });
-      renderProduct(host, pg, groups, installs);
+      renderProduct(host, pg, groups, products, installs);
     }).catch(function () { /* keep static fallback */ });
   }
 
@@ -269,71 +273,62 @@
     ["consumption", "소비전력", "Power Consumption"]
   ];
 
-  function productCard(g) {
-    var name = KO ? g.nameKo : g.nameEn;
-    var ptype = KO ? g.powerTypeKo : g.powerTypeEn;
-    var desc = KO ? g.descriptionKo : g.descriptionEn;
-    var feats = (KO ? g.featuresKo : g.featuresEn) || [];
-    var sp = g.specifications || {};
-    // spec table
+  // ONE independent block per MODEL: own image + own spec table + own description.
+  function productBlock(p, grp) {
+    var name = KO ? p.nameKo : p.nameEn;
+    var ptype = KO ? p.powerTypeKo : p.powerTypeEn;
+    var variant = p.variantKo ? tr(p.variantKo) : "";
+    var desc = KO ? p.descriptionKo : p.descriptionEn;
+    var feats = (KO ? p.featuresKo : p.featuresEn) || [];
+    var sp = p.specifications || {};
     var rows = SPECK.map(function (k) {
       var v = sp[k[0]];
       if (!v || v === "-") return "";
       return '<tr><th>' + esc(KO ? k[1] : k[2]) + '</th><td>' + esc(tr(v)) + '</td></tr>';
     }).join("");
-    // per-model option table (model · variant · procurement no.)
-    var mrows = (g.models || []).map(function (m) {
-      var variant = m.variant ? '<span class="mv">' + esc(tr(m.variant)) + '</span>' : '';
-      var pid = m.procurementId ? esc(m.procurementId)
-        : '<span class="muted">' + L("확인 중", "TBC") + '</span>';
-      var note = m.note ? ' <span class="vnote" title="' + esc(m.note) + '">※</span>' : '';
-      return '<tr><td class="mc"><b>' + esc(m.model.trim()) + '</b>' + variant + note + '</td>' +
-        '<td class="mp">' + pid + '</td></tr>';
-    }).join("");
-    var mtable = mrows
-      ? '<div class="mtable-wrap"><table class="mtable"><thead><tr><th>' + L("모델명", "Model") +
-        '</th><th>' + L("나라장터 식별번호", "Procurement No.") + '</th></tr></thead><tbody>' +
-        mrows + '</tbody></table></div>'
-      : "";
+    var pid = p.procurementId
+      ? '<span class="mp">' + L("나라장터 ", "Procurement ") + esc(p.procurementId) + '</span>'
+      : '<span class="mp muted">' + L("식별번호 확인 중", "Procurement TBC") + '</span>';
+    var note = (p.verificationStatus && p.verificationStatus !== "ok")
+      ? ' <span class="vnote" title="' + esc(p.verificationStatus) + '">※</span>' : '';
+    var ledc = (p.ledColors && p.ledColors.length && p.ledColors[0] !== "-")
+      ? '<div class="model">LED: ' + esc(tr(p.ledColors.join(" · "))) + '</div>' : "";
     var featsHtml = feats.length ? '<ul class="plist">' + feats.map(function (f) {
       return '<li>' + esc(f) + '</li>';
     }).join("") + '</ul>' : "";
-    var ledc = (g.ledColors && g.ledColors.length && g.ledColors[0] !== "-")
-      ? '<div class="model">LED: ' + esc(tr(g.ledColors.join(" · "))) + '</div>' : "";
-    // optional system diagram (in-ground signal)
-    var sys = "";
-    if (g.systemDiagram) {
-      var steps = KO
-        ? ["표준교통신호제어기", "옵션보드 (EDOB-200)", "제어부 (EDCB-200)", "표출부 (EDBL-200)"]
-        : ["Standard Signal Controller", "Option Board (EDOB-200)", "Control Unit (EDCB-200)", "Display (EDBL-200)"];
-      sys = '<div class="sysflow" aria-label="system diagram">' +
-        steps.map(function (s, i) {
-          return (i ? '<span class="sysar">→</span>' : '') + '<span class="sysnode">' + esc(s) + '</span>';
-        }).join("") +
-        '</div><p class="sysnote">' +
-        L("RS485 통신 · 보행신호 녹색 점등 / 적색 소등 연동", "RS485 communication · green = on, red = off, synced with the pedestrian signal") +
-        '</p>';
-    }
-    var search = ((name || "") + " " + (g.models || []).map(function (m) {
-      return m.model + " " + (m.procurementId || "");
-    }).join(" ")).toLowerCase();
-
+    var shared = p.sharedImage ? ' <span class="shimg">' + L("공통 이미지", "shared image") + '</span>' : '';
+    var search = ((name || "") + " " + p.model + " " + (p.procurementId || "") + " " + variant).toLowerCase();
     return '<div class="prow reveal in pcard" data-search="' + esc(search) + '">' +
-      '<div class="pimg pc"><img loading="lazy" decoding="async" src="' + esc(BASE + (g.image || "")) +
-        '" alt="' + esc(name) + '"></div>' +
+      '<div class="pimg pc"><img loading="lazy" decoding="async" src="' + esc(BASE + (p.image || "")) +
+        '" alt="' + esc(name + " " + p.model) + '"></div>' +
       '<div>' +
-        (ptype && ptype !== "-" ? '<span class="tag-line">' + esc(ptype) + '</span>' : '') +
+        (ptype && ptype !== "-" ? '<span class="tag-line">' + esc(ptype) + (variant ? ' · ' + esc(variant) : '') + '</span>'
+          : (variant ? '<span class="tag-line">' + esc(variant) + '</span>' : '')) +
         '<h3>' + esc(name) + '</h3>' +
+        '<div class="model-id"><b>' + esc(p.model.trim()) + '</b>' + note + ' ' + pid + shared + '</div>' +
         ledc +
         (desc ? '<p class="pdesc">' + esc(desc) + '</p>' : '') +
         (rows ? '<table class="spec">' + rows + '</table>' : '') +
-        mtable +
-        sys +
         featsHtml +
       '</div></div>';
   }
 
-  function renderProduct(host, pg, groups, installs) {
+  // system diagram rendered once (separate system area), e.g. in-ground signal.
+  function sysDiagram() {
+    var steps = KO
+      ? ["표준교통신호제어기", "옵션보드 (EDOB-200)", "제어부 (EDCB-200)", "표출부 (EDBL-200)"]
+      : ["Standard Signal Controller", "Option Board (EDOB-200)", "Control Unit (EDCB-200)", "Display (EDBL-200)"];
+    return '<div class="sysbox reveal in"><h4>' + L("시스템 구성 및 통신", "System & Communication") + '</h4>' +
+      '<div class="sysflow" aria-label="system diagram">' +
+      steps.map(function (s, i) {
+        return (i ? '<span class="sysar">→</span>' : '') + '<span class="sysnode">' + esc(s) + '</span>';
+      }).join("") + '</div>' +
+      '<p class="sysnote">' +
+      L("RS485 통신 · 보행신호 녹색 점등 / 적색 소등 연동", "RS485 communication · green = on, red = off, synced with the pedestrian signal") +
+      '</p></div>';
+  }
+
+  function renderProduct(host, pg, groups, products, installs) {
     var h = pg.hero || {};
     var out = '<section class="pagehero"><div class="container">' +
       '<div class="crumb"><a href="index.html">' + L("홈", "HOME") + '</a><span>/</span> ' +
@@ -343,15 +338,15 @@
       (h.lead ? '<p class="lead">' + esc(h.lead) + '</p>' : '') +
       '</div></section>';
 
-    // subcategories in order of first appearance
+    // group lookup (name / systemDiagram) + per-subcategory product lists
+    var groupMap = {}; groups.forEach(function (g) { groupMap[g.productGroup] = g; });
     var subOrder = [], subMap = {};
-    groups.forEach(function (g) {
-      if (!subMap[g.subcategory]) { subMap[g.subcategory] = []; subOrder.push(g.subcategory); }
-      subMap[g.subcategory].push(g);
+    products.forEach(function (p) {
+      if (!subMap[p.subcategory]) { subMap[p.subcategory] = []; subOrder.push(p.subcategory); }
+      subMap[p.subcategory].push(p);
     });
-    var modelCount = groups.reduce(function (n, g) { return n + (g.models ? g.models.length : 0); }, 0);
+    var modelCount = products.length;
 
-    // line-up header + toolbar (count + search)
     out += '<section class="section"><div class="container" data-tabs>' +
       head(pg.lineup || { title: L("제품 라인업", "Product Line-up") }, "reveal in") +
       '<div class="ptools reveal in">' +
@@ -360,15 +355,29 @@
           L("모델명 · 식별번호 검색", "Search model · procurement no.") + '" aria-label="search">' +
       '</div>';
 
-    // subcategory tabs
     if (subOrder.length > 1) {
       out += '<div class="ptabs reveal in">' + subOrder.map(function (s, i) {
         return '<button class="ptab" data-tab="sub' + i + '">' + esc(subLabel(s)) + '</button>';
       }).join("") + '</div>';
     }
+    // each subcategory panel: group heading per productGroup, then one block per model
     subOrder.forEach(function (s, i) {
-      out += '<div class="ppanel" data-panel="sub' + i + '">' +
-        subMap[s].map(productCard).join("") + '</div>';
+      var body = "", lastGrp = null;
+      subMap[s].forEach(function (p) {
+        if (p.productGroup !== lastGrp) {
+          // close previous group's optional system diagram
+          if (lastGrp && groupMap[lastGrp] && groupMap[lastGrp].systemDiagram) body += sysDiagram();
+          lastGrp = p.productGroup;
+          var g = groupMap[p.productGroup] || {};
+          var gname = KO ? g.nameKo : g.nameEn;
+          var cnt = subMap[s].filter(function (q) { return q.productGroup === p.productGroup; }).length;
+          body += '<div class="pgroup-head reveal in"><h3>' + esc(gname || "") + '</h3>' +
+            '<span class="pgroup-count">' + cnt + L(" 모델", " models") + '</span></div>';
+        }
+        body += productBlock(p, groupMap[p.productGroup]);
+      });
+      if (lastGrp && groupMap[lastGrp] && groupMap[lastGrp].systemDiagram) body += sysDiagram();
+      out += '<div class="ppanel" data-panel="sub' + i + '">' + body + '</div>';
     });
     out += '<div class="pnohit" hidden>' + L("검색 결과가 없습니다.", "No results.") + '</div>';
     out += '</div></section>';
@@ -424,6 +433,7 @@
     if (!wrap) return;
     var input = wrap.querySelector(".psearch");
     var cards = Array.prototype.slice.call(wrap.querySelectorAll(".pcard"));
+    var heads = Array.prototype.slice.call(wrap.querySelectorAll(".pgroup-head"));
     var panels = wrap.querySelectorAll(".ppanel");
     var nohit = wrap.querySelector(".pnohit");
     var totalEl = wrap.querySelector("[data-total]");
@@ -434,6 +444,7 @@
       if (!q) {
         wrap.classList.remove("searching");
         cards.forEach(function (c) { c.style.display = ""; });
+        heads.forEach(function (h) { h.style.display = ""; });
         panels.forEach(function (p) { p.classList.remove("force"); });
         if (nohit) nohit.hidden = true;
         if (totalEl) totalEl.textContent = total;
@@ -442,6 +453,7 @@
       }
       wrap.classList.add("searching");
       panels.forEach(function (p) { p.classList.add("force"); });
+      heads.forEach(function (h) { h.style.display = "none"; });
       var n = 0;
       cards.forEach(function (c) {
         var hit = (c.getAttribute("data-search") || "").indexOf(q) !== -1;
